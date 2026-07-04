@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the cuisine type and price range for 'Tutto Nhoque'."
+  },
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the location coordinates for 'Tutto Nhoque'."
+  }
+]

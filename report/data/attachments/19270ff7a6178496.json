@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the user's current location and profile preferences."
+  },
+  {
+    "topic": "image_retrieval",
+    "demand": "Retrieve images of restaurant dishes to identify pasta-related content."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve comments and social media posts mentioning pasta for local restaurants."
+  }
+]

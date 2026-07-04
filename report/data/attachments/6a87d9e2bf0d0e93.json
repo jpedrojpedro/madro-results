@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Find restaurants located within close proximity to the user's current location."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve the social media follower count for the identified restaurants to check if it exceeds 10,000."
+  }
+]

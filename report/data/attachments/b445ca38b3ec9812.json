@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify Italian restaurants in the current geographic vicinity."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve Instagram posts that feature or tag these specific Italian restaurants."
+  },
+  {
+    "topic": "image_retrieval",
+    "demand": "Retrieve images associated with these Instagram posts for these Italian restaurants."
+  }
+]

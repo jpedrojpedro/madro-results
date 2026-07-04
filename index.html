@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>MADRO Benchmark Report</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    background: #1e293b;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: min(90vw, 320px);
+  }
+  h1 { margin: 0 0 0.25rem; font-size: 1.1rem; font-weight: 600; }
+  p.hint { margin: 0 0 0.5rem; font-size: 0.85rem; color: #94a3b8; }
+  input {
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: inherit;
+    font-size: 1rem;
+  }
+  button {
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  button:hover { background: #2563eb; }
+  .error { color: #f87171; font-size: 0.85rem; min-height: 1.1em; }
+</style>
+</head>
+<body>
+  <form id="gate-form">
+    <h1>MADRO Benchmark Report</h1>
+    <p class="hint">Enter the access code you were given.</p>
+    <input type="password" id="code" autocomplete="off" autofocus>
+    <button type="submit">Enter</button>
+    <div class="error" id="error"></div>
+  </form>
+
+<script>
+  // Not real authentication — the report files are still directly fetchable
+  // by URL. This only stops casual visitors landing on the root link; the
+  // hash below is just to avoid the plaintext code sitting in view-source.
+  //
+  // To change the code: run in any browser console (must be https:// or localhost)
+  //   crypto.subtle.digest("SHA-256", new TextEncoder().encode("your-code-here"))
+  //     .then(b => console.log([...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join("")))
+  // and paste the printed hex string below.
+  const EXPECTED_HASH = "67ae969a9b23e9b165c1c8be661cce59346afb18ff32bbbd0bf68761a9b0ab72";
+
+  const form = document.getElementById("gate-form");
+  const input = document.getElementById("code");
+  const error = document.getElementById("error");
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const bytes = new TextEncoder().encode(input.value);
+    const digest = await crypto.subtle.digest("SHA-256", bytes);
+    const hex = [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("");
+
+    if (hex === EXPECTED_HASH) {
+      window.location.href = "report/index.html";
+    } else {
+      error.textContent = "Incorrect code.";
+      input.value = "";
+      input.focus();
+    }
+  });
+</script>
+</body>
+</html>
