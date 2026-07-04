@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Find Italian restaurants in the user's current geographic vicinity."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve the menu offerings or signature dishes for the identified Italian restaurants."
+  }
+]

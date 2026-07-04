@@ -1,0 +1,5 @@
+Loading weights:   0%|          | 0/112 [00:00<?, ?it/s]Loading weights: 100%|██████████| 112/112 [00:00<00:00, 17657.57it/s]
+Loading weights:   0%|          | 0/112 [00:00<?, ?it/s]Loading weights: 100%|██████████| 112/112 [00:00<00:00, 16305.52it/s]
+Loading weights:   0%|          | 0/112 [00:00<?, ?it/s]Loading weights: 100%|██████████| 112/112 [00:00<00:00, 14048.75it/s]
+Loading weights:   0%|          | 0/112 [00:00<?, ?it/s]Loading weights: 100%|██████████| 112/112 [00:00<00:00, 15587.55it/s]
+Loading weights:   0%|          | 0/112 [00:00<?, ?it/s]Loading weights: 100%|██████████| 112/112 [00:00<00:00, 16794.01it/s]

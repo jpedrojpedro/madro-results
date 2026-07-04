@@ -1,0 +1,58 @@
+name: Publish benchmark report
+
+# The benchmark itself (tests/benchmark/) needs a live local Postgres with
+# real scraped data plus a GPU-cached VLM, so it can't run in CI — this
+# workflow only takes the `allure-results/` JSON produced locally by
+# `make benchmark` (committed to the repo) and publishes the rendered
+# static report to GitHub Pages, behind allure-gate/index.html.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "allure-results/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch previous report (for trend history)
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: previous-gh-pages
+
+      - name: Carry trend history into this run's results
+        run: |
+          if [ -d previous-gh-pages/report/history ]; then
+            cp -r previous-gh-pages/report/history allure-results/history
+          fi
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install Allure commandline
+        run: npm install -g allure-commandline
+
+      - name: Generate report
+        run: allure generate allure-results --clean -o site/report
+
+      - name: Add passcode gate
+        run: cp allure-gate/index.html site/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: site
