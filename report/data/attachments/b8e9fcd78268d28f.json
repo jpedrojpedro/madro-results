@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve a list of restaurant profiles located within the specified jurisdiction."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve the current health inspection compliance status for the identified restaurants."
+  }
+]

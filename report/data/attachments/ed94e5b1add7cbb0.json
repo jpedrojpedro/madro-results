@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the user's current geographic location."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve Italian restaurants in the user's location that have updated their menus in the last seven days."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Find restaurants located in my current vicinity."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Find menu items characterized by tomato-based sauces or ingredients at the identified restaurants."
+  }
+]

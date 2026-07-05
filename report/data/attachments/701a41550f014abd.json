@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify restaurants in the user's immediate vicinity."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve social media posts concerning pasta dishes for the identified restaurants."
+  },
+  {
+    "topic": "image_retrieval",
+    "demand": "Retrieve photos of pasta dishes from the identified restaurants' social media profiles."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the restaurant profile that has the highest objective rating in the specified town."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve user comments or reviews to verify the objective rating of the restaurant."
+  },
+  {
+    "topic": "image_retrieval",
+    "demand": "Retrieve images of the restaurant to confirm its identity and verifiable details."
+  }
+]

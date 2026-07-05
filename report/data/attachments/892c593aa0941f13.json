@@ -1,0 +1,14 @@
+[
+  {
+    "job_id": "ffeb833f-1a75-50db-ba64-b0cfcd4ef6f7",
+    "agent": "ProfileFetcherAgent"
+  },
+  {
+    "job_id": "ffeb833f-1a75-50db-ba64-b0cfcd4ef6f7",
+    "agent": "PublicationFetcherAgent"
+  },
+  {
+    "job_id": "6df7436a-d467-56c1-9147-247ee51d2a2e",
+    "agent": "SemanticOpinionFetcherAgent"
+  }
+]
