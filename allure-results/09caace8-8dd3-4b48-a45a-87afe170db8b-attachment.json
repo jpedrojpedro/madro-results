@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve a list of restaurant profiles with the highest customer ratings."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve customer comments regarding the quality of food for the identified restaurants."
+  }
+]

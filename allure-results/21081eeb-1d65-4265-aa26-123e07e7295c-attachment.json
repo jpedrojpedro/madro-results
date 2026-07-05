@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the profiles of prominent food influencers in a specified geographic area."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve the list of restaurants followed by identified food influencers."
+  }
+]

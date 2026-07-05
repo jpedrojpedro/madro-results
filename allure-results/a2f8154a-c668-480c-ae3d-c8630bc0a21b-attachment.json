@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the user's current geographic location profile."
+  },
+  {
+    "topic": "image_retrieval",
+    "demand": "Retrieve a list of restaurants or food establishments near the user's current geographic location."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve detailed nutritional information, including caloric and macronutrient content, for menu items of identified restaurants."
+  }
+]

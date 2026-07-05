@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the profile information for the social media account 'haight_clothing'."
+  },
+  {
+    "topic": "comment_retrieval",
+    "demand": "Retrieve the comments associated with the social media account 'haight_clothing'."
+  }
+]

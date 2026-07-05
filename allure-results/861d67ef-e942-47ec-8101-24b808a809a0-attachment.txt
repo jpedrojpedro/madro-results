@@ -1,0 +1,6 @@
+Based on the provided evidence, there is **no semantic relationship** between the comments and the `haight_clothing` account.
+
+*   **The Comments:** The provided comments discuss topics unrelated to clothing, such as podcasts, specific individuals (e.g., "Carlinhos," "Vini," "Bento"), and reactions to film or media content.
+*   **The `haight_clothing` Account:** This entity is identified in the evidence as a fashion brand (associated with creative directors and collaborators like Marcella Franklin, Letícia de Aragão, and Giulia Franco) that posts content about clothing collections, collaborations (e.g., Bimba y Lola), and retail sales.
+
+The evidence contains no instances of these specific comments appearing on posts by the `haight_clothing` account or referencing the brand. The accounts that mention `haight_clothing` in their bios are distinct from the accounts that authored the provided comments.
