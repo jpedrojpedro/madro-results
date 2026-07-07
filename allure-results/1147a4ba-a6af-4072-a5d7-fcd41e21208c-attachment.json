@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all publications authored by broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the content of the retrieved publications to identify primary subject matters and themes."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve restaurants located in São Paulo, Brazil."
+  },
+  {
+    "topic": "follower_retrieval",
+    "demand": "Retrieve the social media follower count for the restaurants in São Paulo."
+  }
+]

@@ -1,4 +1,0 @@
-  Exists   : ProfileFetcherAgent → topics: ['profile_retrieval']
-  Exists   : PublicationFetcherAgent → topics: ['profile_retrieval']
-  Exists   : SemanticOpinionFetcherAgent → topics: ['comment_retrieval']
-  Exists   : ImageFetcherAgent → topics: ['image_retrieval']

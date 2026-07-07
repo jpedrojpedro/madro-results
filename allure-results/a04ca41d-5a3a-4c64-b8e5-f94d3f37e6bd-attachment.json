@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Find steakhouses located in Curitiba."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve the volume of user reviews for the identified steakhouses."
+  }
+]

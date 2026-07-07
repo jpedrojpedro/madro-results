@@ -1,0 +1,8 @@
+Based on the evidence provided, the following entity is a restaurant located in São Paulo with more than 10,000 followers:
+
+*   **Hotéis Emiliano**: This profile specifically mentions "Restaurante SP" in its bio and has 143,660 followers.
+
+Other entities in the provided list are not identified as restaurants in São Paulo with over 10k followers:
+*   **Botticelli Wine Bar** is identified as a restaurant, but it has fewer than 10,000 followers (8,744).
+*   **KITCHEN Asian Food®️** has over 10,000 followers (30,055), but its profile bio references awards in Rio de Janeiro, not São Paulo.
+*   **𝗧𝗥𝗢𝗖𝗔𝗥 𝗔𝗨𝗧𝗢𝗦 𝗔𝗡𝗧𝗜𝗚𝗢𝗦** and **Zirondi Relíquias Automotivas** have over 10,000 followers but are automotive restoration businesses, not restaurants.
