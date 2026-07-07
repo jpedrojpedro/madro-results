@@ -1,0 +1,17 @@
+[
+  {
+    "entity_id": "147c0643-4e45-496d-92fd-a30a5b00ba24:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.41194572615339553,
+    "s_relevance": 0.20597286307669777,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "```markdown\nPetrobras\nGRID\n\nSÓ VEM!\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows two men standing at a gas station, both wearing green shirts. The man on the left is pointing towards the camera with his right hand, while the man on the right is also pointing towards the camera with his left hand. They appear to be smiling and looking directly at the camera.\n\nIn the background, there is a gas pump with a sign that reads \"PETROBRAS GRID.\" The gas station has a modern design with white walls and a ceiling with recessed lighting. There are also other signs and equipment visible in the background, indicating it is a well-equipped gas station. The text \"SÓ VEM!\" is overlaid on the image, which translates to \"Just come!\" in English.",
+      "published_at": "2025-04-04T22:14:34",
+      "publication_id": 3603616176668052003
+    }
+  }
+]

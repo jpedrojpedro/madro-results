@@ -1,0 +1,592 @@
+[
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:0",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 290023231,
+      "profile_bio": "⚽️ Official profile of Real Madrid C.F. 🏆 15 times European Champions 🌍 FIFA Best Club of the 20th Century 🏟️ Follow @Bernabeu",
+      "profile_full_name": "Real Madrid C.F.",
+      "profile_num_medias": 17144,
+      "profile_num_followers": 177353204
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:1",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 60054123917,
+      "profile_bio": "oi, best! ✨ -32kg  🌱• diabética tipo 1 nutrição 📚  💊 @growthsupplements 🏷️ERICAFIT 💌 ericalacerdafit@gmail.com",
+      "profile_full_name": "Doce Érica | por Érica Lacerda",
+      "profile_num_medias": 1468,
+      "profile_num_followers": 297686
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:2",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 3686239099,
+      "profile_bio": "🍓 Best Daily Food Posts 🍇 Tag Us For The Chance To Be Featured ✉ Dm Us If Credit Isn't Given!",
+      "profile_full_name": "DELICIOUS FOOD POSTS 🍭",
+      "profile_num_medias": 92,
+      "profile_num_followers": 21498
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:3",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.013603336,
+      "profile_id": 1604824151,
+      "profile_bio": "Best Restaurant in 🇧🇷 @theworlds50best 4o. Latin America's 50 Best Restaurants 27o. The World's 50 Best Restaurants R. A",
+      "profile_full_name": "A Casa do Porco",
+      "profile_num_medias": 4600,
+      "profile_num_followers": 626344
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:4",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.013603336,
+      "profile_id": 316932320,
+      "profile_bio": "Best Actress: EUROPEAN FILM AWARDS –CANNES -LUMIÈRES Best Intl. Actress: Unión Actores Nominated Best Actress: –OSCARS",
+      "profile_full_name": "Karla Sofía Gascón",
+      "profile_num_medias": 2165,
+      "profile_num_followers": 208977
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:5",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.013603336,
+      "profile_id": 799022705,
+      "profile_bio": "🏆Top 10 Best Burgers in Europe by @big7travel 🏆Best Burgers in the city by @lisboalive 🏆The 10 Best Restaurant of",
+      "profile_full_name": "G R O U N D B U R G E R",
+      "profile_num_medias": 2979,
+      "profile_num_followers": 42323
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:6",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "profile_id": 25251405,
+      "profile_bio": "Bárbara Paz is a Director ,Actress Best VeniceClassics76 Babenco to represented Brazil best international film at the",
+      "profile_full_name": "Bárbara Paz",
+      "profile_num_medias": 3167,
+      "profile_num_followers": 693128
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:7",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "profile_id": 45298356731,
+      "profile_bio": "🔊FOODIES ONLY 🌎Best food around the world Posted Daily 🍕Follow if You love Food 🍔Best Burgers On Instagram 📥Dm for cred",
+      "profile_full_name": "Food For Foodies🍔",
+      "profile_num_medias": 220,
+      "profile_num_followers": 8094
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:8",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "profile_id": 8194723,
+      "profile_bio": "Menswear founded on fit, built on service, and focused on style. However you fit, Bonobos fits you.",
+      "profile_full_name": "Bonobos",
+      "profile_num_medias": 3405,
+      "profile_num_followers": 170274
+    }
+  },
+  {
+    "entity_id": "2b1e4aad-9735-46ce-bd4f-7aa0d56442e4:9",
+    "s_lex": 0.49579275,
+    "s_sem": 0.5498047148612627,
+    "s_relevance": 0.5227987324306314,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "profile_id": 67573390973,
+      "profile_bio": "♦️Nunca Foi Sorte Sempre Foi Deus! Aux-To🇧🇷 12y🤫 best o melhor time @palmeiras 💚 minha best não toco nada",
+      "profile_full_name": "💫",
+      "profile_num_medias": 2,
+      "profile_num_followers": 190
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:0",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 205869140,
+      "publication_id": 3470653683335987908,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "O tempo passou, e agora nem dá pra acreditar que \"Best of You\", um dos maiores sucessos do Foo Fighters, já completou 19 anos! 😱 Um baita hit 🤩 Quem aí também deixa o volume no máximo quando esse sucesso começa a tocar na Mix? #foofighters #davegrohl #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:1",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 6780519108,
+      "publication_id": 3611512271186220210,
+      "profile_full_name": "Postos Petrobras",
+      "publication_caption": "O tipo de felicidade que só quem aproveita a oferta do Premmia e garante 10% de desconto na troca óleo com os especialistas no Lubrax+ sente 😉",
+      "publication_num_likes": 54700,
+      "publication_num_comments": 296
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:2",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3578692567748953950,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "A folia dos pequenos começa aqui! ✨🎭 Na Tip Top tem fantasia para toda imaginação: bailarina, chapeuzinho vermelho, palhacinho e muito mais!  Deixe o carnaval ainda mais divertido! 🎉  Visite a loja no Piso L1 e escolha a fantasia perfeita. 💕",
+      "publication_num_likes": 24,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:3",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3559205002293768564,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Que tal um almoço especial neste domingo? 🍽️✨ No Duladu, a culinária italiana ganha um toque moderno e surpreendente, como o Riso de Camarões – arroz arbóreo com vinho branco e três tipos de tomate, finalizado com stracciatella e manjericão. Simplesmente irresistível! 🤌🏼🇮🇹 Aproveite para conhecer as novas operações do Piso L1 e viver experiências gastronômicas únicas no Balneário Shopping. 📍 Esperamos você no Duladu – Piso L1. Buon appetito! 🍷✨",
+      "publication_num_likes": 75,
+      "publication_num_comments": 3
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:4",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3623056214067764497,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "O BFS – Balneário Fashion Show está de volta com a edição Best Winter no Balneário Shopping, nos dias 07 e 08 de maio. Dois dias de desfiles, tendências e encontros com quem faz a moda acontecer em SC. Convites disponíveis nas marcas participantes. Nos vemos na passarela? #BFS2025 #BestWinter #BalnearioFashionShow #ModaComEstilo #BalnearioShopping #BFS2025 #BalnearioFashionShow #BestWinter #ModaSC #BalnearioShopping #OneSpotPromo",
+      "publication_num_likes": 122,
+      "publication_num_comments": 3
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:5",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3557745067345116236,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "De mochilas a materiais, de looks confortáveis a calçados perfeitos – tudo o que você precisa para a volta às aulas está aqui! 🎒📚✨ No Balneário Shopping, você encontra um mix completo de lojas como Livrarias Catarinense, Tip Top, Bibi, Puket, Kipling e muito mais, para começar o ano letivo com estilo, praticidade e conforto. 📍 O melhor do back to school está aqui. Vem conferir! 💙",
+      "publication_num_likes": 35,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:6",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3656490493644047622,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Looks quentinhos, confortáveis e superdivertidos para aquecer os pequenos neste inverno.  Venha descobrir as novidades da Tip Top no piso L1 do Balneário Shopping!",
+      "publication_num_likes": -1,
+      "publication_num_comments": 11
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:7",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3666452651056374931,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "✨ Chegou a novidade que vai transformar suas pausas no shopping em momentos mais leves e saborosos! A Growfit chega ao Balneário Shopping com uma proposta que combina com você: saúde e bem-estar sem abrir mão do sabor. 🌱 Sem glúten • sem leite • sem lactose — tudo fresquinho, gostoso e pensado com qualidade. Se tem fit com seu estilo de vida, tem Growfit por aqui. Venha experimentar! 💚 📍 Piso L2",
+      "publication_num_likes": -1,
+      "publication_num_comments": 8
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:8",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 29797722,
+      "publication_id": 3666636992481284766,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Se você ainda tem dúvidas sobre o poder do Gold Eyes Gua Sha, a @eusougabriela é a prova viva de que ele funciona mesmo! ✨ O nosso tem efeito lifting real! 💆‍♀️O contorno do rosto fica mais definido, o inchaço vai embora e até as linhas finas dizem bye bye.  Esse é o tipo de skincare que entrega resultado, luxo e a alta resistência do ouro. #Lalume #GoldEyesGuaSha #SkincareDeResultado",
+      "publication_num_likes": -1,
+      "publication_num_comments": 34
+    }
+  },
+  {
+    "entity_id": "c6102ff6-f1f6-4812-b2e3-d4a769ddba40:9",
+    "s_lex": 0.056420706,
+    "s_sem": 0.5339835127616682,
+    "s_relevance": 0.29520210938083413,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 55610751214,
+      "publication_id": 3658516918202239882,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "Um dos cineastas mais brilhantes do Brasil e um dos críticos de cinema mais aclamado do Brasil. Só aqui você vê esse tipo de debate. Pontualmente às 20 horas.",
+      "publication_num_likes": 2323,
+      "publication_num_comments": 58
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "```markdown\nLALUME\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person holding a gold-colored, star-shaped object near their face. The person is wearing a white jacket with a zipper and has a tattoo on their neck. They are also wearing a necklace with a small pendant that appears to be a heart shape. The background includes a glimpse of a room with a desk and some items on it. The text \"LALUME\" is visible at the bottom of the image.",
+      "published_at": "2025-06-30T21:00:00",
+      "publication_id": 3666636992481284766
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "Ingredientes frescos, combinações inteligentes e receitas pensadas por nutricionistas.\nA saúde começa no prato — e o sabor, no primeiro garfo.",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a hand holding a plastic cup filled with a layered smoothie or shake. The top layer is a creamy, light-colored mixture, possibly a banana or avocado base, and the bottom layer is a dark red, likely a berry or beetroot base. The cup has the word \"growfit\" written on it in green letters.\n\nThe background appears to be an indoor setting, possibly a café or a restaurant, with some blurred elements that suggest other people and possibly plants or furniture. The text overlay on the image reads:\n\n\"Ingredientes frescos, combinações inteligentes e receitas pensadas por nutricionistas.\nA saúde começa no prato — e o sabor, no primeiro garfo.\"\n\nThis translates to:\n\"Fresh ingredients, intelligent combinations, and recipes thoughtfully designed by nutritionists.\nHealth starts on the plate — and the taste begins with the first bite.\"",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "sanduiches, saladas e bebidas\n\n0% gluten\n0% lactose\n0% açúcar\nproteico\nlow carb\nsem fritura",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image depicts the interior of a modern, well-organized food and beverage store. The store features a clean, contemporary design with a color palette that includes shades of blue, green, and white. \n\nOn the left side of the image, there is a large refrigerator filled with various beverages, including bottled drinks and canned goods. The refrigerator has a glass door, allowing customers to see the contents inside. Above the refrigerator, there is a sign in Portuguese that reads \"sanduiches, saladas e bebidas,\" which translates to \"sandwiches, salads, and beverages.\"\n\nTo the right of the refrigerator, there are shelves stocked with an assortment of products. These shelves are neatly organized and feature items such as snacks, condiments, and possibly some packaged foods. The shelves are made of wood and have a light finish.\n\nAbove the shelves, there is a wall-mounted shelf with additional items, including a few potted plants that add a touch of greenery to the space. The wall behind the shelves is tiled with small, square tiles in a light color, contributing to the bright and airy feel of the store.\n\nIn the background, there is a counter where a person is working, likely preparing orders or assisting customers. The counter area is also well-lit and features a few decorative elements, such as balloons and a small display case. The overall atmosphere of the store appears to be welcoming and inviting, with a focus on providing a variety of healthy and convenient food and beverage options.",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "Você encontra a Growfit no Piso L2.",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image shows a bowl of a healthy and colorful breakfast or snack. The bowl contains several ingredients, including:\n\n1. **Banana Slices**: There are several slices of banana arranged around the edge of the bowl.\n2. **Strawberries**: Sliced strawberries are placed in the center of the bowl.\n3. **Powdered Sugar**: A small pile of powdered sugar is located towards the top right side of the bowl.\n4. **Granola**: Granola, which appears to be a mix of oats, nuts, and possibly dried fruits, is spread across the bottom of the bowl.\n\nThe bowl is placed on a wooden surface, and there is a spoon with a blue handle next to it. A napkin with the word \"growfit\" written on it is also visible, suggesting that the location might be related to a fitness or wellness center called Growfit. The text at the top of the image reads, \"Você encontra a Growfit no Piso L2,\" which translates to \"You can find Growfit on Floor L2.\"",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "Sem glúten. Sem leite. Sem lactose.\nMas com muito sabor, cor e textura.",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image shows a vibrant and appetizing salad served on a black plate, placed on a green tray. The salad is a mix of fresh greens, including lettuce and arugula, with slices of prosciutto, croutons, and small pieces of cheese. There are also some small vegetables like cherry tomatoes and possibly some radishes or other root vegetables. A small white bowl containing a green dressing is placed next to the salad.\n\nIn the background, there is another dish that appears to be a pizza topped with tomato sauce, cheese, and possibly some vegetables. To the side, there is a pink cup, likely containing a beverage.\n\nThe text overlay on the image reads: \"Sem glúten. Sem leite. Sem lactose. Mas com muito sabor, cor e textura.\" This translates to: \"Gluten-free. Dairy-free. Lactose-free. But with lots of flavor, color, and texture.\"\n\nThe overall presentation of the salad looks fresh and healthy, with a variety of textures and colors that make it visually appealing. The salad appears to be a balanced meal option, suitable for those with dietary restrictions such as gluten-free, dairy-free, and lactose-free diets.",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "| marmitas, pizzas e salgados |\n| --- |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n| ",
+      "position": 4,
+      "extension": "jpg",
+      "img_caption": "The image shows a refrigerated display case in what appears to be a grocery store or supermarket. The display is stocked with various pre-packaged food items, primarily featuring meals and snacks. The top section of the display has a sign that reads \"marmitas, pizzas e salgados,\" which translates to \"microwavable meals, pizzas, and snacks\" in English.\n\nThe shelves inside the display are organized into multiple rows, each containing different types of food products. The products include:\n\n1. **Microwavable Meals**: These are likely pre-cooked meals that can be heated in the microwave. They come in various packages, some of which have images of the meal on the packaging.\n2. **Pizzas**: There are several pizza boxes visible, indicating a variety of pizza options available for purchase.\n3. **Snacks**: Various snack items are also present, including what appear to be chips or other packaged snacks.\n\nThe packaging of the products varies, with some items having colorful labels and others having more subdued colors. The overall presentation is clean and well-organized, making it easy for customers to browse through the selection.\n\nThe display case is designed to keep the food items fresh and ready for purchase, with the cold temperature indicated by the glass doors. The lighting inside the display is bright, ensuring that the products are clearly visible to potential customers.\n\nThis type of display is common in supermarkets and convenience stores where quick and convenient meal options are popular. It caters to customers looking for ready-to-eat meals without the need for cooking at home.",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "alimento, alegria & amor: só poderia ser saudável\n\nTem dias que tudo o que a gente quer é uma refeição que abrace o corpo e a consciência.\nA Growfit chegou — com pratos saudáveis, gostosos e cheios de propósito.",
+      "position": 5,
+      "extension": "jpg",
+      "img_caption": "The image depicts the interior of a modern, well-lit café or bakery. The space is clean and organized, with a focus on health and wellness. The walls are adorned with a large, tiled backsplash that features the words \"alimento,\" \"alegria,\" \"& amor\" (food, joy, and love) in a decorative font. Below these words, there is a smaller text that reads \"só poderia ser saudável\" (only could be healthy).\n\nIn the foreground, there is a glass display case filled with various baked goods, including cakes and pastries. A person wearing a white shirt and an apron is working behind the counter, likely preparing or serving food. Above the display case, there are three digital menu boards showing different food items and their prices. One of the boards prominently displays a colorful image of a dessert, which appears to be a fruit tart.\n\nTo the right of the display case, there are shelves with additional baked goods and possibly some plants, adding a touch of greenery to the space. The shelves are neatly arranged and have a wooden finish. There are also several green balloons with the word \"growfit\" written on them, suggesting that this café is associated with the Growfit brand, which is known for promoting healthy eating and fitness.\n\nThe overall ambiance of the café is inviting and modern, with a focus on providing healthy and delicious food options. The lighting is bright and welcoming, creating a pleasant atmosphere for customers.",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "| Growfit |\n| --- |\n| Para quem ama comer bem, viver leve e não abre mão do sabor |",
+      "position": 6,
+      "extension": "jpg",
+      "img_caption": "The image depicts the exterior of a modern, well-lit store named \"Growfit.\" The storefront features a clean and minimalist design with a light green color scheme. The name \"Growfit\" is prominently displayed at the top of the entrance, written in lowercase letters.\n\nInside the store, there is a well-organized display area with shelves and a refrigerator unit. The shelves are stocked with various products, including what appears to be baked goods and other food items. The refrigerator has a glass door, allowing customers to see the contents inside, which include more baked goods and possibly some fresh produce or dairy products.\n\nThe interior lighting is bright, creating a welcoming atmosphere. There are hanging plants and decorative elements that add a touch of nature and warmth to the space. The overall design suggests that the store specializes in healthy eating options, emphasizing freshness and quality.\n\nAt the bottom of the image, there is a text overlay in Portuguese that reads: \"Growfit Para quem ama comer bem, viver leve e não abre mão do sabor,\" which translates to \"Growfit For those who love to eat well, live lightly, and don't give up on taste.\"\n\nThe store's exterior also includes a small, decorative heart-shaped sculpture in front of the entrance, adding a personal and inviting touch to the overall design. The brick wall visible behind the store adds a rustic element to the modern aesthetic.",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "| A LA CARTE | A LA CARTE |\n| --- | --- |\n|  |  |\n| Salada grelhada ao molho de maracujá com purê de mandioquinha, brócolis frescos e farofinha de amêndoas | Excondidinho de carne de panela com alpim cremoso e salada verde |\n|  | PROTEICO R$45,00 | PROTEICO R$42,00 |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n|  |  |  |\n| ",
+      "position": 7,
+      "extension": "jpg",
+      "img_caption": "The image shows a person holding an open menu from a restaurant named \"Grow Fit.\" The menu is titled \"A La Carte\" and lists various dishes with their prices. Here is a detailed description of the visible items on the menu:\n\n1. **Salada de frango ao molho de maracujá com purê de mandioquinha, brócolis frescos e farofinha de amêndoas** - Chicken salad with maracuja sauce, mashed sweet potato, fresh broccoli, and almond flour.\n2. **Parmegiana de frango e queijo de batata-doce ao molho de tomate artesanal e muçarela de bufala sem lactose, com toque de pesto natural** - Chicken Parmesan with sweet potato cheese, artisanal tomato sauce, and bufala cheese without lactose, with a touch of natural pesto.\n3. **Sobremesa assada em ervas com batatas rústicas, molho branco de abóbora e salada verde** - Dessert baked with herbs, rustic potatoes, pumpkin white sauce, and green salad.\n4. **Excondidinho de carne de panela com alpim cremoso e salada de abóbora** - Braised meat with creamy alpim and pumpkin salad.\n5. **Tilápia grelhada com crosta, arroz integral, feijão vermelho e salada verde** - Grilled tilapia with crust, whole grain rice, red bean, and green salad.\n6. **Estrogone de frango ao creme de leite e cogumelos para tigres e macarrão penne de arroz** - Chicken stew with milk cream, mushrooms for tigers, and penne pasta made of rice.\n7. **Quiche low carb de abóbora com frango, requiejo artesanal, muçarela de búfala sem lactose** - Low-carb pumpkin quiche with chicken, artisanal ricotta, and bufala cheese without lactose.\n8. **Feijoada brasileirinha com vegetais e tofu, arroz integral com quinoa e farofa Grow com sementes** - Brazilian-style black bean stew with vegetables and tofu, whole grain rice with quinoa, and Grow sesame seed farofa.\n9. **Parque de carne com azeitonas, molho branco de abóbora com muçarela de bufala sem lactose e salada verde** - Meat park with olives, white pumpkin sauce with bufala cheese without lactose, and green salad.\n10. **Risoto Golden cremoso de abóbora cabotada com quinoa, ervilha e cogumelos parís frescos** - Creamy Golden risotto with roasted pumpkin, quinoa, spinach, and fresh mushroom Parisien.\n11. **Estragone de alcatra com cogumelos frescos ao creme de leite e batatinhas assadas** - Beef stew with fresh mushrooms in milk cream and roasted potatoes.\n12. **Omelete ou crepoca de frango com salada de abóbora** - Omelet or crepe with chicken and pumpkin salad.\n\nThe menu also includes prices for each dish, ranging from R$39.00 to R$54.00. The background of the image shows the entrance of the restaurant \"Grow Fit,\" which has a modern and clean design with large windows and a green logo.",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "a0a2add4-4c15-4056-bde8-ca184765ef28:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.5270740440161783,
+    "s_relevance": 0.26353702200808915,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "A Growfit é sua nova pausa favorita.\nVenha conhecer e se apaixonar!",
+      "position": 8,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of a dessert on a pink plate. The dessert appears to be a layered pastry or cake, possibly a type of crepe or pancake, topped with chocolate sauce and fresh strawberries. The strawberries are sliced and arranged neatly on top of the dessert. There is also a dusting of powdered sugar on the plate around the dessert.\n\nIn the background, there is a sign that reads \"growfit\" in blue letters. The setting appears to be a modern, well-lit indoor space, likely a café or restaurant. The ambiance suggests a casual and inviting atmosphere. The text overlay on the image reads: \"A Growfit é sua nova pausa favorita. Venha conhecer e se apaixonar!\" which translates to \"Growfit is your new favorite pause. Come meet and fall in love!\" This indicates that Growfit is promoting their establishment as a place where people can enjoy a treat and potentially fall in love with the brand.",
+      "published_at": "2025-06-30T14:53:57",
+      "publication_id": 3666452651056374931
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "🤣🤣🤣 Se Carlinhos tá de um lado, estamos do outro!",
+      "num_likes": 0,
+      "comment_id": 17896570893295749,
+      "profile_id": 65546748031,
+      "published_at": "2025-09-17T14:37:42",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "O caneta azul foi demaiseee",
+      "num_likes": 0,
+      "comment_id": 18090184465771222,
+      "profile_id": 3195579422,
+      "published_at": "2025-09-17T14:03:59",
+      "publication_id": 3720814349087793762,
+      "publication_caption": "E AÍ QUAL IMITAÇÃO VENCEU??"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "Perdi esse ep mas vou ter que assistir, só pq é o BENTO SOZINHO DESTA VEZ🙌👏",
+      "num_likes": 0,
+      "comment_id": 18077578001299224,
+      "profile_id": 2353235368,
+      "published_at": "2025-09-17T14:01:24",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "Vou assistir completo esse podcast",
+      "num_likes": 0,
+      "comment_id": 18042443240383714,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:16:30",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "Vini te amo ❤️",
+      "num_likes": 0,
+      "comment_id": 18058234100527713,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:15:49",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "😂😂😂😂😂😂😂",
+      "num_likes": 0,
+      "comment_id": 17886766356361891,
+      "profile_id": 62884332640,
+      "published_at": "2025-09-17T13:03:10",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "🤮🤮🤮🤮🤮🤮🤮🤮",
+      "num_likes": 0,
+      "comment_id": 17925297876104221,
+      "profile_id": 23071770558,
+      "published_at": "2025-09-17T12:50:13",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "Eu. Ainda. Estou. Aqui.⚡️🤖⚡️",
+      "num_likes": 0,
+      "comment_id": 18061082489457844,
+      "profile_id": 50902759644,
+      "published_at": "2025-09-17T12:21:07",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "OS HATERS NÃO SOLTAM O ANJO DO CARLINHOS",
+      "num_likes": 0,
+      "comment_id": 18534898492056414,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:26:19",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "acba6d32-925f-43d9-a604-a21d7da8f65c:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.444839664329549,
+    "s_relevance": 0.2224198321647745,
+    "entity_data": {
+      "comment": "AMOOO O @ CARLINHOS ❤️",
+      "num_likes": 0,
+      "comment_id": 18310066159171916,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:25:39",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  }
+]

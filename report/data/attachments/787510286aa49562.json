@@ -1,0 +1,302 @@
+[
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.01781016,
+      "ocr_text": "```markdown\nPetrobras\nGRID\n\nSÓ VEM!\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows two men standing at a gas station, both wearing green shirts. The man on the left is pointing towards the camera with his right hand, while the man on the right is also pointing towards the camera with his left hand. They appear to be smiling and posing for the photo.\n\nIn the background, there are signs indicating that this is a Petrobras gas station. The signs are white with the Petrobras logo and some text in Portuguese. There is also a sign for \"GRID\" visible above the pumps. The setting appears to be indoors, possibly under a canopy or shelter, as indicated by the ceiling structure and lighting fixtures.",
+      "published_at": "2025-04-04T22:14:34",
+      "publication_id": 3603616176668052003
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.01701453,
+      "ocr_text": "```markdown\nBanco Mercedes-Benz\n\n111\n\nREDE siga bem\n\nacademia P\n\nMahle\n\nPrometeon\n\n111\n\nPrometeon\n\nconto com a torcida de vocês\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person standing in front of a large truck, which appears to be a racing vehicle. The truck has the number \"11\" prominently displayed on its side and is adorned with various sponsor logos, including \"Banco Mercedes-Benz,\" \"Prometeon,\" \"REDE siga bem,\" and \"Academia P.\" The person is wearing a racing suit with the same number \"11\" and other sponsor logos, such as \"Mahle\" and \"Prometeon.\" The background includes a cloudy sky and some structures, possibly part of a race track or event venue. The text at the bottom of the image reads \"conto com a torcida de vocês,\" which translates to \"I count on your support.\"",
+      "published_at": "2025-03-23T00:34:39",
+      "publication_id": 3594264796494826491
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.016279712,
+      "ocr_text": "```markdown\nPetrobras\nER Petrobras\nPETROBRAS\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person wearing a bright yellow shirt with green accents, including a green lanyard and a green cap. The lanyard has the logo \"PETROBRAS\" repeated multiple times. The background appears to be an indoor setting with some blurred lights and possibly a sign or display board. The overall color scheme of the attire is predominantly yellow and green, which might suggest a connection to a sports team or event.",
+      "published_at": "2025-04-30T19:49:55",
+      "publication_id": 3622390056905809630
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\nDFS LEUS\n```\n\n",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of a person's arm and hand, holding a stylish clutch bag. The clutch features a gold frame with a long, feather-like fringe hanging from it, giving it a luxurious and elegant appearance. The person is wearing a black dress that appears to be made of a smooth, possibly satin or silk material. The background is slightly blurred, but it seems to be an indoor setting, possibly a shopping mall or a public area, with other people visible in the distance. The person is also wearing a white wristband with some text on it, though the details of the text are not clear. The overall style of the outfit and accessories suggests a fashionable and chic look.",
+      "published_at": "2025-05-08T14:34:20",
+      "publication_id": 3628029664930649483
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\nS\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image depicts three women engaged in a toast at what appears to be a formal event or celebration. They are holding champagne glasses, with the woman in the center having her glass raised slightly above the others. The woman on the left is wearing a white outfit and has long, wavy hair. The woman on the right is dressed in a light-colored outfit with a patterned design and also has long, wavy hair. The woman in the center is wearing a black dress and has her hair styled in loose waves. The background shows other people, some of whom are blurred, indicating that the focus is on the three women in the foreground. The setting appears to be indoors, possibly in a banquet hall or a similar venue, with warm lighting and a modern decor.",
+      "published_at": "2025-05-08T14:34:20",
+      "publication_id": 3628029664930649483
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\nL 001\n\nEstará na loja\n```\n",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image shows three women standing together, posing for a photo at what appears to be an event or gathering. They are dressed in elegant attire suitable for a formal occasion.\n\n1. **Left Woman**: She is wearing a light-colored blouse with blue polka dots and a long skirt that has a blue and white pattern. She is holding a beige handbag and is wearing blue high-heeled shoes.\n2. **Middle Woman**: She is wearing a black strapless dress with a ruffled hem. She is holding a glass of champagne and is wearing black high-heeled shoes.\n3. **Right Woman**: She is wearing a purple long-sleeved top and matching pants. She is also holding a glass of champagne and is wearing black high-heeled shoes.\n\nIn the background, there is a store with large windows displaying various items. The store has a modern interior with hanging lights and a display of mannequins. There are also potted plants and other decorative elements visible. The setting suggests that the event might be taking place in a shopping mall or a similar venue.",
+      "published_at": "2025-05-08T14:34:20",
+      "publication_id": 3628029664930649483
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "BFS\nBALNEARIO FASHION SHOW\nsince 2006\nVIP MARDI\nBFS",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image depicts a scene inside what appears to be a shopping mall or a similar indoor venue. The focal point is a row of wooden chairs, each adorned with colorful shopping bags. The bags are branded with the letters \"BFS\" and the text \"Balneario Fashion Show\" along with the phrase \"since 2006.\" The bags come in various colors, including red, green, blue, and yellow.\n\nThe chairs are arranged in a neat line, suggesting that they might be set up for an event or a special occasion related to the fashion show. The background shows other people, indicating that the area is likely bustling with activity. The lighting is bright, typical of indoor commercial spaces, and there are some blurred lights and reflections visible on the glass walls behind the chairs.\n\nOverall, the image conveys a sense of preparation for an event, possibly a fashion show, where attendees have been given branded shopping bags as part of their experience.",
+      "published_at": "2025-05-08T14:34:20",
+      "publication_id": 3628029664930649483
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n**Balneário Shopping**\napresenta\nBEST WINTER\nFASHION SHOW\n```",
+      "position": 4,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman standing in front of a large purple backdrop with white text. The backdrop appears to be advertising an event or fashion show, as indicated by the text \"Best Winter Fashion Show\" and other details that are partially visible. The woman is wearing a black strapless dress with a ruffled hem and is holding a small, elegant handbag with a feathered design. She has her hair styled in loose waves and is accessorized with gold earrings and a bracelet. The setting seems to be indoors, possibly in a shopping mall or a similar venue, as there are other people and store displays visible in the background. The ground around her is covered with dry leaves, suggesting it might be autumn or winter.",
+      "published_at": "2025-05-08T14:34:20",
+      "publication_id": 3628029664930649483
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n**Text:**\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL PETE\nAQUI OL",
+      "position": 5,
+      "extension": "jpg",
+      "img_caption": "The image depicts a group of people seated in what appears to be an audience at an event, possibly a fashion show or a public gathering. The setting is indoors, with a clothing rack visible in the background, suggesting that the event might be related to fashion or retail.\n\nIn the foreground, there are several individuals focused on their smartphones. One person in the center is holding a phone up to take a picture, while another person to the right is holding a pink phone case and looking at her phone. The audience members are dressed casually, with some wearing jeans and others in more formal attire. The overall atmosphere seems relaxed and engaged, as the attendees are actively using their phones, likely capturing moments or checking messages.\n\nThe background shows other people standing and sitting, some of whom are also using their phones. There is a sign with text on it, but the details are not clear enough to read. The lighting is bright, typical of indoor events, and the overall mood appears to be casual and social.",
+      "published_at": "2025-05-08T14:34:20",
+      "publication_id": 3628029664930649483
+    }
+  },
+  {
+    "entity_id": "164bca0d-65d4-42c9-8175-72e84fc741dc:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.5112477608286686,
+    "s_relevance": 0.2556238804143343,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n**Balneário Shopping**\n\n**Best Winter**\n\n**BFS**\n\n**Balneário Fashion Show**\n```",
+      "position": 6,
+      "extension": "jpg",
+      "img_caption": "The image depicts a fashion event, specifically the \"Best Winter BFS Balneário Fashion Show\" at Balneário Shopping. The setting appears to be indoors, likely within a shopping mall or a similar venue. The background features a large purple banner with white and pink text that reads \"BEST WINTER BFS BALNEÁRIO FASHION SHOW.\" The banner also includes logos for Balneário Shopping and other sponsors.\n\nIn the foreground, there is a woman standing on a red carpet. She is wearing an elegant black dress with a feathered detail on the hem. Her hair is styled in loose waves, and she is smiling, looking over her shoulder towards the camera. The floor around her is covered with a layer of dried leaves, adding a seasonal touch to the event.\n\nIn the background, there are several people seated on chairs, likely attendees or guests of the fashion show. They are dressed in various outfits, some of which are casual while others are more formal. The seating area is decorated with colorful bags and chairs, contributing to the festive atmosphere of the event. The overall ambiance suggests a high-profile fashion show with a focus on winter fashion.",
+      "published_at": "2025-05-08T14:34:20",
+      "publication_id": 3628029664930649483
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "🤣🤣🤣 Se Carlinhos tá de um lado, estamos do outro!",
+      "num_likes": 0,
+      "comment_id": 17896570893295749,
+      "profile_id": 65546748031,
+      "published_at": "2025-09-17T14:37:42",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "O caneta azul foi demaiseee",
+      "num_likes": 0,
+      "comment_id": 18090184465771222,
+      "profile_id": 3195579422,
+      "published_at": "2025-09-17T14:03:59",
+      "publication_id": 3720814349087793762,
+      "publication_caption": "E AÍ QUAL IMITAÇÃO VENCEU??"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "Perdi esse ep mas vou ter que assistir, só pq é o BENTO SOZINHO DESTA VEZ🙌👏",
+      "num_likes": 0,
+      "comment_id": 18077578001299224,
+      "profile_id": 2353235368,
+      "published_at": "2025-09-17T14:01:24",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "Vou assistir completo esse podcast",
+      "num_likes": 0,
+      "comment_id": 18042443240383714,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:16:30",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "Vini te amo ❤️",
+      "num_likes": 0,
+      "comment_id": 18058234100527713,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:15:49",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "😂😂😂😂😂😂😂",
+      "num_likes": 0,
+      "comment_id": 17886766356361891,
+      "profile_id": 62884332640,
+      "published_at": "2025-09-17T13:03:10",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "🤮🤮🤮🤮🤮🤮🤮🤮",
+      "num_likes": 0,
+      "comment_id": 17925297876104221,
+      "profile_id": 23071770558,
+      "published_at": "2025-09-17T12:50:13",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "Eu. Ainda. Estou. Aqui.⚡️🤖⚡️",
+      "num_likes": 0,
+      "comment_id": 18061082489457844,
+      "profile_id": 50902759644,
+      "published_at": "2025-09-17T12:21:07",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "OS HATERS NÃO SOLTAM O ANJO DO CARLINHOS",
+      "num_likes": 0,
+      "comment_id": 18534898492056414,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:26:19",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "a6c81a36-c4c0-43b1-a0d3-120015545c7b:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.5082777735111201,
+    "s_relevance": 0.25413888675556007,
+    "entity_data": {
+      "comment": "AMOOO O @ CARLINHOS ❤️",
+      "num_likes": 0,
+      "comment_id": 18310066159171916,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:25:39",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the profile information for 'eusougabriela'."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve publications from 'eusougabriela' that contain lifestyle advice or recommendations."
+  }
+]

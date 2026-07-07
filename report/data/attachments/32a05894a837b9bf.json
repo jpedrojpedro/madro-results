@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Find the location of restaurants in São Paulo, Brazil."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve the menu prices for restaurants in São Paulo, Brazil."
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:0",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi consists of several pieces of sushi rolls, including what appears to be salmon and avocado, arranged neatly on a plate with a red floral design.\n\nThe main text in the center of the image reads \"Até 30 de abril,\" which translates to \"Until April 30th.\" Below this, there is a statement in Portuguese: \"Todo dia tem opções deliciosas com preço especial,\" meaning \"Every day has delicious options with special prices.\"\n\nAt the bottom of the image, there are two sections with different colors and text:\n1. A pink section with white text that says \"Prato do Chef,\" which translates to \"Chef's Dish.\"\n2. A black section with white text displaying the price \"R$ 70,\" indicating the cost of the Chef's Dish is 70 reais.\n\nThe overall design is clean and visually appealing, focusing on the promotion of the special offer until April 30th.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:1",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a plate divided into two sections. On the left side of the plate, there is a serving of French fries. On the right side, there is a portion of sushi, consisting of several pieces of sushi rolls with orange fish roe (tuna) and white rice. Below the sushi, there is a small bowl containing a salad made of green lettuce leaves, cherry tomatoes, and possibly some other vegetables or dressing.\n\nThe text \"CIRCUITO GASTRONÔMICO BALNEÁRIO Shopping\" is prominently displayed above the plate, with \"CIRCUITO GASTRONÔMICO\" in large, bold letters and \"BALNEÁRIO Shopping\" in smaller, uppercase letters below it. The logo for Balneário Shopping is also present to the right of the text.\n\nThe overall design of the advertisement is clean and visually appealing, focusing on the variety of food items available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:2",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:3",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "UNIZUSHI\nうに寿司",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a dining setup featuring a variety of Japanese cuisine items on a wooden table. The main focus is on a small, rectangular plate with a light blue base, containing a piece of unagi (grilled eel) wrapped in nori (seaweed). Next to it, there is a small bowl filled with what appears to be pickled ginger and wasabi. \n\nIn the center of the table, there is a small bowl containing a colorful assortment of seafood tempura, including shrimp and possibly other vegetables, garnished with a slice of lime. To the left of the tempura bowl, there is a small dish with a light-colored, possibly rice-based food item.\n\nA glass of a light-colored beverage, likely a lemonade or iced tea, is placed next to the main plate. The drink has a straw and is garnished with a slice of orange and a sprig of mint. \n\nIn the foreground, there is a white paper napkin with the text \"UNIZUSHI\" printed on it, along with some Japanese characters below it. The background shows a row of wooden chairs and tables, suggesting that this is a restaurant setting. The overall presentation is clean and aesthetically pleasing, typical of a high-quality sushi restaurant.",
+      "published_at": "2025-04-26T20:52:04",
+      "publication_id": 3619522054945940404
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:4",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "COMIDA\nCIRCUITO GASTRONÔMICO\nBALNEÁRIO SHOPPING",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman sitting at a table in what appears to be a restaurant or café. She is wearing a sleeveless pink dress and has her hands placed on her cheeks, possibly in a gesture of surprise or excitement. In front of her on the table is a plate with a meal that includes a steak, a serving of rice, and some fried potatoes. There is also a glass of a red beverage with a lime wedge on the rim.\n\nThe background features a modern interior with wooden furniture and a perforated metal wall. The text overlay on the image reads \"COMIDA CIRCUITO GASTRONÔMICO BALNEÁRIO SHOPPING,\" which translates to \"Food Circuit Gastronomic Balneario Shopping.\" This suggests that the image is promoting a food tour or culinary experience at the Balneario Shopping mall.",
+      "published_at": "2025-04-24T15:00:58",
+      "publication_id": 3617895287587311382
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:5",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "```markdown\n>7\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person outdoors, likely in a park or garden setting with green foliage in the background. The individual is wearing a navy blue sleeveless top with a white logo on the left side and bright orange shorts. They have a cheerful expression, with their mouth open as if laughing or shouting. In their right hand, they are holding an orange balloon with a white symbol resembling a stylized \"Y\" or \"V.\" The person is also wearing a necklace with small pendants and has a watch on their left wrist. The overall scene suggests a casual, joyful moment.",
+      "published_at": "2025-03-27T20:38:21",
+      "publication_id": 3597771695709748624
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:6",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "```markdown\n- Hand holding a small, intricately designed keychain.\n- Keychain features gold-colored metal accents and a leather strap.\n- Background is blurred, focusing attention on the hands and keychain.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of two hands holding a small, intricately designed object. The object appears to be a keychain or a similar accessory with a leather strap and gold-colored metal hardware. The keychain features three triangular metal pieces attached to the leather strap, each with a pointed end. The hands are gently holding the keychain, with one hand gripping the strap near the middle and the other hand supporting it from below.\n\nThe background is blurred but seems to be an indoor setting, possibly a store or a room with a patterned surface, which could be a tablecloth or a carpet. The lighting in the image gives a warm, golden hue, highlighting the details of the keychain and the hands holding it. The person's nails are painted red, adding a pop of color to the scene. The overall composition of the image focuses on the craftsmanship and design of the keychain.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:7",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "```markdown\n# Text in the Image\n\nM\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman standing in front of a mirror, smiling and looking at herself. She is wearing a strapless white dress that fits closely to her body, accentuating her figure. The dress has a fitted bodice and a slightly flared skirt. She is also wearing a layered necklace with small, round beads and a small pendant. Her hair is long and dark, and she has a subtle makeup look, including eyeliner and a light pink lip color.\n\nIn the background, there are other women who appear to be in a dressing room or a boutique. One woman on the left is wearing a white dress with thin straps and has her hair pulled back. Another woman on the right is wearing a patterned top and blue pants. The setting includes shelves with various items, possibly clothing or accessories, and the lighting is warm and inviting.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:8",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "```markdown\n# Louis Vuitton\n\n## Men's Fashion Show\n\n### Model: [Model Name]\n\n### Outfit:\n- **Top:** Light blue bandana print shirt\n- **Bottom:** Light blue bandana print pants\n- **Footwear:** Black sandals with bow details\n\n### Accessories:\n- **Shoes:** Various styles of shoes displayed on shelves\n- **Accessories:** Handbags and other accessories on display\n\n### Setting:\n- **Location:** Louis Vuitton store\n- **Interior Design:** Modern, stylish, with gold accents and wooden shelves\n```",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image depicts a person standing in what appears to be a high-end shoe store or boutique. The individual is wearing a stylish outfit consisting of a light blue, long-sleeved shirt with a paisley pattern and matching pants. The shirt has a deep V-neckline and the pants feature a similar paisley design. They are also wearing black sandals.\n\nThe background showcases an array of high-end shoes displayed on shelves. The shoes come in various styles and colors, including beige, gold, and brown. The shelves are well-lit, highlighting the elegance and sophistication of the footwear. The store has a modern and luxurious interior design, with wooden accents and a clean, minimalist aesthetic. There is also a sign visible in the background, indicating the direction to the exit.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "378a4ec8-4bcc-42d8-9853-56ce50b84a0c:9",
+    "s_lex": 1.7953747e-09,
+    "s_sem": 0.5508085516794727,
+    "s_relevance": 0.27540427673742374,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "ocr_text": "PAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of eight women standing together in what appears to be a shopping mall or a high-end boutique. They are all smiling and posing for the photo, with some holding shopping bags from a store named \"PAULA TORRES.\" The women are dressed in stylish, fashionable outfits, ranging from dresses to casual wear. The setting is well-lit, with modern lighting fixtures visible on the ceiling. The background includes a glass door with a logo that resembles a stylized letter \"P,\" suggesting the name of the store or brand they are associated with. The overall atmosphere is cheerful and sophisticated.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "fba05be3-dc15-48ef-a2e3-74cc32188253:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5162914748658154,
+    "s_relevance": 0.2581457374329077,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "fba05be3-dc15-48ef-a2e3-74cc32188253:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5162914748658154,
+    "s_relevance": 0.2581457374329077,
+    "entity_data": {
+      "rnk": 0.012506748,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "fba05be3-dc15-48ef-a2e3-74cc32188253:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5162914748658154,
+    "s_relevance": 0.2581457374329077,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3619522054945940404,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Visitei o Unizushi, que está participando do Circuito Gastronômico do Balneário Shopping e me apaixonei! 🍣  Menu completo (entrada, prato principal e sobremesa) por R$70,00. Ambiente aconchegante, atendimento ótimo… me senti em casa.  O festival vai até 30/04, e além do Unizushi  os outros restaurantes participantes são: Madero, Outback, Las Lenas e Pecorino. então corre pra aproveitar! 🎉",
+      "publication_num_likes": 175,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "fba05be3-dc15-48ef-a2e3-74cc32188253:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5162914748658154,
+    "s_relevance": 0.2581457374329077,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "fba05be3-dc15-48ef-a2e3-74cc32188253:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5162914748658154,
+    "s_relevance": 0.2581457374329077,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 293755951,
+      "publication_id": 3617895287587311382,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Essa semana foi dia de experimentar o Circuito Gastronômico do Balneário Shopping.  São vários restaurantes participando com pratos de R$70,00 no almoço e na janta. E aí, em qual vocês vão primeiro?  Corre que é até dia 30 de Abril",
+      "publication_num_likes": 1506,
+      "publication_num_comments": 14
+    }
+  },
+  {
+    "entity_id": "fba05be3-dc15-48ef-a2e3-74cc32188253:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5162914748658154,
+    "s_relevance": 0.2581457374329077,
+    "entity_data": {
+      "rnk": 0.0100304885,
+      "profile_id": 28618697473,
+      "publication_id": 3597771695709748624,
+      "profile_full_name": "Novvo Pré-Drink",
+      "publication_caption": "#TBT da primeira edição da Novvo Run! Fizemos o percurso de 5 KM no Parque do Povo, e claro que o pós corrida foi um HH de respeito no Restaurante Bar Mercearia! Conta pra gente onde você queria que rolasse a próxima edição da Novvo Run!  *Beba com responsabilidade  #acordenovvo #corrida #run #runningcommunity",
+      "publication_num_likes": 38,
+      "publication_num_comments": 1
+    }
+  }
+]

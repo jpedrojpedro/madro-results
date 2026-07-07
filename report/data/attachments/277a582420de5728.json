@@ -1,6 +1,0 @@
-[
-  {
-    "topic": "profile_retrieval",
-    "demand": "Retrieve a list of restaurant profiles where the description or business details contain the term \"pizza\"."
-  }
-]

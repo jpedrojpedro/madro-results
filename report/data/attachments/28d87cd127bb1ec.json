@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all publications made by the account 'broxadasinistra'."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve sentiment or engagement metrics for the posts of 'broxadasinistra' to identify the funniest content."
+  }
+]
