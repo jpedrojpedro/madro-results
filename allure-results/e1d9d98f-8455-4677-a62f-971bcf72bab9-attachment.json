@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Find restaurants located in Balneário Camboriú."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve social media publications for these restaurants focusing on pasta dishes."
+  }
+]

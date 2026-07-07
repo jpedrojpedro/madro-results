@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the profile details for the Instagram account '@haight_clothing'."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Determine if '@haight_clothing' sells products online by analyzing their recent posts."
+  }
+]

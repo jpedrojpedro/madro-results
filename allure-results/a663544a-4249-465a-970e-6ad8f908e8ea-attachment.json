@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the social media profile of '@eusougabriela'."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the content posted by '@eusougabriela' to identify their 'best' fitness tip."
+  }
+]

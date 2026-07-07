@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve all comments to analyze hate speech."
+  },
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the user profile associated with each analyzed comment."
+  }
+]

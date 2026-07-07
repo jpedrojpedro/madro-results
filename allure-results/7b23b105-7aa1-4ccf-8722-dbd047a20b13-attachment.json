@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the social media profile information for @eusougabriela."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the posts or publications shared by @eusougabriela to identify lifestyle tips."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze and retrieve opinions or ratings regarding the shared lifestyle tips to determine which are top-rated or most recommended."
+  }
+]

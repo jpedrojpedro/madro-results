@@ -1,0 +1,302 @@
+[
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi consists of several pieces of sushi rolls with different fillings, including salmon and avocado, arranged neatly on a plate with a red floral design.\n\nThe text in the image is written in Portuguese and reads as follows:\n\n- \"Até 30 de abril\" (Until April 30)\n- \"Todo dia tem opções deliciosas com preço especial.\" (Every day has delicious options with special prices.)\n- \"Prato do Chef\" (Chef's Dish)\n- \"R$ 70\" (R$ 70)\n\nThe advertisement highlights a special offer where customers can enjoy a \"Chef's Dish\" for R$ 70 until April 30. The overall design is clean and visually appealing, with a focus on the food items to attract potential customers.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a plate divided into two sections. On the left side of the plate, there is a serving of French fries. On the right side, there is a portion of sushi, consisting of several pieces of sushi rolls with orange fish and white rice. Below the sushi, there is a small bowl containing a salad made of green lettuce, cherry tomatoes, and possibly some other vegetables or ingredients.\n\nThe text \"CIRCUITO GASTRONÔMICO BALNEÁRIO Shopping\" is prominently displayed above the plate, with \"CIRCUITO GASTRONÔMICO\" in large, bold letters and \"BALNEÁRIO Shopping\" in smaller, uppercase letters below it. The logo for Balneário Shopping is also included, featuring a stylized letter \"B\" inside a circle.\n\nThe overall design of the advertisement is clean and visually appealing, focusing on the variety of food items available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "```markdown\n- Black and white outfit\n- Long black hair\n- White blouse with ruffled sleeves\n- Black belt\n- Black high heels\n- Black clutch with gold studs and fringes\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image features a person posing against a plain, light-colored background. The individual is dressed in a stylish outfit that includes a white, long-sleeved blazer with a deep V-neckline. The blazer has a modern, minimalist design with clean lines and a fitted silhouette.\n\nThe person is also wearing black high-heeled shoes with ankle straps, which add a touch of elegance to the overall look. They are holding a black clutch bag with gold accents and fringe details. The clutch has a unique design with circular cutouts and gold embellishments, giving it a fashionable and sophisticated appearance.\n\nThe person's hair is long and straight, cascading down their back. Their pose is confident and poised, with one knee bent and the other leg slightly bent, creating a dynamic and stylish stance. The lighting in the image highlights the textures and details of the clothing and accessories, emphasizing the modern and chic aesthetic of the outfit.",
+      "published_at": "2025-04-28T14:27:50",
+      "publication_id": 3620778636124196871
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "Este você encontra na Ana Capri",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image features two sneakers displayed on a stand against a plain, light-colored background. The sneakers are positioned side by side, with the one on the left being maroon and the one on the right being white. Both sneakers have a classic design with white laces and a combination of leather and fabric materials.\n\nThe maroon sneaker has a maroon upper with a gold accent on the side and a brown sole. The white sneaker has a white upper with a brown accent on the side and a white sole. Both sneakers have the brand name \"ANACAPRI\" printed on the tongue area.\n\nAbove the sneakers, there is text in Portuguese that reads: \"Este você encontra na Ana Capri,\" which translates to \"This you find at Ana Capri.\" This suggests that the sneakers are available for purchase at Ana Capri, a Brazilian fashion retailer.",
+      "published_at": "2025-04-28T14:27:50",
+      "publication_id": 3620778636124196871
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "```markdown\n# Sneaker Collection\n\n- **Top Row:**\n  - Orange\n  - Pink\n  - Red\n\n- **Middle Row:**\n  - Multi-color (gray, white, yellow)\n  - Yellow\n  - Red\n\n- **Bottom Row:**\n  - Brown\n  - White\n  - Beige\n  - Orange\n```",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image features a person sitting on the floor with a collection of colorful sneakers arranged around them. The individual is wearing a white sweater and has tattoos on their arms. The sneakers come in various colors, including orange, pink, red, yellow, and beige, and are displayed in a way that suggests they are being showcased or presented. The background is a solid blue color, which contrasts with the vibrant colors of the sneakers and the person's attire. The overall composition of the image is casual and stylish, emphasizing the variety and appeal of the sneakers.",
+      "published_at": "2025-04-28T14:27:50",
+      "publication_id": 3620778636124196871
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "```markdown\n**STEP BY STEP**\n\nDos clássicos aos ousados — presentes para mães que nunca param.\n```",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image features a woman sitting on the edge of a flower truck, which is parked on a city street. She is wearing a stylish outfit consisting of a long, dark-colored trench coat over a black top and high-heeled sandals. Her hair is long and dark, and she is smiling. The truck has a large window displaying an array of colorful flowers, including pink, white, and yellow blooms. The background shows a typical urban setting with buildings and other vehicles, indicating that the scene is likely in a busy city area. The text overlay at the bottom of the image reads \"STEP BY STEP\" followed by \"Dos clássicos aos ousados — presentes para mães que nunca param.\" This translates to \"From classics to bold — gifts for mothers who never stop.\"",
+      "published_at": "2025-04-28T14:27:50",
+      "publication_id": 3620778636124196871
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "Este você encontra na Schutz",
+      "position": 4,
+      "extension": "jpg",
+      "img_caption": "The image showcases a close-up of a woman's foot wearing a stylish, high-heeled shoe. The shoe is a light yellow or lemon color with a glossy finish, featuring a pointed toe and a thin, elegant heel. The heel is designed with a unique, geometric shape that has a metallic gold base and a black tip. The shoe appears to be made of a smooth, possibly patent leather material. The background is a soft, gradient blue, which contrasts with the vibrant yellow of the shoe, making it stand out prominently. The text \"Este você encontra na Schutz\" is displayed at the top of the image, indicating that the shoe can be found at the Schutz store.",
+      "published_at": "2025-04-28T14:27:50",
+      "publication_id": 3620778636124196871
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "Este você encontra na Arezzo",
+      "position": 5,
+      "extension": "jpg",
+      "img_caption": "The image showcases a stylish black high-heeled shoe with a unique design. The shoe features a pointed toe and a thin ankle strap that wraps around the back of the foot, secured by a small gold buckle. The heel is a striking golden color, adding a touch of elegance and sophistication to the overall look. The shoe is placed on a white surface, and next to it is a bouquet of white hydrangeas, which complements the sophisticated and elegant theme of the image. The background is a light gray, which helps to highlight the shoe and the flowers. The text at the bottom of the image reads \"Este você encontra na Arezzo,\" indicating that the shoe can be found at the Arezzo store.",
+      "published_at": "2025-04-28T14:27:50",
+      "publication_id": 3620778636124196871
+    }
+  },
+  {
+    "entity_id": "ec92ed4a-4975-4adc-83c1-6260f53c321a:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.4927625517713613,
+    "s_relevance": 0.24638127588568065,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "There is no text in the image.",
+      "position": 6,
+      "extension": "jpg",
+      "img_caption": "The image features three women posing together against a plain white background. They are all dressed in black, with each woman wearing different styles of black attire.\n\n1. The woman on the left is wearing a knee-length black dress that falls just above her knees. She has long, straight brown hair and is standing with one leg slightly bent and resting on a white stool.\n2. The woman in the middle is also wearing a black dress, but it is a long-sleeved turtleneck style that reaches her mid-thighs. She has shoulder-length blonde hair and is sitting on the same white stool as the woman on the left.\n3. The woman on the right is wearing a black mini dress that ends just above her knees. She has long, curly dark hair and is sitting on the stool as well.\n\nAll three women are wearing high-heeled shoes. The woman on the left is wearing black high-heeled shoes with a thin heel. The woman in the middle is wearing black high-heeled shoes with a thicker heel. The woman on the right is wearing black high-heeled shoes with a pointed toe and a thin heel.\n\nThe overall composition of the image is simple and elegant, focusing on the contrast between the black clothing and the white background.",
+      "published_at": "2025-04-28T14:27:50",
+      "publication_id": 3620778636124196871
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3471484267826322853,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Ele é brasileiro SIM! 🤩 Na noite desta quinta-feira (03), Bruno Mars foi flagrado se descontraindo em um bar no meio de São Paulo! Além das fotos e vídeos feitos pelos próprios fãs, a câmera de segurança do local também fez uma filmagem do nosso Bruninho (passa pro lado)! 📸: @sumidadobruninho / @lbmbr #brunomars #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3470242985310198687,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Após lançar o ousado álbum triplo “Uma Estrela Misteriosa”, Nando Reis vai se apresentar em, São Paulo. O show acontece no próximo dia 12 de outubro (sábado), no Espaço Unimed. Na apresentação, Nando deve apresentar faixas novas do disco triplo, e, é claro, tocar sucessos de sua carreira (que não são poucos!). Além disso, Nando Reis afirmou no lançamento do novo projeto que essa nova turnê é fundamentada em quatro pilares: inclusão, superação, sustentabilidade e autenticidade. Exemplo disso, é que as performances terão intérprete de libras. Um show imperdível! 🤩 Então, anote aí! 🗓Quando? 12 de outubro de 2024 (sábado) ⏰ 20h00 – Horário de abertura da casa. ⏰ 22h00 – Horário de início do show. Endereço: Local: Espaço Unimed Rua Tagipurú, 795 – Barra Funda 🎟 Vendas no site do Espaço Unimed (espacounimed.com.br).",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3463575382677805582,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "A Mix leva você para ver o Bruno Mars no melhor camarote do Morumbis. É isso mesmo, você vai curtir o show mais esperado do ano no Super Camarote, com visão privilegiada e muita mordomia. Para participar é Super simples: 1️⃣ Siga o @superbet_br 2️⃣ Marque nos comentários deste post o @ que vai curtir esse showzaço com você. 3️⃣ Pronto. Já está participando. O resultado, a gente te conta no dia 7 de outubro, a partir das 17h, no site da Mix. É a Super chance que você estava esperando para ver Bruno Mars ao vivo em São Paulo. Participe agora! Bruno Mars ao vivo no camarote Superbet: só podia ser com a Mix! - - - - Confira o regulamento no site da Mix (link na bio)",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 44484349753,
+      "publication_id": 3568586932096258501,
+      "profile_full_name": "BR Mania",
+      "publication_caption": "Se tem calor e tem Kibon, tem Brasil! E esse verão vira Mania! 🌞 Resgate produtos Kibon no App Premmia e ganhe uma bolsa térmica exclusiva para curtir a estação com muito sabor. *Os produtos participantes da promoção são família Magnum Picolés, família Tablito Picolés, família Cornetto e família Minis Caixinhas. Limite de 1 bolsa térmica por CPF a cada mês. Promoção válida enquanto durarem os estoques do brinde. Consulte as lojas participantes, todos os produtos e sabores no regulamento no app Premmia e no site (www.petrobraspremmia.com.br). Imagens meramente ilustrativas. #KibonMania #VerãoComKibon #BRMania #VemPraBRMania #BrasilQueSeEncontra #Encontros #brasilidade",
+      "publication_num_likes": 243,
+      "publication_num_comments": 31
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 293755951,
+      "publication_id": 3619522054945940404,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Visitei o Unizushi, que está participando do Circuito Gastronômico do Balneário Shopping e me apaixonei! 🍣  Menu completo (entrada, prato principal e sobremesa) por R$70,00. Ambiente aconchegante, atendimento ótimo… me senti em casa.  O festival vai até 30/04, e além do Unizushi  os outros restaurantes participantes são: Madero, Outback, Las Lenas e Pecorino. então corre pra aproveitar! 🎉",
+      "publication_num_likes": 175,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 293755951,
+      "publication_id": 3620778636124196871,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Dos clássicos atemporais aos modelos mais ousados, Arezzo, Schutz e Ana Capri te ajudam a encontrar o par perfeito para celebrar quem nunca para de caminhar por você. ✨ E tem mais: nas compras a partir de R$ 300 nas lojas físicas, você ainda concorre a um Volvo EX30 Plus, 100% elétrico! Promoção válida de 24/04 a 15/06. Consulte o regulamento no link da bio. Escolha o presente perfeito, emocione quem você ama e participe! Marque aqui aquela mãe que merece ganhar um presente inesquecível. 💝",
+      "publication_num_likes": 45,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "08588447-42ab-4f43-8e0a-5bb296b14f4c:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.45995830520658987,
+    "s_relevance": 0.22997915260329493,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 293755951,
+      "publication_id": 3569421094009736960,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "🎭✨ O Bailinho de Carnaval do Balneário Shopping está chegando! ✨🎭 No dia 23 de fevereiro, às 15h, a Praça Central (Piso L1) será tomada por brilho, cor e muita animação! Os pequenos foliões vão poder se divertir em um desfile de fantasias carnavalescas e participar de brincadeiras dançantes que vão transformar o dia em pura folia! 👑 Para garantir a participação no desfile e receber o Kit Folia: ✅ Resgate o benefício no app AJ Fans ✅ Apresente o QR Code no local do evento ✅ Após o desfile, retire seu Kit Folia e continue aproveitando! Corra e garanta a sua vaga! 🥳✨ Quem aí já está pronto para essa festa? 💃🕺",
+      "publication_num_likes": 33,
+      "publication_num_comments": 1
+    }
+  }
+]

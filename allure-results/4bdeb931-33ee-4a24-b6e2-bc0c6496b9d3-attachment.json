@@ -1,0 +1,6 @@
+[
+  {
+    "topic": "follower_retrieval",
+    "demand": "Find all restaurants with a follower count greater than 5,000."
+  }
+]

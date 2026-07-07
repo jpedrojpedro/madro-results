@@ -1,0 +1,592 @@
+[
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:0",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "profile_bio": "Mom of 2 👼👼| Wellness & Happiness  @gaabwellness 🦋 @liferesetschool 🌀 @rituaapp 💪🏼 @maulibowls 🥙 @papaiquefez_ 🍛 @lalumeoficial ✨ @sthorm.io 🌎",
+      "profile_full_name": "Gábi",
+      "profile_num_medias": 13652,
+      "profile_num_followers": 5630014
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:1",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 54701304813,
+      "profile_bio": "chasing the world’s best places lifestyle & travel photographer 🇨🇭 based in Switzerland 📬 tamas.pix@gmail.com",
+      "profile_full_name": "Tamas | travel & adventure creator",
+      "profile_num_medias": 494,
+      "profile_num_followers": 256456
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:2",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 10130294,
+      "profile_bio": "Autor best-seller, creator, storyteller lifestyle | cultura pop | fashion | sp 🇧🇷 📮 contato@hearthouse.com.br",
+      "profile_full_name": "Erick Mafra",
+      "profile_num_medias": 2440,
+      "profile_num_followers": 479900
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:3",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 9527188,
+      "profile_bio": "• founder of CF since 2012 • wellness club | become the best version of yourself 🤍 fashion, healthy lifestyle and",
+      "profile_full_name": "Carol Farina",
+      "profile_num_medias": 7552,
+      "profile_num_followers": 100798
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:4",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 208991362,
+      "profile_bio": "Tipo a Pugliesi, só que ao contrário. Foodie | Traveler | Lifestyle | Body Positive 📍de Fortaleza, morando em São",
+      "profile_full_name": "LV",
+      "profile_num_medias": 6321,
+      "profile_num_followers": 76385
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:5",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 198536464,
+      "profile_bio": "Your destination to the best of Miami’s luxury lifestyle, fashion, fine dining and more from @modernluxury 🤍",
+      "profile_full_name": "Modern Luxury MIAMI Magazine",
+      "profile_num_medias": 3468,
+      "profile_num_followers": 161160
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:6",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 4831998143,
+      "profile_bio": "🇫🇷 France Tourism ✨ 🍷 The best pictures of French lifestyle 📸 Tag @france.tourism or #francetoursim for repost",
+      "profile_full_name": "France 🇫🇷 Tourism",
+      "profile_num_medias": 53,
+      "profile_num_followers": 19605
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:7",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 3686239099,
+      "profile_bio": "🍓 Best Daily Food Posts 🍇 Tag Us For The Chance To Be Featured ✉ Dm Us If Credit Isn't Given!",
+      "profile_full_name": "DELICIOUS FOOD POSTS 🍭",
+      "profile_num_medias": 92,
+      "profile_num_followers": 21498
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:8",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 1140813515,
+      "profile_bio": "Food | Travel | Lifestyle Credit given to all content creators. DM to remove post or email us: befitsnacks@gmail.com ✌🏼",
+      "profile_full_name": "Sharing Good Food",
+      "profile_num_medias": 4334,
+      "profile_num_followers": 1618172
+    }
+  },
+  {
+    "entity_id": "4d7837af-78a4-4098-9851-478a3e9f65b2:9",
+    "s_lex": 0.4962818,
+    "s_sem": 0.6480035073919506,
+    "s_relevance": 0.5721426536959753,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 190943982,
+      "profile_bio": "• Lifestyle • Family • Travel • Marketing  • Wellness   Keep smiling, the best is yet to come!",
+      "profile_full_name": "Mariana Costa Marques",
+      "profile_num_medias": 1580,
+      "profile_num_followers": 1114
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3631083218310780646,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Twix saudavel!! 🍪Massa (que vira um biscoito delicioso para as crianças): 1 xícara de farinha de amêndoas  1 colher sopa de farinha de coco ou de aveia  3 colheres de sopa de mel ou melado  2 colheres de sopa de azeite 1 colher de chá de essência de baunilha  🍯 Caramelo- recheio:  1/3 xícara de pasta de amendoim  1 colher de sopa de mel 1 colher de sopa de azeite  1 colher de chá de baunilha  Pitada de sal 1 xícara de chocolate zero açúcar picado 1 colher sopa de azeite",
+      "publication_num_likes": -1,
+      "publication_num_comments": 26
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3606321180886193651,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Sera que voce sabe se expressar de forma clara sem violencia?  Isso é um exercício diario e fundamental para viver em sociedade e conseguir tudo que vc quiser através da sua fala. Voce ja parou pra pensar que sempre que voce consegue se expressar com calma e clareza tudo flui?  Leiam o livro: comunicação não violenta.",
+      "publication_num_likes": -1,
+      "publication_num_comments": 77
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3635192423815694758,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Vem pra @liferesetschool !!  Vamos falar disso e muito mais! 🫶",
+      "publication_num_likes": -1,
+      "publication_num_comments": 146
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3656278569512989509,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Na adolescencia a gente é um pouco ludibriada sobre oq significa ser amiga de verdade, ne?",
+      "publication_num_likes": -1,
+      "publication_num_comments": 1476
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3612889870474197132,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Pele perfeita em minutos 🕚 Face wash @gaabwellness  Mini facial brush @lalumebeauty  Pele de pessego @gaabwellness  Face mist vitamina C @gaabwellness  Guachá ouro @lalumebeauty  Miracle stick cor 30 @gaabwellness  Mini stick terracota @gaabwellness",
+      "publication_num_likes": -1,
+      "publication_num_comments": 40
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3630152720624213039,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Ser mãe de vocês é um milagre, é a melhor coisa que poderia ter acontecido comigo exatamente do jeito que aconteceu. Vocês dois são mais uma prova de Deus na minha vida, e é só por vocês que eu vivo hoje.  Obrigada por fortalecer em minha fé, e por me mostrarem que eu tenho uma capacidade imensa de amar que eu nem sabia que era possível 🤍",
+      "publication_num_likes": -1,
+      "publication_num_comments": 207
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3650454803616710014,
+      "profile_full_name": "Gábi",
+      "publication_caption": "O Segredo da vida é confiar no processo 🤲🫰",
+      "publication_num_likes": -1,
+      "publication_num_comments": 61
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3617862550398678243,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Exercício do espelho 🪞 Magic ✨ @liferesetschool",
+      "publication_num_likes": -1,
+      "publication_num_comments": 218
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3611403030533716221,
+      "profile_full_name": "Gábi",
+      "publication_caption": "Absolutamente todas as pessoas que eu conheco vêm elogiar Ornella pra mim.  E pessoas que eu não conheço, vêm até mim pra falar bem da Ornella tambem.  Desde o dia que ela nasceu, ha 34 anos, aonde eu vou, alguem da um jeito de elogiar ela pra mim.  Então, independente do ponto de vista, do momento q estiveram com ela, da fase, do lugar, da circunstancia, absolutamente todo mundo que esteve perto, muito perto, ou simplesmente trocou um sorriso (pq ela sorri 24h por dia então seria a unica opção) vai falar como Ornella é diferente, um carisma que  seria cansativo manter se nao fosse totalmente real.  Ela é o amor em pessoa, a médica mais humana no sentido literal da palavra, aquela que todo paciente merecia ter.  Ela trouxe meus dois filhos pro mundo e jaja teremos eles dois tambem testemunhando a benção que é ter uma Ornella na vida!  Agradeço pela sua existencia, porque todo mundo que cruza seu caminho é mais feliz!  Te amo 🎈🤍 15/04",
+      "publication_num_likes": -1,
+      "publication_num_comments": 175
+    }
+  },
+  {
+    "entity_id": "fc13369c-d12e-4032-afd6-8452e6f856a1:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.5155750703926684,
+    "s_relevance": 0.2577875351963342,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 29797722,
+      "publication_id": 3654877811647304224,
+      "profile_full_name": "Gábi",
+      "publication_caption": "A regra é: só pega o controle, se você pode controlar! De resto: SOLTA! Vem pro @liferesetschool",
+      "publication_num_likes": -1,
+      "publication_num_comments": 322
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\nlife reset\n\nQuanto mais você reclama, pior fica\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person with long, straight blonde hair wearing a light pink sweatshirt with a graphic design on the front. The design features a cartoon character holding a teddy bear and some text below it. The background appears to be a cozy indoor setting, possibly a living room or bedroom, with a bed visible behind the person. There is a framed picture hanging on the wall above the bed. The text overlay on the image reads \"Quanto mais você reclama, pior fica\" which translates to \"The more you complain, the worse it gets.\" The logo \"liferereset\" is also visible at the top of the image.",
+      "published_at": "2025-08-06T17:00:30",
+      "publication_id": 3693332406908204028
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "Cappuccino saudável",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person with long, blonde hair sitting at a table in what appears to be a kitchen or dining area. The individual is wearing a gray sweatshirt and has a tattoo on their left wrist. They are holding a glass cup of cappuccino close to their mouth, seemingly about to take a sip. The background includes a light blue wall, a shelf with some items, and a potted plant with yellow flowers. The text \"Cappuccino saudável\" is overlaid on the image, which translates to \"Healthy cappuccino\" in English.",
+      "published_at": "2025-08-05T13:50:11",
+      "publication_id": 3692511797463040326
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\n# Rainbow Over the Landscape\n\n- **View:** A stunning rainbow arching across the sky, with a lush green field and trees in the background.\n- **Location:** A modern, stone-paved patio area with a small, rectangular pool.\n- **Objects:**\n  - **Patio:** Stone-paved area with a small, rectangular pool.\n  - **Pool:** Small, rectangular pool with a lantern on its edge.\n  - **Landscape:** Green field and trees in the distance.\n  - **Rainbow:** Bright, colorful arc in the sky.\n  - **Clouds:** Overcast sky with patches of sunlight breaking through.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a serene outdoor scene featuring a modern, minimalist design. The foreground is dominated by a stone-paved patio area with a smooth, reflective surface. A small, rectangular table with a metal frame and a glass top is positioned near the edge of the patio, adding a touch of elegance to the setting.\n\nIn the background, there is a large, rectangular swimming pool that extends into the distance. The pool's edge is lined with lush greenery, including tall grasses and shrubs, which add a natural element to the otherwise man-made landscape. Beyond the pool, the view opens up to a vast, open field with golden-yellow crops, suggesting a rural or agricultural setting.\n\nA prominent feature of the image is a vibrant rainbow arching across the sky, its colors vividly contrasting against the overcast clouds. The rainbow spans from the left side of the image towards the right, creating a striking focal point and adding a sense of wonder and beauty to the scene.\n\nOverall, the image captures a tranquil moment in a picturesque outdoor space, blending natural elements with modern architecture and a beautiful natural phenomenon.",
+      "published_at": "2025-07-01T18:02:09",
+      "publication_id": 3667272151405849901
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\n# Double Rainbow Over a Stone Patio\n\n- **Foreground:**\n  - Stone patio with irregularly shaped stones.\n  - Lanterns on either side of the patio.\n  \n- **Middle Ground:**\n  - Swimming pool with a stone edge.\n  - Greenery and bushes lining the pool area.\n  \n- **Background:**\n  - Rolling hills and fields.\n  - Trees and vegetation in the distance.\n  - A wooden structure or pavilion partially visible.\n  \n- **Sky:**\n  - Cloudy sky with a double rainbow spanning across it.\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image depicts an outdoor scene featuring a double rainbow arching across the sky, creating a stunning visual effect. The ground is covered with a stone-paved patio area, which appears to be made of variously colored stones arranged in a pattern. The patio extends towards a swimming pool that is partially visible on the right side of the image.\n\nIn the background, there is a lush landscape with green fields and trees, suggesting a rural or countryside setting. The sky is overcast, with clouds diffusing the sunlight, which is essential for the formation of rainbows. The double rainbow adds a magical touch to the scene, highlighting the beauty of nature after a rainfall.\n\nOn the left side of the image, part of a wooden structure, possibly a gazebo or a pergola, is visible, adding to the serene and picturesque atmosphere of the location. The overall mood of the image is peaceful and tranquil, capturing a moment of natural wonder.",
+      "published_at": "2025-07-01T18:02:09",
+      "publication_id": 3667272151405849901
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\n# Rainbow Over Fields\n\n![Rainbow](attachment://rainbow.jpg)\n\nThe image shows a vibrant rainbow arching across the sky, with fields and trees in the background.\n```",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image depicts a stunning natural scene featuring a vibrant double rainbow arching across the sky. The rainbow is prominently displayed, with its vivid colors of red, orange, yellow, green, blue, and indigo clearly visible. The sky above is filled with dark, heavy clouds, suggesting recent or ongoing rainfall that created the conditions for the rainbow.\n\nIn the foreground, there is a well-maintained hedge or fence, which adds a structured element to the otherwise natural landscape. Beyond the hedge, the terrain transitions into a gently rolling landscape with patches of greenery and open fields. The fields appear to be agricultural, with some areas showing signs of cultivation or grazing. In the distance, there is a line of trees, possibly eucalyptus, which add depth and texture to the scene.\n\nThe overall atmosphere of the image is serene and picturesque, capturing the beauty of nature after a rain shower. The combination of the rainbow, the cloudy sky, and the lush landscape creates a harmonious and tranquil setting.",
+      "published_at": "2025-07-01T18:02:09",
+      "publication_id": 3667272151405849901
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\nTHE SECRETS\n```\n\n",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image depicts a person standing on a grassy path in a park-like setting, facing away from the camera. The person is wearing a green dress with white text and light-colored shoes. They have their arms outstretched, as if embracing the moment or reaching for something. \n\nIn the background, there is a stunning double rainbow arching across the sky, creating a vibrant and colorful scene. The sky is a mix of soft pastel hues, transitioning from light blue at the top to warmer tones near the horizon. The trees in the distance are lush and green, adding to the serene and picturesque atmosphere.\n\nThe overall mood of the image is one of joy and tranquility, capturing a beautiful moment of nature's beauty and the person's connection to it.",
+      "published_at": "2025-07-01T18:02:09",
+      "publication_id": 3667272151405849901
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "A importância de COMEMORAR pequenas VITÓRIAS",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image features a minimalist design with a light green background. Prominently displayed in the center is a golden balloon, which appears to be floating against the backdrop. The balloon is shiny and reflective, adding a touch of elegance to the overall composition.\n\nBelow the balloon, there is text written in Portuguese. The text reads: \"A importância de COMEMORAR pequenas VITÓRIAS.\" This translates to \"The importance of celebrating small victories\" in English. The text is white and contrasts well with the light green background, making it stand out clearly.\n\nThe overall aesthetic of the image is clean and modern, with a focus on the message conveyed by the text. The use of a golden balloon symbolizes celebration and achievement, reinforcing the theme of the text.",
+      "published_at": "2025-06-30T16:06:58",
+      "publication_id": 3666486324618254975
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "Não facilite a vida dos outros, se tiver que dificultar a sua.",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image features a text in Portuguese that reads: \"Não facilite a vida dos outros, se tiver que dificultar a sua.\" This translates to English as: \"Do not make life easier for others if you have to make it harder for yours.\"\n\nThe background of the image is a textured beige color, giving it a rustic and simple appearance. The text is centered and written in a clear, black font, making it easy to read against the light background. The overall design is minimalistic and straightforward, focusing solely on the message conveyed by the text.",
+      "published_at": "2025-06-29T20:54:10",
+      "publication_id": 3665909181737317162
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\nSAIBA A\nDIFERENÇA\nENTRE\nESPERAR E PERDER\nTEMPO\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image features a wooden sign with black text on it, placed against a dark, textured background that appears to be part of a painting or mural. The sign reads:\n\n```\nSAIBA A DIFERENÇA ENTRE ESPERAR E PERDER TEMPO\n```\n\nThis translates from Portuguese to:\n\n```\nKNOW THE DIFFERENCE BETWEEN WAITING AND LOSING TIME\n```\n\nThe sign is mounted on a wooden frame, and the background includes some abstract elements, possibly representing a night scene with lights and shadows. The overall aesthetic suggests a rustic or artistic setting.",
+      "published_at": "2025-06-29T20:54:10",
+      "publication_id": 3665909181737317162
+    }
+  },
+  {
+    "entity_id": "8ffc6333-4231-4d0a-8b9b-8db80a65ed83:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.49279996905281265,
+    "s_relevance": 0.24639998452640632,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "$\\text{clarissa}$\n\n@clapiclapiclapi\n\namo gente que tem mais o que fazer",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image shows a social media post with a gradient background transitioning from blue at the top to pink at the bottom. The post is made by a user named \"clarissa\" with the handle \"@clapiclapiclapi.\" The text of the post reads, \"amo gente que tem mais o que fazer,\" which translates to \"I love people who have more to do\" in English.\n\nThe post is enclosed within a white rectangular box that has rounded corners. The background behind the text box is a gradient of colors, starting with a light blue at the top and transitioning to a darker blue, then to a purple, and finally to a pink at the bottom. The overall design is simple and clean, focusing on the text and the gradient background.",
+      "published_at": "2025-06-29T20:54:10",
+      "publication_id": 3665909181737317162
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "Pura verdade!!👏🏽",
+      "num_likes": 0,
+      "comment_id": 18009060242612369,
+      "profile_id": 1128069462,
+      "published_at": "2025-08-06T22:46:52",
+      "publication_id": 3662175188917689498,
+      "publication_caption": "Um dia a gente percebe que os nossos pais também estavam tentando… e isso é libertador!"
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "Perfeito ótimas dicas 🙏🏼",
+      "num_likes": 0,
+      "comment_id": 18112862668512844,
+      "profile_id": 51706194,
+      "published_at": "2025-08-06T22:21:50",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "Com dinheiro, morando em Punta, com casa na Bahia, SP, etc fica facinho não reclamar de nada",
+      "num_likes": 0,
+      "comment_id": 18287072107284872,
+      "profile_id": 53418869267,
+      "published_at": "2025-08-06T22:09:49",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "❤️❤️❤️",
+      "num_likes": 1,
+      "comment_id": 17849334462492290,
+      "profile_id": 292601715,
+      "published_at": "2025-08-06T21:26:09",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "Exatamente assim 👏👏👏❤️",
+      "num_likes": 1,
+      "comment_id": 17944785543041100,
+      "profile_id": 5511430499,
+      "published_at": "2025-08-06T21:02:43",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "👏👏👏",
+      "num_likes": 1,
+      "comment_id": 18519460105051172,
+      "profile_id": 56371738126,
+      "published_at": "2025-08-06T20:09:00",
+      "publication_id": 3692511797463040326,
+      "publication_caption": "Eu amo bebidas quentes achocolatadas! Essa versão  do cappuccino além de ser deliciosa super funcional ☕️!"
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "👏👏👏👏",
+      "num_likes": 1,
+      "comment_id": 17899584303124487,
+      "profile_id": 288785381,
+      "published_at": "2025-08-06T20:02:49",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "Gabi . Vida , Mara e UP sempre . Gostei da dica para aplicar na vida. 👏👏👏👏",
+      "num_likes": 1,
+      "comment_id": 18053806298158856,
+      "profile_id": 69874479874,
+      "published_at": "2025-08-06T19:58:06",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "Fiz 7 dias .. é libertador! Testem pf 😍 tu entra numa paz de espirito.. que sempre que algo te abala, tu tenta “brincar” de novo .. “1 dia todo, vamos la, ja fez 7 Ga” 😊",
+      "num_likes": 1,
+      "comment_id": 17842160043554665,
+      "profile_id": 216035015,
+      "published_at": "2025-08-06T19:46:45",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  },
+  {
+    "entity_id": "5f25e2fe-83c5-4f2a-828d-25e50cd07c05:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.4756108754778987,
+    "s_relevance": 0.23780543773894935,
+    "entity_data": {
+      "comment": "Eu passo vários e quando reclamo peço perdão 🙌",
+      "num_likes": 1,
+      "comment_id": 18113313499506996,
+      "profile_id": 837017767,
+      "published_at": "2025-08-06T19:46:01",
+      "publication_id": 3693332406908204028,
+      "publication_caption": "Reclamar até alivia na hora… mas te mantém estacionada no mesmo problema. Quando você reclama, sua mente fica presa no que falta, no que irrita, no que não deu certo. E onde vai seu foco… vai sua energia. Agora imagina trocar o “que saco” por um “o que eu posso aprender com isso?” Foi assim que eu comecei a libertar a minha mente — e a minha vida — de padrões negativos. Porque no fim, é você quem escolhe em que frequência quer viver. Faz esse teste: toda vez que for reclamar, respira e troca por uma pergunta construtiva. Parece simples, mas muda tudo."
+    }
+  }
+]

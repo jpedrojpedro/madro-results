@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve all user profiles within the specified network."
+  },
+  {
+    "topic": "follower_retrieval",
+    "demand": "Retrieve the list of followers for all user profiles in the specified network."
+  }
+]

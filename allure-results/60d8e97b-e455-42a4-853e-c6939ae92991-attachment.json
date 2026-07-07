@@ -1,0 +1,302 @@
+[
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.01781016,
+      "ocr_text": "```markdown\nPetrobras\nGRID\n\nSÓ VEM!\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows two men standing at a gas station, both wearing green shirts. The man on the left is pointing towards the camera with his right hand, while the man on the right is also pointing towards the camera with his left hand. They appear to be smiling and looking directly at the camera.\n\nIn the background, there are signs indicating that this is a Petrobras gas station. The signs are white with the Petrobras logo and some text in Portuguese. There is also a sign for \"GRID\" visible above the pumps. The setting appears to be indoors, possibly under a canopy or shelter, as indicated by the ceiling structure and lighting fixtures.",
+      "published_at": "2025-04-04T22:14:34",
+      "publication_id": 3603616176668052003
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.01701453,
+      "ocr_text": "```markdown\nBanco Mercedes-Benz\n\n111\n\nREDE siga bem\n\nacademia P\n\nMahle\n\nPrometeon\n\n111\n\nPrometeon\n\nconto com a torcida de vocês\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person standing in front of a large truck, which appears to be a racing vehicle. The truck has the number \"11\" prominently displayed on its side and is adorned with various sponsor logos, including \"Banco Mercedes-Benz,\" \"REDE siga bem,\" and \"Prometeon.\" The person is wearing a racing suit with the number \"111\" and other sponsor logos, such as \"Mahle\" and \"Prometeon.\" The background includes a cloudy sky and some structures, suggesting that the setting might be an outdoor racing event or a pit stop area. The text at the bottom of the image reads \"conto com a torcida de vocês,\" which translates to \"I count on your support.\"",
+      "published_at": "2025-03-23T00:34:39",
+      "publication_id": 3594264796494826491
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.016279712,
+      "ocr_text": "```markdown\nPetrobras\nER Petrobras\nPETROBRAS\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person wearing a bright yellow polo shirt with green accents. The shirt features the logo \"Petrobras\" prominently on the left chest area. Around the neck, there is a green lanyard with the same \"Petrobras\" logo repeated multiple times. The person is also wearing a green cap with the \"Petrobras\" logo on it. The background appears to be an outdoor setting with some blurred lights and structures, suggesting it might be taken at an event or gathering.",
+      "published_at": "2025-04-30T19:49:55",
+      "publication_id": 3622390056905809630
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi includes pieces of salmon and rice, arranged neatly on a plate with a red floral design.\n\nThe text in the image is written in Portuguese and reads:\n\n\"ATÉ 30 DE ABRIL\nTodo dia tem opções deliciosas com preço especial.\nPrato do Chef R$ 70\"\n\nTranslated to English, it means:\n\"UPTO 30 OF APRIL\nEvery day has delicious options with special prices.\nChef's Dish R$ 70\"\n\nThe advertisement highlights a special offer where customers can enjoy a \"Chef's Dish\" for R$ 70 (approximately $10 USD) every day until April 30th. The dish is described as \"delicious,\" suggesting that it is a high-quality meal available at a discounted price. The overall design is clean and visually appealing, with a focus on the food items to attract potential customers.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a circular plate divided into four sections, each containing different types of food:\n\n1. **Top Left Section**: Contains a serving of French fries.\n2. **Top Right Section**: Features slices of sushi, including pieces of salmon and other ingredients wrapped in seaweed.\n3. **Bottom Left Section**: Displays a piece of grilled steak with visible grill marks.\n4. **Bottom Right Section**: Contains a salad with leafy greens, cherry tomatoes, and possibly some dressing or sauce.\n\nThe text \"CIRCUITO GASTRONÔMICO\" is prominently displayed in large, bold letters at the top of the image, with \"BALNEÁRIO Shopping\" written below it in a smaller font. The overall design is clean and visually appealing, highlighting the variety of food options available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n# Baked Dish with Crumb Topping\n\n## Ingredients:\n- **Bread crumbs**\n- **Herbs (rosemary, parsley)**\n- **Other ingredients (not specified in the image)**\n\n## Instructions:\n1. Preheat oven to 375°F (190°C).\n2. Spread bread crumbs evenly on a baking dish.\n3. Add herbs on top of the bread crumbs.\n4. Bake for 20-25 minutes or until golden brown and crispy.\n5. Serve hot.\n\n## Serving Suggestions:\n- Serve with a side salad or roasted vegetables.\n- Pair with a glass of red wine for a complete meal.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a dish of baked stuffing, which appears to be a classic Thanksgiving side dish. The stuffing is golden brown and has a crispy, breaded texture on top. It is placed in a blue enameled cast iron baking dish with a white interior. The dish is set on a wooden surface, possibly a table or countertop.\n\nIn the background, there is a white ceramic pitcher filled with fresh herbs. The herbs include rosemary and parsley, which are commonly used in stuffing recipes for their aromatic qualities. The pitcher is placed on the same wooden surface as the baking dish.\n\nThe overall setting suggests a home-cooked meal, likely prepared for a festive occasion such as Thanksgiving or Christmas. The presence of fresh herbs indicates that the stuffing was freshly made and garnished with them before baking.",
+      "published_at": "2025-04-14T14:54:32",
+      "publication_id": 3610644624164622272
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "Por que vc fala tanto \"Só Vem\" toda vez que fala dos Postos Petrobras?\n\nQue bom que perguntou!\n\n10:50:03\n\nsóVEM\n\n---\n\n**Messages...**\n\n- / : ; ( ) $ & @ “” #+= . , ? ! ' /",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a screenshot of a text conversation on a messaging app. The conversation is between two users, with the first user asking, \"Por que vc fala tanto 'Só Vem' toda vez que fala dos Postos Petrobras?\" which translates to \"Why do you talk so much about 'Only Come' every time you talk about Petrobras stations?\"\n\nThe second user responds with \"Que bom que perguntou!\" which means \"Good that you asked!\"\n\nBelow the conversation, there is an audio message with a timestamp of 10:50:03. The audio message is played by a play button.\n\nAt the bottom of the screen, there is a logo for \"sóVEM\" in green and white colors. The keyboard is visible at the bottom, indicating that the conversation is still ongoing.\n\nThe overall theme of the conversation seems to be related to Petrobras stations, possibly discussing their operations or policies.",
+      "published_at": "2025-04-09T19:30:10",
+      "publication_id": 3607159997290806772
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n- Petrobrás Premmia\n- Viva Energie SA\n- Mercado Pago\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a collage of four different photos featuring a woman. Here is a detailed description of each photo:\n\n1. **Top Left Photo**: The woman is smiling brightly, showing her teeth. She has long, straight hair that is a mix of brown and red tones. She is wearing a green top and has a small tattoo on her left shoulder. She is holding a phone in her right hand.\n\n2. **Top Right Photo**: The woman is standing outside a gas station, with her arms raised above her head. She is wearing a green dress with cut-out details on the sides. The background shows a gas station with several cars and a building with a sign that reads \"Petrobrás Premia.\"\n\n3. **Bottom Left Photo**: The woman is holding a smartphone with a screen displaying an app interface. The app appears to be related to Petrobrás, as indicated by the text on the screen. The app has various sections with images and text, suggesting it might be for managing fuel purchases or other services related to Petrobrás.\n\n4. **Bottom Right Photo**: This photo focuses on the woman's face, specifically her nose and mouth area. She is wearing a pair of earrings with intricate designs. Her lips are painted with a bright pink lipstick, and she is smiling.\n\nThe collage seems to highlight the woman's interaction with a mobile app related to Petrobrás, possibly for managing fuel purchases or other services at the gas station.",
+      "published_at": "2025-03-21T16:16:42",
+      "publication_id": 3593290825653055294
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "86bfa8dc-3c42-433f-b8b7-1c4aaad11cc4:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.5681723778349629,
+    "s_relevance": 0.28408618891748144,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "```markdown\nVocê encontra na Schutz\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image features a person sitting on a dark-colored couch against a plain, light-colored wall. The individual is wearing a long, black dress that reaches the floor and has a high slit on one side, revealing their legs. They are also wearing black thigh-high boots with gold studs and a pointed toe. The person's hair is blonde and styled straight. The overall aesthetic of the image is modern and stylish, with a focus on fashion and elegance.",
+      "published_at": "2025-05-20T21:32:51",
+      "publication_id": 3636937617544795846
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "🤣🤣🤣 Se Carlinhos tá de um lado, estamos do outro!",
+      "num_likes": 0,
+      "comment_id": 17896570893295749,
+      "profile_id": 65546748031,
+      "published_at": "2025-09-17T14:37:42",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "O caneta azul foi demaiseee",
+      "num_likes": 0,
+      "comment_id": 18090184465771222,
+      "profile_id": 3195579422,
+      "published_at": "2025-09-17T14:03:59",
+      "publication_id": 3720814349087793762,
+      "publication_caption": "E AÍ QUAL IMITAÇÃO VENCEU??"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "Perdi esse ep mas vou ter que assistir, só pq é o BENTO SOZINHO DESTA VEZ🙌👏",
+      "num_likes": 0,
+      "comment_id": 18077578001299224,
+      "profile_id": 2353235368,
+      "published_at": "2025-09-17T14:01:24",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "Vou assistir completo esse podcast",
+      "num_likes": 0,
+      "comment_id": 18042443240383714,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:16:30",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "Vini te amo ❤️",
+      "num_likes": 0,
+      "comment_id": 18058234100527713,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:15:49",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "😂😂😂😂😂😂😂",
+      "num_likes": 0,
+      "comment_id": 17886766356361891,
+      "profile_id": 62884332640,
+      "published_at": "2025-09-17T13:03:10",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "🤮🤮🤮🤮🤮🤮🤮🤮",
+      "num_likes": 0,
+      "comment_id": 17925297876104221,
+      "profile_id": 23071770558,
+      "published_at": "2025-09-17T12:50:13",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "Eu. Ainda. Estou. Aqui.⚡️🤖⚡️",
+      "num_likes": 0,
+      "comment_id": 18061082489457844,
+      "profile_id": 50902759644,
+      "published_at": "2025-09-17T12:21:07",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "OS HATERS NÃO SOLTAM O ANJO DO CARLINHOS",
+      "num_likes": 0,
+      "comment_id": 18534898492056414,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:26:19",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "ce0b677a-03c9-4f26-9fb6-9f90e2127c63:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.47111300255586164,
+    "s_relevance": 0.23555650127793082,
+    "entity_data": {
+      "comment": "AMOOO O @ CARLINHOS ❤️",
+      "num_likes": 0,
+      "comment_id": 18310066159171916,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:25:39",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  }
+]

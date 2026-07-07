@@ -1,0 +1,9 @@
+Based on the provided information, the restaurants participating in the **Circuito Gastronômico** at **Balneário Shopping** offer special menu options at a fixed price of R$ 70,00 for both lunch and dinner. These restaurants are:
+
+*   **Unizushi**
+*   **Madero**
+*   **Outback**
+*   **Las Lenas**
+*   **Pecorino**
+
+While the provided text specifies that the offer is available "every day" (todo dia) until April 30th, it does not explicitly list the operating hours for individual days of the week, including Wednesdays. Therefore, it is confirmed that these restaurants are part of an event running daily through April 30th, but specific Wednesday opening hours are not provided.

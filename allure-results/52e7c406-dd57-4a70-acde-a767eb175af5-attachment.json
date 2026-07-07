@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify restaurant owners mentioned in professional reviews or public records."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve public records and professional reviews regarding the personality of restaurant owners."
+  }
+]

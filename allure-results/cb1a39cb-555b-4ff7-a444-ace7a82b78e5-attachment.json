@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Provide recommendations for appropriate clothing, fabrics, and formality levels for guests attending a beach wedding."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify suitable types of footwear for guests to wear in a sandy environment."
+  }
+]
