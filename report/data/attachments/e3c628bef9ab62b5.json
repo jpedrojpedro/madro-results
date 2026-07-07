@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all publications produced by the entity @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze and extract the primary subjects and themes from the retrieved publications."
+  }
+]

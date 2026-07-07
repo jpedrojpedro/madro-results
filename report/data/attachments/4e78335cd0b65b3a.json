@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify social media profiles that are similar to the account @eusougabriela."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Filter identified profiles for those that primarily publish fitness-related content."
+  }
+]

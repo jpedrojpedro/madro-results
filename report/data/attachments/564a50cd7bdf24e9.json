@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify restaurants that have an official social media presence."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify restaurants that are frequently featured or endorsed by social media influencers."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve restaurant entities with \"pizza\" in their profile descriptions."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve restaurant entities with \"pizza\" in their menu attributes."
+  }
+]

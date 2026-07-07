@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all posts from the account @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze and identify the post from @broxadasinistra with the highest engagement or consensus regarding it being the funniest."
+  }
+]

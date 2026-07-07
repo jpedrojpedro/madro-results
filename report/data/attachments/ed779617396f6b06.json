@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all social media posts categorized as 'seafood'."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve the total number of comments for the identified seafood posts to determine which restaurant has the highest count."
+  }
+]
