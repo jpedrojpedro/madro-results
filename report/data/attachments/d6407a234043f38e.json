@@ -1,0 +1,11 @@
+[
+  {
+    "agent": "FollowerAnalysisFetcherAgent",
+    "status": "completed",
+    "chunks": 1,
+    "provenance": {
+      "source": "local://madro/retrieval_agents/follower_analysis_fetcher_agent",
+      "agent": "FollowerAnalysisFetcherAgent"
+    }
+  }
+]

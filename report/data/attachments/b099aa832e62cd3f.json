@@ -1,0 +1,10 @@
+[
+  {
+    "job_id": "800238f7-9de9-58f0-8c9d-eeead5014299",
+    "agent": "PublicationFetcherAgent"
+  },
+  {
+    "job_id": "800238f7-9de9-58f0-8c9d-eeead5014299",
+    "agent": "ImageFetcherAgent"
+  }
+]

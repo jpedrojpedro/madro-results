@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve information about the cuisine type, dining experience, and categorization of the restaurant 'Tutto Nhoque'."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Identify other restaurants that share similar cuisine, dining experience, or categorization as 'Tutto Nhoque'."
+  }
+]

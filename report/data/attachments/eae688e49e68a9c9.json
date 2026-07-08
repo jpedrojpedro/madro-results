@@ -1,0 +1,29 @@
+[
+  {
+    "agent": "ProfileFetcherAgent",
+    "status": "completed",
+    "chunks": 1,
+    "provenance": {
+      "source": "local://madro/retrieval_agents/profile_fetcher_agent",
+      "agent": "ProfileFetcherAgent"
+    }
+  },
+  {
+    "agent": "PublicationFetcherAgent",
+    "status": "completed",
+    "chunks": 2,
+    "provenance": {
+      "source": "local://madro/retrieval_agents/publication_fetcher_agent",
+      "agent": "PublicationFetcherAgent"
+    }
+  },
+  {
+    "agent": "ImageFetcherAgent",
+    "status": "completed",
+    "chunks": 5,
+    "provenance": {
+      "source": "local://madro/retrieval_agents/image_fetcher_agent",
+      "agent": "ImageFetcherAgent"
+    }
+  }
+]

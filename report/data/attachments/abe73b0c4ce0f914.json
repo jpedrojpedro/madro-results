@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "List all restaurants."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Identify the operating business hours for restaurants on Wednesdays."
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:0",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.005496234,
+      "profile_id": 55610751214,
+      "publication_id": 3723034139005368022,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷",
+      "publication_num_likes": -1,
+      "publication_num_comments": 75
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:1",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3721538914935982229,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "Vini Maga responde o Carlinhos Maia",
+      "publication_num_likes": -1,
+      "publication_num_comments": 610
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:2",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3658392737846414467,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "ai que medo da gu3rra uuuuui",
+      "publication_num_likes": 23692,
+      "publication_num_comments": 248
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:3",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3721719919622064200,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "O CANDIRUUU CABE CERTINHO NO MEU ...",
+      "publication_num_likes": -1,
+      "publication_num_comments": 46
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:4",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3720145596054611955,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "BOLSONARO CONDENADO 😭🙏🎉",
+      "publication_num_likes": -1,
+      "publication_num_comments": 208
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:5",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3719998866574920940,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "DONA MORTE 💀",
+      "publication_num_likes": -1,
+      "publication_num_comments": 28
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:6",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3719391541816323482,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "Tá rindo pq ainda não começou o programa!!!!!!! Kkkkkk briks Você viu o fenômeno primeiro aqui! Com vocês @euvinimaga pela PRIMEIRA VEZ na Internet! Pontualmente às 20 horas.",
+      "publication_num_likes": -1,
+      "publication_num_comments": 235
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:7",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3720814349087793762,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "E AÍ QUAL IMITAÇÃO VENCEU??",
+      "publication_num_likes": -1,
+      "publication_num_comments": 85
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:8",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3722324724669322950,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "Os mais antigos chamam ele de Bento Os haters chamam de Bentola Mas para nós ele é O CHAPADO CRÍTICO! Verdades serão ditas... NÃO PERCA Pontualmente às 20 horas.",
+      "publication_num_likes": -1,
+      "publication_num_comments": 200
+    }
+  },
+  {
+    "entity_id": "1a8f80c7-e706-4d54-ba02-9d320447c105:9",
+    "s_lex": 0.48653477,
+    "s_sem": 0.5176574294589973,
+    "s_relevance": 0.49587156783769915,
+    "entity_data": {
+      "rnk": 0.0,
+      "profile_id": 55610751214,
+      "publication_id": 3664344731670050938,
+      "profile_full_name": "Broxada Sinistra",
+      "publication_caption": "Magal, o piranho de carioca",
+      "publication_num_likes": 3978,
+      "publication_num_comments": 30
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:0",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.005496234,
+      "ocr_text": "```markdown\n**QUE ISSO**\n\n**FALTOU UMA M3TRALH4D*RA**\n\n**CONSERTAMOS O AINDA ESTOU AQUI**\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image appears to be a screenshot from a podcast or radio show, featuring two hosts seated at a table with microphones in front of them. The background is colorful and vibrant, with a mix of blue, orange, and green hues, possibly indicating a festive or energetic atmosphere.\n\nThe text on the image is in Portuguese and includes several phrases:\n- \"QUE ISSO\" (What about that)\n- \"FALTOU UMA M3TRALH4D*RA\" (One missed a machine gun)\n- \"CONSERTAMOS O AINDA ESTOU AQUI\" (We fixed it, I'm still here)\n\nThe hosts are engaged in conversation, with one looking towards the other, suggesting a collaborative discussion. The overall tone of the image seems to be light-hearted and humorous, possibly addressing a recent incident or mistake related to a machine gun, as indicated by the text.",
+      "published_at": "2025-09-16T16:32:14",
+      "publication_id": 3723034139005368022
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:1",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\n# Segunda\n15/09\n20H\n\n**BROXADA SINISTRA**\n\n**CHAPADO CRÍTICO**\nO BENTO RIBEIRO\n\n[YouTube.com/Broxadasinistra]\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a show or event titled \"Broxada Sinistra.\" The text on the image indicates that it will take place on the 15th of September at 20:00 (8 PM). The main focus of the image is a man with short dark hair, wearing a brown hoodie, who appears to be speaking or gesturing with his right hand. He has a mustache and is looking directly at the camera.\n\nThe background features a colorful, vibrant setting with various people, suggesting a lively atmosphere, possibly a party or a social gathering. The text \"Chapado Crítico\" and \"O Bento Ribeiro\" are prominently displayed in bold, white letters across the middle of the image, indicating the names of the hosts or key figures associated with the event.\n\nAt the bottom of the image, there is a YouTube link provided: \"youtube.com/broxadasinistra,\" which likely directs viewers to the channel where more information about the event can be found. The overall design of the image uses a mix of bright colors and dynamic elements to create an engaging and energetic feel.",
+      "published_at": "2025-09-15T17:01:47",
+      "publication_id": 3722324724669322950
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:2",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\nO CANDIRUUU\n\nQUAL BICHO VOCÊ SERIA?\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a collage featuring two individuals, one on the left and one on the right, both engaged in what appears to be a lively conversation or performance. The person on the left is wearing glasses and a blue shirt, while the person on the right is wearing a red cap with a logo and a light-colored shirt. Both individuals are pointing towards each other, suggesting a dynamic interaction.\n\nIn the background, there is a blurred crowd of people, indicating that the scene might be taking place at a public event or gathering. The setting includes a table with various items, such as a glass of beer and some confetti scattered around, adding to the festive atmosphere.\n\nThe text overlay in the image reads \"O CANDIRUUU\" and \"QUAL BICHO VOCÊ SERIA?\" which translates to \"The Candiru\" and \"What animal would you be?\" respectively. This suggests that the image is likely from a humorous or playful context, possibly related to a game or challenge where participants are asked to identify an animal based on their personality traits or characteristics.",
+      "published_at": "2025-09-14T21:00:59",
+      "publication_id": 3721719919622064200
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:3",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "Vini Maga explica treta com Carlinhos Maia\n\nBola 7\nBoca de B*ceta",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a collage consisting of three sections, each containing different content.\n\n1. **Top Section:**\n   - The background is white.\n   - Text in bold black font reads: \"Vini Maga explica treta com Carlinhos Maia.\"\n\n2. **Middle Section:**\n   - The background features a person with curly hair wearing glasses and a blue shirt, sitting in front of a microphone. The person appears to be speaking or gesturing with their hands.\n   - There is text overlaying the image that reads: \"Bola 7 Boca de B*ceta\" (translated from Portuguese as \"Ball 7 Mouth of a S**t\").\n\n3. **Bottom Section:**\n   - The background shows a person with short hair and a beard, wearing a green shirt.\n   - There is text overlayed on the image that reads: \"Broxadasinistra\" (translated from Portuguese as \"Broxada Sinistra\").\n\nThe overall theme of the collage seems to be related to a discussion or explanation about an incident involving Vini Maga and Carlinhos Maia, possibly involving some form of conflict or controversy.",
+      "published_at": "2025-09-14T15:00:21",
+      "publication_id": 3721538914935982229
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:4",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "SILVIO SANTOS BAFORANDO\nKKKKKK\nAS PIORES IMITAÇÕES",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a collage featuring three individuals, each with distinct expressions and attire. The background is vibrant and festive, with colorful confetti and fireworks, suggesting a celebratory or party atmosphere.\n\n1. **Top Left Individual**: This person is wearing a red cap with a white logo on it. They have a beard and are holding a green bottle, possibly a soda or beer, near their mouth as if they are about to take a sip. The text \"SILVIO SANTOS BAFORANDO\" is prominently displayed in yellow letters below them, indicating a humorous or satirical reference to Silvio Santos, a Brazilian television personality known for his long beard.\n\n2. **Middle Individual**: This person is wearing glasses and a blue shirt. They are laughing heartily, with their mouth wide open and eyes closed, adding to the festive mood of the image.\n\n3. **Bottom Right Individual**: This person is also wearing glasses and a green shirt. They are laughing and pointing towards the middle individual, further emphasizing the jovial atmosphere.\n\n4. **Text**: The central part of the image features large, bold text that reads \"AS PIORES IMITAÇÕES,\" which translates to \"THE WORST Imitations\" in English. This suggests that the image is likely a humorous or satirical piece, possibly poking fun at the worst imitations of famous people or events.\n\nOverall, the image combines elements of humor, celebration, and satire, creating a lively and engaging visual.",
+      "published_at": "2025-09-13T15:00:43",
+      "publication_id": 3720814349087793762
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:5",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "boa bolsonaro\nxkxxxxxxx\nnão sei\n\nBOLSONARO CONDENADO",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a collage featuring two different scenes. \n\n1. **Left Scene**: \n   - A man wearing a red cap and a light blue jacket is laughing heartily.\n   - He has a beard and is holding a glass of beer.\n   - The background shows a crowd of people, suggesting a festive or celebratory event.\n\n2. **Right Scene**:\n   - Another man with a beard is speaking into a microphone.\n   - He is holding a can of soda and appears to be addressing the audience.\n   - The background is dark, indicating an indoor setting, possibly a stage or a concert venue.\n\n3. **Text Elements**:\n   - At the bottom of the image, there is text in Portuguese: \"BOA BOLSONARO\" followed by \"xkxxxxxxx\" (likely a typo or placeholder).\n   - Below that, there is another line of text: \"não sei\".\n   - The most prominent text at the bottom of the image reads: \"BOLSONARO CONDENADO\".\n\n4. **Additional Details**:\n   - There are confetti scattered on the table in front of the man speaking into the microphone.\n   - The overall atmosphere suggests a lively and possibly controversial event, given the context provided by the text.\n\nThis image seems to juxtapose two different reactions to a political figure named Bolsonaro, with one scene showing celebration and the other showing confusion or disbelief.",
+      "published_at": "2025-09-12T17:03:52",
+      "publication_id": 3720145596054611955
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:6",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\nDONA MORTE\n\ne esse aqui hein\n\n@broxadasinistra\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a classroom scene with several students and a teacher. The teacher, who is seated at a desk, is wearing a suit and has his hand on his chin, appearing to be deep in thought or contemplation. Behind him, there is a student dressed in a black hooded cloak, which resembles the appearance of Death from popular culture. This student is standing and looking down at the teacher.\n\nIn the foreground, another student is sitting at a desk, holding a pink fluffy object, possibly a toy or a prop. The student is wearing a white shirt and a plaid skirt. The classroom has blue curtains and a whiteboard in the background, which appears to have some writing on it. \n\nThe text overlay on the image includes the words \"DONA MORTE\" (Death Lady) and \"e esse aqui hein\" (@broxadasinistra), suggesting a humorous or satirical context. The overall tone of the image seems to be playful and light-hearted.",
+      "published_at": "2025-09-12T12:00:35",
+      "publication_id": 3719998866574920940
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:7",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "| QUINTA | 11/09 | 20H |\n| --- | --- | --- |\n| **BROXADA SINISTRA** |\n| VINI MAGA |\n| YOUTUBE.COM/BROXADASINISTRA |",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a promotional poster for an event or show. The central figure is a person with short, curly hair wearing glasses and a white hoodie over a black jacket. The background features a crowd of people, some of whom appear to be laughing or cheering, suggesting a lively and energetic atmosphere.\n\nKey elements in the image include:\n\n1. **Text**: \n   - \"QUINTA\" (Friday)\n   - \"11/09\" (September 11th)\n   - \"20H\" (8 PM)\n   - \"VINI MAGA\"\n   - \"BROXADA SINISTRA\"\n   - \"YOUTUBE.COM/BROXADASINISTRA\"\n\n2. **Design Elements**:\n   - The text is arranged in a visually appealing manner, with \"QUINTA\" and \"11/09\" in a bold, rectangular box at the top left.\n   - \"20H\" is placed below the date.\n   - \"VINI MAGA\" is prominently displayed in large, bold letters across the middle of the image.\n   - \"BROXADA SINISTRA\" is written in a stylized font at the top right corner.\n   - The YouTube link is placed at the bottom center.\n\n3. **Background**:\n   - The background shows a crowd of people, likely at a live event or concert, with some individuals visible in the foreground and others in the background.\n   - The lighting suggests a well-lit indoor venue, possibly with stage lights and a vibrant atmosphere.\n\nOverall, the image promotes an event or show featuring the individual named Vini Maga, scheduled for Friday, September 11th at 8 PM, and encourages viewers to watch it on YouTube.",
+      "published_at": "2025-09-11T15:54:04",
+      "publication_id": 3719391541816323482
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:8",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\nSEU KIBE\nLOCO\n\n@broxadasinistra\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person wearing a dark-colored jacket with a hood. The individual has a beard and is looking directly at the camera. The background appears to be an indoor setting, possibly a room or office, with some books and other items visible on a shelf behind them. The text overlay on the image reads \"SEU KIBE LOCO\" and \"@broxadasinistra,\" suggesting it might be a social media post or a caption for a video. The overall tone of the image seems casual and informal.",
+      "published_at": "2025-09-11T12:00:55",
+      "publication_id": 3719274200122087558
+    }
+  },
+  {
+    "entity_id": "a7347922-d00e-48b0-a870-6633a2b9af75:9",
+    "s_lex": 0.25811216,
+    "s_sem": 0.5569167621007056,
+    "s_relevance": 0.3477535406302117,
+    "entity_data": {
+      "rnk": 0.0,
+      "ocr_text": "```markdown\nRESENHA\n\n@broxadasinistra\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image appears to be a screenshot from a video or a live stream, featuring a person wearing a black jacket with an orange and white design on the back, which resembles the Akatsuki clan from the anime series \"Naruto.\" The person is seated at a table with a microphone in front of them, suggesting they might be hosting a podcast or a radio show.\n\nIn the foreground, there is a hand pointing towards the person's face with a thumbs-up gesture. The background shows a colorful, abstract painting or mural with various shapes and colors. There is also a smartphone on the table next to the person.\n\nAt the bottom of the image, there is text that reads \"RESENHA\" in large, bold letters, followed by \"@broxadasinistra\" in smaller text. This suggests that the content might be related to a review or critique, possibly of a product or service, given the context provided by the text.",
+      "published_at": "2025-07-01T17:01:54",
+      "publication_id": 3667246148584140894
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:0",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "🤣🤣🤣 Se Carlinhos tá de um lado, estamos do outro!",
+      "num_likes": 0,
+      "comment_id": 17896570893295749,
+      "profile_id": 65546748031,
+      "published_at": "2025-09-17T14:37:42",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:1",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "O caneta azul foi demaiseee",
+      "num_likes": 0,
+      "comment_id": 18090184465771222,
+      "profile_id": 3195579422,
+      "published_at": "2025-09-17T14:03:59",
+      "publication_id": 3720814349087793762,
+      "publication_caption": "E AÍ QUAL IMITAÇÃO VENCEU??"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:2",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "Perdi esse ep mas vou ter que assistir, só pq é o BENTO SOZINHO DESTA VEZ🙌👏",
+      "num_likes": 0,
+      "comment_id": 18077578001299224,
+      "profile_id": 2353235368,
+      "published_at": "2025-09-17T14:01:24",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:3",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "Vou assistir completo esse podcast",
+      "num_likes": 0,
+      "comment_id": 18042443240383714,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:16:30",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:4",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "Vini te amo ❤️",
+      "num_likes": 0,
+      "comment_id": 18058234100527713,
+      "profile_id": 5675741021,
+      "published_at": "2025-09-17T13:15:49",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:5",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "😂😂😂😂😂😂😂",
+      "num_likes": 0,
+      "comment_id": 17886766356361891,
+      "profile_id": 62884332640,
+      "published_at": "2025-09-17T13:03:10",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:6",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "🤮🤮🤮🤮🤮🤮🤮🤮",
+      "num_likes": 0,
+      "comment_id": 17925297876104221,
+      "profile_id": 23071770558,
+      "published_at": "2025-09-17T12:50:13",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:7",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "Eu. Ainda. Estou. Aqui.⚡️🤖⚡️",
+      "num_likes": 0,
+      "comment_id": 18061082489457844,
+      "profile_id": 50902759644,
+      "published_at": "2025-09-17T12:21:07",
+      "publication_id": 3723034139005368022,
+      "publication_caption": "Bento Ribeiro, o Chapado Crítico, conserta o filme Ainda Estou Aqui 🇧🇷"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:8",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "OS HATERS NÃO SOLTAM O ANJO DO CARLINHOS",
+      "num_likes": 0,
+      "comment_id": 18534898492056414,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:26:19",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  },
+  {
+    "entity_id": "306f6f30-9072-4932-8bdf-2eb64f7d8327:9",
+    "s_lex": 0.24527821,
+    "s_sem": 0.5180716685985763,
+    "s_relevance": 0.3271162475795729,
+    "entity_data": {
+      "comment": "AMOOO O @ CARLINHOS ❤️",
+      "num_likes": 0,
+      "comment_id": 18310066159171916,
+      "profile_id": 68092690650,
+      "published_at": "2025-09-17T11:25:39",
+      "publication_id": 3721538914935982229,
+      "publication_caption": "Vini Maga responde o Carlinhos Maia"
+    }
+  }
+]

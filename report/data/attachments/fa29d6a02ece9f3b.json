@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve a list of restaurants."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve the health and safety compliance status for restaurants."
+  }
+]

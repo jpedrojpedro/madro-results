@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Find restaurants with the highest customer ratings."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify restaurants with positive feedback regarding food quality."
+  }
+]

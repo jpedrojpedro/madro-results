@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Find all restaurants categorized as 'Italian' in Rio de Janeiro."
+  },
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify the location of the restaurants to ensure they are within Rio de Janeiro."
+  }
+]

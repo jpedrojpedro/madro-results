@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify restaurants within the specified local jurisdiction."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve the health and safety inspection grades or statuses for the identified restaurants."
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "agent": "PublicationFetcherAgent",
+    "status": "completed",
+    "chunks": 2,
+    "provenance": {
+      "source": "local://madro/retrieval_agents/publication_fetcher_agent",
+      "agent": "PublicationFetcherAgent"
+    }
+  },
+  {
+    "agent": "ImageFetcherAgent",
+    "status": "completed",
+    "chunks": 4,
+    "provenance": {
+      "source": "local://madro/retrieval_agents/image_fetcher_agent",
+      "agent": "ImageFetcherAgent"
+    }
+  },
+  {
+    "agent": "FollowerAnalysisFetcherAgent",
+    "status": "failed",
+    "error": "1 validation error for RetrievalOut\n  Value error, List input must contain dictionary items. [type=value_error, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
+  }
+]

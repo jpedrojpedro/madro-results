@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the public comments from the Instagram profile '@haight_clothing'."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the sentiment and general perception of the retrieved comments for '@haight_clothing'."
+  }
+]

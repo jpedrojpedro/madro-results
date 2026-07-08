@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve restaurant entities."
+  },
+  {
+    "topic": "follower_retrieval",
+    "demand": "Retrieve follower count for restaurant entities."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify the restaurant owners who have been mentioned in public reviews or opinions."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve and analyze the subjective descriptions of these restaurant owners' personalities to determine who is most frequently described as having the best personality."
+  }
+]

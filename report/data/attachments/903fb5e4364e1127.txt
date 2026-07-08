@@ -1,0 +1,2 @@
+[33mWARNING [0m madro.config:config.py:97 Gemini rate limit hit (attempt 1/5), retrying in 5s
+[33mWARNING [0m madro.config:config.py:97 Gemini rate limit hit (attempt 1/5), retrying in 5s

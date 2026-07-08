@@ -1,0 +1,292 @@
+[
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.01781016,
+      "ocr_text": "```markdown\nPetrobras\nGRID\n\nSÓ VEM!\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows two men standing at a gas station, both wearing green shirts. The man on the left is pointing towards the camera with his right hand, while the man on the right is also pointing towards the camera with his left hand. They appear to be smiling and looking directly at the camera.\n\nIn the background, there are signs indicating that this is a Petrobras gas station. The signs are white with the Petrobras logo and some text in Portuguese. There is also a sign for \"GRID\" visible above the pumps. The setting appears to be indoors, likely under a canopy or sheltered area of the gas station.",
+      "published_at": "2025-04-04T22:14:34",
+      "publication_id": 3603616176668052003
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.01701453,
+      "ocr_text": "```markdown\nBanco Mercedes-Benz\n\n111\n\nREDE siga bem\n\nacademia P\n\nMahle\n\nPrometeon\n\n111\n\nPrometeon\n\nconto com a torcida de vocês\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person standing in front of a large truck, which appears to be a racing vehicle. The truck has the number \"11\" prominently displayed on its side and is adorned with various sponsor logos, including \"Banco Mercedes-Benz,\" \"Prometeon,\" \"REDE siga bem,\" and \"Academia P.\" The person is wearing a racing suit with the same number \"11\" and other sponsor logos, such as \"Mahle\" and \"Prometeon.\" The background includes a cloudy sky and some structures, possibly part of a race track or event area. The text at the bottom of the image reads \"conto com a torcida de vocês,\" which translates to \"I count on your support.\"",
+      "published_at": "2025-03-23T00:34:39",
+      "publication_id": 3594264796494826491
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.016279712,
+      "ocr_text": "```markdown\nPetrobras\nER Petrobras\nPETROBRAS\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person wearing a bright yellow polo shirt with green accents. The shirt has the \"Petrobras\" logo prominently displayed on the left chest area. The person is also wearing a green lanyard around their neck, which features the \"Petrobras\" logo and some additional text. The background appears to be an indoor setting with a blurred light source, possibly a sign or a screen, adding a soft glow to the scene. The overall attire suggests a connection to Petrobras, a Brazilian state-owned oil company.",
+      "published_at": "2025-04-30T19:49:55",
+      "publication_id": 3622390056905809630
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi includes pieces of salmon and rice, arranged neatly on a plate with a red floral design.\n\nThe text in the image is written in Portuguese and reads:\n\n\"ATÉ 30 DE ABRIL\nTodo dia tem opções deliciosas com preço especial.\nPrato do Chef R$ 70\"\n\nTranslated to English, it means:\n\"UPTO 30 OF APRIL\nEvery day has delicious options with special prices.\nChef's Dish R$ 70\"\n\nThe advertisement highlights a special offer where customers can enjoy a \"Chef's Dish\" for R$ 70 (approximately $10 USD) every day until April 30th. The dish is described as \"delicious,\" suggesting that it is a high-quality meal available at a discounted price. The overall design is clean and visually appealing, with a focus on the food items to attract potential customers.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a circular plate divided into four sections, each containing different types of food:\n\n1. **Top Left Section**: Contains a serving of French fries.\n2. **Top Right Section**: Features slices of sushi, including pieces of salmon and other ingredients wrapped in seaweed.\n3. **Bottom Left Section**: Displays a piece of grilled steak with visible grill marks.\n4. **Bottom Right Section**: Contains a salad with leafy greens, cherry tomatoes, and possibly some dressing or sauce.\n\nThe text \"CIRCUITO GASTRONÔMICO\" is prominently displayed in large, bold letters at the top of the image, with \"BALNEÁRIO Shopping\" written below it in a smaller font. The overall design is clean and visually appealing, emphasizing the variety of food options available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n# Baked Dish with Crumb Topping\n\n## Ingredients:\n- **Bread crumbs**\n- **Herbs (rosemary, parsley)**\n- **Other ingredients (not specified in the image)**\n\n## Instructions:\n1. Preheat oven to 375°F (190°C).\n2. Spread bread crumbs evenly on a baking dish.\n3. Add herbs on top of the bread crumbs.\n4. Bake for 20-25 minutes or until golden brown and crispy.\n5. Serve hot.\n\n## Serving Suggestions:\n- Serve with a side salad or roasted vegetables.\n- Pair with a glass of red wine for a complete meal.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a dish of baked food, likely a casserole or gratin, placed on a wooden surface. The dish is in an oval-shaped, blue-handled baking dish with a white interior. The top of the dish is covered with a golden-brown, crumbly topping that appears to be made of breadcrumbs and herbs, possibly including rosemary and parsley, as suggested by the fresh herbs in a white ceramic pitcher in the background.\n\nThe wooden surface has a natural, light brown finish and is slightly worn, indicating frequent use. To the right of the baking dish, there is a red object, which could be a kitchen utensil or a piece of kitchenware. The overall setting suggests a home kitchen environment, with a focus on fresh ingredients and homemade cooking.",
+      "published_at": "2025-04-14T14:54:32",
+      "publication_id": 3610644624164622272
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "Por que vc fala tanto \"Só Vem\" toda vez que fala dos Postos Petrobras?\n\nQue bom que perguntou!\n\n10:50:03\n\nsóVEM\n\n---\n\n**Messages...**\n\n- / : ; ( ) $ & @ “” #+= . , ? ! ' /",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a screenshot of a text conversation on a messaging app. The conversation is between two users, with the first user asking, \"Por que vc fala tanto 'Só Vem' toda vez que fala dos Postos Petrobras?\" which translates to \"Why do you talk so much about 'Only Come' every time you talk about Petrobras stations?\"\n\nThe second user responds with \"Que bom que perguntou!\" which means \"Good that you asked!\"\n\nBelow the conversation, there is an audio message with a timestamp of 10:50:03. The audio message is played by a play button.\n\nAt the bottom of the screen, there is a logo for \"sóVEM\" in green and white colors. The keyboard is visible at the bottom, indicating that the conversation is still ongoing.\n\nThe overall theme of the conversation seems to be related to Petrobras stations, possibly discussing their operations or policies.",
+      "published_at": "2025-04-09T19:30:10",
+      "publication_id": 3607159997290806772
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n- Petrobrás Premmia\n- Viva Energie SA\n- Mercado Pago\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a collage of four different photos featuring a woman. Here is a detailed description of each photo:\n\n1. **Top Left Photo**: The woman is smiling broadly, showing her teeth. She has long, straight hair that is parted to the side and falls over her shoulders. She is wearing a green top with a cut-out design on the front. Her earrings are visible, and she appears to be indoors, possibly in a car or a vehicle.\n\n2. **Top Right Photo**: The woman is standing outside, raising her arms above her head in a celebratory gesture. She is wearing a green dress with a deep neckline and cut-out details on the sides. The background shows a gas station with several cars and a building with large windows. The sky is partly cloudy.\n\n3. **Bottom Left Photo**: The woman is holding a smartphone with an app open on the screen. The app appears to be related to a bank or financial service, as indicated by the text \"Banco do Brasil\" (Brazilian Bank) and various icons and options displayed on the screen. The background is blurred, but it seems to be an indoor setting, possibly a car.\n\n4. **Bottom Right Photo**: A close-up of the woman's face, focusing on her smile. She is wearing a green top and has long, straight hair. Her earrings are visible, and she appears to be indoors, possibly in a car or a vehicle.\n\nThe collage captures different moments of the woman, showcasing her in various settings and activities, including a celebratory pose at a gas station and a close-up of her smiling face.",
+      "published_at": "2025-03-21T16:16:42",
+      "publication_id": 3593290825653055294
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "6313423e-080a-4c9a-9661-af1812872050:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.5636619672953291,
+    "s_relevance": 0.16909859018859874,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "```markdown\nVocê encontra na Schutz\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image features a person sitting on a dark-colored couch against a plain, light-colored wall. The individual is wearing a long, black dress that reaches the floor and has a high neckline. They are also wearing black thigh-high stockings and black knee-high boots with gold studs and a pointed toe. The person's hair is blonde and styled straight. The overall aesthetic of the image is sleek and modern, with a focus on fashion and style.",
+      "published_at": "2025-05-20T21:32:51",
+      "publication_id": 3636937617544795846
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 40858701465,
+      "profile_bio": "📍 Posto Lagoa / RJ 🔰 Loja de Conveniência 24h da BR Mania do posto Agora BR 40 🎖 Selo Super-Restaurante no iFood 👇",
+      "profile_full_name": "AGORA BR 40 ANOS",
+      "profile_num_medias": 413,
+      "profile_num_followers": 198
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 7015576201,
+      "profile_bio": "⛽️Rede de Postos e Conveniências Shopping🍺 Posto III aberto 24 HORAS ⏰ 📞 (66)99911-6693",
+      "profile_full_name": "Rede Posto Shopping",
+      "profile_num_medias": 221,
+      "profile_num_followers": 3791
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 8451274851,
+      "profile_bio": "🍽 Restaurante à la carte 📆 De Terça a Domingo ⏰ Das 11h às 15h 📞 (75) 99964-6491 Venha conhecer nosso cardápio!",
+      "profile_full_name": "Restaurante Sabor do Sertão",
+      "profile_num_medias": 58,
+      "profile_num_followers": 814
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 3242268668,
+      "profile_bio": "Pe'ahi, Restaurante japonês com a energia do surf. 🏄 🍣 Av. do Pepê, 780 - Barra da Tijuca, Rio de Janeiro 📞Delivery",
+      "profile_full_name": "Peahi Barra",
+      "profile_num_medias": 580,
+      "profile_num_followers": 1747
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 10943279762,
+      "profile_bio": "• Posto Combustível • Mercado • Restaurante, Petiscaria e Choperia • Açaiteria",
+      "profile_full_name": "ℂ𝕖𝕟𝕥𝕣𝕠 ℂ𝕠𝕞𝕖𝕣𝕔𝕚𝕒𝕝 ℂ𝕒𝕤𝕥𝕖𝕝𝕠",
+      "profile_num_medias": 1582,
+      "profile_num_followers": 3277
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 4138544767,
+      "profile_bio": "🕌 Restaurante Temático Persa 📞3939.9699/ WhatsApp 98597.6297 ⏱️Seg a Sáb - 18:30 às 23:00/ Dom-fechado 📱Menu, pedidos",
+      "profile_full_name": "Shoarma Canoas 🌯❤️",
+      "profile_num_medias": 581,
+      "profile_num_followers": 27180
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 50107948900,
+      "profile_bio": "Postos e Serviços ⛽️ 📞11 2673-1590 📍SP 📄 Mande seu currículo: rh@redel2.com.br",
+      "profile_full_name": "Rede L2 ⛽️",
+      "profile_num_medias": 136,
+      "profile_num_followers": 4733
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 48497606856,
+      "profile_bio": "Comida brasileira com o toque do Portuga 📍Posto 1 - Praia da Barra 📞 Contato - (21) 2259-8139",
+      "profile_full_name": "Boteco do Portuga",
+      "profile_num_medias": 50,
+      "profile_num_followers": 64944
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 144536737,
+      "profile_bio": "Nascido e criado em CG 🍽 Bar e Restaurante 📞 (83) 3322.4232 🕚 Domingo a Quarta: 11h à 01h 🕚 Quinta a Sábado: 11h às 02h",
+      "profile_full_name": "Bar do Cuscuz Campina Grande",
+      "profile_num_medias": 12354,
+      "profile_num_followers": 299882
+    }
+  },
+  {
+    "entity_id": "35fc6dde-1f8e-4728-8a18-9afd82d39846:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.47394205867879013,
+    "s_relevance": 0.14218261760363704,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 47459463901,
+      "profile_bio": "⛽️ Auto Posto João & Maria 📞 (84) 98182-9838",
+      "profile_full_name": "Auto Posto João & Maria",
+      "profile_num_medias": 7,
+      "profile_num_followers": 279
+    }
+  }
+]

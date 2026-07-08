@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the account information for @broxadasinistra to access their post history."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the publication history of the @broxadasinistra account."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the engagement and public opinion/feedback on the retrieved publications to identify the funniest post."
+  }
+]

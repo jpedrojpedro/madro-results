@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Identify restaurants with a similar menu or cuisine style to Tutto Nhoque."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Find restaurants that offer a comparable dining experience to Tutto Nhoque."
+  }
+]

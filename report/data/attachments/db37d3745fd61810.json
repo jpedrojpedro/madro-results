@@ -1,0 +1,302 @@
+[
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:0",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi includes pieces of salmon and rice, arranged neatly on a plate with a red floral design.\n\nThe text in the image is written in Portuguese and reads:\n\n\"ATÉ 30 DE ABRIL\nTodo dia tem opções deliciosas com preço especial.\nPrato do Chef R$ 70\"\n\nTranslated to English, it means:\n\"UPTO 30 OF APRIL\nEvery day has delicious options with special prices.\nChef's Dish R$ 70\"\n\nThe advertisement highlights a special offer where customers can enjoy a \"Chef's Dish\" for R$ 70 (approximately $10 USD) every day until April 30th. The dish is described as \"delicious,\" suggesting that it is a high-quality meal available at a discounted price. The overall design is clean and visually appealing, with a focus on the food items to attract potential customers.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:1",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a plate divided into two sections. On the left side of the plate, there is a serving of French fries. On the right side, there is a portion of sushi, consisting of several pieces of sushi rolls with orange fish roe (tuna) and white rice. Below the sushi, there is a small bowl containing a salad made of lettuce, cherry tomatoes, and possibly some other vegetables or dressing.\n\nThe text \"CIRCUITO GASTRONÔMICO BALNEÁRIO Shopping\" is prominently displayed above the plate, with \"CIRCUITO GASTRONÔMICO\" in large, bold letters and \"BALNEÁRIO Shopping\" in smaller, uppercase letters below it. The logo of Balneário Shopping is also present to the left of the text.\n\nThe overall design of the advertisement is clean and visually appealing, focusing on the variety of food options available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:2",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:3",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "| ALMEIDA JUNIOR | BALNEÁRIO Shopping |\n| --- | --- |\n| apresenta | BEST WINTER BFS |\n| BALNEÁRIO FASHION SHOW |  |\n| VOCÊ É NOSSO CONVIDADO 07 PARA O MAIOR EVENTO 08 DE MODA DE SC MAIO |  |\n| ONESPOT PROMO |  |",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for the \"Best Winter Fashion Show\" (BFS) presented by Balneário Shopping. The text is primarily in Portuguese and reads as follows:\n\n- **Top Left Corner:** \"ALMEIDA JUNIOR\"\n- **Top Center:** \"Balneário Shopping\"\n- **Top Right Corner:** \"apresenta\" (presenting)\n- **Main Text:** \"BEST WINTER BFS BALNEÁRIO FASHION SHOW\"\n- **Bottom Left:** \"VOCÊ É NOSSO CONVIDADO 07 PARA O MAIOR EVENTO 08 DE MODA DE SC MAIO\" (You are our guest 07 for the largest fashion event 08 of SC May)\n\nThe background features a blurred image of a woman's hand with her fingers spread out, possibly holding or gesturing towards something. The overall color scheme is dark with shades of brown and black, giving it a sophisticated and elegant feel. The text is in white and light brown, making it stand out against the darker background. The bottom right corner has the logo \"ONESPOT PROMO.\"",
+      "published_at": "2025-05-01T17:52:59",
+      "publication_id": 3623056214067764497
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:4",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "| ALMEIDA JUNIOR |\n| --- |\n|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is a promotional graphic featuring various logos and text, likely representing sponsors or partners for an event or project. The background is dark with a blurred image of a person's hand holding a glass of wine, adding a touch of elegance and sophistication to the design.\n\nHere is a detailed breakdown of the elements in the image:\n\n1. **Top Left Corner**: The text \"ALMEIDA JUNIOR\" is displayed prominently.\n2. **Center and Surrounding Area**:\n   - **Balneário Shopping**: A logo for a shopping center.\n   - **Academia Wave**: A logo for a fitness or wellness academy.\n   - **Printbag Embalagens**: A logo for packaging solutions.\n   - **Coliseu**: A logo for a venue or event space.\n   - **Xtay**: A logo for smart stays (likely a hotel or accommodation service).\n   - **Café Cultura**: A logo for a café or cultural establishment.\n   - **Outback Steakhouse**: A logo for a steakhouse restaurant.\n   - **Decanter**: A logo for a wine or spirits store.\n   - **Daniela Ribeiro**: A logo for a brand or individual named Daniela Ribeiro.\n   - **DG Beauté**: A logo for a beauty or hair care brand.\n   - **Festas Oficiais**: A logo for official festivals or events.\n   - **Shed**: A logo for a brand or product.\n   - **Realização**: A logo for the production or organization.\n   - **One Spot Promo**: A logo for a promotional agency or company.\n\n3. **Bottom Left Corner**: The text \"BEAUTY/HAIR\" is displayed.\n4. **Bottom Right Corner**: The text \"ONESPOTPromo\" is displayed.\n\nThe overall design is clean and professional, with a focus on branding and sponsorship. The use of a dark background with a blurred image adds a sense of depth and focus on the logos and text.",
+      "published_at": "2025-05-01T17:52:59",
+      "publication_id": 3623056214067764497
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:5",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "UNIZUSHI\nうに寿司",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a dining setup featuring a variety of Japanese cuisine items on a wooden table. The main focus is on a small, rectangular plate with a light blue base, containing a piece of unagi (grilled eel) wrapped in nori (seaweed). Next to it, there is a small bowl filled with what appears to be pickled ginger and wasabi. \n\nIn the center of the table, there is a small bowl containing a colorful assortment of seafood tempura, including shrimp and possibly other vegetables, garnished with a slice of lime. To the left of the tempura bowl, there is a small dish with a light-colored, possibly rice-based food item.\n\nA glass of a light-colored beverage, likely a lemonade or iced tea, is placed next to the main plate. The drink has a straw and is garnished with a slice of orange and a sprig of mint. \n\nIn the foreground, there is a white paper napkin with the text \"UNIZUSHI\" printed on it, along with some Japanese characters below it. The background shows a row of wooden chairs and tables, suggesting that this is a restaurant setting. The overall presentation is clean and aesthetically pleasing, typical of a high-quality sushi restaurant.",
+      "published_at": "2025-04-26T20:52:04",
+      "publication_id": 3619522054945940404
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:6",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "COMIDA\nCIRCUITO GASTRONÔMICO\nBALNEÁRIO SHOPPING",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman sitting at a table in what appears to be a restaurant or café. She is wearing a sleeveless pink dress and has her hands placed on her cheeks, possibly in a gesture of surprise or excitement. In front of her on the table is a plate with a meal that includes a steak, a serving of rice, and some fried potatoes. There is also a drink with a slice of lime and a red beverage, likely a cocktail.\n\nThe background features other tables and chairs, suggesting a casual dining setting. The text overlay on the image reads \"COMIDA CIRCUITO GASTRONÔMICO BALNEÁRIO SHOPPING,\" which translates to \"Food Circuit Gastronomic Balneario Shopping.\" This indicates that the image is likely from a social media post or a promotional material for a food tour or event at the Balneario Shopping mall.",
+      "published_at": "2025-04-24T15:00:58",
+      "publication_id": 3617895287587311382
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:7",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\n>7\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person outdoors, likely in a park or garden setting with green foliage in the background. The individual is wearing a navy blue sleeveless top with a white logo on the left side and bright orange shorts. They have a cheerful expression, with their mouth open as if laughing or shouting. In their right hand, they are holding an orange balloon with a white symbol resembling a stylized \"Y\" or \"V.\" The person is also wearing a necklace with small pendants and has a watch on their left wrist. The overall scene suggests a casual, joyful moment.",
+      "published_at": "2025-03-27T20:38:21",
+      "publication_id": 3597771695709748624
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:8",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\n- Hand holding a small, intricately designed keychain.\n- Keychain features gold-colored metal accents and a leather strap.\n- Background is blurred, focusing attention on the hands and keychain.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of two hands holding a small, intricately designed object. The object appears to be a keychain or a similar accessory with a leather strap and gold-colored metal hardware. The keychain features three triangular metal pieces attached to the leather strap, each with a pointed end. The hands are gently holding the keychain, with one hand gripping the leather strap and the other hand supporting the metal components.\n\nThe background is blurred, but it seems to be an indoor setting with a patterned surface, possibly a tablecloth or a carpet. The lighting in the image gives a warm, golden hue, highlighting the details of the keychain and the hands holding it. The person's nails are painted in a bright red color, adding a pop of color to the scene. The overall composition of the image focuses on the craftsmanship and design of the keychain.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "6b8d45bf-746d-4ca1-a904-807730339391:9",
+    "s_lex": 3.4416914e-15,
+    "s_sem": 0.47783952564039645,
+    "s_relevance": 0.33448766794827856,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\n# Text in the Image\n\nM\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman standing in front of a mirror, smiling and posing for the camera. She is wearing a strapless white dress that fits closely to her body, accentuating her figure. The dress has a fitted bodice and a flowing skirt. She is accessorized with a layered necklace featuring small, round beads and a delicate pendant. Her hair is long and dark, styled straight. In the background, there are other women, also dressed in elegant attire, suggesting that they might be at a formal event or a fashion show. The setting appears to be indoors, possibly in a boutique or a high-end store, as indicated by the well-lit environment and the presence of shelves with shoes and other accessories.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:0",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:1",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:2",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "profile_id": 205869140,
+      "publication_id": 3500043464705740568,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "KATYCATS, segura essa confirmação! Depois do sucesso na Cidade do Rock, e atendendo a pedidos dos fãs por mais uma oportunidade de assistir ao show da Katy Perry no Brasil, a cantora está mais do que confirmada na segunda edição do The Town e será headliner do palco Skyline, no dia 14 de setembro! Saiba mais no site da Mix (Link na bio)! Já podemos começar a contagem regressiva? Vale lembrar que a Mix é rádio oficial do The Town!  #MixNoTheTown #TheTown2025 #radiomix #WeAreBackinTown 📷: Louisa Meng | Vans Bumbeers",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:3",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3619522054945940404,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Visitei o Unizushi, que está participando do Circuito Gastronômico do Balneário Shopping e me apaixonei! 🍣  Menu completo (entrada, prato principal e sobremesa) por R$70,00. Ambiente aconchegante, atendimento ótimo… me senti em casa.  O festival vai até 30/04, e além do Unizushi  os outros restaurantes participantes são: Madero, Outback, Las Lenas e Pecorino. então corre pra aproveitar! 🎉",
+      "publication_num_likes": 175,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:4",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:5",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3623056214067764497,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "O BFS – Balneário Fashion Show está de volta com a edição Best Winter no Balneário Shopping, nos dias 07 e 08 de maio. Dois dias de desfiles, tendências e encontros com quem faz a moda acontecer em SC. Convites disponíveis nas marcas participantes. Nos vemos na passarela? #BFS2025 #BestWinter #BalnearioFashionShow #ModaComEstilo #BalnearioShopping #BFS2025 #BalnearioFashionShow #BestWinter #ModaSC #BalnearioShopping #OneSpotPromo",
+      "publication_num_likes": 122,
+      "publication_num_comments": 3
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:6",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3617895287587311382,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Essa semana foi dia de experimentar o Circuito Gastronômico do Balneário Shopping.  São vários restaurantes participando com pratos de R$70,00 no almoço e na janta. E aí, em qual vocês vão primeiro?  Corre que é até dia 30 de Abril",
+      "publication_num_likes": 1506,
+      "publication_num_comments": 14
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:7",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 28618697473,
+      "publication_id": 3597771695709748624,
+      "profile_full_name": "Novvo Pré-Drink",
+      "publication_caption": "#TBT da primeira edição da Novvo Run! Fizemos o percurso de 5 KM no Parque do Povo, e claro que o pós corrida foi um HH de respeito no Restaurante Bar Mercearia! Conta pra gente onde você queria que rolasse a próxima edição da Novvo Run!  *Beba com responsabilidade  #acordenovvo #corrida #run #runningcommunity",
+      "publication_num_likes": 38,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:8",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 205869140,
+      "publication_id": 3470653683335987908,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "O tempo passou, e agora nem dá pra acreditar que \"Best of You\", um dos maiores sucessos do Foo Fighters, já completou 19 anos! 😱 Um baita hit 🤩 Quem aí também deixa o volume no máximo quando esse sucesso começa a tocar na Mix? #foofighters #davegrohl #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "ba5b85e9-471e-4b39-82d4-149af2c6d016:9",
+    "s_lex": 6.661338e-16,
+    "s_sem": 0.44994748782420413,
+    "s_relevance": 0.3149632414769431,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 205869140,
+      "publication_id": 3501338061331948271,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Bon appétit, baby! 🌮😋 Já imaginou andar pelas do México e dar de cara com Katy Perry comendo uns tacos? Porque exatamente o que aconteceu com alguns KatyCats mexicanos nesta quarta-feira (13)! A cantora já iniciou a sua agenda promocional no país dos nossos hermanos, e vale lembrar: em setembro do ano que vem, a nossa voltará ao Brasil para se apresentar no palco do The Town 2025! E aí, qual comida brasileira a Katy precisa experimentar assim que ela voltar pra cá? 👀 📷/📹: Rhevolver e ELTONEJO no X #katyperry #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  }
+]

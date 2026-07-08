@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve a list of seafood restaurants."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the social media posts from the identified seafood restaurants that contain seafood-related content."
+  }
+]

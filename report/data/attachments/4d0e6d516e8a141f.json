@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve profile information for the account @fluminensefc."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the details and results of the most recent football match for Fluminense FC."
+  }
+]

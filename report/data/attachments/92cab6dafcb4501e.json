@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the publication history of the social media account @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve user comments and reports regarding intolerance, specifically racial, gender-based, or religious discrimination, on publications by @broxadasinistra."
+  }
+]

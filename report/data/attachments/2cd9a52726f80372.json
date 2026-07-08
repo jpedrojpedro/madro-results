@@ -1,0 +1,152 @@
+[
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:0",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.01781016,
+      "ocr_text": "```markdown\nPetrobras\nGRID\n\nSÓ VEM!\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows two men standing at a gas station, both wearing green shirts. The man on the left is pointing towards the camera with his right hand, while the man on the right is also pointing towards the camera with his left hand. They appear to be smiling and looking directly at the camera.\n\nIn the background, there are signs indicating that this is a Petrobras gas station. The signs are white with the Petrobras logo and some text in Portuguese. There is also a sign for \"GRID\" visible above the pumps. The setting appears to be indoors, possibly under a canopy or shelter, as indicated by the ceiling structure and lighting fixtures. The overall atmosphere suggests a casual, friendly interaction between the two individuals.",
+      "published_at": "2025-04-04T22:14:34",
+      "publication_id": 3603616176668052003
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:1",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.01701453,
+      "ocr_text": "```markdown\nBanco Mercedes-Benz\n\n111\n\nREDE siga bem\n\nacademia P\n\nMahle\n\nPrometeon\n\n111\n\nPrometeon\n\nconto com a torcida de vocês\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person standing in front of a large truck, which appears to be a racing vehicle. The truck has the number \"11\" prominently displayed on its side and is branded with various sponsors' logos, including \"Banco Mercedes-Benz,\" \"Prometeon,\" \"REDE siga bem,\" and \"Academia P.\" The person is wearing a racing suit with the same number \"11\" and other sponsor logos, such as \"Mahle\" and \"Prometeon.\" The background includes a cloudy sky and some structures, possibly part of a race track or event area. The text at the bottom of the image reads \"conto com a torcida de vocês,\" which translates to \"I count on your support.\"",
+      "published_at": "2025-03-23T00:34:39",
+      "publication_id": 3594264796494826491
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:2",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.016279712,
+      "ocr_text": "```markdown\nPetrobras\nER Petrobras\nPETROBRAS\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person wearing a bright yellow shirt with green accents, including a green cap and a green lanyard around their neck. The lanyard has the logo \"PETROBRAS\" prominently displayed on it. The background appears to be an indoor setting with some blurred lights and possibly a sign or display board, suggesting that the person might be at an event or a public place. The overall attire and accessories indicate a connection to Petrobras, a Brazilian state-owned oil company.",
+      "published_at": "2025-04-30T19:49:55",
+      "publication_id": 3622390056905809630
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:3",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi consists of several pieces of sushi rolls, including what appears to be salmon and avocado, arranged neatly on a plate with a red floral design.\n\nThe main text in the center of the image reads \"Até 30 de abril,\" which translates to \"Until April 30th.\" Below this, there is a statement in Portuguese: \"Todo dia tem opções deliciosas com preço especial,\" meaning \"Every day has delicious options with special prices.\"\n\nAt the bottom of the image, there are two sections with different colors and text:\n1. A pink section with white text that says \"Prato do Chef,\" which translates to \"Chef's Dish.\"\n2. A black section with white text displaying the price \"R$ 70,\" indicating the cost of the Chef's Dish is 70 reais.\n\nThe overall design is clean and visually appealing, focusing on the promotion of the special offer until April 30th.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:4",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a plate divided into two sections. On the left side of the plate, there is a serving of French fries. On the right side, there is a portion of sushi, consisting of several pieces of sushi rolls with orange fish roe (tuna) and white rice. Below the sushi, there is a small bowl containing a salad made of green lettuce leaves, cherry tomatoes, and possibly some other vegetables or dressing.\n\nThe text \"CIRCUITO GASTRONÔMICO BALNEÁRIO Shopping\" is prominently displayed above the plate, with \"CIRCUITO GASTRONÔMICO\" in large, bold letters and \"BALNEÁRIO Shopping\" in smaller, uppercase letters below it. The logo of Balneário Shopping is also present to the left of the text.\n\nThe overall design of the advertisement is clean and visually appealing, focusing on the variety of food items available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:5",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n# Baked Dish with Crumb Topping\n\n## Ingredients:\n- **Bread crumbs**\n- **Herbs (rosemary, parsley)**\n- **Other ingredients (not specified in the image)**\n\n## Instructions:\n1. Preheat oven to 375°F (190°C).\n2. Spread bread crumbs evenly on a baking dish.\n3. Add herbs on top of the bread crumbs.\n4. Bake for 20-25 minutes or until golden brown and crispy.\n5. Serve hot.\n\n## Serving Suggestions:\n- Serve with a side salad or roasted vegetables.\n- Pair with a glass of red wine for a complete meal.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a dish of baked food, likely a casserole or gratin, placed on a wooden surface. The dish is in an oval-shaped, blue-handled baking dish with a white interior. The top of the dish is covered with a golden-brown, crumbly topping that appears to be made of breadcrumbs and herbs, suggesting it might be a stuffing or a similar baked dish.\n\nIn the background, there is a white ceramic pitcher with a handle, filled with fresh herbs. The herbs include rosemary and parsley, which are commonly used in cooking for their aromatic qualities. The pitcher is placed on the same wooden surface as the baking dish.\n\nThe overall setting suggests a homey, rustic atmosphere, possibly indicating a meal being prepared or served in a kitchen. The presence of fresh herbs adds a touch of natural and fresh ingredients to the scene.",
+      "published_at": "2025-04-14T14:54:32",
+      "publication_id": 3610644624164622272
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:6",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "Por que vc fala tanto \"Só Vem\" toda vez que fala dos Postos Petrobras?\n\nQue bom que perguntou!\n\n10:50:03\n\nsóVEM\n\n---\n\n**Messages...**\n\n- / : ; ( ) $ & @ “” #+= . , ? ! ' /",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a screenshot of a messaging conversation on a smartphone. The background is black, and the text is primarily white with some elements in green and purple. Here's a detailed description:\n\n1. **Top Section:**\n   - There is a message in Portuguese that reads: \"Por que vc fala tanto 'Só Vem' toda vez que fala dos Postos Petrobras?\"\n     - This translates to: \"Why do you talk so much about 'Only Come' every time you talk about Petrobras stations?\"\n\n2. **Middle Section:**\n   - Below the message, there is a purple rectangular button with a play icon and a sound wave graphic.\n   - The text inside the button reads: \"Que bom que perguntou!\" which translates to: \"Good that you asked!\"\n   - The timestamp at the bottom right of the button shows: \"10:50:03\"\n\n3. **Bottom Section:**\n   - There is a logo with the text \"sóVEM\" in green and white.\n   - Below the logo, there is a message input field with a microphone icon, an image icon, and a plus icon.\n\n4. **Keyboard:**\n   - The keyboard is visible at the bottom of the screen, showing numbers, symbols, and punctuation marks.\n\nThe overall theme of the conversation appears to be related to Petrobras stations, as indicated by the repeated mention of \"Só Vem.\"",
+      "published_at": "2025-04-09T19:30:10",
+      "publication_id": 3607159997290806772
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:7",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "```markdown\n- Petrobrás Premmia\n- Viva Energie SA\n- Mercado Pago\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a collage of four different photos featuring a woman. Here is a detailed description of each photo:\n\n1. **Top Left Photo**: The woman is smiling brightly, showing her teeth. She has long, straight hair that is a mix of brown and red tones. She is wearing a green top and has a small tattoo on her left shoulder. She is holding a phone in her right hand.\n\n2. **Top Right Photo**: The woman is standing outside a gas station, with her arms raised above her head. She is wearing a green dress with cut-out details on the sides. The background shows a gas station with several cars and a building with a sign that reads \"Petrobrás Premia.\"\n\n3. **Bottom Left Photo**: The woman is holding a smartphone with a screen displaying an app interface. The app appears to be related to Petrobrás, as indicated by the text on the screen. The app has various sections with images and text, suggesting it might be for managing fuel purchases or other services related to Petrobrás.\n\n4. **Bottom Right Photo**: This photo focuses on the woman's face, specifically her nose and mouth area. She is wearing a pair of earrings with intricate designs. Her lips are painted with a bright pink lipstick, and she is smiling.\n\nThe collage seems to highlight the woman's interaction with a mobile app related to Petrobrás, possibly for managing fuel purchases or other services at the gas station.",
+      "published_at": "2025-03-21T16:16:42",
+      "publication_id": 3593290825653055294
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:8",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "8d46d0fe-ceb3-4e2e-acbc-0e832103f3bb:9",
+    "s_lex": 0.1031405,
+    "s_sem": 0.5816804403905228,
+    "s_relevance": 0.43811845827336593,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "ocr_text": "$\\text{PRÊMIO}$\nABRASCE\n2025\n\nCATEGORIA:\nEVENTOS E PROMOÇÕES\n\nBALNEÁRIO\nShopping\n\nSOMOS FINALISTAS\nDO PRÊMIO ABRASCE 2025!\n\nA MAIOR PREMIAÇÃO DO SETOR\nDE SHOPPING CENTERS",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is a promotional poster for the \"Prêmio Abrasce 2025\" (Abrasce Award 2025). The poster features a dark background with a warm, golden hue, giving it a prestigious and elegant appearance. At the top of the poster, the text \"PRÊMIO ABRASCE 2025\" is prominently displayed in large, bold letters.\n\nBelow this, there is a section that reads \"CATEGORIA: EVENTOS E PROMOÇÕES,\" indicating that the category being recognized is \"Events and Promotions.\"\n\nThe main focus of the poster is the logo of \"Balneário Shopping,\" which is prominently displayed in the center. The logo consists of a stylized wave or beach symbol on the left side, followed by the word \"Shopping\" in a modern, sans-serif font.\n\nAt the bottom of the poster, the text \"SOMOS FINALISTAS DO PRÊMIO ABRASCE 2025!\" is written, indicating that Balneário Shopping is a finalist in this year's award. Below this, the text \"A MAIOR PREMIAÇÃO DO SETOR DE SHOPPING CENTERS\" is displayed, emphasizing that this is the largest prize in the shopping centers sector.\n\nThe overall design of the poster is sleek and professional, with a focus on the branding of Balneário Shopping and the recognition of their achievements in the events and promotions category.",
+      "published_at": "2025-05-28T21:28:23",
+      "publication_id": 3642733580305695493
+    }
+  }
+]

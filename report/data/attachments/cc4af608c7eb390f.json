@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Find restaurants located near Balneário Camboriú, Brazil."
+  },
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify the geographical location of Balneário Camboriú, Brazil for restaurant searching."
+  }
+]

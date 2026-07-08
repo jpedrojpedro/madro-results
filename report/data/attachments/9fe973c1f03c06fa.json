@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify food establishments within a specified proximity to the user's current location."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve the menu items for the identified food establishments."
+  }
+]
