@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the profile information for the account '@haight_clothing' to identify business details."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the list of published posts or content by '@haight_clothing' to search for references to an e-commerce platform or online sales."
+  }
+]

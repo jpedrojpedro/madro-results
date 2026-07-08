@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify the town's location details."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Find restaurants in the specified town."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve review scores and ratings for restaurants in the specified town."
+  }
+]

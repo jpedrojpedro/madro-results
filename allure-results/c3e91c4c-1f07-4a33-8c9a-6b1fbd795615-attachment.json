@@ -1,0 +1,302 @@
+[
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:0",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.017072802,
+      "ocr_text": "UNIZUSHI\nうに寿司",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a dining setup featuring a variety of Japanese cuisine items on a wooden table. The main focus is on a small, rectangular plate with a light blue base, containing a piece of unagi (grilled eel) wrapped in nori (seaweed). Next to it, there is a small bowl filled with what appears to be pickled ginger and wasabi. \n\nIn the center of the table, there is a small bowl containing a colorful assortment of seafood tempura, including shrimp and possibly other vegetables, garnished with a slice of lime. To the left of the tempura bowl, there is a small dish with a light-colored, possibly rice-based food item.\n\nA glass of a light-colored beverage, likely a lemonade or iced tea, is placed next to the main plate. The drink has a straw and is garnished with a slice of orange and a sprig of mint. \n\nIn the foreground, there is a white paper napkin with the text \"UNIZUSHI\" printed on it, along with some Japanese characters below it. The overall setting suggests a casual yet elegant dining experience, typical of a sushi restaurant.",
+      "published_at": "2025-04-26T20:52:04",
+      "publication_id": 3619522054945940404
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:1",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.010739258,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi includes pieces of salmon and rice, arranged neatly on a plate with a red floral design.\n\nThe text in the image is written in Portuguese and reads:\n\n\"ATÉ 30 DE ABRIL\nTodo dia tem opções deliciosas com preço especial.\nPrato do Chef R$ 70\"\n\nTranslated to English, it means:\n\"UPTO 30 OF APRIL\nEvery day has delicious options with special prices.\nChef's Dish R$ 70\"\n\nThe advertisement highlights a special offer where customers can enjoy a \"Chef's Dish\" for R$ 70 (approximately $10 USD) every day until April 30th. The dish is described as \"delicious,\" suggesting that it is a high-quality meal available at a discounted price. The overall design is clean and visually appealing, with a focus on the food items to attract potential customers.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:2",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.010739258,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a plate divided into two sections. On the left side of the plate, there is a serving of French fries. On the right side, there is a portion of sushi, consisting of several pieces of sushi rolls with orange fish and white rice. Below the sushi, there is a small bowl containing a salad made of green lettuce, cherry tomatoes, and possibly some other vegetables or ingredients.\n\nThe text \"CIRCUITO GASTRONÔMICO BALNEÁRIO Shopping\" is prominently displayed above the plate, with \"CIRCUITO GASTRONÔMICO\" in large, bold letters and \"BALNEÁRIO Shopping\" in smaller, uppercase letters below it. The logo for Balneário Shopping is also present to the left of the text.\n\nThe overall design of the image is clean and visually appealing, focusing on the variety of food items available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:3",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.010739258,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:4",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "ocr_text": "Grey is the new black\n\nO tom neutro que nunca sai de cena",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image features a person standing against a dark background, wearing a sophisticated outfit. The individual is dressed in a long, dark-colored coat with a checkered pattern, which appears to be made of a textured fabric. Over the coat, they are wearing a high-necked, dark-colored turtleneck sweater. The most striking element of their attire is a large, intricate scarf that drapes over their shoulders and down their back. This scarf is made up of multiple strands of what looks like leather or a similar material, creating a visually complex and modern look.\n\nThe person has short, dark hair styled neatly, and they are looking downward, giving an air of contemplation or introspection. Their posture is upright, exuding confidence and style.\n\nIn the foreground, there is text overlaid on the image. The text reads: \"Grey is the new black\" at the top, followed by \"O tom neutro que nunca sai de cena\" below it. This translates from Portuguese to \"Grey is the new black\" and \"The neutral tone that never goes out of style.\"\n\nThe overall aesthetic of the image is sleek, modern, and somewhat edgy, emphasizing the theme of the text. The use of grey as a color choice suggests a contemporary and versatile fashion trend.",
+      "published_at": "2025-05-26T15:01:25",
+      "publication_id": 3641089259148109578
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:5",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "ocr_text": "Esse você encontra na Forum - Piso L1",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image features a person standing against a plain white background, posing confidently with their hands in their pockets. They are wearing a stylish outfit that consists of a sleeveless denim corset top and matching denim shorts. The corset top has a fitted waist with a belt around the midsection, adding a structured look to the ensemble. The denim shorts are knee-length, and the person is also wearing black knee-high boots.\n\nThe person has long, wavy hair that cascades down their shoulders. They are accessorized with a silver bracelet on each wrist. The overall look is modern and chic, with a focus on a monochromatic theme.\n\nIn the bottom right corner of the image, there is text in Portuguese that reads: \"Esse você encontra na Forum - Piso L1.\" This translates to \"You can find it at Forum - Floor L1,\" indicating that the location mentioned is likely a shopping mall or a similar venue named \"Forum\" on the first floor.",
+      "published_at": "2025-05-26T15:01:25",
+      "publication_id": 3641089259148109578
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:6",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "ocr_text": "Esse você encontra na Diesel - Piso L1",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image features a person standing against a plain, light-colored background. The individual is wearing a form-fitting, high-necked, long-sleeved leather jacket that reaches just above the knees. The jacket has multiple pockets and a zipper running down the front. They are also wearing high-heeled shoes with a metallic finish and gray socks that extend to the ankles. The person is holding a black handbag with a shoulder strap. The overall look is modern and stylish, with a focus on sleek, minimalist fashion. The text at the bottom of the image reads \"Esse você encontra na Diesel - Piso L1,\" which translates to \"This you can find at Diesel - Piso L1,\" indicating that the clothing is available at the Diesel store located at Piso L1.",
+      "published_at": "2025-05-26T15:01:25",
+      "publication_id": 3641089259148109578
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:7",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "ocr_text": "Esse você encontra na Vr Collezione - Piso L1",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image features a man standing against a metallic, vertical panel background. He is dressed in a light gray suit with a matching shirt and tie. The suit appears to be made of a smooth, possibly wool fabric, giving it a polished and professional look. The man has short, dark hair and a beard, and he is looking off to the side with a serious expression.\n\nAt the bottom of the image, there is text in Portuguese that reads: \"Esse você encontra na Vr Collezione - Piso L1.\" This translates to \"This you find at Vr Collection - Floor L1\" in English. The text suggests that the image is likely part of an advertisement or promotional material for a clothing store or collection named \"Vr Collection,\" specifically highlighting a product available on the first floor (Piso L1) of the store.",
+      "published_at": "2025-05-26T15:01:25",
+      "publication_id": 3641089259148109578
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:8",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "ocr_text": "Esse você encontra na Colcci - Piso L1",
+      "position": 4,
+      "extension": "jpg",
+      "img_caption": "The image features a person standing indoors, likely in a luxurious or elegant setting. The background includes ornate, gold-framed doors with intricate designs, suggesting a high-end or historic location. The person is dressed in a stylish outfit that consists of a light gray, long-sleeved blazer over a matching crop top and high-waisted shorts. They are also wearing black tights and carrying a small, glittery handbag.\n\nThe individual is accessorized with multiple pearl necklaces, adding a touch of elegance to their look. Their hair is styled neatly, and they have a confident pose, with one hand in the pocket of their shorts.\n\nAt the bottom of the image, there is text in Portuguese that reads: \"Esse você encontra na Colcci - Piso L1,\" which translates to \"This you find at Colcci - Floor L1.\" This suggests that the image is part of an advertisement or promotional material for a store named Colcci, located on the first floor (L1).",
+      "published_at": "2025-05-26T15:01:25",
+      "publication_id": 3641089259148109578
+    }
+  },
+  {
+    "entity_id": "f88caa82-3d21-4a27-9d15-19850c668daf:9",
+    "s_lex": 0.040222988,
+    "s_sem": 0.5390571269775872,
+    "s_relevance": 0.38940688528431106,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "ocr_text": "HERING\n\nEsse você encontra na Hering - Piso L1",
+      "position": 5,
+      "extension": "jpg",
+      "img_caption": "The image features a person standing outdoors, dressed in a stylish outfit. The individual is wearing a light gray blazer with a high collar and a tie that drapes over the front. Underneath the blazer, there appears to be a matching light gray top or shirt. The ensemble is completed with a pair of wide-legged, light gray trousers that have a slight pleat at the waist. The trousers are cinched at the waist with a brown belt featuring a silver buckle.\n\nThe background consists of a modern architectural structure with horizontal lines, possibly a building or a wall. The sky above is clear with some clouds, suggesting it might be a sunny day. There is text overlaid on the image, which reads \"HERING\" on the left side and \"Esse você encontra na Hering - Piso L1\" at the bottom, indicating that the clothing items can be found at the Hering store located on the first floor.",
+      "published_at": "2025-05-26T15:01:25",
+      "publication_id": 3641089259148109578
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:0",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.017072802,
+      "profile_id": 293755951,
+      "publication_id": 3619522054945940404,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Visitei o Unizushi, que está participando do Circuito Gastronômico do Balneário Shopping e me apaixonei! 🍣  Menu completo (entrada, prato principal e sobremesa) por R$70,00. Ambiente aconchegante, atendimento ótimo… me senti em casa.  O festival vai até 30/04, e além do Unizushi  os outros restaurantes participantes são: Madero, Outback, Las Lenas e Pecorino. então corre pra aproveitar! 🎉",
+      "publication_num_likes": 175,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:1",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.010739258,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:2",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.010739258,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:3",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "profile_id": 293755951,
+      "publication_id": 3563626122924821582,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Um convite ao sabor e à sofisticação. 🍣✨ O Unizushi eleva a experiência da culinária japonesa com autenticidade e perfeição em cada detalhe. Neste sábado, permita-se um momento memorável, onde tradição e inovação se encontram em um menu exclusivo. Reserve um momento para saborear o melhor da alta gastronomia japonesa no Balneário Shopping. Você merece essa experiência. 🥢 📍 Unizushi – Piso L1.",
+      "publication_num_likes": 53,
+      "publication_num_comments": 2
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:4",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "profile_id": 293755951,
+      "publication_id": 3588160877393858867,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "NEW IN: As últimas novidades do Balneário Shopping! ✨ Se você ama descobrir lançamentos irresistíveis, prepare-se para essas novidades que acabaram de chegar por aqui!  💡 Qual dessas novidades você quer experimentar primeiro? Conta pra gente nos comentários!",
+      "publication_num_likes": 87,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:5",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:6",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "profile_id": 293755951,
+      "publication_id": 3599974129505007979,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Tem novidade no Balneário Shopping e nós já fomos conferir! Agora o @duladududu e o @unizushisc tem menu executivo",
+      "publication_num_likes": 837,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:7",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "profile_id": 293755951,
+      "publication_id": 3632387366754451101,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Pausa deliciosa no meio do dia? A gente sabe onde. 🍴✨ De um sushi impecável a cortes suculentos e receitas com sabor de casa italiana — o seu almoço no Balneário Shopping tem tudo para ser o melhor momento do dia. Escolha seu mood e bom apetite. Nosso menu começa no L2. 😋",
+      "publication_num_likes": -1,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:8",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "profile_id": 293755951,
+      "publication_id": 3617895287587311382,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Essa semana foi dia de experimentar o Circuito Gastronômico do Balneário Shopping.  São vários restaurantes participando com pratos de R$70,00 no almoço e na janta. E aí, em qual vocês vão primeiro?  Corre que é até dia 30 de Abril",
+      "publication_num_likes": 1506,
+      "publication_num_comments": 14
+    }
+  },
+  {
+    "entity_id": "2064876d-bd4c-419a-85ce-c636fba0938a:9",
+    "s_lex": 1.9092491e-07,
+    "s_sem": 0.5173154439853771,
+    "s_relevance": 0.3621208680672369,
+    "entity_data": {
+      "rnk": 0.008609899,
+      "profile_id": 293755951,
+      "publication_id": 3641089259148109578,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Grey is the new black. O tom neutro que atravessa estações, inspira elegância e nunca sai de cena. ✨ Das peças básicas às produções marcantes — o cinza é protagonista das vitrines do Balneário Shopping. Para quem sabe que estilo também está nas escolhas mais sutis. 👉 Diesel, Colcci, Hering, VR Collezione e Forum te esperam no piso L1.",
+      "publication_num_likes": -1,
+      "publication_num_comments": 3
+    }
+  }
+]

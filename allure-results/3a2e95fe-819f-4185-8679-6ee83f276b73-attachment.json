@@ -1,0 +1,442 @@
+[
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:0",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.035191976,
+      "profile_id": 7812788609,
+      "profile_bio": "O melhor da comida italiana com a melhor vista do Rio Piçarras! 🛎️ Apenas reservas ⛵️ @marinaparksc 🇮🇹 Restaurante",
+      "profile_full_name": "Piatti Della Mamma",
+      "profile_num_medias": 466,
+      "profile_num_followers": 5043
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:1",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.027906537,
+      "profile_id": 245317005,
+      "profile_bio": "A @Belmond Hotel, Rio de Janeiro Onde o Rio Começa Where Rio Starts Restaurantes Hotel Cipriani, MEE e Pérgula",
+      "profile_full_name": "Copacabana Palace",
+      "profile_num_medias": 2326,
+      "profile_num_followers": 449091
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:2",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 2242652925,
+      "profile_bio": "🕑 Aberto todos os dias do ano 🍧 Restaurante Barlavento 🏠 Hospedaria Rio do Vento 🍓 Hidroponia Rio do Vento 👇🏻 Contato",
+      "profile_full_name": "Morangos Hidropônicos",
+      "profile_num_medias": 711,
+      "profile_num_followers": 25079
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:3",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 20345456582,
+      "profile_bio": "Restaurante italiano e pizzaria napolitana! Trazendo pelo @chef.duda, as ricas tradições italianas com ingredientes de qualidade e excelência!",
+      "profile_full_name": "Brace Di Napoli Ristorante 🇮🇹",
+      "profile_num_medias": 384,
+      "profile_num_followers": 13446
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:4",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 14260684534,
+      "profile_bio": "🥢 Culinária Asiática Contemporânea 🥇 Melhor Restaurante ao Ar Livre 2022 - Rio Show 🥇 Melhor Restaurante Oriental 2021",
+      "profile_full_name": "KITCHEN Asian Food®️",
+      "profile_num_medias": 1107,
+      "profile_num_followers": 30055
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:5",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 176987879,
+      "profile_bio": "Experiência em hospedagem no Brasil Rio de Janeiro | São Paulo Restaurante RJ @restauranteemile Restaurante SP",
+      "profile_full_name": "Hotéis Emiliano",
+      "profile_num_medias": 4570,
+      "profile_num_followers": 143660
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:6",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 47390520846,
+      "profile_bio": "Restaurante & Pizzaria Italiana 🍕 Viva essa Experiência 🤌 Todos os dias, de 12h à meia noite 📍Av. Atlântica, 4240 -",
+      "profile_full_name": "Gino Ristorante",
+      "profile_num_medias": 439,
+      "profile_num_followers": 21471
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:7",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 4131982617,
+      "profile_bio": "Marina | Lounge | Restaurante Day use e alta gastronomia: Ter - Dom | 10h -20h Barra da Tijuca - Rio de Janeiro Mais",
+      "profile_full_name": "RIO Beach Club",
+      "profile_num_medias": 928,
+      "profile_num_followers": 201034
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:8",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 57632045175,
+      "profile_bio": "A MELHOR COSTELA DO RIO 🔥 Restaurante para toda família 📍Aerotown - Barra da Tijuca 📱 (21) 97927-2607 (WhatsApp) 📖",
+      "profile_full_name": "O Costelão",
+      "profile_num_medias": 160,
+      "profile_num_followers": 4099
+    }
+  },
+  {
+    "entity_id": "0f91bbfb-b8f3-4fd7-b443-2fbf2daa6c5b:9",
+    "s_lex": 0.42440343,
+    "s_sem": 0.6342118343416984,
+    "s_relevance": 0.5712693130391888,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 7419268420,
+      "profile_bio": "👨🏽‍🍳 Desde 1981 🇮🇹 Tradição em culinária italiana no Rio 🍝 Massas e molhos artesanais 🥖 Pães e antepastos 🍰 Doces e",
+      "profile_full_name": "Ettore Cucina Italiana",
+      "profile_num_medias": 649,
+      "profile_num_followers": 11026
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:0",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:1",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:2",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:3",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3576054808244461848,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Uma experiência italiana cheia de sabor e diversão! 🍕✨  No Duladu, a cozinha italiana ganha um toque moderno e descontraído, perfeita para quem ama boa comida e momentos especiais.  Que tal conhecer e se deliciar? 💛 📍 Duladu – Piso L1",
+      "publication_num_likes": 29,
+      "publication_num_comments": 3
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:4",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3470030531632331011,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "A LOBA VEM AÍ! 🗣 Shakira acaba de anunciar que vai trazer a turnê “The Las Mujeres Ya No Lloran World Tour” para o Brasil! 😱 A cantora estará no Rio de Janeiro no dia 11 de fevereiro, e em São Paulo no dia 13 de fevereiro (passa pro lado)! E vale avisar: a pré-venda acontece entre os dias 09  e 10 de outubro, já a venda geral vai rolar a partir do dia 11/10. #shakira #LMYNLWorldTour #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:5",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3466387874716527786,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "ELE CHEGOU! 🇧🇷 Após 6 anos, Niall Horan já está em solo brasileiro. O cantor se apresenta em São Paulo e Rio de Janeiro com a \"The Show: Live on Tour\". A Mix é Rádio Oficial e você acompanha toda cobertura em nossas redes sociais. (📷 @gi_fflorencio) #niallhoran #liveontour",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:6",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3465771003906828008,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Já que hoje é dia de #TBT, bora relembrar um pouquinho de tudo o que rolou no Rock in Rio 40 Anos? Já estamos com saudades! 🥹🫶 E aí, qual foi o seu momento favorito da edição de 2024? Conta pra gente aqui nos comentários! Oferecimento: @cocacola_br @engov_oficial @ifoodbrasil @movidaalugueldecarros @superbet_br",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:7",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3465585405283323095,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "O Rock in Rio foi pura nostalgia 🥹❤ Qual desses hits você mais gostava de ouvir na programação da Mix? #tbt #mariahcarey #neyo #akon #evanescence #rockinrio #rockinrio2024 #rockinrio40anos",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:8",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3465110247607355718,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "\"Passarinho! Que som é esse?\" 🤔 É o som que a Katy Perry ouviu enquanto se apresentava no Rock in Rio! 🤯 Kristopher Pooley, engenheiro de som da Katy Perry, isolou os vocais das 100 mil pessoas que assistiram nossa diva direto da Cidade do Rock! Dá só uma olhada nessa galera cantando o hit \"California Gurls\"! 😱 Quem tava aí no meio? 👀 📷: Renan Areias / Kristopher Pooley #katyperry #radiomix #radiomixfm #rockinrio #rockinrio2024 #rockinrio40anos",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "2f9f720c-2966-4db7-ae87-37834bd2d631:9",
+    "s_lex": 0.4038883,
+    "s_sem": 0.5538018498911056,
+    "s_relevance": 0.5088277849237739,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3463184526198900212,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Shawn Mendes entregando TUDO no Palco Mundo do Rock in Rio 🤩 (🎥 @cacograndino) #RockinRio2024 #RockinRioNaMix #Festival #RockinRio40anos #ShawnMendes #ShawnMendesNoRockinRio",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\n- Hand holding a small, intricately designed keychain with gold accents.\n- The keychain features two heart-shaped pendants and a small, rectangular tag.\n- The background is blurred but appears to be a textured surface, possibly a table or countertop.\n- The person's nails are painted in a bright red color.\n- A bracelet is visible on the wrist, matching the gold theme of the keychain.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of two hands holding a small, intricately designed object. The object appears to be a keychain or a similar accessory with a leather strap and decorative elements. The strap is made of brown leather and features gold-colored metal accents, including heart-shaped pendants and a small clasp mechanism. The hands are adorned with red nail polish, and one hand is wearing a gold bracelet on the wrist. The background is blurred but seems to be an indoor setting with a patterned surface, possibly a tablecloth or a carpet. The overall focus is on the detailed craftsmanship of the keychain and the delicate handling by the hands.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\n# Text in the Image\n\nM\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman standing in front of a mirror, smiling and posing for the camera. She is wearing a strapless white dress that fits closely to her body, accentuating her figure. The dress has a fitted bodice and a flowing skirt. She is accessorized with a layered necklace featuring small, round beads and a delicate pendant. Her hair is long and dark, styled straight. In the background, there are other women, also dressed in elegant attire, suggesting that they might be at a formal event or a fashion show. The setting appears to be indoors, possibly in a boutique or a high-end store, as indicated by the well-lit environment and the presence of shelves with shoes and other accessories.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\n# Louis Vuitton\n\n## Men's Fashion Show\n\n### Model: [Model Name]\n\n### Outfit:\n- **Top:** Light blue bandana print shirt\n- **Bottom:** Light blue bandana print pants\n- **Footwear:** Black sandals with bow details\n\n### Accessories:\n- **Shoes:** Various styles of shoes displayed on shelves\n- **Accessories:** Handbags and other accessories on display\n\n### Setting:\n- **Location:** Louis Vuitton store\n- **Interior Design:** Modern, stylish, with gold accents and wooden shelves\n```",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image depicts a person standing in what appears to be a high-end shoe store or boutique. The individual is wearing a stylish outfit consisting of a light blue, long-sleeved shirt with a pattern that resembles a bandana design, paired with matching light blue pants. The person is also wearing black sandals.\n\nThe background features an array of high-end shoes displayed on shelves. The shoes come in various styles and colors, including beige, gold, and brown. The shelves are well-lit, highlighting the luxurious nature of the products. The store has a modern and elegant interior design, with wooden accents and a clean, minimalist aesthetic. There are also some decorative elements like a blue ottoman and a striped wall in the background. The overall atmosphere suggests a sophisticated and fashionable environment.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "PAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of eight women standing together in what appears to be a shopping mall or a high-end boutique. They are all smiling and posing for the photo, with some holding shopping bags from a store named \"PAULA TORRES.\" The women are dressed in stylish, fashionable outfits, ranging from dresses to casual wear. The setting is well-lit, with modern lighting fixtures visible on the ceiling. The background includes a glass door with a logo that resembles a stylized letter \"P,\" suggesting the name of the store or brand they are associated with. The overall atmosphere is cheerful and sophisticated.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "$\\text{c.f.c.}$",
+      "position": 4,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of a small, rectangular pouch or case made of light beige fabric. The pouch is closed and appears to be made of a soft, possibly cotton or linen material. It has a brown leather strap with a gold-colored metal clasp at the top. The clasp is triangular in shape and features an embossed design that includes a logo or emblem.\n\nThe pouch is placed on a wooden surface, which has a natural, light brown color with visible grain patterns. The background is slightly blurred, drawing attention to the pouch itself. The overall appearance suggests that the pouch could be used for carrying small items such as jewelry, accessories, or other personal belongings. The design is simple yet elegant, with a focus on functionality and style.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "| PIZZA | COME | MANI |\n| --- | --- | --- |\n| PARLACOMANGI | PARLACOMANGI | PARLACOMANGI |\n| CON LE MANI | CON LE MANI | CON LE MANI |\n| SIMANGIANO | SIMANGIANO | SIMANGIANO |\n| PIZZA E PANI | PIZZA E PANI | PIZZA E PANI |\n| PARLACOMANGI | PARLACOMANGI | PARLACOMANGI |\n| COME MANI | COME MANI | COME MANI |\n| PIZZA COME MANI | PIZZA COME MANI | PIZZA COME MANI |",
+      "position": 5,
+      "extension": "jpg",
+      "img_caption": "The image depicts a meal setting on a wooden table. The main focus is a long, thin slice of bread topped with various ingredients. The bread appears to be toasted and has a golden-brown crust. On top of the bread, there are slices of red tomatoes, green basil leaves, and a green sauce that looks like pesto or a similar herb-based spread. The bread is placed on a piece of paper that reads \"PARLACOMANDO\" in large, bold letters, suggesting it might be a menu or promotional material for a restaurant or food establishment.\n\nTo the left of the bread, there is a plate with a salad. The salad consists of mixed greens, possibly including arugula or spinach, and some figs or fig-like fruits. The salad is garnished with what appears to be prosciutto or another type of cured meat.\n\nIn the background, there is a small vase with yellow flowers, adding a touch of color and freshness to the scene. The overall presentation suggests a casual yet thoughtful dining experience, combining fresh ingredients and a rustic touch.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\n# Restaurant Scene\n\n- **Foreground:**\n  - Woman with long blonde hair, wearing a white sleeveless top and high-waisted jeans.\n  - She has a watch on her left wrist and is holding her right hand in her pocket.\n  \n- **Background:**\n  - Several people seated at tables, engaged in conversation.\n  - Tables are set with plates, glasses, and napkins.\n  - One person is holding a phone.\n  - Another person is wearing an apron.\n  - The setting includes warm lighting and decorative elements like potted plants.\n```",
+      "position": 6,
+      "extension": "jpg",
+      "img_caption": "The image depicts a lively scene inside a restaurant or café. The main focus is on a woman with long, blonde hair wearing a white sleeveless top and high-waisted jeans. She has her hand in her pocket and is looking to the side, possibly engaged in conversation or observing something outside the frame.\n\nIn the background, there are several other people seated at tables, enjoying their meals and drinks. The tables are set with plates, glasses, and cutlery, indicating that they are dining. The ambiance of the place is warm and inviting, with soft lighting and decorative elements such as potted plants and hanging lights adding to the cozy atmosphere.\n\nThe setting appears to be casual and relaxed, suggesting a social gathering or a friendly meet-up among friends. The overall mood of the image is cheerful and convivial.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "PUDU\nGastrognome",
+      "position": 7,
+      "extension": "jpg",
+      "img_caption": "The image depicts a close-up view of a dining table setting, likely in a restaurant or a well-decorated home dining area. The table is adorned with various items that suggest a sophisticated and elegant dining experience.\n\n1. **Glassware**: A hand is holding a tall, clear glass filled with a light-colored beverage, possibly champagne or sparkling wine. The glass is positioned on the left side of the image.\n\n2. **Napkins**: There are neatly folded white napkins placed on the table. One napkin is directly in front of the glass, while another is slightly to the right and behind it.\n\n3. **Beverage Bottle**: To the right of the glass, there is a white bottle with a wooden cap. The label on the bottle reads \"PUDU,\" which could be the brand name or type of beverage.\n\n4. **Metal Bucket**: Next to the bottle, there is a metal bucket containing additional napkins or perhaps a small container of salt or pepper.\n\n5. **Placemat**: The table is covered with a woven placemat, adding a rustic touch to the setting.\n\n6. **Flowers**: In the bottom left corner of the image, there is a small vase with red flowers, adding a pop of color and a touch of nature to the scene.\n\n7. **Background**: The background features a red-tiled wall, which provides a vibrant contrast to the otherwise neutral tones of the table setting. There is also a green cushion or chair visible in the background, suggesting a comfortable seating arrangement.\n\nOverall, the image conveys a sense of elegance and attention to detail, with a focus on the careful arrangement of the table setting and the choice of items that enhance the dining experience.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "|  |  |\n| --- | --- |\n|  |  |",
+      "position": 8,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of six women standing together in what appears to be a stylish, modern interior space. The background features wooden paneling and a chandelier with multiple light bulbs, creating a warm and elegant atmosphere. \n\nStarting from the left:\n1. The first woman is wearing a black outfit with a white collar and has tattoos on her arms.\n2. The second woman is dressed in all black, complemented by a necklace.\n3. The third woman stands out with her bright green pants and a gold sequined top, accessorized with a belt.\n4. The fourth woman is wearing a black pinstripe jumpsuit and has a gold bracelet.\n5. The fifth woman is dressed in a black outfit with a gold necklace.\n6. The sixth woman is wearing a black outfit with a gold necklace.\n\nAll the women are smiling and appear to be posing for the photograph. The overall setting suggests a sophisticated event or gathering.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "64876bbb-fd8e-408b-b950-5634ac70789b:9",
+    "s_lex": 1e-20,
+    "s_sem": 0.5266795447691593,
+    "s_relevance": 0.3686756813384115,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "PAULA TOR\nPAULA TOR",
+      "position": 9,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of a person's hand and part of their outfit. The hand is adorned with red nail polish and is resting on a pair of brown and beige-colored sandals. The sandals have a thick sole and a strap that goes over the top of the foot, secured by a gold buckle. The person is wearing a green dress with a unique pattern of small, round, gold-colored embellishments arranged in a grid-like fashion. The dress also features a black belt around the waist. The person is also wearing a bracelet on their wrist. The overall style of the outfit suggests a fashionable and stylish appearance.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  }
+]

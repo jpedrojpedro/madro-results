@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all posts published by @eusougabriela."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze and summarize the criticisms regarding the content published by @eusougabriela."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all publications created by the social media profile '@eusougabriela'."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify and summarize criticisms expressed by others regarding the content of '@eusougabriela'."
+  }
+]

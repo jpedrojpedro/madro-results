@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve a list of restaurants."
+  },
+  {
+    "topic": "follower_retrieval",
+    "demand": "Retrieve the social media follower count for the retrieved restaurants."
+  }
+]

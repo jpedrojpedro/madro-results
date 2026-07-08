@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Find Italian restaurants."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Filter restaurant menus for dishes containing pancetta or prosciutto."
+  }
+]

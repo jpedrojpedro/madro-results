@@ -1,0 +1,442 @@
+[
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:0",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\nnessuno cucina come la mamma\n\nGrilled Fish & Shrimp Scampi\nPecorino - Piso L2\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image showcases a plate of Grilled Fish & Shrimp Scampi, served on a white plate with the text \"nessuno cucina come la mamma\" (no one cooks like mom) written around the edge. The dish features linguine pasta mixed with grilled fish and shrimp, garnished with fresh herbs. The plate is placed on a wooden table, and there are two glasses of white wine on either side of the plate. The background includes part of another plate and a glass of wine, suggesting a dining setting. The text at the bottom of the image identifies the dish as \"Grilled Fish & Shrimp Scampi\" from Pecorino - Piso L2.",
+      "published_at": "2025-05-14T14:52:19",
+      "publication_id": 3632387366754451101
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:1",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "Polpo Alla Griglia\nDuladu - Piso L1",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image shows a dish of Polpo Alla Griglia, which is a grilled octopus dish. The octopus is cooked to a deep brown color and appears to be seasoned with herbs and spices. It is served on a white plate with a green rim, which is placed on a wooden table. The octopus is garnished with small red cherry tomatoes, purple radishes, and fresh mint leaves. The dish is presented in a way that highlights the texture and color of the octopus, making it look appetizing. The text \"Polpo Alla Griglia\" and \"Duladu - Piso L1\" is overlaid on the image, indicating the name of the dish and the restaurant or location.",
+      "published_at": "2025-05-14T14:52:19",
+      "publication_id": 3632387366754451101
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:2",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "Spaghetti com Polpetas ao Sugo\nMadero - Piso L2",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image showcases a plate of spaghetti with meatballs, a classic Italian dish known as \"Spaghetti com Polpetas ao Sugo.\" The dish is presented on a white plate, which contrasts nicely with the vibrant orange color of the spaghetti and the reddish-brown hue of the meatballs. The meatballs appear to be well-cooked and tender, with a slightly glossy surface indicating they might have been simmered in a sauce.\n\nThe spaghetti is generously coated with a rich, tomato-based sauce that has a slightly chunky texture, suggesting it might be a homemade or authentic recipe. The sauce is evenly distributed throughout the spaghetti, ensuring each strand is flavorful. Fresh basil leaves are sprinkled on top, adding a touch of green and a hint of freshness to the dish.\n\nIn the background, there is a small bowl containing grated cheese, likely Parmesan, which is commonly served alongside spaghetti to enhance the flavor. The setting appears to be a dining table, with a glass of water placed nearby, indicating a mealtime scenario.\n\nThe text overlay on the image reads \"Spaghetti com Polpetas ao Sugo\" and \"Madero - Piso L2,\" which suggests that this dish is available at Madero, located on the second floor (Piso L2) of a specific establishment. This information could be useful for those looking to order or find this particular dish in a restaurant or food establishment.",
+      "published_at": "2025-05-14T14:52:19",
+      "publication_id": 3632387366754451101
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:3",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "Grilled Fish & Shrimp Scampi\nOutback - Piso L1\n\nHOJE PODE SER MAIS\nSPECIAL",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image showcases a plated meal consisting of Grilled Fish & Shrimp Scampi, served alongside a side of seasoned rice. The fish fillet is golden-brown and topped with a generous amount of shrimp and diced tomatoes, garnished with fresh herbs. The rice appears to be a mix of long-grain white rice and small pieces of vegetables, possibly including bell peppers or onions, and is seasoned with herbs and spices.\n\nIn the background, there are two items: a glass of a pinkish-red beverage, likely a cocktail or juice, and a coaster. The coaster has some text on it, but the details are not entirely clear. Additionally, there are two cards placed on the table; one is orange with white text and the other is yellow with red text. The text on these cards is partially visible, suggesting they might be promotional materials or menu items from a restaurant.\n\nThe setting appears to be a dining table, and there is a fork and knife placed next to the plate, indicating that the meal is ready to be eaten. The overall presentation suggests a casual yet appetizing meal, likely from a restaurant or a home-cooked dinner.",
+      "published_at": "2025-05-14T14:52:19",
+      "publication_id": 3632387366754451101
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:4",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "It's lunch time\n\nA sua hora do almoço ainda mais deliciosa no Balneário Shopping\n\nnessuno cucina come la mammola",
+      "position": 4,
+      "extension": "jpg",
+      "img_caption": "The image features a dining scene with a focus on a plate of pasta. The plate is white with the text \"nessuno cucina come la mamma\" written in black, along with an illustration of a sheep. The pasta appears to be a seafood dish, possibly spaghetti carbonara or a similar type, garnished with herbs and pieces of what looks like squid or octopus. \n\nIn the background, there is another plate with a different dish, which seems to be a bowl of pasta with meat and vegetables. A glass of white wine is also visible, adding to the ambiance of a meal. The setting suggests a cozy and inviting atmosphere, likely in a restaurant or a well-decorated dining area.\n\nThe text at the top of the image reads \"It's lunch time,\" followed by \"A sua hora do almoço ainda mais deliciosa no Balneário Shopping.\" This translates to \"It's lunch time, your lunch time is even more delicious at Balneário Shopping.\" The text indicates that the image is promoting a dining experience at a shopping center called Balneário Shopping, emphasizing the enjoyment of a meal during lunchtime.",
+      "published_at": "2025-05-14T14:52:19",
+      "publication_id": 3632387366754451101
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:5",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "Combinado Salmão\nUnizushi - Piso L1",
+      "position": 5,
+      "extension": "jpg",
+      "img_caption": "The image showcases a beautifully arranged sushi platter, featuring a variety of sushi rolls and sashimi. The main plate in the foreground contains several types of sushi rolls, including:\n\n1. **Rolls with Seaweed (Nori)**: These rolls have a seaweed exterior and appear to be filled with different ingredients.\n2. **Sushi Rolls with Fish**: Some rolls contain fish, likely salmon or tuna, wrapped in nori.\n\nIn addition to the sushi rolls, there is a small portion of sashimi, which includes:\n\n1. **Salmon Sashimi**: Thin slices of salmon arranged neatly on the plate.\n2. **Tuna Sashimi**: Another type of sashimi, possibly made from tuna, also arranged in thin slices.\n\nThe plate is garnished with a sprig of parsley and a small piece of wasabi, adding a touch of color and freshness to the presentation. In the background, there is another plate containing more sushi rolls and sashimi, along with some pickled ginger and wasabi.\n\nThe setting appears to be a dining table with a glass of water and chopsticks placed nearby. The text overlay on the image reads \"Combinado Salmão Unizushi - Piso L1,\" indicating that this is a combination of salmon sushi from Unizushi restaurant located on the 1st floor.",
+      "published_at": "2025-05-14T14:52:19",
+      "publication_id": 3632387366754451101
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:6",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "UNIZUSHI\nうに寿司",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a dining setup featuring a variety of Japanese cuisine items on a wooden table. The main focus is on a small, rectangular plate with a light blue base, containing a piece of unagi (grilled eel) wrapped in nori (seaweed). Next to it, there is a small bowl filled with what appears to be pickled ginger and wasabi. \n\nIn the center of the table, there is a small bowl containing a colorful assortment of seafood tempura, including shrimp and possibly other vegetables, garnished with a slice of lime. To the left of the tempura bowl, there is a small dish with a light-colored, possibly rice-based food item.\n\nA glass of a light-colored beverage, likely a lemonade or iced tea, is placed next to the main plate. The drink has a straw and is garnished with a slice of orange and a sprig of mint. \n\nIn the foreground, there is a white paper napkin with the text \"UNIZUSHI\" printed on it, along with some Japanese characters below it. The background shows a row of wooden chairs and tables, suggesting that this is a restaurant setting. The overall presentation is clean and aesthetically pleasing, typical of a high-quality sushi restaurant.",
+      "published_at": "2025-04-26T20:52:04",
+      "publication_id": 3619522054945940404
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:7",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\n- Hand holding a small, intricately designed keychain.\n- Keychain features gold-colored metal accents and a leather strap.\n- Background is blurred, focusing attention on the hands and keychain.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of two hands holding a small, intricately designed object. The object appears to be a keychain or a similar accessory with a leather strap and decorative elements. The strap is made of brown leather and features gold-colored metal hardware, including two triangular shapes that resemble hearts or pendants. The hands are adorned with red nail polish, and one hand is wearing a gold bracelet on the wrist. The background is blurred but seems to be an indoor setting with a patterned surface, possibly a tablecloth or a carpet. The lighting in the image gives it a warm, golden hue.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:8",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\n# Text in the Image\n\nM\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman standing in front of a mirror, smiling and posing for the camera. She is wearing a strapless white dress that fits closely to her body, accentuating her figure. The dress has a fitted bodice and a flowing skirt. She is also wearing a layered necklace with small, round beads and a small pendant. Her hair is long and dark, and she has a subtle makeup look, including eyeliner and a light pink lip color.\n\nIn the background, there are other women who appear to be in a dressing room or a boutique. One woman on the left is wearing a white dress with thin straps and has her hair tied back. Another woman on the right is wearing a patterned top and blue pants. There are also some shelves with various items, possibly clothing or accessories, visible in the background. The lighting in the room is warm and inviting, creating a cozy atmosphere.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "0da29d36-b41a-4cec-b7ad-097849fc6040:9",
+    "s_lex": 0.41103727,
+    "s_sem": 0.6583449618866064,
+    "s_relevance": 0.48522957756598184,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "ocr_text": "```markdown\n# Louis Vuitton\n\n## Men's Fashion Show\n\n### Model: [Name]\n\n### Outfit:\n- **Top:** Light blue bandana print shirt\n- **Bottom:** Light blue bandana print pants\n- **Footwear:** Black sandals with bow details\n\n### Accessories:\n- **Shoes:** Various styles of shoes displayed on shelves\n- **Accessories:** Handbags and other accessories on display\n\n### Setting:\n- **Location:** Louis Vuitton store\n- **Interior Design:** Modern, stylish, with wooden accents and lighting\n```",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image depicts a person standing in what appears to be a high-end shoe store or boutique. The individual is wearing a stylish outfit consisting of a light blue, long-sleeved shirt with a paisley pattern and matching pants. The shirt has a deep V-neckline and the pants feature a similar paisley design. They are also wearing black sandals.\n\nThe background showcases an array of high-end shoes displayed on shelves. The shoes come in various styles and colors, including beige, gold, and white. The shelves are well-lit, highlighting the elegance and sophistication of the footwear. The store has a modern and luxurious interior design, with wooden accents and a clean, minimalist aesthetic. There is also a sign visible in the background, indicating the direction to the exit. The overall atmosphere suggests a sophisticated and fashionable environment.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:0",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 293755951,
+      "publication_id": 3632387366754451101,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Pausa deliciosa no meio do dia? A gente sabe onde. 🍴✨ De um sushi impecável a cortes suculentos e receitas com sabor de casa italiana — o seu almoço no Balneário Shopping tem tudo para ser o melhor momento do dia. Escolha seu mood e bom apetite. Nosso menu começa no L2. 😋",
+      "publication_num_likes": -1,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:1",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 293755951,
+      "publication_id": 3619522054945940404,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Visitei o Unizushi, que está participando do Circuito Gastronômico do Balneário Shopping e me apaixonei! 🍣  Menu completo (entrada, prato principal e sobremesa) por R$70,00. Ambiente aconchegante, atendimento ótimo… me senti em casa.  O festival vai até 30/04, e além do Unizushi  os outros restaurantes participantes são: Madero, Outback, Las Lenas e Pecorino. então corre pra aproveitar! 🎉",
+      "publication_num_likes": 175,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:2",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:3",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.016279712,
+      "profile_id": 205869140,
+      "publication_id": 3484522329364896571,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "🚨 A ESPERA ACABOU: O line-up do C6 Fest 2025 já tá no ar! 😱  O festival que reúne grandes nomes do rock, soul, jazz e da MPB vai rolar entre os dias 22 e 25 de março de 2025. E vale lembrar que a Mix é RÁDIO OFICIAL do C6 Fest 2025! 🤩 Então já segue o perfil @radiomixfm pra ficar por dentro de tudo o que vai acontecer no festival! 📷: @c6fest #c6 #c6fest #c6bank #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:4",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:5",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3576054808244461848,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Uma experiência italiana cheia de sabor e diversão! 🍕✨  No Duladu, a cozinha italiana ganha um toque moderno e descontraído, perfeita para quem ama boa comida e momentos especiais.  Que tal conhecer e se deliciar? 💛 📍 Duladu – Piso L1",
+      "publication_num_likes": 29,
+      "publication_num_comments": 3
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:6",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.014970649,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:7",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3473839392761043168,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Dentre os show mais cotados pra acontecer no Brasil em 2025, qual você gostaria de assistir? #ladygaga #oasis #u2 #adele #show",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:8",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3465792982756947354,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Definitivamente esse é o \"talvez\" que a gente gosta! 🗣 Segundo a revista NME, os irmãos Gallagher têm planos de trazer a \"Live 2025\", turnê que marca o reencontro da banda Oasis, para o Brasil! 😱 Ainda de acordo com fontes, o anúncio oficial deve acontecer em uma semana e também passará por diferentes cidades da Ásia, Austrália e outras das Américas! #oasis #liamgallagher #noelgallagher #live2025 #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "76c6b8d2-ea07-417a-8ee8-32034435f7fd:9",
+    "s_lex": 1.3322676e-15,
+    "s_sem": 0.6293011808916881,
+    "s_relevance": 0.18879035426750737,
+    "entity_data": {
+      "rnk": 0.012012488,
+      "profile_id": 205869140,
+      "publication_id": 3501338061331948271,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Bon appétit, baby! 🌮😋 Já imaginou andar pelas do México e dar de cara com Katy Perry comendo uns tacos? Porque exatamente o que aconteceu com alguns KatyCats mexicanos nesta quarta-feira (13)! A cantora já iniciou a sua agenda promocional no país dos nossos hermanos, e vale lembrar: em setembro do ano que vem, a nossa voltará ao Brasil para se apresentar no palco do The Town 2025! E aí, qual comida brasileira a Katy precisa experimentar assim que ela voltar pra cá? 👀 📷/📹: Rhevolver e ELTONEJO no X #katyperry #radiomix #radiomixfm",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:0",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 196669453,
+      "profile_bio": "Dominamos o Fogo Guia MICHELIN 2025 Melhor Restaurante de Carnes Prazeres da Mesa 2025 #pobrejuan",
+      "profile_full_name": "Pobre Juan",
+      "profile_num_medias": 3192,
+      "profile_num_followers": 369731
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:1",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 12908466366,
+      "profile_bio": "🌆Restaurante giratório 🏆Recomendado Guia Michelin 2025 | “Melhor Restaurante com Vista” 📲 (11) 97627-6148 🎹Rooftop 29° (Eventos + Feijoada sábados)",
+      "profile_full_name": "Lassù",
+      "profile_num_medias": 1338,
+      "profile_num_followers": 339998
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:2",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.026628258,
+      "profile_id": 20345456582,
+      "profile_bio": "Restaurante italiano e pizzaria napolitana! Trazendo pelo @chef.duda, as ricas tradições italianas com ingredientes de qualidade e excelência!",
+      "profile_full_name": "Brace Di Napoli Ristorante 🇮🇹",
+      "profile_num_medias": 384,
+      "profile_num_followers": 13446
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:3",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 48679600011,
+      "profile_bio": "Restaurante Italiano 🇧🇷🇮🇹 Tel. 11 2371-2397 📍Rua Dr. Paulo Vieira, 182 - Sumaré 📍Rua Ministro Ferreira Alves, 244 -",
+      "profile_full_name": "Restaurante Pastissimo",
+      "profile_num_medias": 21,
+      "profile_num_followers": 57089
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:4",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 60301152988,
+      "profile_bio": "Restaurante Italiano desde 2010. Para informações ligue: 5096.2872, 91768.5815, 91769.6484.",
+      "profile_full_name": "Agello Cucina Restaurante",
+      "profile_num_medias": 17,
+      "profile_num_followers": 2232
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:5",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 8230319883,
+      "profile_bio": "🍻 Restaurante (ter a dom) 💇🏻‍♂️ Barbearia @seupedrobarbearia.of 🏝️ @seupedroloungepraia Menu digital👇🏻",
+      "profile_full_name": "Seu Pedro Steak House",
+      "profile_num_medias": 696,
+      "profile_num_followers": 32282
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:6",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 1680235340,
+      "profile_bio": "Restaurante Italiano Experiências autênticas com vinhos e alta gastronomia Aberto todos os dias 11h30–15h | 18h–00h",
+      "profile_full_name": "Famiglia Muccini Ristorante",
+      "profile_num_medias": 1949,
+      "profile_num_followers": 24825
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:7",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 8018491545,
+      "profile_bio": "🇮🇹|Experiência gastronômica 🍴|Menu fechado 🏆|6ºmelhor restaurante romântico do MUNDO 📆|Somente com reservas 🕒|Jantar",
+      "profile_full_name": "Restaurante Pontremoli",
+      "profile_num_medias": 731,
+      "profile_num_followers": 96267
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:8",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 4138544767,
+      "profile_bio": "🕌 Restaurante Temático Persa 📞3939.9699/ WhatsApp 98597.6297 ⏱️Seg a Sáb - 18:30 às 23:00/ Dom-fechado 📱Menu, pedidos",
+      "profile_full_name": "Shoarma Canoas 🌯❤️",
+      "profile_num_medias": 581,
+      "profile_num_followers": 27180
+    }
+  },
+  {
+    "entity_id": "16f5de05-fe5e-4930-ab90-db6afa51c03b:9",
+    "s_lex": 9.992007e-16,
+    "s_sem": 0.6103431626151226,
+    "s_relevance": 0.18310294878453745,
+    "entity_data": {
+      "rnk": 0.023739802,
+      "profile_id": 49351739102,
+      "profile_bio": "Restaurante italiano inspirado nos verões do mediterrâneo no @villagemall 🇮🇹 Eventos WHATSAPP 21 3962-3740",
+      "profile_full_name": "OLIVO Villaggio",
+      "profile_num_medias": 781,
+      "profile_num_followers": 11532
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Identify healthy menu options based on standard medical nutritional guidelines."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Identify healthy restaurant chains based on standard medical nutritional guidelines."
+  }
+]

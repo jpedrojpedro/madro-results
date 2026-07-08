@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve Italian restaurants in a specific location."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve the menus published by these restaurants in 2025."
+  }
+]

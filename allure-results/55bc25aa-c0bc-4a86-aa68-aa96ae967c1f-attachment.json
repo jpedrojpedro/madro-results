@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the profile information and content focus for '@eusougabriela'."
+  },
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify social media profiles similar to '@eusougabriela' that focus on fitness-related content."
+  }
+]

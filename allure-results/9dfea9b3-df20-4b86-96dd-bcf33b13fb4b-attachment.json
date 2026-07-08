@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify the location of the town."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve restaurant ratings and rankings for the identified town."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve a list of restaurant options that meet specific healthy eating medical and nutritional guidelines."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Explain the criteria or standards used to evaluate the healthy eating restaurant options."
+  }
+]

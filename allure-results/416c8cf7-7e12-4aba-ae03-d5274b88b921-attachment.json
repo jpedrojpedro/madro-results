@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "follower_retrieval",
+    "demand": "Retrieve the list of profiles and their associated follower networks from the specified dataset."
+  },
+  {
+    "topic": "profile_retrieval",
+    "demand": "Analyze the follower data to identify the profile with the highest number of mutual followers among the group."
+  }
+]

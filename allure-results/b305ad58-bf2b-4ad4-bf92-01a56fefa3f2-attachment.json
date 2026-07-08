@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the user profile for the handle '@eusougabriela' to identify the account."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the lifestyle-related publications shared by the user account."
+  }
+]

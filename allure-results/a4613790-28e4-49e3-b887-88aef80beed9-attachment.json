@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the posts from the social media account @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the engagement metrics and sentiment of the retrieved posts to identify the one with the highest humor-related impact."
+  }
+]

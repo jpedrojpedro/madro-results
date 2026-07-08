@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify restaurants frequently recommended by social media influencers."
+  },
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve location information for the identified restaurants."
+  }
+]

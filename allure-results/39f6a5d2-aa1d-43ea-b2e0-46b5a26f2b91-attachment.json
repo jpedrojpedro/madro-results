@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the social media publications of restaurants that feature seafood content."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the comments on the identified seafood-themed posts to find the one with the highest engagement."
+  }
+]

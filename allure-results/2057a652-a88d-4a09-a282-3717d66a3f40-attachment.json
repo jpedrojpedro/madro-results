@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve all user profiles from the provided dataset."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all comments or discussions linked to these user profiles."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze and extract opinions or sentiment regarding hate speech content for the retrieved comments."
+  }
+]

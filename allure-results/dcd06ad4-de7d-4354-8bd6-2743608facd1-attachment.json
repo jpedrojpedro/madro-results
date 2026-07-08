@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve all user profiles from the provided dataset."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the provided comments to identify hate speech attacks directed at each user profile."
+  }
+]
