@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the social media profile information for @eusougabriela to verify the account."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the posts and shared content from the account @eusougabriela to identify lifestyle tips."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all publications made by the social media account '@broxadasinistra'."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve comments and opinions expressed on publications made by the account '@broxadasinistra' to identify flags for racial, gender-based, or religious intolerance."
+  }
+]

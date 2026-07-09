@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify restaurants or dining establishments in the user's current geographic proximity."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve the menu items and their detailed nutritional information, including calories, macronutrients, and ingredients, for the identified dining establishments."
+  }
+]

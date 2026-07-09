@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify restaurant owners mentioned in public opinion or media reviews."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve public opinions and media reviews regarding restaurant owners' personalities."
+  }
+]

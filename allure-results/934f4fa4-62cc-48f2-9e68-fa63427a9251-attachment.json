@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve a list of restaurants categorized as 'Italian' in 'Rio de Janeiro'."
+  },
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve the location details for restaurants in 'Rio de Janeiro'."
+  }
+]

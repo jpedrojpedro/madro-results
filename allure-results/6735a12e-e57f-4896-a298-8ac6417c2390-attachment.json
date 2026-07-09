@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve restaurant locations and identities that have high ratings based on food quality and taste."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve customer opinions and reviews regarding food quality and taste for potential restaurants."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "follower_retrieval",
+    "demand": "Identify the list of social media influencers."
+  },
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify the list of bakeries followed by these social media influencers."
+  }
+]

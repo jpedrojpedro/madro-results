@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the social media posts or content published by '@eusougabriela'."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the retrieved content to extract and identify the highest-rated or most recommended fitness tips."
+  }
+]

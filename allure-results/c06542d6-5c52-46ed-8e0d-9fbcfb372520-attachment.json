@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve a list of restaurants within a specified jurisdiction that have a valid health inspection status."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve compliance reports or status for restaurants regarding local health department regulations."
+  }
+]

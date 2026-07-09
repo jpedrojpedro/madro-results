@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Find Italian restaurants."
+  },
+  {
+    "topic": "location_retrieval",
+    "demand": "Filter restaurants by location: Rio de Janeiro, Brazil."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Identify Italian restaurants."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve menus for Italian restaurants and identify dishes containing pancetta or prosciutto."
+  }
+]

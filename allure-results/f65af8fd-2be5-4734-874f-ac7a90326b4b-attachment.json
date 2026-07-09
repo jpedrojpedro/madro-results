@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Find Italian restaurants in Rio de Janeiro"
+  },
+  {
+    "topic": "location_retrieval",
+    "demand": "Confirm location of restaurants in Rio de Janeiro"
+  }
+]

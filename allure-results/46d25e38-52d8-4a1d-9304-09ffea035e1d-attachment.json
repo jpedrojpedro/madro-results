@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve a list of restaurant menus."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve expert opinions on nutritional guidelines for a healthy diet."
+  }
+]

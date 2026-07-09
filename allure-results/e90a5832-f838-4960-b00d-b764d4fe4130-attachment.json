@@ -1,0 +1,287 @@
+[
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:0",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi includes pieces of salmon and rice, arranged neatly on a plate with a red floral design.\n\nThe text in the image is written in Portuguese and reads:\n\n\"ATÉ 30 DE ABRIL\nTodo dia tem opções deliciosas com preço especial.\nPrato do Chef R$ 70\"\n\nTranslated to English, it means:\n\"UPTO 30 OF APRIL\nEvery day has delicious options with special prices.\nChef's Dish R$ 70\"\n\nThe advertisement highlights a special offer where customers can enjoy a \"Chef's Dish\" for R$ 70 (approximately $10 USD) every day until April 30th. The dish is described as \"delicious,\" suggesting that it is a high-quality meal available at a discounted price. The overall design is clean and visually appealing, with a focus on the food items to attract potential customers.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:1",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a circular plate divided into four sections, each containing different types of food:\n\n1. **Top Left Section**: Contains a serving of French fries.\n2. **Top Right Section**: Features slices of sushi, including pieces of salmon and other ingredients wrapped in seaweed.\n3. **Bottom Left Section**: Displays a piece of grilled steak with visible grill marks.\n4. **Bottom Right Section**: Contains a salad with leafy greens, cherry tomatoes, and possibly some dressing or sauce.\n\nThe text \"CIRCUITO GASTRONÔMICO\" is prominently displayed in large, bold letters at the top of the image, with \"BALNEÁRIO Shopping\" written below it in a smaller font. The overall design is clean and visually appealing, highlighting the variety of food options available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:2",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:3",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "UNIZUSHI\nうに寿司",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a dining setup featuring a variety of Japanese cuisine items on a wooden table. The main focus is on a small, rectangular plate with a light blue base, containing a piece of unagi (grilled eel) wrapped in nori (seaweed). Next to it, there is a small bowl filled with what appears to be pickled ginger and wasabi. \n\nIn the center of the table, there is a small bowl containing a colorful assortment of seafood tempura, including shrimp and possibly other vegetables, garnished with a slice of lime. To the left of the tempura bowl, there is a small dish with a light-colored, possibly rice-based food item.\n\nA glass of a light-colored beverage, likely a lemonade or iced tea, is placed next to the main plate. The drink has a straw and is garnished with a slice of orange and a sprig of mint. \n\nIn the foreground, there is a white paper napkin with the text \"UNIZUSHI\" printed on it, along with some Japanese characters below it. The overall setting suggests a casual yet elegant dining experience, typical of a sushi restaurant.",
+      "published_at": "2025-04-26T20:52:04",
+      "publication_id": 3619522054945940404
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:4",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "COMIDA\nCIRCUITO GASTRONÔMICO\nBALNEÁRIO SHOPPING",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman sitting at a table in what appears to be a restaurant or café. She is wearing a sleeveless pink dress and has her hands placed on her cheeks, possibly in a gesture of surprise or excitement. In front of her on the table is a plate with a meal that includes a steak, a serving of rice, and some fried potatoes. There is also a drink with a slice of lime and a red beverage, likely a cocktail.\n\nThe background features other tables and chairs, suggesting a casual dining setting. The text overlay on the image reads \"COMIDA CIRCUITO GASTRONÔMICO BALNEÁRIO SHOPPING,\" which translates to \"Food Circuit Gastronomic Balneario Shopping.\" This indicates that the image is likely from a social media post or a promotional material for a food tour or event at the Balneario Shopping mall.",
+      "published_at": "2025-04-24T15:00:58",
+      "publication_id": 3617895287587311382
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:5",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\ne por falar em pizza,\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person in a kitchen, preparing pizza dough. The individual is wearing a black apron with the text \"DUDU\" and \"MARCIA LIMA\" printed on it, along with some other smaller text that is not fully legible. They are also wearing a brown cap backward. The person is using a pizza peel to handle the dough, which is placed on a metal surface. There is a small amount of flour scattered around the area, indicating recent activity in the kitchen. In the background, there is a shelf with various bottles, likely containing ingredients or condiments, and a sign that reads \"NOFLEX.\" The overall setting suggests a professional or semi-professional kitchen environment.",
+      "published_at": "2025-04-18T14:34:37",
+      "publication_id": 3613533644262531752
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:6",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\n# Baked Dish with Crumb Topping\n\n## Ingredients:\n- **Bread crumbs**\n- **Herbs (rosemary, parsley)**\n- **Other ingredients (not specified in the image)**\n\n## Instructions:\n1. Preheat oven to 375°F (190°C).\n2. Spread bread crumbs evenly on a baking dish.\n3. Add herbs on top of the bread crumbs.\n4. Bake for 20-25 minutes or until golden brown and crispy.\n5. Serve hot.\n\n## Serving Suggestions:\n- Serve with a side salad or roasted vegetables.\n- Pair with a glass of red wine for a complete meal.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a dish of baked stuffing, which appears to be a classic Thanksgiving side dish. The stuffing is golden brown and has a crispy, breaded topping that looks like it has been baked until it is perfectly crisp. The dish is placed in a blue enameled cast iron casserole dish with a white interior. The casserole dish has a handle on one side.\n\nIn the background, there is a white ceramic pitcher filled with fresh herbs. The herbs include rosemary and parsley, which are commonly used in stuffing recipes for their aromatic qualities. The pitcher is placed on a wooden surface, possibly a cutting board or a table. The overall setting suggests a homey, rustic kitchen environment, likely prepared for a meal.",
+      "published_at": "2025-04-14T14:54:32",
+      "publication_id": 3610644624164622272
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:7",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\n>7\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person outdoors, likely in a park or garden setting with green foliage in the background. The individual is wearing a navy blue sleeveless top with a white logo on the left side and bright orange shorts. They have a cheerful expression, with their mouth open as if laughing or shouting. In their right hand, they are holding an orange balloon with a white symbol resembling a stylized \"Y\" or \"V.\" The person is also wearing a necklace with small pendants and has a watch on their left wrist. The overall scene suggests a casual, joyful moment.",
+      "published_at": "2025-03-27T20:38:21",
+      "publication_id": 3597771695709748624
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:8",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\n**VR 360**\n**SPACE ADVENTURE**\n```\n\n",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a futuristic VR (Virtual Reality) experience setup inside what appears to be a shopping mall or an entertainment center. The centerpiece of the image is a large, sleek, and modern VR headset mounted on a stand. The headset is designed with a curved screen that displays a virtual environment, giving the impression of being inside a spacecraft or a space station.\n\nInside the VR headset, there are several模拟舱 (simulated cabins), each equipped with comfortable seating and controls. The seats are designed to simulate zero-gravity conditions, with the passengers lying back and floating in a relaxed position. The interior of the cabin has a futuristic design with blue lighting accents, enhancing the immersive experience.\n\nSurrounding the VR setup, there are several people, likely visitors or participants, observing the technology. One person is standing close to the VR headset, possibly a staff member or an employee explaining the experience. Another person is visible in the background, adding to the bustling atmosphere of the setting.\n\nIn the background, there are various signs and advertisements, including one that reads \"VR 360\" and another that says \"Space Adventure.\" These signs indicate the theme of the VR experience, which seems to be related to space exploration or a virtual space adventure.\n\nThe overall ambiance suggests a high-tech, interactive experience designed to transport users into a virtual world, providing them with a sense of being in a space station or a spacecraft. The presence of multiple people and the detailed setup indicate that this is likely a popular attraction within the mall or entertainment center.",
+      "published_at": "2025-03-06T15:00:18",
+      "publication_id": 3582381507081370690
+    }
+  },
+  {
+    "entity_id": "270c3340-198a-40c0-99d4-2b087f6390bc:9",
+    "s_lex": 0.012369788,
+    "s_sem": 0.555991821300249,
+    "s_relevance": 0.012369788,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "ocr_text": "```markdown\n- Hand holding a small, intricately designed object.\n- The object appears to be a piece of jewelry or a decorative item.\n- The hands are adorned with red nail polish.\n- The background is blurred but seems to be an indoor setting with a patterned surface.\n- The lighting is warm, giving the scene a cozy and intimate feel.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of two hands holding a small, intricately designed object. The object appears to be a piece of jewelry or a decorative item, featuring a combination of leather and metal elements. The leather part is light brown and has a smooth texture, while the metal parts are gold-colored and have a shiny, reflective surface.\n\nThe hands are positioned such that one hand is holding the leather part, while the other hand is holding the metal parts. The nails of both hands are painted with a bright red polish, adding a pop of color to the scene. The background is blurred, but it seems to be an indoor setting with a patterned surface, possibly a tablecloth or a carpet.\n\nThe overall composition of the image focuses on the detailed craftsmanship of the object being held, highlighting the contrast between the soft leather and the polished metal. The lighting is warm, enhancing the golden tones of the metal and the natural color of the leather.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.018643538,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3613533644262531752,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "O DuLadu já é conhecido no centro, e agora ganha uma nova versão aqui no shopping, com o mesmo conceito que conquistou muita gente: pratos bem servidos, preços acessíveis e aquele clima despojado que faz a gente se sentir em casa. É pra chegar sem pressa, pedir uma pizza com fermentação natural, uma massa, ou só parar pra um drink no meio da rotina.",
+      "publication_num_likes": 150,
+      "publication_num_comments": 10
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3617895287587311382,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Essa semana foi dia de experimentar o Circuito Gastronômico do Balneário Shopping.  São vários restaurantes participando com pratos de R$70,00 no almoço e na janta. E aí, em qual vocês vão primeiro?  Corre que é até dia 30 de Abril",
+      "publication_num_likes": 1506,
+      "publication_num_comments": 14
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3582381507081370690,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Últimos dias para viver essa experiência incrível! ✨🌊 Nossa programação especial com Oceanic Aquarium e Space Adventure está chegando ao fim! Até o dia 9 de março, a Praça de Eventos do Balneário Shopping segue sendo palco de aventuras intergalácticas e mergulhos no mundo marinho! 🪐🐠 🎮 Realidade virtual 🎲 Atividades interativas e jogos 🎨 Oficina das galáxias 🧜‍♀️ Oficinas artísticas com sereia 🎭 Presença de mascotes e muito mais! 📲 As inscrições são pelo app AJ Fans e as vagas são limitadas! Não deixe para depois e garanta seu lugar nessa jornada inesquecível.",
+      "publication_num_likes": 77,
+      "publication_num_comments": 3
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3619522054945940404,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Visitei o Unizushi, que está participando do Circuito Gastronômico do Balneário Shopping e me apaixonei! 🍣  Menu completo (entrada, prato principal e sobremesa) por R$70,00. Ambiente aconchegante, atendimento ótimo… me senti em casa.  O festival vai até 30/04, e além do Unizushi  os outros restaurantes participantes são: Madero, Outback, Las Lenas e Pecorino. então corre pra aproveitar! 🎉",
+      "publication_num_likes": 175,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 28618697473,
+      "publication_id": 3597771695709748624,
+      "profile_full_name": "Novvo Pré-Drink",
+      "publication_caption": "#TBT da primeira edição da Novvo Run! Fizemos o percurso de 5 KM no Parque do Povo, e claro que o pós corrida foi um HH de respeito no Restaurante Bar Mercearia! Conta pra gente onde você queria que rolasse a próxima edição da Novvo Run!  *Beba com responsabilidade  #acordenovvo #corrida #run #runningcommunity",
+      "publication_num_likes": 38,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "12577c21-9840-44db-a38d-612b36ff1f12:8",
+    "s_lex": 1e-20,
+    "s_sem": 0.4567423963396299,
+    "s_relevance": 1e-20,
+    "entity_data": {
+      "rnk": 0.01497065,
+      "profile_id": 293755951,
+      "publication_id": 3610644624164622272,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Uma receita que carrega sabor, tradição e afeto. Fui convidada pelo Balneário Shopping ara criar uma sugestão especial de Páscoa — e claro, minha inspiração foi o clássico bacalhau com broas, servido de um jeito que encanta à mesa. Passei pela Le Creuset e escolhi a assadeira oval perfeita para esse preparo… além de linda, funcional — e o melhor: estava com desconto! O resultado? Uma receita dourada, aromática e cheia de camadas de sabor, como pede a ocasião. Uma dica que vai bem o ano inteiro, mas que tem um charme todo especial nessa época. Receita: 2 postas de lombo de bacalhau - cozinhar até a primeira fervura, com mix de pimentas, ramos de tomilho, louro; Retirar os espinhos, e soltar as postas do bacalhau, reservar; Assar mini batatas, regadas com azeite de oliva, e ramos de tomilho, a quantidade suficiente para cobrir a forma que será usada; Dourar no azeite de oliva, 2 cebolas cortada em laminas, 2 talos de alho poró, e 2 dentes de alho e pimenta dedo de moça; Acrescentar 1 maço de espinafre fatiado; Para a farofa de broas No processador 1/2 pão de milho, azeite de oliva, sal, pimenta do reino, pimenta biquinho, e cheiro verde. Montagem: Fazer uma cama com as batatas esmagas, por cima o refogado, as lâminas de bacalhau e as broas; Assar até dourar. #páscoa #receitadepáscoa #bacalhaucombroas #lecreusetbrasil #balnearioshopping #inspiraçãonacozinha #mesaposta  #receitasdaalinedorneles",
+      "publication_num_likes": 319,
+      "publication_num_comments": 53
+    }
+  }
+]

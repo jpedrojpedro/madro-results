@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all publications authored by the account '@broxadasinistra'."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the publications of '@broxadasinistra' to identify recurring themes and primary subject matter."
+  }
+]

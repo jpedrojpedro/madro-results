@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Find Italian restaurants in São Paulo, Brazil."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify the popularity or engagement level of these Italian restaurants on Instagram."
+  }
+]

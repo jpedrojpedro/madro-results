@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify the user's current city."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve restaurants and their ratings or reviews in the identified city to determine the highest-rated one."
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "topic": "follower_retrieval",
+    "demand": "Identify all restaurants that have a social media follower count greater than 5,000."
+  }
+]

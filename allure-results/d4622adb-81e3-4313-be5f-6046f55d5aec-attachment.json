@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve all user profile information from the provided dataset."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve all comments and their associated content from the provided dataset."
+  }
+]

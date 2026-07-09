@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Analyze comment data to determine which user profile is the target of the highest volume of hate speech."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the sentiment and content of comments to identify hate speech directed at specific profiles."
+  }
+]
