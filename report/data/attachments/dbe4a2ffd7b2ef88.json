@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve a list of dining establishments or menu items that comply with medically recognized dietary guidelines for health."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve the specific criteria or standards used to define 'healthiest' dining options within the context of medically recognized dietary guidelines."
+  }
+]

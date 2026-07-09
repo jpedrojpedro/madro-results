@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the social media posts published by the account @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve the engagement metrics and feedback (likes, comments, etc.) for the posts published by @broxadasinistra to determine which is perceived as the funniest."
+  }
+]

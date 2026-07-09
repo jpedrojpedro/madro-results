@@ -1,0 +1,272 @@
+[
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:0",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.024704523,
+      "ocr_text": "Até 30 de abril\n\nTodo dia tem opções deliciosas com preço especial.\n\nPrato do Chef R$ 70",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for a restaurant, specifically Almeida Junior, promoting a special offer. The background is a light beige color with a decorative plate featuring sushi and a salad at the top left corner. The sushi includes pieces of salmon and rice, arranged neatly on a plate with a red floral design.\n\nThe text in the image is written in Portuguese and reads:\n\n\"ATÉ 30 DE ABRIL\nTodo dia tem opções deliciosas com preço especial.\nPrato do Chef R$ 70\"\n\nTranslated to English, it means:\n\"UPTO 30 OF APRIL\nEvery day has delicious options with special prices.\nChef's Dish R$ 70\"\n\nThe advertisement highlights a special offer where customers can enjoy a \"Chef's Dish\" for R$ 70 (approximately $10 USD) every day until April 30th. The dish is described as \"delicious,\" suggesting that it is a high-quality meal available at a discounted price. The overall design is clean and visually appealing, with a focus on the food items to attract potential customers.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:1",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.024704523,
+      "ocr_text": "```markdown\nCIRCUITO\nGASTRONÔMICO\n\nBALNEÁRIO\nShopping\n```",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image is an advertisement for \"Circuito Gastronômico\" at Balneário Shopping, as indicated by the text at the top of the image. The background is a soft, light pink color.\n\nAt the center of the image, there is a plate divided into two sections. On the left side of the plate, there is a serving of French fries. On the right side, there is a portion of sushi, consisting of several pieces of sushi rolls with orange fish and white rice. Below the sushi, there is a small bowl containing a salad made of lettuce, cherry tomatoes, and possibly some other vegetables or ingredients.\n\nThe text \"CIRCUITO GASTRONÔMICO\" is prominently displayed in large, bold letters at the top of the image, with \"BALNEÁRIO Shopping\" written below it in a smaller font. The overall design of the advertisement is clean and visually appealing, focusing on the variety of food items available at the shopping center.",
+      "published_at": "2025-04-17T19:31:11",
+      "publication_id": 3612958779701542868
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:2",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.024704523,
+      "ocr_text": "SEU HAPPY HOUR É NO\nBalneário Shopping",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a group of people toasting with champagne glasses at a table. The focus is on the hands and glasses, with the background slightly blurred. The text overlay in Portuguese reads \"SEU HAPPY HOUR É NO Balneário Shopping,\" which translates to \"YOUR HAPPY HOUR IS AT Balneário Shopping.\" The setting appears to be a social gathering or event, possibly at a shopping mall named Balneário Shopping.",
+      "published_at": "2025-03-12T17:54:06",
+      "publication_id": 3586816428159870366
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:3",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "ocr_text": "UNIZUSHI\nうに寿司",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image depicts a dining setup featuring a variety of Japanese cuisine items on a wooden table. The main focus is on a small, rectangular plate with a light blue base, containing a piece of unagi (grilled eel) wrapped in nori (seaweed). Next to it, there is a small bowl filled with what appears to be pickled ginger and wasabi. \n\nIn the center of the table, there is a small bowl containing a colorful assortment of seafood tempura, including shrimp and possibly other vegetables, garnished with a slice of lime. To the left of the tempura bowl, there is a small dish with a light-colored, possibly rice-based food item.\n\nA glass of a light-colored beverage, likely a lemonade or iced tea, is placed next to the main plate. The drink has a straw and is garnished with a slice of orange and a sprig of mint. \n\nIn the foreground, there is a white paper napkin with the text \"UNIZUSHI\" printed on it, along with some Japanese characters below it. The background shows a row of wooden chairs and tables, suggesting that this is a restaurant setting. The overall presentation is clean and aesthetically pleasing, typical of a high-quality sushi restaurant.",
+      "published_at": "2025-04-26T20:52:04",
+      "publication_id": 3619522054945940404
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:4",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "ocr_text": "COMIDA\nCIRCUITO GASTRONÔMICO\nBALNEÁRIO SHOPPING",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman sitting at a table in what appears to be a restaurant or café. She is wearing a sleeveless pink dress and has her hands placed on her cheeks, possibly in a gesture of surprise or excitement. In front of her on the table is a plate with a meal that includes a steak, a serving of rice, and some fried potatoes. There is also a glass of a red beverage with a lime wedge on the rim.\n\nThe background features other tables and chairs, suggesting a casual dining setting. The text overlay on the image reads \"COMIDA CIRCUITO GASTRONÔMICO BALNEÁRIO SHOPPING,\" which translates from Portuguese to \"Food Circuit Gastronomic Balneario Shopping.\" This indicates that the image is likely promoting a food tour or culinary experience at the Balneario Shopping mall.",
+      "published_at": "2025-04-24T15:00:58",
+      "publication_id": 3617895287587311382
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:5",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "ocr_text": "```markdown\n>7\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a person outdoors, likely in a park or garden setting with green foliage in the background. The individual is wearing a navy blue sleeveless top with a white logo on the left side and bright orange shorts. They have a cheerful expression, with their mouth open as if laughing or shouting. In their right hand, they are holding an orange balloon with a white symbol resembling a \"greater than\" sign (>) printed on it. The person is also wearing a necklace with a small pendant and has a watch on their left wrist. The overall scene suggests a playful and joyful moment.",
+      "published_at": "2025-03-27T20:38:21",
+      "publication_id": 3597771695709748624
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:6",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "ocr_text": "```markdown\n- Hand holding a small, intricately designed object.\n- The object appears to be a piece of jewelry or a decorative item.\n- The hands are adorned with red nail polish.\n- The background is blurred but seems to be an indoor setting with a patterned surface.\n- The lighting is warm, highlighting the details of the object and the hands.\n```",
+      "position": 0,
+      "extension": "jpg",
+      "img_caption": "The image shows a close-up of two hands holding a small, intricately designed object. The object appears to be a piece of jewelry or a decorative item, featuring a combination of leather and metal elements. The leather strap is light brown and has a smooth texture, while the metal parts include gold-colored accents and small, shiny details.\n\nThe hands are positioned such that one hand is holding the strap from the top, while the other hand is gripping it near the middle. The nails of both hands are painted with a bright red polish, adding a pop of color to the scene. The background is blurred, but it seems to be an indoor setting with a patterned surface, possibly a tablecloth or a fabric backdrop.\n\nThe overall composition of the image focuses on the detailed craftsmanship of the object being held, highlighting the contrast between the soft leather and the shiny metal components. The lighting is warm, enhancing the golden tones of the metal parts and the rich brown of the leather.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:7",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "ocr_text": "```markdown\n# YSL\n```\n\n",
+      "position": 1,
+      "extension": "jpg",
+      "img_caption": "The image shows a woman standing in front of a mirror, smiling and looking at herself. She is wearing a strapless white dress that fits closely to her body, accentuating her figure. The dress has a smooth, polished texture and appears to be made of a lightweight fabric. She is also wearing a delicate necklace with small, round beads or stones. Her hair is long and dark, and she has a subtle makeup look, including a light blush and eyeliner.\n\nIn the background, there are other women who appear to be in a dressing room or a boutique. One woman on the left is wearing a white dress with thin straps and has her hair pulled back. Another woman on the right is wearing a patterned top and blue pants, and she is holding a phone. The setting suggests a social gathering or event where people are trying on clothes and possibly taking photos. The lighting in the room is warm and inviting, creating a cozy atmosphere.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:8",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "ocr_text": "```markdown\n# Louis Vuitton\n\n## Men's Fashion Show\n\n### Model: [Model Name]\n\n### Outfit:\n- **Top:** Light blue bandana print shirt\n- **Bottom:** Light blue bandana print pants\n- **Footwear:** Black sandals with bow details\n\n### Accessories:\n- **Shoes:** Various styles of shoes displayed on shelves\n- **Accessories:** Handbags and other accessories on display\n\n### Setting:\n- **Location:** Louis Vuitton store\n- **Interior Design:** Modern, stylish, with gold accents and wooden shelves\n```",
+      "position": 2,
+      "extension": "jpg",
+      "img_caption": "The image depicts a person standing in what appears to be a high-end shoe store or boutique. The individual is wearing a stylish outfit consisting of a light blue, long-sleeved shirt with a pattern that resembles a bandana design, paired with matching light blue pants. The person is also wearing black sandals.\n\nThe background features an array of high-end shoes displayed on shelves. The shoes come in various styles and colors, including beige, gold, and brown. The shelves are well-lit, highlighting the luxurious nature of the products. The store has a modern and elegant interior design, with wooden accents and a clean, minimalist aesthetic. There are also some decorative elements like a blue ottoman and a striped wall in the background. The overall atmosphere suggests a sophisticated and fashionable environment.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "2f3ca581-02c0-4f1f-af7b-8f3e0da623ca:9",
+    "s_lex": 4.440892e-16,
+    "s_sem": 0.49443060577063336,
+    "s_relevance": 0.49443060577063336,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "ocr_text": "PAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES\nPAULA TORRES",
+      "position": 3,
+      "extension": "jpg",
+      "img_caption": "The image depicts a group of eight women standing together in what appears to be a well-lit, upscale shopping area or boutique. They are all smiling and posing for the photograph. The women are dressed in stylish, fashionable outfits, with a mix of dresses, skirts, and tops. Some of them are holding shopping bags from a store named \"PAULA TORRES,\" indicating that they have recently shopped there.\n\nThe setting features modern decor with wooden paneling and elegant lighting fixtures hanging from the ceiling. The background includes a glass door with a logo on it, suggesting that the location is a high-end retail establishment. The overall atmosphere is cheerful and sophisticated, reflecting a sense of enjoyment and camaraderie among the group.",
+      "published_at": "2025-02-12T20:03:28",
+      "publication_id": 3566589387627873100
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:0",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.024704523,
+      "profile_id": 293755951,
+      "publication_id": 3612958779701542868,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Clima de sabores no ar!  Começou o Circuito Gastronômico do Balneário Shopping com opções incríveis para todos os gostos e com valor fixo de R$70,00.  Aproveite até 30 de abril nos restaurantes participantes: Unizushi, Madero, Outback, Las Lenas e Pecorino. Venha viver essa experiência deliciosa! *Confira os pratos disponíveis nos restaurantes participantes. *Válido para almoço e jantar.",
+      "publication_num_likes": 37,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:1",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.024704523,
+      "profile_id": 293755951,
+      "publication_id": 3586816428159870366,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Quinta-feira pede um Happy Hour à altura! 🍹🎶 Vem curtir uma noite especial com música ao vivo, double drink nos restaurantes participantes e aquela vibe perfeita para relaxar e aproveitar. ✨ 📍 Onde? Piso L1, pertinho do Unizushi e Duladu. 🕕 Quando? Quinta-feira, a partir das 19h! Chama a galera, marca na agenda e vem brindar com a gente! 🍸🎤  Para mais informações, consulte os restaurantes. @unizushisc é @duladududu",
+      "publication_num_likes": 52,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:2",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 293755951,
+      "publication_id": 3619522054945940404,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Visitei o Unizushi, que está participando do Circuito Gastronômico do Balneário Shopping e me apaixonei! 🍣  Menu completo (entrada, prato principal e sobremesa) por R$70,00. Ambiente aconchegante, atendimento ótimo… me senti em casa.  O festival vai até 30/04, e além do Unizushi  os outros restaurantes participantes são: Madero, Outback, Las Lenas e Pecorino. então corre pra aproveitar! 🎉",
+      "publication_num_likes": 175,
+      "publication_num_comments": 21
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:3",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 293755951,
+      "publication_id": 3566589387627873100,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Ontem, o Balneário Shopping recebeu o Icônico Pedro Mafra e suas convidadas para um evento especial em celebração à nova coleção Origens da Paula Torres, uma marca de sapatos exclusivos e feitos à mão. O encontro começou com um almoço impecável no restaurante italiano Duladu, seguido de um coquetel na loja, onde as convidadas puderam conhecer de perto cada detalhe da coleção ao lado da própria fundadora, Ana Paula Torres. Para tornar o momento ainda mais memorável, as convidadas foram presenteadas com as pulseiras exclusivas da marca e personalizadas com as suas iniciais A Paula Torres está no piso L1 do Balneário Shopping. Venha descobrir a coleção Origens e viver essa experiência única. ✨💫",
+      "publication_num_likes": 214,
+      "publication_num_comments": 22
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:4",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 293755951,
+      "publication_id": 3617895287587311382,
+      "profile_full_name": "Balneário Shopping",
+      "publication_caption": "Essa semana foi dia de experimentar o Circuito Gastronômico do Balneário Shopping.  São vários restaurantes participando com pratos de R$70,00 no almoço e na janta. E aí, em qual vocês vão primeiro?  Corre que é até dia 30 de Abril",
+      "publication_num_likes": 1506,
+      "publication_num_comments": 14
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:5",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 205869140,
+      "publication_id": 3494872840141020386,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "IMPRESSIONANTE! 😮 O Museu Madame Tussaud de Orlando é simplesmente mais uma parada obrigatória da cidade! #radiomix #orlado #madametussaud #aviaodamix",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:6",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 28618697473,
+      "publication_id": 3597771695709748624,
+      "profile_full_name": "Novvo Pré-Drink",
+      "publication_caption": "#TBT da primeira edição da Novvo Run! Fizemos o percurso de 5 KM no Parque do Povo, e claro que o pós corrida foi um HH de respeito no Restaurante Bar Mercearia! Conta pra gente onde você queria que rolasse a próxima edição da Novvo Run!  *Beba com responsabilidade  #acordenovvo #corrida #run #runningcommunity",
+      "publication_num_likes": 38,
+      "publication_num_comments": 1
+    }
+  },
+  {
+    "entity_id": "484825e0-c069-46c7-9585-5e8f45249f27:7",
+    "s_lex": 1e-20,
+    "s_sem": 0.45313291789031607,
+    "s_relevance": 0.45313291789031607,
+    "entity_data": {
+      "rnk": 0.019861752,
+      "profile_id": 205869140,
+      "publication_id": 3471830206900518218,
+      "profile_full_name": "Rádio Mix FM",
+      "publication_caption": "Que hit! “Leave the Door Open” foi o primeiro single do duo Silk Sonic, formado por Bruno Mars e Anderson Paak. #brunomars #brunomarsnobrasil #brunomarsbrasil #bruninho #radiomix",
+      "publication_num_likes": 0,
+      "publication_num_comments": 0
+    }
+  }
+]

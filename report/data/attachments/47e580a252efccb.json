@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve the current geographic location of the user."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve a list of menu items available at restaurants near the user's location."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve the detailed nutritional information, including macro and micronutrient content, for the identified menu items."
+  }
+]

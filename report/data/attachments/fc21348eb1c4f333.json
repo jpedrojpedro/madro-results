@@ -1,0 +1,137 @@
+[
+  {
+    "entity_id": "27367821",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "não indico! tive problema e o pos vendas deu respostas completamente absurdas na minha opinião.",
+      "num_likes": 0,
+      "comment_id": 18068503082034644,
+      "profile_id": 27367821,
+      "published_at": "2025-07-02T13:36:15",
+      "publication_id": 3667151738597068788,
+      "publication_caption": "SALE Seleção especial com até 50% OFF Disponível nas lojas físicas e em haight.com.br"
+    }
+  },
+  {
+    "entity_id": "198639211",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "😍😍",
+      "num_likes": 1,
+      "comment_id": 17931780405064498,
+      "profile_id": 198639211,
+      "published_at": "2025-07-01T02:10:26",
+      "publication_id": 3665822222180325591,
+      "publication_caption": "SALE Seleção especial com até 50% OFF Disponível nas lojas físicas e em haight.com.br"
+    }
+  },
+  {
+    "entity_id": "4081311759",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "Mara🔥",
+      "num_likes": 1,
+      "comment_id": 18049842272176081,
+      "profile_id": 4081311759,
+      "published_at": "2025-06-30T00:11:43",
+      "publication_id": 3656954137096140074,
+      "publication_caption": "SALE Até 50% OFF em peças selecionadas da coleção haight.com.br"
+    }
+  },
+  {
+    "entity_id": "749220909",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "😍😍😍😍😍",
+      "num_likes": 1,
+      "comment_id": 17850144606490471,
+      "profile_id": 749220909,
+      "published_at": "2025-06-29T13:25:53",
+      "publication_id": 3664558744957394875,
+      "publication_caption": "Seu novo Haight com até 50% OFF Aproveite a SALE nas lojas físicas e em haight.com.br"
+    }
+  },
+  {
+    "entity_id": "60503879916",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "Eu amo! ❤️",
+      "num_likes": 1,
+      "comment_id": 18095672194593552,
+      "profile_id": 60503879916,
+      "published_at": "2025-06-25T13:46:40",
+      "publication_id": 3662742592724656003,
+      "publication_caption": "Seu Haight com até 50% OFF Aproveite a SALE nas lojas físicas e em haight.com.br"
+    }
+  },
+  {
+    "entity_id": "406330726",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "😍",
+      "num_likes": 1,
+      "comment_id": 17875251267260161,
+      "profile_id": 406330726,
+      "published_at": "2025-06-28T00:14:18",
+      "publication_id": 3664558744957394875,
+      "publication_caption": "Seu novo Haight com até 50% OFF Aproveite a SALE nas lojas físicas e em haight.com.br"
+    }
+  },
+  {
+    "entity_id": "179761649",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "⭐",
+      "num_likes": 1,
+      "comment_id": 18007320647603799,
+      "profile_id": 179761649,
+      "published_at": "2025-06-27T22:53:46",
+      "publication_id": 3663738763210704774,
+      "publication_caption": "SALE Seleção especial com até 50% OFF Disponível nas lojas físicas e em haight.com.br"
+    }
+  },
+  {
+    "entity_id": "3402858",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "Mandei DM",
+      "num_likes": 0,
+      "comment_id": 18003816236616431,
+      "profile_id": 3402858,
+      "published_at": "2025-06-25T15:53:51",
+      "publication_id": 3662742592724656003,
+      "publication_caption": "Seu Haight com até 50% OFF Aproveite a SALE nas lojas físicas e em haight.com.br"
+    }
+  },
+  {
+    "entity_id": "44134517",
+    "s_lex": 0.15205626,
+    "s_sem": 0.6081077106719166,
+    "s_relevance": 0.6081077106719166,
+    "entity_data": {
+      "comment": "Existe um sério problema de numeração no site de vocês",
+      "num_likes": 0,
+      "comment_id": 18060062882000297,
+      "profile_id": 44134517,
+      "published_at": "2025-06-25T02:21:05",
+      "publication_id": 3662111663991626861,
+      "publication_caption": "SALE Haight Até 50% OFF em lojas físicas e haight.com.br"
+    }
+  }
+]

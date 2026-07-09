@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve the public comments from the social media profile @haight_clothing."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze the retrieved comments to summarize the prevailing user sentiment and perception of the brand."
+  }
+]

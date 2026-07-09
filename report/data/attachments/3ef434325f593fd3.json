@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve all content and viewpoints published by the account @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify and summarize public criticisms and controversies regarding the content published by @broxadasinistra."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the social media posts categorized as seafood."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Calculate the engagement based on the number of comments for the retrieved seafood posts to identify the restaurant."
+  }
+]

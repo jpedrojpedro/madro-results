@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the social media profile information for '@eusougabriela'."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the publications of '@eusougabriela' to identify recommended fitness tips."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Analyze and determine the 'best' or most recommended fitness tip from the retrieved publications of '@eusougabriela'."
+  }
+]

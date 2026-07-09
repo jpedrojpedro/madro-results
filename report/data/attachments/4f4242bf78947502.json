@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the list of seafood restaurants and their social media profiles."
+  },
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the social media posts and associated comment counts for each identified seafood restaurant."
+  }
+]

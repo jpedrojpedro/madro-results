@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve the content and statements published by the social media account @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve public criticisms and opinions regarding the content published by @broxadasinistra."
+  }
+]

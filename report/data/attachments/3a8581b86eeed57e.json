@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "publication_retrieval",
+    "demand": "Retrieve comments on social media posts by the account @broxadasinistra."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify which of the retrieved comments have been flagged or reported for intolerance, specifically racial, gender-based, or religious discrimination."
+  }
+]

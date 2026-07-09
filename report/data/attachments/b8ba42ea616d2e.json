@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Retrieve the menu and dining characteristics of the restaurant 'Tutto Nhoque' to understand its offerings and experience."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Identify other restaurants that provide a menu and dining experience similar to 'Tutto Nhoque' based on customer opinions."
+  }
+]

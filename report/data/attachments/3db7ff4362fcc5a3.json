@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Identify steakhouses located in Curitiba, Brazil."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Determine which of these steakhouses have the highest volume of mentions or discussions in user comments."
+  }
+]

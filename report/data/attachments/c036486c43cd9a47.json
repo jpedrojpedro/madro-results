@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve information about the profile '@eusougabriela'."
+  },
+  {
+    "topic": "profile_retrieval",
+    "demand": "Find fitness-related profiles that are similar to the profile identified."
+  }
+]

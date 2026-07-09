@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "menu_retrieval",
+    "demand": "Identify bakeries."
+  },
+  {
+    "topic": "follower_retrieval",
+    "demand": "Retrieve social media followers or influencers associated with the identified bakeries."
+  }
+]

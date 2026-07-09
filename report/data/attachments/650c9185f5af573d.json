@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "profile_retrieval",
+    "demand": "Retrieve the profile information for @haight_clothing to identify its business model and services."
+  },
+  {
+    "topic": "menu_retrieval",
+    "demand": "Check the menu or linked services of @haight_clothing for e-commerce or online store features."
+  }
+]

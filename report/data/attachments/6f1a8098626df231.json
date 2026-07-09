@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "location_retrieval",
+    "demand": "Retrieve a list of restaurants located within the specified town."
+  },
+  {
+    "topic": "opinion_retrieval",
+    "demand": "Retrieve aggregate professional reviews and quantifiable performance data for the identified restaurants in that town."
+  }
+]
