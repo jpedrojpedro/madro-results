@@ -1,5 +1,0 @@
-  Exists   : ProfileFetcherAgent → topics: ['profile_retrieval', 'location_retrieval']
-  Exists   : PublicationFetcherAgent → topics: ['publication_retrieval', 'menu_retrieval']
-  Exists   : SemanticOpinionFetcherAgent → topics: ['opinion_retrieval']
-  Exists   : ImageFetcherAgent → topics: ['publication_retrieval', 'menu_retrieval']
-  Exists   : FollowerAnalysisFetcherAgent → topics: ['follower_retrieval']
