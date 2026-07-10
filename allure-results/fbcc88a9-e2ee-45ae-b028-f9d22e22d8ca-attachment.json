@@ -1,7 +1,0 @@
-[
-  {
-    "agent": "FollowerAnalysisFetcherAgent",
-    "status": "failed",
-    "error": "1 validation error for RetrievalOut\n  Value error, List input must contain dictionary items. [type=value_error, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
-  }
-]
