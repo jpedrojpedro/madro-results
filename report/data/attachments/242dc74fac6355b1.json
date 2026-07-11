@@ -1,0 +1,10 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "WITH target_profile AS (\n    SELECT id \n    FROM profile \n    WHERE username = 'eusougabriela'\n)\nSELECT \n    p.profile_id AS profile_id,\n    pub.description,\n    pub.published_at\nFROM publication pub\nJOIN target_profile p ON pub.profile_id = p.id\nWHERE pub.description ILIKE '%dica%' \n   OR pub.description ILIKE '%lifestyle%'\n   OR pub.description ILIKE '%rotina%'\nORDER BY pub.num_likes DESC\nLIMIT 10;",
+      "error": "column p.profile_id does not exist\nLINE 7:     p.profile_id AS profile_id,\n            ^\nHINT:  Perhaps you meant to reference the column \"pub.profile_id\"."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT pr.id AS profile_id FROM profile p JOIN.profile_relationship pr ON p.id = pr.destination_profile_id WHERE lower(p.username) = 'fluminensefc' AND lower(pr.edge) = 'follows' ORDER BY visited_at DESC LIMIT 10",
+      "error": "syntax error at or near \".\"\nLINE 1: SELECT pr.id AS profile_id FROM profile p JOIN.profile_relat...\n                                                      ^"
+    },
+    {
+      "sql": "SELECT pr.id AS profile_id FROM profile p JOIN profile_relationship pr ON p.id = pr.destination_profile_id WHERE lower(p.username) = 'fluminensefc' AND lower(pr.edge) = 'follows' ORDER BY visited_at DESC LIMIT 10",
+      "error": "column pr.id does not exist\nLINE 1: SELECT pr.id AS profile_id FROM profile p JOIN profile_relat...\n               ^\nHINT:  Perhaps you meant to reference the column \"p.id\"."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN profile_relationship pr ON p.id = pr.origin_profile_id WHERE lower(p.username) = 'fluminensefc' AND lower(pr.edge) = 'follows' ORDER BY visited_at DESC LIMIT 10",
+      "error": "function lower(edge_type) does not exist\nLINE 1: ...e_id WHERE lower(p.username) = 'fluminensefc' AND lower(pr.e...\n                                                             ^\nHINT:  No function matches the given name and argument types. You might need to add explicit type casts."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN profile_relationship pr ON p.id = pr.origin_profile_id WHERE lower(p.username) = 'fluminensefc' AND edge = lower('follows') ORDER BY visited_at DESC LIMIT 10",
+      "error": "operator does not exist: edge_type = text\nLINE 1: ...WHERE lower(p.username) = 'fluminensefc' AND edge = lower('f...\n                                                             ^\nHINT:  No operator matches the given name and argument types. You might need to add explicit type casts."
+    }
+  ]
+}

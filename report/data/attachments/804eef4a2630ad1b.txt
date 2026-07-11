@@ -1,1 +1,0 @@
-SELECT profile_id, publication_id FROM publication ORDER BY published_at DESC LIMIT 10

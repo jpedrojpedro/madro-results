@@ -1,0 +1,9 @@
+SELECT
+  p.id AS publication_id,
+  p.description,
+  p.published_at
+FROM publication p
+WHERE
+  p.description_lexemes @@ to_tsquery('english', 'new | menu | dish | food | introduce')
+ORDER BY p.published_at DESC
+LIMIT 10;

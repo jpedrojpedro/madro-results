@@ -1,0 +1,3 @@
+{
+  "error": "missing FROM-clause entry for table \"c2\"\nLINE 1: SELECT c3.profile_id, ts_rank(c2.description_lexemes, to_tsq...\n                                      ^"
+}

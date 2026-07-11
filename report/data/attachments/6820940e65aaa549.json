@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH ranked_comments AS ( SELECT profile_id, annotation FROM comment WHERE publication_id = ... ORDER BY ts_rank(comment.description_lexemes, to_tsquery('english', 'beach wedding')) DESC LIMIT 10 ) SELECT * FROM ranked_comments",
+      "error": "syntax error at or near \"..\"\nLINE 1: ...d, annotation FROM comment WHERE publication_id = ... ORDER ...\n                                                             ^"
+    },
+    {
+      "sql": "WITH ranked_comments AS ( SELECT p.id AS profile_id, c.annotation \n FROM comment c JOIN publication pub ON pub.id = c.publication_id WHERE pub.type IN ('GraphImage', 'GraphSidecar') AND c.annotation ILIKE '%beach% wedding%' ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'beach wedding')) DESC LIMIT 10 ) SELECT * FROM ranked_comments",
+      "error": "missing FROM-clause entry for table \"p\"\nLINE 1: WITH ranked_comments AS ( SELECT p.id AS profile_id, c.annot...\n                                         ^"
+    },
+    {
+      "sql": "WITH ranked_comments AS (  SELECT publication_id AS profile_id FROM publication WHERE type IN ('GraphImage', 'GraphSidecar') AND description ILIKE '%beach% wedding%' ORDER BY ts_rank(description_lexemes, to_tsquery('english', 'beach wedding')) DESC LIMIT 10 )",
+      "error": "syntax error at end of input\nLINE 1: ...mes, to_tsquery('english', 'beach wedding')) DESC LIMIT 10 )\n                                                                       ^"
+    },
+    {
+      "sql": "WITH ranked_comments AS ( SELECT publication_id AS profile_id FROM publication WHERE type IN ('GraphImage', 'GraphSidecar') AND description ILIKE '%beach% wedding%' ORDER BY ts_rank(description_lexemes, to_tsquery('english', 'beach*')) DESC LIMIT 10 )",
+      "error": "syntax error at end of input\nLINE 1: ...on_lexemes, to_tsquery('english', 'beach*')) DESC LIMIT 10 )\n                                                                       ^"
+    }
+  ]
+}

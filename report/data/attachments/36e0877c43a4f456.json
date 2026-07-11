@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH relevant_profiles AS (\n    SELECT p.id AS profile_id\n    FROM profile p\n    WHERE p.biography_lexemes @@ to_tsquery('english', 'beach wedding')\n)\nSELECT rp.profile_id,\n       r.description AS recommendation,\n       ts_rank(rp.profile_biography_lexemes, query) as relevance\nFROM profile rp\nJOIN publication p ON rp.id = p.profile_id\nJOIN relevant_profiles ON rp.id = relevant_profiles.profile_id\nWHERE p.description IS NOT NULL AND p.description != ''\nAND p.description_lexemes @@ to_tsquery('english', 'beach wedding')\nORDER BY relevance DESC\nLIMIT 10",
+      "error": "column rp.profile_id does not exist\nLINE 6: SELECT rp.profile_id,\n               ^\nHINT:  Perhaps you meant to reference the column \"p.profile_id\"."
+    },
+    {
+      "sql": "WITH relevant_profiles AS (\n    SELECT p.id AS profile_id\n    FROM profile p\n    WHERE p.biography_lexemes @@ to_tsquery('english', 'beach wedding')\n)\nSELECT rp.profile_id,\n       r.annotation AS recommendation,\n       ts_rank(rp.biography_lexemes, query) AS relevance,\n       r.annotation_lexemes @@ to_tsquery('english', 'clothing items') as is_about_clothing\nFROM profile rp\nJOIN publication p ON rp.id = p.profile_id\nJOIN relevant_profiles ON rp.id = relevant_profiles.profile_id\nLEFT JOIN comment r ON p.id = r.publication_id\nWHERE r.annotation IS NOT NULL AND r.annotation != ''\nAND r.annotation_lexemes @@ to_tsquery('english', 'clothing items')\nORDER BY relevance DESC, is_about_clothing DESC\nLIMIT 10",
+      "error": "column rp.profile_id does not exist\nLINE 6: SELECT rp.profile_id,\n               ^\nHINT:  Perhaps you meant to reference the column \"p.profile_id\" or the column \"r.profile_id\"."
+    },
+    {
+      "sql": "WITH relevant_profiles AS (    SELECT p.id AS profile_id    FROM profile p    WHERE p.biography_lexemes @@ to_tsquery('english', 'beach wedding')), filtered_comments AS (    SELECT r.profile_id,           r.annotation AS recommendation,           ts_rank(r.biography_lexemes, query) AS relevance,           r.annotation_lexemes @@ to_tsquery('english', 'clothing items') as is_about_clothing    FROM profile rp    JOIN publication p ON rp.id = p.profile_id    JOIN relevant_profiles ON rp.id = relevant_profiles.profile_id    LEFT JOIN comment r ON p.id = r.publication_id    WHERE r.annotation IS NOT NULL AND r.annotation != ''    AND r.annotation_lexemes @@ to_tsquery('english', 'clothing items'))SELECT f.profile_id,       f.recommendation,       f.relevanceFROM filtered_comments fORDER BY relevance DESC, is_about_clothing DESCLIMIT 10",
+      "error": "syntax error at or near \"fORDER\"\nLINE 1: ...endation,       f.relevanceFROM filtered_comments fORDER BY ...\n                                                             ^"
+    },
+    {
+      "sql": "WITH relevant_profiles AS (\n    SELECT p.id AS profile_id\n    FROM profile p\n    WHERE p.biography_lexemes @@ to_tsquery('english', 'beach wedding')\n) filtered_comments AS (\n    SELECT r.profile_id,\n           r.annotation AS recommendation,\n           ts_rank(r.description_lexemes, query) AS relevance,\n           r.annotation_lexemes @@ to_tsquery('english', 'clothing items') as is_about_clothing\n    FROM profile rp\n    JOIN publication p ON rp.id = p.profile_id\n    JOIN relevant_profiles ON rp.id = relevant_profiles.profile_id\n    LEFT JOIN comment r ON p.id = r.publication_id\n    WHERE r.annotation IS NOT NULL AND r.annotation != ''\n    AND r.description_lexemes @@ to_tsquery('english', 'clothing items')) SELECT f.profile_id,\n       f.recommendation,\n       f.relevance\nFROM filtered_comments f\nORDER BY relevance DESC, is_about_clothing DESC\nLIMIT 10;",
+      "error": "syntax error at or near \"filtered_comments\"\nLINE 5: ) filtered_comments AS (\n          ^"
+    }
+  ]
+}

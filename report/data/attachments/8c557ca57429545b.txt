@@ -1,0 +1,11 @@
+SELECT
+  follower.id AS profile_id,
+  follower.username,
+  follower.num_followers
+FROM profile AS follower
+JOIN profile_relationship AS pr ON follower.id = pr.origin_profile_id
+JOIN profile AS brand ON pr.destination_profile_id = brand.id
+WHERE brand.username = 'haight_clothing'
+  AND pr.edge = 'follows'
+ORDER BY follower.num_followers DESC
+LIMIT 10;

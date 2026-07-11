@@ -1,1 +1,0 @@
-SELECT c.publication_id AS publication_id, pr.destination_profile_id AS profile_id FROM comment c INNER JOIN profile_relationship pr ON c.profile_id = pr.origin_profile_id WHERE annotation ILIKE '%funniest%' AND c.profile_id = ( SELECT id FROM profile WHERE username='@broxadasinistra' ) ORDER BY ts_rank(c.annotation, to_tsquery('english', 'funniest')) DESC LIMIT 10

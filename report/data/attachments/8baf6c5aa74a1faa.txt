@@ -1,0 +1,12 @@
+SELECT 
+    pub.profile_id AS profile_id,
+    pub.description,
+    pub.published_at
+FROM publication pub
+JOIN profile p ON pub.profile_id = p.id
+WHERE p.username = 'eusougabriela'
+  AND (pub.description ILIKE '%dica%' 
+       OR pub.description ILIKE '%lifestyle%'
+       OR pub.description ILIKE '%rotina%')
+ORDER BY pub.num_likes DESC
+LIMIT 10;

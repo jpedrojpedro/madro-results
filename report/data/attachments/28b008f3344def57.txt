@@ -1,0 +1,19 @@
+WITH relevant_profiles AS (
+    SELECT p.id AS profile_id
+    FROM profile p
+    WHERE p.biography_lexemes @@ to_tsquery('english', 'beach wedding')
+) filtered_comments AS (
+    SELECT rp.profile_id,
+           r.annotation AS recommendation,
+           ts_rank(r.annotation_lexemes, to_tsquery('english', 'clothing items')) AS relevance
+    FROM profile rp
+    JOIN publication p ON rp.id = p.profile_id
+    JOIN relevant_profiles ON rp.id = relevant_profiles.profile_id
+    LEFT JOIN comment r ON p.id = r.publication_id
+    WHERE r.annotation IS NOT NULL AND r.annotation != ''
+      AND r.annotation_lexemes @@ to_tsquery('english', 'clothing items')) SELECT f.profile_id,
+       f.recommendation,
+       f.relevance
+FROM filtered_comments f
+ORDER BY relevance DESC, is_about_clothing DESC
+LIMIT 10;

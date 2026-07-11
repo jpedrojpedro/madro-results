@@ -1,0 +1,3 @@
+{
+  "error": "missing FROM-clause entry for table \"sub\"\nLINE 1: ... JOIN associated_pubs asubs ON c.publication_id = sub.public...\n                                                             ^"
+}

@@ -1,0 +1,1 @@
+SELECT p.id AS publication_id FROM publication AS p WHERE date_trunc('year', p.published_at) = '2025-01-01' AND (p.description LIKE '%daily special%' OR p.description LIKE '%restaurant%') ORDER BY p.visited_at DESC LIMIT 10;

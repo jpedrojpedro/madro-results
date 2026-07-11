@@ -1,0 +1,1 @@
+SELECT p1.id AS profile_id FROM profile p1 JOIN publication_collab pc ON p1.id = pc.profile_id JOIN publication p2 ON pc.publication_id = p2.id WHERE p1.username = '@broxadasinistra' AND p2.description ILIKE '%funny%' ORDER BY p2.num_likes DESC LIMIT 10

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE EXISTS ( SELECT 1 FROM publication_collab pc JOIN profile pr ON pc.profile_id = pr.id WHERE p.id = pc.publication_id AND pr.full_name LIKE '%Balneário Camboriú%' ) ORDER BY num_followers DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE EXISTS ( SELECT 1 FROM publication_collab pc JOIN profile pr ON pc.profile_id = pr.id AND pr.full_name LIKE '%Balneário Camboriú%' JOIN publication pu ON pc.publication_id = pu.id ) ORDER BY RAND() LIMIT 10",
+      "error": "function rand() does not exist\nLINE 1: ...cation pu ON pc.publication_id = pu.id ) ORDER BY RAND() LIM...\n                                                             ^\nHINT:  No function matches the given name and argument types. You might need to add explicit type casts."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE EXISTS ( SELECT 1 FROM publication_collab pc JOIN profile pr ON pc.profile_id = pr.id AND pr.full_name LIKE '%Balneário Camboriú%' JOIN publication pu ON pc.publication_id = pu.id ) ORDER BY RANDOM() LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN publication pu ON pc.publication_id = pu.id WHERE p.full_name LIKE '%Balneário Camboriú%' OR p.username LIKE '%Balneário Camboriú%' LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

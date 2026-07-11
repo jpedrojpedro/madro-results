@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "profile_id": 2125506698,
+      "username": "buzzfeedtasty",
+      "num_followers": 45275679
+    },
+    {
+      "profile_id": 4543594905,
+      "username": "turkuazkitchen",
+      "num_followers": 10895716
+    },
+    {
+      "profile_id": 2350831940,
+      "username": "tastyuk",
+      "num_followers": 10276387
+    },
+    {
+      "profile_id": 1746410947,
+      "username": "tudogostosooficial",
+      "num_followers": 7610034
+    },
+    {
+      "profile_id": 46907047055,
+      "username": "foodsbible",
+      "num_followers": 5982396
+    },
+    {
+      "profile_id": 7238520830,
+      "username": "thetinychefshow",
+      "num_followers": 5578988
+    },
+    {
+      "profile_id": 9057180587,
+      "username": "spicymoustache",
+      "num_followers": 5535753
+    },
+    {
+      "profile_id": 278321594,
+      "username": "henrique_fogaca74",
+      "num_followers": 4580086
+    },
+    {
+      "profile_id": 1147363578,
+      "username": "nytcooking",
+      "num_followers": 4398163
+    },
+    {
+      "profile_id": 522830861,
+      "username": "hanavocado_",
+      "num_followers": 3394690
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+WITH target_profile AS (
+    SELECT id AS profile_id
+    FROM profile
+    WHERE username = 'eusougabriela'
+)
+SELECT 
+    p.profile_id, 
+    pub.description
+FROM publication pub
+JOIN target_profile p ON pub.profile_id = p.profile_id
+WHERE pub.description ILIKE '%dica%' 
+   OR pub.description ILIKE '%fitness%'
+ORDER BY pub.num_likes DESC
+LIMIT 10;

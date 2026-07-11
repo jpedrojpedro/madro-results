@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH nothing AS ( SELECT 'Not possible with this schema' ) SELECT p.id AS profile_id FROM publication EXCEPT SELECT r.publication_id FROM raw_file WHERE name = 'menu.png';",
+      "error": "missing FROM-clause entry for table \"p\"\nLINE 1: ...( SELECT 'Not possible with this schema' ) SELECT p.id AS pr...\n                                                             ^"
+    },
+    {
+      "sql": "WITH nothing AS ( SELECT 'Not possible with this schema' ) SELECT r.publication_id FROM raw_file WHERE name = 'menu.png';",
+      "error": "missing FROM-clause entry for table \"r\"\nLINE 1: ...( SELECT 'Not possible with this schema' ) SELECT r.publicat...\n                                                             ^"
+    },
+    {
+      "sql": "WITH nothing AS (SELECT '') SELECT publication_id FROM raw_file WHERE name = 'menu.png'; /* This would select rows for publications where there is an attached image file named 'menu.png', but we cannot see any information on what is pictured, let alone determine nutritional breakdowns. */",
+      "error": "Generated SQL contains multiple statements — rejected before execution."
+    },
+    {
+      "sql": "SELECT profile_id FROM publication WHERE id IN (SELECT publication_id FROM raw_file WHERE name = 'menu.png') ORDER BY published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

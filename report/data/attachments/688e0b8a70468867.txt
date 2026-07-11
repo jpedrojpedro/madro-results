@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile AS p WHERE EXISTS ( SELECT 1 FROM publication AS pub JOIN publication_collab AS pc ON pub.id = pc.publication_id WHERE pub.visited_at > CURRENT_DATE - INTERVAL '30 days' AND (p.location_ID IS NOT NULL OR pub.location_ID IS NOT NULL) AND ST_DWithin(p.location::geography, pub.location::geography, 500)) LIMIT 10

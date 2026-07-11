@@ -1,0 +1,1 @@
+SELECT p.id AS publication_id FROM profile AS p JOIN profile_relationship AS pr ON p.id = pr.origin_profile_id JOIN publication AS pub ON p.id = pub.profile_id WHERE pr.destination_profile_id IN ( SELECT id FROM profile WHERE full_name LIKE '%restaurant%' OR biography LIKE '%restaurant%' ) AND pub.published_at BETWEEN CURRENT_DATE AND (CURRENT_DATE + INTERVAL '1 month') LIMIT 10

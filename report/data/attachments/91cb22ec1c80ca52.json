@@ -1,0 +1,3 @@
+{
+  "error": "column p.location_id does not exist\nLINE 1: ...sited_at > CURRENT_DATE - INTERVAL '30 days' AND (p.location...\n                                                             ^"
+}

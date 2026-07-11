@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH ranked_publications AS ( SELECT publication_id, ts_rank(description_lexemes, to_tsquery('english', 'restaurant')) + ts_rank(biography_lexemes, to_tsquery('english', 'best')) * 0.5 AS relevance FROM publication JOIN profile ON publication.profile_id = profile.id WHERE description Lexemes @@ to_tsquery('english', 'best restaurant') OR biography_lexemes @@ to_tsquery('english', 'restaurant best') ORDER BY relevance DESC LIMIT 10) SELECT publisherrprofile_id FROM profile JOIN ranked_publications USING (publication_id)",
+      "error": "syntax error at or near \"Lexemes\"\nLINE 1: ...ication.profile_id = profile.id WHERE description Lexemes @@...\n                                                             ^"
+    },
+    {
+      "sql": "WITH ranked_publications AS ( SELECT publication_id, ts_rank(description_lexemes, to_tsquery('english', 'best restaurant')) + ts_rank(biography_lexemes, to_tsquery('english', 'best restaurant')) * 0.5 AS relevance FROM publication JOIN profile ON publication.profile_id = profile.id WHERE description_lexemes @@ to_tsquery('english', 'best restaurant') OR biography_lexemes @@ to_tsquery('english', 'best restaurant') ORDER BY relevance DESC LIMIT 10) SELECT p.id AS profile_id FROM ranked_publications rp LEFT JOIN publication p ON rp.publication_id = p.id",
+      "error": "column \"publication_id\" does not exist\nLINE 1: WITH ranked_publications AS ( SELECT publication_id, ts_rank...\n                                             ^"
+    },
+    {
+      "sql": "WITH ranked_publications AS (SELECT rp.publication_id, p.id AS profile_id, ts_rank(description_lexemes, to_tsquery('english', 'best restaurant')) + ts_rank(biography_lexemes, to_tsquery('english', 'best restaurant')) * 0.5 AS relevance FROM publication p JOIN publication_collab c ON p.id = c.publication_id JOIN profile r ON c.profile_id = r.id WHERE description_lexemes @@ to_tsquery('english', 'best restaurant') OR biography_lexemes @@ to_tsquery('english', 'best restaurant') ORDER BY relevance DESC LIMIT 10)",
+      "error": "syntax error at end of input\nLINE 1: ...glish', 'best restaurant') ORDER BY relevance DESC LIMIT 10)\n                                                                       ^"
+    },
+    {
+      "sql": "WITH ranked_publications AS (SELECT rp.publication_id, p.id AS profile_id FROM publication rp JOIN publication_collab pc ON rp.id = pc.publication_id JOIN profile r ON pc.profile_id = r.id WHERE rp.description_lexemes @@ to_tsquery('english', 'best restaurant') OR r.biography_lexemes @@ to_tsquery('english', 'best restaurant') ORDER BY ts_rank(rp.description_lexemes, to_tsquery('english', 'best restaurant')) + ts_rank(r.biography_lexemes, to_tsquery('english', 'best restaurant')) * 0.5 DESC LIMIT 10)",
+      "error": "syntax error at end of input\nLINE 1: ..._tsquery('english', 'best restaurant')) * 0.5 DESC LIMIT 10)\n                                                                       ^"
+    }
+  ]
+}

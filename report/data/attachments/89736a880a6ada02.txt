@@ -1,1 +1,0 @@
-SELECT profile_id, ts_rank(biography_lexemes, to_tsquery('english', 'vegan options')) AS rank FROM public.profile WHERE biography_lexemes @@ to_tsquery('english', 'vegan options') ORDER BY rank DESC LIMIT 10;

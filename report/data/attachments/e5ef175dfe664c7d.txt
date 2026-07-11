@@ -1,1 +1,0 @@
-SELECT c.profile_id FROM comment c JOIN profile p ON p.id = c.profile_id WHERE c.annotation !~~ '*✍*' AND c.num_likes < 0 GROUP BY c.profile_id ORDER BY SUM(c.num_likes) DESC LIMIT 10

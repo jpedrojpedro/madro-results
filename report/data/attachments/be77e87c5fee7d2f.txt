@@ -1,0 +1,9 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.full_name,
+  ts_rank(p.biography_lexemes, websearch_to_tsquery('english', 'restaurante balneário camboriú')) AS rank
+FROM profile p
+WHERE p.biography_lexemes @@ websearch_to_tsquery('english', 'restaurante | "balneário" | "camboriú"')
+ORDER BY rank DESC
+LIMIT 10;

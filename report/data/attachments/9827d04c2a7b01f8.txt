@@ -1,0 +1,22 @@
+WITH target_profile AS (
+    SELECT id 
+    FROM profile 
+    WHERE username = 'fluminensefc'
+),
+player_mentions AS (
+    SELECT 
+        c.profile_id,
+        COUNT(*) as mention_count
+    FROM comment c
+    JOIN publication p ON c.publication_id = p.id
+    WHERE p.profile_id = (SELECT id FROM target_profile)
+    GROUP BY c.profile_id
+)
+SELECT 
+    pm.profile_id,
+    p.username,
+    pm.mention_count
+FROM player_mentions pm
+JOIN profile p ON pm.profile_id = p.id
+ORDER BY pm.mention_count DESC
+LIMIT 10;

@@ -1,0 +1,13 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.full_name,
+  COUNT(c.id) AS num_comments,
+  SUM(c.num_likes) AS total_comment_likes
+FROM profile p
+JOIN publication pub ON p.id = pub.profile_id
+JOIN comment c ON pub.id = c.publication_id
+WHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant | food | dining | bistro | cafe | kitchen | eatery | gourmet | cook')
+GROUP BY p.id
+ORDER BY total_comment_likes DESC NULLS LAST
+LIMIT 10;

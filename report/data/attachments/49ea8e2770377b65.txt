@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN publication pu ON pc.publication_id = pu.id WHERE (p.full_name LIKE '%Balneário Camboriú%' OR p.username LIKE '%Balneário Camboriú%') AND (pu.description LIKE '%restaurant%' OR pu.description LIKE '%cafe%' OR pu.description LIKE '%bar%') LIMIT 10

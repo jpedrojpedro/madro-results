@@ -1,0 +1,14 @@
+SELECT
+  p.id AS profile_id
+FROM
+  profile p
+WHERE
+  p.username = 'haight_clothing'
+  OR p.biography ILIKE '%sell%'
+  OR p.biography ILIKE '%shop%'
+  OR p.biography ILIKE '%online%'
+  OR p.biography ILIKE '%website%'
+  OR p.biography ILIKE '%link%'
+ORDER BY
+  p.num_followers DESC
+LIMIT 10;

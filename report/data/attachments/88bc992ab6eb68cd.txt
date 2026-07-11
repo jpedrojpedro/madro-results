@@ -1,1 +1,0 @@
-SELECT profile_id FROM profile WHERE username = 'best_restaurant' LIMIT 10

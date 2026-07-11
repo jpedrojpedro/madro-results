@@ -1,1 +1,0 @@
-SELECT pc.publication_id FROM profile AS p JOIN publication AS pc ON p.id = pc.profile_id WHERE pc.description_lexemes @@ to_tsquery('english', 'fish') OR pc.annotation ILIKE '%fish%' LIMIT 10

@@ -1,0 +1,10 @@
+WITH nearby_profiles AS (SELECT DISTINCT publication_id FROM raw_file WHERE name = 'menu.png'),
+ profile_publications AS (
+ SELECT p.id AS profile_id, pp.publication_id
+ FROM nearby_profiles np JOIN publication_publication_collab ON np.publication_id = publication_id OR np.publication_id = collab_profile_id
+ JOIN profile_relationship ON publish_id = origin_id AND pp_profile_id = destination_id
+ JOIN profile p ON pp_profile_id = p.id
+ ORDER BY ts_rank(tp.description_lexemes, to_tsquery('english', ?))),
+ top_browseables AS (
+ SELECT DISTINCT profile_id FROM profile_publications WHERE publication_id IN (SELECT id FROM publication WHERE published_at >= CURRENT_DATE) AND publication_id IN (SELECT id FROM publication WHERE num_likes > 10) AND publication_id NOT IN (SELECT id FROM publication WHERE is_private = True))
+ SELECT * FROM top_browseables ORDER BY ts_rank(tp.description_lexemes, to_tsquery('english', ?)) DESC LIMIT 10

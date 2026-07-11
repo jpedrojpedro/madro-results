@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, p.username FROM profile p JOIN publication pub ON p.id = pub.profile_id WHERE p.username = 'fluminensefc' ORDER BY pub.published_at DESC LIMIT 10

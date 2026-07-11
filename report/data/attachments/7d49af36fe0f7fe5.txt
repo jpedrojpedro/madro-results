@@ -1,1 +1,0 @@
-SELECT p.profile_id, p.full_name FROM profile AS p WHERE p.username = '@eusougabriela' AND p.biography_lexemes @@ to_tsquery('english', 'fitness tip') ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'fitness tip')) DESC LIMIT 10

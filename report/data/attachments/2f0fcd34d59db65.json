@@ -1,0 +1,3 @@
+{
+  "error": "relation \"public.collaborator\" does not exist\nLINE 1: ... as count_t, t.id FROM publication_collab pc JOIN public.col...\n                                                             ^"
+}

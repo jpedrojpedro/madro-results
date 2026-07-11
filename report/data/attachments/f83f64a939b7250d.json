@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH publication AS (SELECT p.id AS profile_id, pub.description_lexemes, COUNT(*) OVER (), publication_id FROM profile AS p JOIN publication AS pub ON p.id = pub.profile_id JOIN publication_collab AS collab ON pub.id = collab.publication_id JOIN profile AS c ON collab.profile_id = c.id WHERE c.biography LIKE \"%%Japanese%\" GROUP BY p.id, pub.description_lexemes ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'restaurants main offered dishes')) DESC LIMIT 10) SELECT publication_id, STRING_AGG(DISTINCT REGEXP_SPLIT_TO_TBLARRAYS(pub.description lexemes, ' |') ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'restaurants main offered dishes')), ', ') AS dish FROM publication GROUP BY publication_id",
+      "error": "syntax error at or near \"lexemes\"\nLINE 1: ...ISTINCT REGEXP_SPLIT_TO_TBLARRAYS(pub.description lexemes, '...\n                                                             ^"
+    },
+    {
+      "sql": "WITH publication AS (SELECT p.id AS profile_id, pub.description_lexemes, pub.id AS publication_id, STRING_AGG(DISTINCT REGEXP_SPLIT_TO_TABLEARRAY(pub.description_lexemes, ' |')) AS dish FROM public.profile AS p JOIN public.publication AS pub ON p.id = pub.profile_id WHERE description_lexemes @@ to_tsquery('english', 'restaurants main offered dishes') AND p.biography LIKE '%Japanese%' GROUP BY pub.description_lexemes, publication_id ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'restaurants main offered dishes')) DESC LIMIT 10) SELECT publication_id, string_agg(dish, ', ') FROM publication GROUP BY publication_id",
+      "error": "function regexp_split_to_tablearray(tsvector, unknown) does not exist\nLINE 1: ...es, pub.id AS publication_id, STRING_AGG(DISTINCT REGEXP_SPL...\n                                                             ^\nHINT:  No function matches the given name and argument types. You might need to add explicit type casts."
+    },
+    {
+      "sql": "WITH ranked_publications AS ( SELECT pub.id AS publication_id, string_agg(DISTINCT REGEXP_SPLIT_TO_TABLE(public.description_lexemes, ','), ', ') AS dish FROM public.publication AS pub WHERE description_lexemes @@ to_tsquery('english', 'restaurants main offered dishes') GROUP BY pub.id ) SELECT publication_id,  ts_rank(description_lexemes, to_tsquery('english', 'restaurants main offered dishes')) DESC * 1 + published_at DESC LIMIT 10;",
+      "error": "syntax error at or near \"*\"\nLINE 1: ...nglish', 'restaurants main offered dishes')) DESC * 1 + publ...\n                                                             ^"
+    },
+    {
+      "sql": "WITH ranked_publications AS ( SELECT pub.id AS publication_id, ts_rank(pub.description_lexemes, to_tsquery('english', 'restaurants main offered dishes')) AS rank, pub.published_at AS published_at FROM public.publication AS pub WHERE description_lexemes @@ to_tsquery('english', 'restaurants main offered dishes') ORDER BY rank DESC, published_at DESC LIMIT 10 ) SELECT publication_id FROM ranked_publications",
+      "error": "syntax error in tsquery: \"restaurants main offered dishes\""
+    }
+  ]
+}

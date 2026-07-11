@@ -1,1 +1,0 @@
-SELECT pb.id AS publication_id FROM publication AS pb WHERE pb.description ILIKE '%restaurant%' AND EXTRACT(DOW FROM pb.published_at) = 2 ORDER BY pb.published_at DESC LIMIT 10

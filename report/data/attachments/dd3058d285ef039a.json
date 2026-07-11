@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH query_biography AS (SELECT biography_lexemes FROM profiles WHERE id = 145231) SELECT p.id AS profile_id, p.biography FROM query_biography CROSS JOIN profiles p ORDER BY ts_rank(p.biography_lexemes, qbiography.biography_lexemes) DESC LIMIT 10;",
+      "error": "relation \"profiles\" does not exist\nLINE 1: ...query_biography AS (SELECT biography_lexemes FROM profiles W...\n                                                             ^"
+    },
+    {
+      "sql": "WITH query_biography AS (SELECT id, username, biography_lexemes FROM public.profile WHERE id = 145231) SELECT p.id AS profile_id, p.biography, t.description FROM query_biography JOIN public.publication_public_collab pp1 ON query_biography.username::uuid IN (pp1.publication_id , pp1.profile_id) JOIN public.publication pp2 ON pp1.publication_id::text = pp2.slug LEFT JOIN public.publication_public_collab pp3 ON pp3.publication_id = pp2.id AND pp3.profile_id  = query_biography.id JOIN public.publication t ON pp3.publication_id::text = t.slug ORDER BY CASE WHEN pp3.publication_id IS NOT NULL THEN ts_rank(t.description_lexemes, query_biography.biography_lexemes) ELSE -1 END DESC LIMIT 10;",
+      "error": "relation \"public.publication_public_collab\" does not exist\nLINE 1: ...iography, t.description FROM query_biography JOIN public.pub...\n                                                             ^"
+    },
+    {
+      "sql": "WITH query_biography AS ( SELECT p.id AS profile_id, p.biography_lexemes FROM public.profile p WHERE id = 145231 ) SELECT pp.publication_id, pp1.username AS username, ts_rank( pt.description_lexemes, query_biography.biography ) * ( SELECT COUNT(DISTINCT t.profile_id) FROM publication_collab pc JOIN public.collaborator c ON pc.profile_id = c.id JOIN publication t ON c.publication_id = t.profile_id WHERE t.publication_id = pp1.publication_id ) AS relevance FROM query_biography JOIN public.publication_public_collab pp1 ON ( pp1.publication_id = query_biography.profile_id OR pp1.profile_id = query_biography.profile_id ) JOIN publication pt ON pp1.publication_id = pt.id ORDER BY t2.relevance DESC, pt.published_at DESC LIMIT 10;",
+      "error": "relation \"public.publication_public_collab\" does not exist\nLINE 1: ...ation_id ) AS relevance FROM query_biography JOIN public.pub...\n                                                             ^"
+    },
+    {
+      "sql": "WITH relevant_profiles AS ( SELECT pp.profile_id, pt.description_lexemes FROM public.publication_public_collab pp LEFT JOIN publication pt ON pp.publication_id = pt.id ), query_biography AS ( SELECT p.id AS profile_id, p.biography_lexemes FROM public.profile p WHERE id = 145231 ) SELECT pp1.profile_id AS profile_id, ts_rank(pp1.description_lexemes, query_biography.biography) * ( SELECT COUNT(DISTINCT t.profile_id) FROM publication_collab pc JOIN public.collaborator c ON pc.profile_id = c.id JOIN publication t ON c.publication_id = t.id WHERE t.publication_id = pp1.publication_id ) AS relevance FROM relevant_profiles pp1 ORDER BY relevance DESC, published_at DESC LIMIT 10",
+      "error": "relation \"public.publication_public_collab\" does not exist\nLINE 1: ...SELECT pp.profile_id, pt.description_lexemes FROM public.pub...\n                                                             ^"
+    }
+  ]
+}

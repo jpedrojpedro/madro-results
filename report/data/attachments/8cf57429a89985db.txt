@@ -1,0 +1,20 @@
+SELECT
+    c.profile_id AS profile_id,
+    c.annotation,
+    c.published_at
+FROM comment c
+WHERE c.publication_id IN (
+    SELECT p.id
+    FROM publication p
+    JOIN profile pr ON p.profile_id = pr.id
+    WHERE pr.username = 'broxadasinistra'
+)
+AND (
+    c.annotation ILIKE '%ódio%' OR
+    c.annotation ILIKE '%intolerânc%' OR
+    c.annotation ILIKE '%discrimin%' OR
+    c.annotation ILIKE '%ofens%' OR
+    c.annotation ILIKE '%ataque%'
+)
+ORDER BY c.published_at DESC
+LIMIT 10;

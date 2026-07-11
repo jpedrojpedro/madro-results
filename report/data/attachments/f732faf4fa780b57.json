@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant') AND p.location = 'Florianópolis' LIMIT 10",
+      "error": "column p.location does not exist\nLINE 1: ...exemes @@ to_tsquery('english', 'restaurant') AND p.location...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant') AND lower(p.full_name) LIKE '%florianópolis%' LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

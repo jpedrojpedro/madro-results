@@ -1,0 +1,3 @@
+{
+  "error": "column publication.medicinal_info does not exist\nLINE 1: ... AS profile_id, publication.id AS publication_id, publicatio...\n                                                             ^"
+}

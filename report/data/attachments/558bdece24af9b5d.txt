@@ -1,0 +1,9 @@
+SELECT
+  id AS profile_id,
+  username,
+  biography
+FROM profile,
+     to_tsquery('english', 'vegan') AS q
+WHERE biography_lexemes @@ q
+ORDER BY ts_rank(biography_lexemes, q) DESC
+LIMIT 10;

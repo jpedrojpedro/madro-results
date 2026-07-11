@@ -1,0 +1,19 @@
+SELECT 
+    p.id AS profile_id, 
+    p.username, 
+    COUNT(c.id) AS comment_count
+FROM profile p
+JOIN publication pub ON p.id = pub.profile_id
+JOIN comment c ON pub.id = c.publication_id
+WHERE (
+    p.biography_lexemes @@ to_tsquery('portuguese', 'churrasc:* | steakhouse:*')
+    OR p.full_name ILIKE '%churrascaria%'
+    OR p.full_name ILIKE '%steakhouse%'
+)
+AND (
+    p.biography_lexemes @@ to_tsquery('portuguese', 'curitiba')
+    OR p.biography ILIKE '%curitiba%'
+)
+GROUP BY p.id
+ORDER BY comment_count DESC
+LIMIT 10;

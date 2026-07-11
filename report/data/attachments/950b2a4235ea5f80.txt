@@ -1,0 +1,6 @@
+SELECT pub.id AS profile_id, pub.publication_id
+FROM publication AS pub
+INNER JOIN profile AS p ON pub.profile_id = p.id
+WHERE pub.description_lexemes @@ to_tsquery('english', 'restaurants near Balneário*')
+AND pub.published_at >= NOW() - INTERVAL '2 month'
+ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', ''Balne%C3%A1rio*'')) DESC LIMIT 10

@@ -1,0 +1,3 @@
+{
+  "error": "syntax error at or near \"THEN\"\nLINE 1: ...ublication_id AND f.profile_id!=c.profile_id ) ), THEN TRUE ...\n                                                             ^"
+}

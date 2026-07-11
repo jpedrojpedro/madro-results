@@ -1,5 +1,0 @@
-SELECT id AS profile_id, username, biography
-FROM profile
-WHERE biography_lexemes @@ to_tsquery('english', 'sushi')
-ORDER BY ts_rank(biography_lexemes, to_tsquery('english', 'sushi')) DESC
-LIMIT 10;

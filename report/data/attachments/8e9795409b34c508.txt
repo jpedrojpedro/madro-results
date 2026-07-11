@@ -1,0 +1,15 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.full_name,
+  p.num_followers
+FROM profile p
+WHERE
+  p.num_followers > 5000
+  AND (
+    p.biography_lexemes @@ to_tsquery('english', 'restaurant | food | dine | menu | eatery')
+    OR p.full_name ILIKE '%restaurant%'
+    OR p.username ILIKE '%restaurant%'
+  )
+ORDER BY p.num_followers DESC
+LIMIT 10;

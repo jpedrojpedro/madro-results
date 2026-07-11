@@ -1,0 +1,3 @@
+{
+  "error": "column cm.pubication_id does not exist\nLINE 1: ....publication p2 JOIN public.comment cm ON p2.id = cm.pubicat...\n                                                             ^\nHINT:  Perhaps you meant to reference the column \"cm.publication_id\"."
+}

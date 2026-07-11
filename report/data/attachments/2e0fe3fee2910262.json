@@ -1,0 +1,18 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 4,
+  "failed_attempts": [
+    {
+      "sql": "WITH indexed_biographies AS (SELECT * FROM profile INDEXED BY profile_biography_lexemes_idx) SELECT i.id AS profile_id, i.biography, ts_rank(i.biography_lexemes, to_tsquery('english', 'sushi')) AS relevance_signal FROM indexed_biographies i WHERE i.biography_lexemes @@ to_tsquery('english', \"sushi\") ORDER BY i.visited_at DESC LIMIT 10;",
+      "error": "syntax error at or near \"BY\"\nLINE 1: ...xed_biographies AS (SELECT * FROM profile INDEXED BY profile...\n                                                             ^"
+    },
+    {
+      "sql": "WITH indexed_biographies AS (SELECT * FROM public.profile WHERE setweight(to_tsvector('english', biography), 'A') @@ to_tsquery('english', 'sushi')) SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', 'sushi')) AS relevance_signal, ts_headline(public.profile.p.biography, to_tsquery('english', 'sushi')) FROM indexed_biographies i JOIN public.profile p ON (i.id) WHERE p.is_private = FALSE ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'sushi')) DESC LIMIT 10;",
+      "error": "argument of JOIN/ON must be type boolean, not type bigint\nLINE 1: ...M indexed_biographies i JOIN public.profile p ON (i.id) WHER...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT profile_id, ts_rank(biography_lexemes, to_tsquery('english', 'sushi')) AS relevance_signal FROM public.profile WHERE setweight(to_tsvector('english', biography), 'A') @@ to_tsquery('english', 'sushi'::text) AND is_private = FALSE ORDER BY ts_rank(biography_lexemes, to_tsquery('english', 'sushi')) DESC LIMIT 10",
+      "error": "column \"profile_id\" does not exist\nLINE 1: SELECT profile_id, ts_rank(biography_lexemes, to_tsquery('en...\n               ^"
+    }
+  ]
+}

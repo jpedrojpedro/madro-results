@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH ranked_comments AS (SELECT publication_id, ts_rank(description_lexemes, \"seafood\") * num_comments AS score FROM publication WHERE description ILIKE \"%seafood=\"% ORDER BY score DESC LIMIT 10) SELECT publication_id FROM ranked_comments;",
+      "error": "syntax error at or near \"ORDER\"\nLINE 1: ... publication WHERE description ILIKE \"%seafood=\"% ORDER BY s...\n                                                             ^"
+    },
+    {
+      "sql": "WITH ranked_comments AS (SELECT p.id AS publication_id, ts_rank(p.description_lexemes, 'seafood') * pub.num_comments AS score FROM publication pub JOIN profile pr ON pub.profile_id = pr.id WHERE pr.biography ILIKE '%seafood%' OR p.description ILIKE '%seafood=%' ORDER BY score DESC LIMIT 10) SELECT publication_id FROM ranked_comments;",
+      "error": "missing FROM-clause entry for table \"p\"\nLINE 1: WITH ranked_comments AS (SELECT p.id AS publication_id, ts_r...\n                                        ^"
+    },
+    {
+      "sql": "WITH ranked_comments AS (SELECT pub.id AS publication_id, ts_rank(pub.description_lexemes, 'seafood') * pub.num_comments AS score FROM publication pub JOIN profile pr ON pub.profile_id = pr.id WHERE pr.biography ILIKE '%seafood%' OR pub.description ILIKE '%seafood=%' ORDER BY score DESC) SELECT publication_id FROM ranked_comments LIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "WITH ranked_comments AS (SELECT pub.id AS publication_id, ts_rank(pub.description_lexemes, to_tsquery('english', 'seafood')) * pub.num_comments AS score FROM publication pub JOIN profile pr ON pub.profile_id = pr.id WHERE pr.biography ILIKE '%seafood%' OR pub.description ILIKE '%seafood=%') SELECT publication_id FROM ranked_comments ORDER BY score DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

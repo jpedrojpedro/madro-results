@@ -1,0 +1,8 @@
+SELECT 
+    p.id AS profile_id, 
+    p.username, 
+    p.full_name
+FROM profile p
+WHERE p.biography_lexemes @@ to_tsquery('english', 'health | regulation | safety | sanitary | inspected | hygiene')
+ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'health | regulation | safety | sanitary | inspected | hygiene')) DESC
+LIMIT 10;

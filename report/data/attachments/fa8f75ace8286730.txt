@@ -1,1 +1,0 @@
-SELECT p.id AS publication_id FROM publication p WHERE p.type = 'GraphImage' AND (EXTRACT(YEAR FROM published_at) = 2025 AND EXTRACT(MONTH FROM published_at) BETWEEN 7 AND 12) OR (EXTRACT(YEAR FROM published_at) = 2026 AND EXTRACT(MONTH FROM published_at) BETWEEN 1 AND 6)

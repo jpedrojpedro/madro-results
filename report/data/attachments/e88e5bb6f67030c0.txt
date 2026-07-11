@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE (p.biography_lexemes @@ to_tsquery('english', 'restaurant') OR lower(p.full_name) LIKE '%florianópolis%') LIMIT 10

@@ -1,0 +1,1 @@
+WITH hate_comments AS ( SELECT profile_id, COUNT(*) AS num_hate_comments FROM comment WHERE annotation ILIKE '%hate%' OR annotation ILIKE '%sucks%' OR annotation ILIKE '%stupid%' GROUP BY profile_id ) SELECT profile_id, num_hate_comments FROM hate_comments ORDER BY num_hate_comments DESC LIMIT 10

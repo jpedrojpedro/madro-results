@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "WITH bakery_profiles AS (\n    SELECT id AS profile_id\n    FROM profile\n    WHERE biography_lexemes @@ to_tsquery('english', 'bakery | bread | pastry | cake')\n),\ninfluencer_profiles AS (\n    SELECT id AS profile_id\n    FROM profile\n    WHERE num_followers > 10000\n)\nSELECT DISTINCT p.profile_id, p.username, p.num_followers\nFROM profile p\nJOIN profile_relationship pr ON p.id = pr.destination_profile_id\nJOIN influencer_profiles i ON pr.origin_profile_id = i.profile_id\nJOIN bakery_profiles b ON p.id = b.profile_id\nORDER BY p.num_followers DESC\nLIMIT 10;",
+      "error": "column p.profile_id does not exist\nLINE 11: SELECT DISTINCT p.profile_id, p.username, p.num_followers\n                         ^\nHINT:  Perhaps you meant to reference the column \"i.profile_id\" or the column \"b.profile_id\"."
+    },
+    {
+      "sql": "WITH bakery_profiles AS (\n    SELECT id AS profile_id\n    FROM profile\n    WHERE biography_lexemes @@ to_tsquery('english', 'bakery | bread | pastry | cake')\n),\ninfluencer_profiles AS (\n    SELECT id AS profile_id\n    FROM profile\n    WHERE num_followers > 10000\n)\nSELECT DISTINCT p.id AS profile_id, p.username, p.num_followers\nFROM profile p\nJOIN profile_relationship pr ON p.id = pr.destination_profile_id\nJOIN influencer_profiles i ON pr.origin_profile_id = i.profile_id\nJOIN bakery_profiles b ON p.id = b.profile_id\nORDER BY p.num_followers DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

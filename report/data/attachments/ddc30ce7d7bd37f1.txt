@@ -1,1 +1,0 @@
-SELECT p.id AS profile_id FROM public.profile WHERE num_followers > 5000 AND is_private = FALSE ORDER BY num_followers DESC LIMIT 10;

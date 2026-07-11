@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n  p.id AS publication_id\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE\n  p.description_lexemes @@ to_tsquery('english', 'pasta')\n  AND (\n    pr.biography_lexemes @@ to_tsquery('english', 'balneario & camboriu')\n    OR p.description_lexemes @@ to_tsquery('english', 'balneario & camboriu')\n  )\nORDER BY p.published_at DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS publication_id\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE\n  (p.description_lexemes @@ to_tsquery('english', 'pasta | macarrao | tagliatelle | spaghetti | lasanha'))\n  AND (\n    pr.biography_lexemes @@ to_tsquery('portuguese', 'balneario | camboriu')\n    OR p.description_lexemes @@ to_tsquery('portuguese', 'balneario | camboriu')\n  )\nORDER BY p.published_at DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS publication_id\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE\n  (\n    p.description_lexemes @@ to_tsquery('english', 'pasta | noodle | spaghetti | lasagne | macaroni')\n    OR p.description_lexemes @@ to_tsquery('portuguese', 'pasta | macarrao | espaguete | lasanha')\n  )\n  AND (\n    pr.biography_lexemes @@ to_tsquery('portuguese', 'balneario | camboriu')\n    OR pr.full_name ILIKE '%Balneário Camboriú%'\n    OR p.description_lexemes @@ to_tsquery('portuguese', 'balneario | camboriu')\n  )\nORDER BY p.published_at DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS publication_id\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE\n  (\n    p.description_lexemes @@ to_tsquery('portuguese', 'pasta | macarrao | espaguete | lasanha | fettuccine | nhoque')\n    OR p.description ILIKE '%pasta%'\n    OR p.description ILIKE '%macarrão%'\n    OR p.description ILIKE '%espaguete%'\n    OR p.description ILIKE '%lasanha%'\n  )\n  AND (\n    pr.biography ILIKE '%Balneário Camboriú%'\n    OR pr.biography ILIKE '%BC%'\n    OR pr.full_name ILIKE '%Balneário Camboriú%'\n    OR p.description ILIKE '%Balneário Camboriú%'\n    OR p.description ILIKE '%BC%'\n  )\nORDER BY p.published_at DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

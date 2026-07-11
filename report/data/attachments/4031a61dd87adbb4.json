@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT DISTINCT publication.id AS publication_id, pbi.profile_id, p.name, published_at FROM publication INNER JOIN \"public\".\"profile\" p ON publication.profile_id = p.id JOIN LATERAL ( SELECT profile_id FROM profile_relationship WHERE edge = 'follows' AND origin_profile_id = p.id ) cr ON TRUE JOIN profile_business_info AS pbi USING (profile_id) WHERE EXTRACT(DOW FROM published_at) = 3 AND pbi.is_restaurant IS true ORDER BY published_at DESC LIMIT 10;",
+      "error": "relation \"profile_business_info\" does not exist\nLINE 1: ...s' AND origin_profile_id = p.id ) cr ON TRUE JOIN profile_bu...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT DISTINCT publication.id AS publication_id, pb.name FROM publication INNER JOIN \\",
+      "error": "syntax error at or near \"\\\"\nLINE 1: ....id AS publication_id, pb.name FROM publication INNER JOIN \\\n                                                                      ^"
+    },
+    {
+      "sql": "SELECT DISTINCT p.id AS publication_id, pb.name FROM publication AS p LEFT JOIN publication_collab AS pc ON p.id = pc.publication_id AND pc.profile_id IN ( SELECT origin_profile_id FROM profile_relationship WHERE edge = 'follows' ) INNER JOIN raw_file AS r ON p.id = r.publication_id GROUP BY pb.name ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'open wednesday restaurants')) DESC LIMIT 10",
+      "error": "missing FROM-clause entry for table \"pb\"\nLINE 1: SELECT DISTINCT p.id AS publication_id, pb.name FROM publica...\n                                                ^"
+    },
+    {
+      "sql": "SELECT DISTINCT p.id AS publication_id, r.name \\nFROM publication AS p INNER JOIN raw_file AS r ON p.id = r.publication_id \\nJOIN ( SELECT origin_profile_id FROM profile_relationship WHERE edge = 'follows' ) subquery ON subquery.origin_profile_id = p.id LEFT JOIN publication_collab pc ON p.id = pc.publication_id ORDER BY published_at DESC LIMIT 10;",
+      "error": "syntax error at or near \"\\\"\nLINE 1: SELECT DISTINCT p.id AS publication_id, r.name \\nFROM public...\n                                                       ^"
+    }
+  ]
+}

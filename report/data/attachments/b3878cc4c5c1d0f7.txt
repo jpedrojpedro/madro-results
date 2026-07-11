@@ -1,0 +1,17 @@
+WITH bakery_profiles AS (
+    SELECT id AS profile_id
+    FROM profile
+    WHERE biography_lexemes @@ to_tsquery('english', 'bakery | baker | pastry | bread | cake | patisserie')
+),
+influencer_profiles AS (
+    SELECT id AS profile_id
+    FROM profile
+    WHERE num_followers > 1000
+)
+SELECT DISTINCT p.id AS profile_id, p.username, p.num_followers
+FROM profile p
+JOIN profile_relationship pr ON p.id = pr.destination_profile_id
+JOIN influencer_profiles i ON pr.origin_profile_id = i.profile_id
+JOIN bakery_profiles b ON p.id = b.profile_id
+ORDER BY p.num_followers DESC
+LIMIT 10;

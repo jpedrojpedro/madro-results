@@ -1,0 +1,19 @@
+WITH target_profile AS (
+    SELECT id 
+    FROM profile 
+    WHERE username = 'fluminensefc'
+)
+SELECT 
+    c.profile_id AS profile_id,
+    c.annotation,
+    c.published_at
+FROM comment c
+JOIN publication p ON c.publication_id = p.id
+JOIN target_profile tp ON p.profile_id = tp.id
+WHERE c.annotation ILIKE '%crise%'
+   OR c.annotation ILIKE '%vergonha%'
+   OR c.annotation ILIKE '%fora%'
+   OR c.annotation ILIKE '%problema%'
+   OR c.annotation ILIKE '%demissão%'
+ORDER BY c.published_at DESC
+LIMIT 10;

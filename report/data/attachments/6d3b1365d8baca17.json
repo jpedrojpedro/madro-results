@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH candidates AS (SELECT profile_id FROM publication WHERE type = 'GraphImage' AND published_at >= CURRENT_DATE - INTERVAL '2 month' UNION ALL SELECT p.profile_id FROM publication_collab pc JOIN publication p ON pc.publication_id = p.id UNION ALL SELECT pub.id AS profile_id FROM publication pub JOIN comment c ON pub.id = c.publication_id GROUP BY c.annotation HAVING COUNT(*) > 1) SELECT DISTINCT p.id AS profile_id, p.biography_lexemes ts_rank(p.biography_lexemes, to_tsquery('english', :request)) * 100 ORDER BY 2 DESC LIMIT 10",
+      "error": "syntax error at or near \"(\"\nLINE 1: ...CT p.id AS profile_id, p.biography_lexemes ts_rank(p.biograp...\n                                                             ^"
+    },
+    {
+      "sql": "WITH candidates AS (SELECT pub.profile_id FROM publication pub JOIN profile p ON pub.profile_id = p.id WHERE pub.type = 'GraphImage' AND pub.published_at >= CURRENT_DATE - INTERVAL '1 month') UNION ALL SELECT pc.publication_id, 0 AS ts_rank FROM publication_collab pc UNION ALL SELECT distinct c.publication_id FROM comment c GROUP BY c.annotation HAVING COUNT(*) > 1) SELECT c.profile_id, p.biography_lexemes, ts_rank(p.biography_lexemes, to_tsquery('english', :request)) * 100 , p.id AS profile_id , pub.slug, pub.description_lexemes ORDER BY 5 DESC LIMIT 10",
+      "error": "syntax error at or near \"UNION\"\nLINE 1: ...ublished_at >= CURRENT_DATE - INTERVAL '1 month') UNION ALL ...\n                                                             ^"
+    },
+    {
+      "sql": "WITH candidates AS (SELECT pub.profile_id FROM publication pub JOIN profile p ON pub.profile_id = p.id WHERE pub.type = 'GraphImage' AND pub.published_at >= CURRENT_DATE - INTERVAL '1 month') SELECT c.profile_id, pub.description_lexemes, ts_rank(pub.description_lexemes, to_tsquery('english', :request)) * 100, c.publication_id AS publication_id FROM comment c JOIN publication pub ON c.publication_id = pub.id WHERE pub.published_at MONTHS BETWEEN 1 AND CURRENT_DATE ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', :request)) DESC LIMIT 10",
+      "error": "syntax error at or near \":\"\nLINE 1: ...nk(pub.description_lexemes, to_tsquery('english', :request))...\n                                                             ^"
+    },
+    {
+      "sql": "WITH candidates AS (SELECT pub.profile_id FROM publication pub JOIN profile p ON pub.profile_id = p.id WHERE pub.type = 'GraphImage' AND pub.published_at >= CURRENT_DATE - INTERVAL '1 month') SELECT c.publication_id AS publication_id, ts_rank(pub.description_lexemes, to_tsquery('english', :request)) * 100 AS rank FROM comment c INNER JOIN publication pub ON c.publication_id = pub.id WHERE pub.published_at BETWEEN CURRENT_DATE - INTERVAL '2 months' AND CURRENT_DATE ORDER BY -ts_rank(pub.description_lexemes, to_tsquery('english', :request)) DESC LIMIT 1",
+      "error": "syntax error at or near \":\"\nLINE 1: ...nk(pub.description_lexemes, to_tsquery('english', :request))...\n                                                             ^"
+    }
+  ]
+}

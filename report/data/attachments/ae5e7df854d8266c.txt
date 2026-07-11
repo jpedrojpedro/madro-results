@@ -1,0 +1,12 @@
+WITH target_profile AS (
+    SELECT id AS profile_id
+    FROM profile
+    WHERE username = 'broxadasinistra'
+)
+SELECT 
+    tp.profile_id,
+    p.description
+FROM publication p
+JOIN target_profile tp ON p.profile_id = tp.profile_id
+ORDER BY p.published_at DESC
+LIMIT 10;

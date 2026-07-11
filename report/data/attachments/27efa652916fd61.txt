@@ -1,0 +1,1 @@
+select p.id AS profile_id from profile p where p.biography_lexemes @@ to_tsquery('english', 'fitness') order by ts_rank(biography_lexemes, 'fitness'::tsquery) desc limit 10

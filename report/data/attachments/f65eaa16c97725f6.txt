@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant & compliance & health & regulations') ORDER BY 1 LIMIT 10

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH player_stats AS (SELECT p.id AS profile_id, p.username, COUNT(c.id) AS like_count FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN comment c ON pc.publication_id = c.publication_id WHERE p.username = '@fluminensefc' GROUP BY p.id, p.username) SELECT * FROM player_stats ORDER BY like_count DESC LIMIT 1;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "WITH player_stats AS (SELECT p.id AS profile_id, p.username, COUNT(c.id) AS like_count FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN comment c ON pc.publication_id = c.publication_id WHERE p.username LIKE '@fluminensefc%' GROUP BY p.id, p.username) SELECT * FROM player_stats ORDER BY like_count DESC LIMIT 1;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "WITH player_stats AS (SELECT p.id AS profile_id, p.username, COUNT(c.id) AS like_count FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN comment c ON pc.publication_id = c.publication_id WHERE p.username ILIKE '@fluminensefc%' GROUP BY p.id, p.username) SELECT * FROM player_stats ORDER BY like_count DESC LIMIT 1;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "WITH player_stats AS (SELECT p.id AS profile_id, COUNT(c.id) AS like_count FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN comment c ON pc.publication_id = c.publication_id WHERE p.username ILIKE '@fluminensefc%' GROUP BY p.id) SELECT * FROM player_stats ORDER BY like_count DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

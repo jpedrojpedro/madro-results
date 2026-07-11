@@ -1,0 +1,3 @@
+{
+  "error": "column reference \"visited_at\" is ambiguous\nLINE 1: ...' AND edge = lower('follows')::edge_type ORDER BY visited_at...\n                                                             ^"
+}

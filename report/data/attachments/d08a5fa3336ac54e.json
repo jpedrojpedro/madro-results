@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "",
+      "error": "Generated SQL is not a SELECT/WITH statement — rejected before execution."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile WHERE is_private = FALSE AND num_medias > 100 AND LOWER(profile_pic_url) LIKE '%women%' OR LOWER(profile_pic_url) LIKE '%fashion%'",
+      "error": "missing FROM-clause entry for table \"p\"\nLINE 1: SELECT p.id AS profile_id FROM profile WHERE is_private = FA...\n               ^"
+    }
+  ]
+}

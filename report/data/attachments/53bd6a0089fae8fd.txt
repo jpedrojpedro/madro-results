@@ -1,1 +1,0 @@
-SELECT p.id AS profile_id FROM publication p JOIN profile_relationship pr ON p.profile_id = pr.destination_profile_id WHERE pr.origin_profile_id IN (SELECT id FROM profile WHERE username  @@ to_tsquery('english', :tag));

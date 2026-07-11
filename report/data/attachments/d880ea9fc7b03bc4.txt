@@ -1,1 +1,0 @@
-SELECT p.profile_id FROM profile p JOIN publication m ON p.id = m.profile_id WHERE m.description LIKE '%criticism%';

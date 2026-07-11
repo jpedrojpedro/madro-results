@@ -1,0 +1,5 @@
+SELECT p.id AS publication_id
+FROM publication p
+WHERE p.description_lexemes @@ to_tsquery('english', 'restaurant | food | dining | menu | open | wednesday')
+ORDER BY p.num_likes DESC
+LIMIT 10;

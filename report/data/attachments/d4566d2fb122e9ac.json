@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT 1 AS profile_id, AVG(price) AS avg_price FROM public.menu WHERE restaurant = 'São Paulo'",
+      "error": "relation \"public.menu\" does not exist\nLINE 1: ...ECT 1 AS profile_id, AVG(price) AS avg_price FROM public.men...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT 1 AS profile_id, AVG(price) AS avg_price FROM menu WHERE restaurant = 'São Paulo'",
+      "error": "relation \"menu\" does not exist\nLINE 1: ...ECT 1 AS profile_id, AVG(price) AS avg_price FROM menu WHERE...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT 1 AS profile_id, AVG(price) AS avg_price FROM public.menu WHERE restaurant = 'São Paulo'",
+      "error": "relation \"public.menu\" does not exist\nLINE 1: ...ECT 1 AS profile_id, AVG(price) AS avg_price FROM public.men...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, AVG(m.price) AS avg_price FROM menu m JOIN restaurant r ON m.restaurant_id = r.id JOIN profile pr ON r.owner_profile_id = pr.id WHERE r.name = 'São Paulo' GROUP BY pr.profile_id LIMIT 10",
+      "error": "relation \"menu\" does not exist\nLINE 1: ....id AS profile_id, AVG(m.price) AS avg_price FROM menu m JOI...\n                                                             ^"
+    }
+  ]
+}

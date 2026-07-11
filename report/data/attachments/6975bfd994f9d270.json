@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, publication_id, published_at, num_likes FROM publication JOIN comment ON publication.id = comment.publication_id WHERE profile_id IN ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) AND annotation ILIKE '%funny%' ORDER BY num_likes DESC LIMIT 10",
+      "error": "missing FROM-clause entry for table \"p\"\nLINE 1: SELECT p.id AS profile_id, publication_id, published_at, num...\n               ^"
+    },
+    {
+      "sql": "SELECT publication.id AS profile_id, publication_id, published_at, num_likes FROM publication JOIN comment ON publication.id = comment.publication_id WHERE profile_id IN ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) AND annotation ILIKE '%funny%' ORDER BY num_likes DESC LIMIT 10",
+      "error": "column reference \"published_at\" is ambiguous\nLINE 1: ...ECT publication.id AS profile_id, publication_id, published_...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT publication.id AS profile_id, publication.publication_id, publication.published_at, num_likes FROM publication JOIN comment ON publication.id = comment.publication_id WHERE comment.profile_id IN ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) AND annotation ILIKE '%funny%' ORDER BY num_likes DESC LIMIT 10",
+      "error": "column publication.publication_id does not exist\nLINE 1: SELECT publication.id AS profile_id, publication.publication...\n                                             ^"
+    },
+    {
+      "sql": "SELECT p1.id AS profile_id FROM profile p1 JOIN publication_collab pc ON p1.id = pc.profile_id JOIN publication p2 ON pc.publication_id = p2.id WHERE p1.username = '@broxadasinistra' AND p2.annotation ILIKE '%funny%' ORDER BY p2.num_likes DESC LIMIT 10",
+      "error": "column p2.annotation does not exist\nLINE 1: ... p2.id WHERE p1.username = '@broxadasinistra' AND p2.annotat...\n                                                             ^"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+WITH restaurant_profiles AS (
+  SELECT p.id AS profile_id, p.username, p.biography_lexemes
+  FROM profile p
+  WHERE NOT p.is_private AND (p.biography ~* 'restaurant' OR p.biography ~* 'cuisine')
+),
+comments_on_restaurants AS (
+  SELECT c.profile_id, c.annotation
+  FROM comment c
+  JOIN publication p ON c.publication_id = p.id
+  WHERE p.type = 'GraphImage' AND (c.annotation ~* 'taste' OR c.annotation ~* 'delicious')
+),
+restaurant_engagement AS (
+  SELECT rp.profile_id, COUNT(cor.annotation) AS engagement_score
+  FROM restaurant_profiles rp
+  LEFT JOIN comments_on_restaurants cor ON rp.profile_id = cor.profile_id
+  GROUP BY rp.profile_id
+)
+SELECT p.id AS profile_id, p.username, re.engagement_score,
+       ts_rank(p.biography_lexemes, to_tsquery('english', 'restaurant | taste')) AS relevance
+FROM profile p
+INNER JOIN restaurant_engagement re ON p.id = re.profile_id
+ORDER BY re.engagement_score DESC, relevance DESC
+LIMIT 10;

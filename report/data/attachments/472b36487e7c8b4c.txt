@@ -1,0 +1,1 @@
+SELECT p.id AS publication_id, p.published_at FROM publication p ORDER BY published_at DESC LIMIT 10;

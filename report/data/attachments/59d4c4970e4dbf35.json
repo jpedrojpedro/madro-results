@@ -1,0 +1,3 @@
+{
+  "error": "syntax error at or near \"Balne\"\nLINE 6: ...(pub.description_lexemes, to_tsquery('english', ''Balne%C3%A...\n                                                             ^"
+}

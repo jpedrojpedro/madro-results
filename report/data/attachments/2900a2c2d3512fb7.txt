@@ -1,9 +1,0 @@
-WITH relevant_profiles AS (
-  SELECT id AS profile_id
-  FROM profile
-  WHERE biography LIKE '%crisis%' OR biography LIKE '%complaints%'
-) 
-SELECT p.profile_id, pusername(p.profile_id)::text AS username
-FROM relevant_profiles p
-ORDER BY (p.visited_at DESC)
-LIMIT 10

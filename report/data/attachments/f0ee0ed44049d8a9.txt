@@ -1,0 +1,6 @@
+WITH daily_specials AS (SELECT pp.profile_id, pub.id AS publication_id
+FROM profile pp
+JOIN profile_relationship pr ON pp.id = pr.origin_profile_id
+JOIN publication pub 
+ON pp.profile_id =  pub.profile_id OR pub.profile_id = pp.id JOIN publication_collab pc on pub.id = pc.publication_id OR pc.publication_id = pub.id WHERE EXTRACT(YEAR FROM pub.published_at) = 2025 AND (pp.biography_lexemes @@ to_tsquery('english', 'daily specials') OR pub.description_lexemes @@ to_tsquery('english', 'daily specialties')) ORDER BY CASE WHEN (pp.biography_lexemes @@ to_tsquery('english', 'daily')) THEN ts_rank(pp.biography_lexemes, ':specials') END DESC NULLS LAST)
+SELECT publication_id FROM daily_specials LIMIT 10

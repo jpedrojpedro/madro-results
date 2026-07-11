@@ -1,0 +1,1 @@
+WITH target_profile AS (SELECT publication_id FROM publication WHERE url LIKE '%@fluminensefc%' AND description_lexemes @@ to_tsquery('english', '

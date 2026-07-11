@@ -1,0 +1,1 @@
+SELECT p.id AS publication_id FROM publication AS p JOIN comment AS c ON p.id = c.publication_id WHERE p.description_lexemes @@ to_tsquery('english', 'seafood') GROUP BY p.id ORDER BY COUNT(*) DESC LIMIT 10

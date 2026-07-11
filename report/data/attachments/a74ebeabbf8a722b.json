@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "profile_id": 35787555297,
+      "num_hate_comments": 2
+    },
+    {
+      "profile_id": 352328516,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 636897780,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 1399036741,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 1463819916,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 1808138362,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 2118439745,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 5827400152,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 6810550772,
+      "num_hate_comments": 1
+    },
+    {
+      "profile_id": 52163905668,
+      "num_hate_comments": 1
+    }
+  ]
+}

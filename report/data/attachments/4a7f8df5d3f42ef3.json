@@ -1,0 +1,3 @@
+{
+  "error": "text search configuration \"pt\" does not exist\nLINE 1: ...rofile_id WHERE p.biography_lexemes @@ to_tsquery('pt', 'tut...\n                                                             ^"
+}

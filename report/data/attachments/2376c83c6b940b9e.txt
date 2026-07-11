@@ -1,6 +1,0 @@
-SELECT id AS profile_id, username, full_name, num_followers
-FROM profile
-WHERE (biography_lexemes @@ to_tsquery('english', 'restaurant') OR biography ILIKE '%restaurant%')
-  AND num_followers > 5000
-ORDER BY num_followers DESC
-LIMIT 10;

@@ -1,0 +1,24 @@
+{
+  "rows": [
+    {
+      "profile_id": 55610751214,
+      "hate_comment_count": 5
+    },
+    {
+      "profile_id": 6780519108,
+      "hate_comment_count": 4
+    },
+    {
+      "profile_id": 189122239,
+      "hate_comment_count": 3
+    },
+    {
+      "profile_id": 346045616,
+      "hate_comment_count": 2
+    },
+    {
+      "profile_id": 29797722,
+      "hate_comment_count": 1
+    }
+  ]
+}

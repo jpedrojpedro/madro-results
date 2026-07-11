@@ -1,6 +1,0 @@
-SELECT p.profile_id, p.description
-FROM publication p
-JOIN profile prof ON p.profile_id = prof.id
-WHERE prof.username = 'broxadasinistra'
-ORDER BY p.num_likes DESC
-LIMIT 10

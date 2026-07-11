@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "WITH restaurant_profiles AS (\n  SELECT p.id AS profile_id, p.username, p.biography_lexemes\n  FROM profile p\n  WHERE NOT p.is_private AND (p.bioography ~* 'restaurant' OR p.biography ~* 'cuisine')\n),\ncomments_on_restaurants AS (\n  SELECT c.profile_id, c.annotation\n  FROM comment c\n  JOIN publication p ON c.publication_id = p.id\n  WHERE p.type = 'GraphImage' AND (c.annotation ~* 'taste' OR c.annotation ~* 'delicious')\n),\nrestaurant_engagement AS (\n  SELECT rp.profile_id, COUNT(c.annotation) AS engagement_score\n  FROM restaurant_profiles rp\n  LEFT JOIN comments_on_restaurants cor ON rp.profile_id = cor.profile_id\n  GROUP BY rp.profile_id\n)\nSELECT p.id AS profile_id, p.username, re.engagement_score,\n       ts_rank(p.biography_lexemes, to_tsquery('english', 'restaurant | taste')) AS relevance\nFROM profile p\nINNER JOIN restaurant_engagement re ON p.id = re.profile_id\nORDER BY re.engagement_score DESC, relevance DESC\nLIMIT 10;",
+      "error": "column p.bioography does not exist\nLINE 4:   WHERE NOT p.is_private AND (p.bioography ~* 'restaurant' O...\n                                      ^\nHINT:  Perhaps you meant to reference the column \"p.biography\"."
+    },
+    {
+      "sql": "WITH restaurant_profiles AS (\n  SELECT p.id AS profile_id, p.username, p.biography_lexemes\n  FROM profile p\n  WHERE NOT p.is_private AND (p.biography ~* 'restaurant' OR p.biography ~* 'cuisine')\n),\ncomments_on_restaurants AS (\n  SELECT c.profile_id, c.annotation\n  FROM comment c\n  JOIN publication p ON c.publication_id = p.id\n  WHERE p.type = 'GraphImage' AND (c.annotation ~* 'taste' OR c.annotation ~* 'delicious')\n),\nrestaurant_engagement AS (\n  SELECT rp.profile_id, COUNT(c.annotation) AS engagement_score\n  FROM restaurant_profiles rp\n  LEFT JOIN comments_on_restaurants cor ON rp.profile_id = cor.profile_id\n  GROUP BY rp.profile_id\n)\nSELECT p.id AS profile_id, p.username, re.engagement_score,\n       ts_rank(p.biography_lexemes, to_tsquery('english', 'restaurant | taste')) AS relevance\nFROM profile p\nINNER JOIN restaurant_engagement re ON p.id = re.profile_id\nORDER BY re.engagement_score DESC, relevance DESC\nLIMIT 10;",
+      "error": "missing FROM-clause entry for table \"c\"\nLINE 13:   SELECT rp.profile_id, COUNT(c.annotation) AS engagement_sc...\n                                       ^"
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-WITH relevant_profiles AS (SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', 'italian' ORDER BY 1  LIMIT 10)

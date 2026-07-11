@@ -1,0 +1,10 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n    p.id AS profile_id,\n    p.username,\n    p.num_followers\nFROM profile p\nWHERE (p.biography_lexemes @@ to_tsquery('english', 'São Paulo') OR p.biography ILIKE '%São Paulo%')\n  AND p.num_followers > 10000\n  AND p.biography ILIKE '%restaurant%'\nORDER BY p.num_followers DESC\nLIMIT 10;",
+      "error": "syntax error in tsquery: \"São Paulo\""
+    }
+  ]
+}

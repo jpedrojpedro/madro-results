@@ -1,0 +1,1 @@
+SELECT prof.id AS profile_id, com.annotation FROM publication AS pub JOIN comment AS com ON pub.id = com.publication_id JOIN profile AS prof ON prof.id = pub.profile_id WHERE prof.username = '@eusougabriela' AND com.reply_to IS NULL ORDER BY com.published_at DESC LIMIT 10

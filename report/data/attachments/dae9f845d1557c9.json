@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH profiles AS (SELECT p.id AS profile_id, published_at FROM publication JOIN profile_relationship ON publication.profile_id = origin_profile_id WHERE edge = 'follows' AND destination_profile_id IN (SELECT id FROM profile WHERE username = @fluminensefc) ORDER BY recency DESC), recent_activity AS (SELECT publication.id AS profile_id, ts_rank(p.description_lexemes, to_tsquery('english', '",
+      "error": "unterminated quoted string at or near \"'\"\nLINE 1: ...e_id, ts_rank(p.description_lexemes, to_tsquery('english', '\n                                                                      ^"
+    },
+    {
+      "sql": "WITH profiles AS (SELECT p.id AS profile_id, published_at FROM publication JOIN profile_relationship ON publication.profile_id = origin_profile_id WHERE edge = 'follows' AND destination_profile_id IN (SELECT id FROM profile WHERE username = '@fluminensefc')), recent_activity AS (SELECT publication.id AS profile_id, ts_rank(p.description_lexemes, to_tsquery('english', 'crisis complaint')) * 100 AS relevance_score FROM publication p JOIN profiles ON publication.profile_id = origin_profile_id AND published_at > NOW() - INTERVAL '1 month' OR publication.author_id IN (profile_id) ORDER BY relevant_score DESC LIMIT 10)",
+      "error": "syntax error at end of input\nLINE 1: ...or_id IN (profile_id) ORDER BY relevant_score DESC LIMIT 10)\n                                                                       ^"
+    },
+    {
+      "sql": "WITH profiles AS (SELECT p.id AS profile_id, published_at FROM publication JOIN profile_relationship ON publication.profile_id = origin_profile_id WHERE edge = 'follows' AND destination_profile_id IN (SELECT id FROM profile WHERE username = '@fluminensefc')), recent_activity AS ( SELECT publication.id AS profile_id , ts_rank(description_lexemes, to_tsquery('english', 'crisis complaint')) * 100 AS relevance_score FROM publication JOIN profiles ON origin_profile_id  = profile_id AND published_at > NOW() - INTERVAL '1 month' ORDER BY relevance_score DESC LIMIT 10)",
+      "error": "syntax error at end of input\nLINE 1: ...- INTERVAL '1 month' ORDER BY relevance_score DESC LIMIT 10)\n                                                                       ^"
+    },
+    {
+      "sql": "SELECT publication.id AS profile_id, ts_rank(description_lexemes, to_tsquery('english', 'crisis complaint')) * 100 AS relevance_score FROM publication JOIN profiles ON origin_profile_id = profile_id AND published_at > NOW() - INTERVAL '1 month' WHERE edge = 'follows' AND origin_profile_id IN (SELECT id FROM profile WHERE username = '@fluminensefc') ORDER BY relevance_score DESC LIMIT 10",
+      "error": "relation \"profiles\" does not exist\nLINE 1: ...)) * 100 AS relevance_score FROM publication JOIN profiles O...\n                                                             ^"
+    }
+  ]
+}

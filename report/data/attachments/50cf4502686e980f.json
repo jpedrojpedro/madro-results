@@ -1,0 +1,3 @@
+{
+  "error": "invalid name syntax\nLINE 1: ...ile AS p ON t.profile_id = p.id WHERE TO_TSVECTOR('pt Brazil...\n                                                             ^"
+}

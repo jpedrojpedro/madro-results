@@ -1,0 +1,1 @@
+SELECT p.profile_id FROM publication p JOIN profile pr ON p.profile_id = pr.id WHERE pr.username = 'broxadasinistra' ORDER BY ts_rank(pr.biography_lexemes, to_tsquery('english', 'broxadasinistra')) DESC LIMIT 10

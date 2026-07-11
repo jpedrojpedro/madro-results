@@ -1,1 +1,0 @@
-WITH profiles AS (SELECT id, is_private FROM public.profile WHERE biography_lexemes @@ to_tsquery('english', :phrase) ORDER BY ts_rank(biography_lexemes, to_tsquery('english', :phrase)) DESC) SELECT profile_ID, p.id as `profile_id` FROM  profiles p JOIN profiles relationships ON (p.id) = (relationships.origin_profile_id)

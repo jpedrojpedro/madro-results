@@ -1,0 +1,11 @@
+SELECT 
+    p.id AS profile_id,
+    pub.id AS publication_id,
+    pub.url,
+    pub.num_likes,
+    pub.num_comments
+FROM profile p
+JOIN publication pub ON p.id = pub.profile_id
+WHERE p.username = 'broxadasinistra'
+ORDER BY pub.num_comments DESC, pub.num_likes DESC
+LIMIT 10;

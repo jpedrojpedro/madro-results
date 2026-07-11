@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "profile_id": 346045616,
+      "num_shared_connections": 97645
+    },
+    {
+      "profile_id": 1315786612,
+      "num_shared_connections": 23838
+    },
+    {
+      "profile_id": 6780519108,
+      "num_shared_connections": 15175
+    },
+    {
+      "profile_id": 55610751214,
+      "num_shared_connections": 14669
+    },
+    {
+      "profile_id": 293755951,
+      "num_shared_connections": 12920
+    },
+    {
+      "profile_id": 228269326,
+      "num_shared_connections": 8064
+    },
+    {
+      "profile_id": 28618697473,
+      "num_shared_connections": 6134
+    },
+    {
+      "profile_id": 29797722,
+      "num_shared_connections": 3156
+    },
+    {
+      "profile_id": 205869140,
+      "num_shared_connections": 2891
+    },
+    {
+      "profile_id": 2894725572,
+      "num_shared_connections": 1188
+    }
+  ]
+}

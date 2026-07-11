@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT publication.id AS publication_id, publication.published_at FROM publication WHERE EXTRACT(YEAR FROM published_at) = 2025 GROUP BY publication.id having count(*) >= 365",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "NOTICE:  SELECT lists only one column (publication_id), but EXECUTE expects at least one value (order by and limit)",
+      "error": "Generated SQL is not a SELECT/WITH statement — rejected before execution."
+    },
+    {
+      "sql": "WITH daily_specials AS (\nSELECT p.id AS publication_id\nFROM publication p INNER JOIN profile_relationship pr ON p.profile_id = pr.destination_profile_id \nINNER JOIN profile pp  ON pr.origin_profile_id = pp.id \nWHERE EXTRACT(YEAR FROM p.published_at) = 2025 AND pp.biography LIKE '%daily special%' OR pp.description LIKE '%daily special%'\nORDER BY ts_rank(pp.biography_lexemes, 'daily' || ':specials') DESC NULLS LAST\n LIMIT 10)\nSELECT publication_id FROM daily_specials\nLIMIT 10;",
+      "error": "column pp.description does not exist\nLINE 5: ...= 2025 AND pp.biography LIKE '%daily special%' OR pp.descrip...\n                                                             ^\nHINT:  Perhaps you meant to reference the column \"p.description\"."
+    },
+    {
+      "sql": "WITH daily_specials AS (SELECT p.id AS publication_id, p.published_at FROM publication p INNER JOIN profile_relationship pr ON p.profile_id = pr.destination_profile_id INNER JOIN publication publication_colab ON p.id = publication_colab.publication_id OR publication_colab.publication_id = p.id JOIN profile pp  ON pp.id = pr.origin_profile_id WHERE EXTRACT(YEAR FROM p.published_at) = 2025 AND (pp.biography_lexemes @@ to_tsquery('english', 'daily specials') OR p.description_lexemes @@ to_tsquery('english', 'daily specials')) ORDER BY CASE WHEN (pp.biography_lexemes @@ to_tsquery('english', 'daily')) THEN ts_rank(pp.biography_lexemes, ':specials' ) END DESC NULLS LAST) SELECT publication_id FROM daily_specials LIMIT 10",
+      "error": "column publication_colab.publication_id does not exist\nLINE 1: ...NNER JOIN publication publication_colab ON p.id = publicatio...\n                                                             ^"
+    }
+  ]
+}

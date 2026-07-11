@@ -1,0 +1,16 @@
+SELECT 
+    p.id AS profile_id, 
+    p.username, 
+    p.full_name
+FROM profile p
+JOIN profile_relationship pr ON p.id = pr.destination_profile_id
+JOIN profile follower ON pr.origin_profile_id = follower.id
+WHERE 
+    follower.biography_lexemes @@ to_tsquery('english', 'influencer | creator | blogger')
+    AND (
+        p.biography_lexemes @@ to_tsquery('english', 'restaurant | food | dining | cafe | bistro | eatery')
+        OR p.username ILIKE '%restaurant%'
+        OR p.username ILIKE '%cafe%'
+    )
+ORDER BY p.num_followers DESC
+LIMIT 10;

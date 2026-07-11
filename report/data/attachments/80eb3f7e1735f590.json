@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id WHERE p.biography_lexemes @@ to_tsquery('portuguese', 'Tutto Nhoque') LIMIT 10",
+      "error": "syntax error in tsquery: \"Tutto Nhoque\""
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id WHERE p.biography_lexemes @@ to_tsquery('portuguese', '\"Tutto Nhoque\"') LIMIT 10",
+      "error": "syntax error in tsquery: \"\"Tutto Nhoque\"\""
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id WHERE p.biography_lexemes @@ to_tsquery('portuguese', 'Tutto Nhoque') LIMIT 10",
+      "error": "syntax error in tsquery: \"Tutto Nhoque\""
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id WHERE p.biography_lexemes @@ to_tsquery('portuguese', 'tutto: nhoque') LIMIT 10",
+      "error": "syntax error in tsquery: \"tutto: nhoque\""
+    }
+  ]
+}

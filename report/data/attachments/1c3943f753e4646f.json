@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT profile.id AS profile_id FROM publication WHERE num_likes > 1000 AND num_comments * (num_followers + 1) - num_likes > 50 ORDER BY published_at DESC LIMIT 1",
+      "error": "missing FROM-clause entry for table \"profile\"\nLINE 1: SELECT profile.id AS profile_id FROM publication WHERE num_l...\n               ^"
+    },
+    {
+      "sql": "WITH filtered_publications AS (SELECT p.id AS publication_id, pr.profile_id FROM publication p JOIN publication_collab pc ON p.id = pc.publication_id JOIN profile pr ON pc.profile_id = pr.id WHERE num_likes > 1000 AND (num_comments * COALESCE(num_followers, 1) - num_likes) > 50), filtered_profiles AS (SELECT id AS profile_id FROM profile WHERE is_private IS FALSE) SELECT DISTINCT fp.profile_id, rp.publication_id FROM filtered_publications rp JOIN filtered_profiles fp ON rp.publication_id IN (SELECT publication_id FROM filtered_publications GROUP BY publication_id HAVING COUNT(profile_id) = (  SELECT COUNT(*) FROM filtered_profiles )) ORDER BY ts_rank(filtered_publications.biography_lexemes, to_tsquery('english', 'restaurants')) DESC LIMIT 10",
+      "error": "column pr.profile_id does not exist\nLINE 1: ...d_publications AS (SELECT p.id AS publication_id, pr.profile...\n                                                             ^\nHINT:  Perhaps you meant to reference the column \"p.profile_id\" or the column \"pc.profile_id\"."
+    },
+    {
+      "sql": "WITH filtered_publications AS (SELECT p.id AS publication_id, pr.id AS profile_id FROM publication p JOIN publication_collab pc ON p.id = pc.publication_id JOIN profile pr ON pc.profile_id = pr.id WHERE num_likes > 1000 AND (num_comments * COALESCE(num_followers, 1) - num_likes) > 50), filtered_profiles AS (SELECT id AS profile_id FROM profile WHERE is_private IS FALSE) SELECT DISTINCT fp.profile_id, rp.publication_id FROM filtered_publications rp JOIN filtered_profiles fp ON rp.publication_id IN (SELECT publication_id FROM filtered_publications GROUP BY publication_id HAVING COUNT(profile_id) = (  SELECT COUNT(*) FROM filtered_profiles )) ORDER BY published_at DESC LIMIT 10",
+      "error": "column \"published_at\" does not exist\nLINE 1: ...ELECT COUNT(*) FROM filtered_profiles )) ORDER BY published_...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT pp.id AS publication_id, p.id AS profile_id, fp.num_likes AS engagement FROM publication p JOIN publication_collab pc ON p.id = pc.publication_id JOIN comment c ON p.id = c.publication_id WHERE (pc.id IS NOT NULL OR pc.id IS NULL) AND pp.profile_id IN ( SELECT id FROM public.profile WHERE is_private IS FALSE) ORDER BY ((c.num_likes + fp.num_followers)::numeric / COALESCE(c.num_comments, 1.0 ) * COALESCE(fp.num_followers, 1)) DESC",
+      "error": "missing FROM-clause entry for table \"pp\"\nLINE 1: SELECT pp.id AS publication_id, p.id AS profile_id, fp.num_l...\n               ^"
+    }
+  ]
+}

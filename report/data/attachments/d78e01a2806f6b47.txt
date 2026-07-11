@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, AVG(m.price) AS avg_price FROM table_name m JOIN restaurant r ON m.restaurant_id = r.id JOIN profile pr ON r.owner_profile_id = pr.id WHERE r.name = 'São Paulo' GROUP BY pr.profile_id LIMIT 10

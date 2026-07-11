@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p2.id AS profile_id, p1.url, ts_rank(p1.description_lexemes, to_tsquery('english', '",
+      "error": "unterminated quoted string at or near \"'\"\nLINE 1: ...url, ts_rank(p1.description_lexemes, to_tsquery('english', '\n                                                                      ^"
+    },
+    {
+      "sql": "SELECT p2.id AS profile_id, p1.url || ' - ' || coalesce(c.annotation, d.description) AS publication_text, ts_rank(p1.description_lexemes, to_tsquery('english', 'funniest from')) * ts_rank(p2.biography_lexemes, to_tsquery('english', '@broxadasinistra')) AS ranking FROM publication p1 LEFT JOIN publication_collab ON (profile_id = 0 OR profile_id, p1.id) = (publication_id, id) INNER JOIN comment c ON p1.id = c.publication_id AND coalesce(c.annotation ILIKE '%funniest from%', d.description ILIKE '%funniest from%') INNER JOIN profile p2 ON p1.profile_id = p2.id WHERE (profile_id, p1.id) IN (SELECT publication_collab.publication_id AS t0, publication_collab.profile_id AS t2 FROM publication_collab INNER JOIN comment ON (publication_collab.publication_id = publication.id OR publication_collab.profile_id, publication_collab.id) = (comment.publication_id, id)) AND (c.annotation ILIKE '%funniest from%' OR d.description ILIKE 'interesting thing') GROUP BY coalesce(c.annotation, d.description), c.id, p1.profile_id, p2.visited_at ORDER BY ranking DESC LIMIT 10;",
+      "error": "column reference \"profile_id\" is ambiguous\nLINE 1: ...M publication p1 LEFT JOIN publication_collab ON (profile_id...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p2.id AS profile_id, p1.id AS publication_id, ts_rank(p1.description_lexemes, to_tsquery('english', 'funniest from')) * ts_rank(p2.biography_lexemes, to_tsquery('english', '@broxadasinistra')) AS ranking FROM publication p1 INNER JOIN publication_collab pc ON p1.id = pc.publication_id INNER JOIN profile p2 ON p1.profile_id = p2.id INNER JOIN comment c ON p1.id = c.publication_id WHERE c.annotation ILIKE '%funniest from%' ORDER BY ranking DESC LIMIT 10",
+      "error": "syntax error in tsquery: \"funniest from\""
+    },
+    {
+      "sql": "SELECT p1.id AS profile_id, p1.id AS publication_id, ts_rank(p1.description_lexemes, to_tsquery('english', '\\",
+      "error": "unterminated quoted string at or near \"'\\\"\nLINE 1: ...id, ts_rank(p1.description_lexemes, to_tsquery('english', '\\\n                                                                     ^"
+    }
+  ]
+}

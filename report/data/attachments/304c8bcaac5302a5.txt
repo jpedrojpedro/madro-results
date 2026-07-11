@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE p.username = '@fluminensefc' AND (p.biography_lexemes @@ to_tsquery('english', 'crisis') OR p.biography_lexemes @@ to_tsquery('english', 'complaints')) ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', '"crisis" & "complaints"')) DESC LIMIT 10

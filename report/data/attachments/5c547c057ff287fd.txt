@@ -1,0 +1,6 @@
+SELECT
+  p.id AS publication_id
+FROM publication p
+WHERE p.description_lexemes @@ to_tsquery('english', 'fish | restaurant')
+ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'fish | restaurant')) DESC
+LIMIT 10;

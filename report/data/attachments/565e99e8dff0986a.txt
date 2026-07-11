@@ -1,0 +1,8 @@
+SELECT
+  destination_profile_id AS profile_id,
+  count(*) AS num_shared_connections
+FROM profile_relationship
+WHERE edge = 'follows'
+GROUP BY destination_profile_id
+ORDER BY num_shared_connections DESC
+LIMIT 10;

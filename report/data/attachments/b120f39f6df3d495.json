@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "SELECT DISTINCT p.id AS profile_id\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nWHERE p.biography_lexemes @@ to_tsquery('english', 'italian & restaurant')\n  AND pub.published_at >= '2025-01-01 00:00:00'\n  AND pub.published_at <= '2025-12-31 23:59:59'\n  AND (pub.description_lexemes @@ to_tsquery('english', 'menu'))\nORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'italian & restaurant')) DESC\nLIMIT 10;",
+      "error": "for SELECT DISTINCT, ORDER BY expressions must appear in select list\nLINE 8: ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', ...\n                 ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id,\n       ts_rank(p.biography_lexemes, to_tsquery('english', 'italian & restaurant')) AS rank\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nWHERE p.biography_lexemes @@ to_tsquery('english', 'italian & restaurant')\n  AND pub.published_at >= '2025-01-01'\n  AND pub.published_at < '2026-01-01'\n  AND pub.description_lexemes @@ to_tsquery('english', 'menu')\nGROUP BY p.id, p.biography_lexemes\nORDER BY rank DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

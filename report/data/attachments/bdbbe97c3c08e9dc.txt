@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM publication AS t JOIN profile AS p ON t.profile_id = p.id WHERE TO_TSVECTOR('pt Brazilian Portuguese', t.description) @@ TO_TSQUERY('pt Brazilian Portuguese', 'italiano') AND (t.location LIKE '%Rio%') ORDER BY TS_RANK(TO_TSVECTOR('pt Brazilian Portuguese', t.description), TO_TSQUERY('pt Brazilian Portuguese', 'italiano')) DESC LIMIT 10;
