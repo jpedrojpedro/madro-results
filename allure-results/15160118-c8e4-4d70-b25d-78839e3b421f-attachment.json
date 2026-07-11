@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT profile_id AS profile_id, origin_profile_id FROM profile_relationship",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT pr.origin_profile_id AS profile_id, p.username FROM publication AS p JOIN publication_collab ON p.id = collab_publication_id JOIN profile_relationship AS pr ON pr.destination_profile_id = p.profile_id AND pr.edge = 'follows' WHERE p.is_private = FALSE; }",
+      "error": "Generated SQL contains multiple statements — rejected before execution."
+    },
+    {
+      "sql": "WITH followed_bakeries AS (SELECT pr.origin_profile_id AS profile_id, p.username FROM publication AS p JOIN publication_collab ON p.id = collab_publication_id JOIN profile_relationship AS pr ON pr.destination_profile_id = p.profile_id AND pr.edge = 'follows' WHERE p.is_private = FALSE) SELECT * FROM followed_bakeries WHERE username ILIKE '%baker%' OR username LIKE 'bakery %'",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT pr.origin_profile_id AS profile_id, p.username FROM profile as p JOIN publication_collab ON p.id = publication_collab.profile_id JOIN publication_relationship AS pr ON pr.destination_profile_id = p.id AND pr.edge = 'follows' WHERE p.is_private = FALSE AND p.biography_ILIKE '%baker%' OR p.biography ILIKE '%bakery %'",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

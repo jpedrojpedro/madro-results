@@ -1,0 +1,1 @@
+WITH pub_authors AS (   SELECT publication_id FROM publication WHERE biography IS NOT NULL ORDER BY ts_rank(pub.description_lexemes, 'pasta') DESC LIMIT 10)

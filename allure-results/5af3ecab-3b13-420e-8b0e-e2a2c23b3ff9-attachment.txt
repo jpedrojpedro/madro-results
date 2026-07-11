@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, pub.id AS publication_id FROM profile p JOIN profile_relationship pr ON p.id = pr.destination_profile_id JOIN publication pub ON pr.origin_profile_id = pub.profile_id WHERE p.username = 'broxadasinistra' ORDER BY num_likes + num_comments DESC LIMIT 10

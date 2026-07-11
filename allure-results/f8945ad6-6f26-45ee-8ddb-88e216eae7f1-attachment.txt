@@ -1,0 +1,1 @@
+WITH promoted_profiles AS (

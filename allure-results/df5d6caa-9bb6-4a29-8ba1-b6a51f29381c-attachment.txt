@@ -1,0 +1,24 @@
+WITH target_profile AS (
+    SELECT id
+    FROM profile
+    WHERE username = 'eusougabriela'
+),
+target_publications AS (
+    SELECT id
+    FROM publication
+    WHERE profile_id = (SELECT id FROM target_profile)
+)
+SELECT 
+    c.profile_id AS profile_id,
+    c.annotation
+FROM comment c
+INNER JOIN target_publications tp ON c.publication_id = tp.id
+WHERE c.annotation ILIKE '%pior%'
+   OR c.annotation ILIKE '%ruim%'
+   OR c.annotation ILIKE '%horrível%'
+   OR c.annotation ILIKE '%odeio%'
+   OR c.annotation ILIKE '%pare%'
+   OR c.annotation ILIKE '%decepção%'
+   OR c.annotation ILIKE '%errado%'
+ORDER BY c.num_likes DESC
+LIMIT 10;

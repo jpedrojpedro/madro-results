@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, p.username FROM profile p WHERE p.username LIKE '%restaurant owner%' ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'best personality')) DESC LIMIT 10

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, p.username, COALESCE(SUM(c.num_likes), 0) AS total_likes FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN comment c ON pc.publication_id = c.publication_id WHERE tsvectors_to_tsqs('english', p.biography, 'steakhouses', 'curitiba') @@ to_tsquery('english', '\"steakhouses\" & \"curitiba\"') AND c.annotation LIKE '%steakhouses%' OR c.annotation LIKE '%curitiba%' GROUP BY p.id ORDER BY total_likes DESC LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, p.username, COALESCE(SUM(c.num_likes), 0) AS total_likes FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id JOIN comment c ON pc.publication_id = c.publication_id WHERE biography_lexemes @@ to_tsquery('english', 'steakhouses & curitiba') AND annotation ILIKE '%steakhouses%' OR annotation ILIKE '%curitiba%' GROUP BY p.id ORDER BY total_likes DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "",
+      "error": "Generated SQL is not a SELECT/WITH statement — rejected before execution."
+    },
+    {
+      "sql": "SELECT profile_id FROM comment WHERE annotation LIKE '%steakhouses in Curitiba%' OR annotation ILIKE '%steakhouses in curitiba%' ORDER BY published_at DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    }
+  ]
+}

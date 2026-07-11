@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH recent_comments AS (\n  SELECT c.annotation, p.id AS profile_id\n  FROM comment c\n  JOIN publication p ON c.publication_id = p.id\n  JOIN profile pr ON c.profile_id = pr.id\n  WHERE pr.username = 'fluminensefc'\n  AND c.published_at >= NOW() - INTERVAL '1 week'\n)\nSELECT DISTINCT c.annotation AS comment, c.profile_id FROM recent_comments c\nORDER BY ts_rank(c.annotation_lexemes, to_tsquery('english', 'crisis | complaints')) DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT DISTINCT c.annotation AS comment, p.id AS profile_id FROM comment c JOIN publication p ON c.publication_id = p.id JOIN profile pr ON c.profile_id = pr.id WHERE pr.username = 'fluminensefc' AND c.published_at >= NOW() - INTERVAL '1 week' ORDER BY ts_rank(c.annotation_lexemes, to_tsquery('english', 'crisis | complaints')) DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT DISTINCT c.annotation AS comment, p.id AS profile_id FROM comment c JOIN publication p ON c.publication_id = p.id JOIN profile pr ON c.profile_id = pr.id WHERE pr.username = 'fluminensefc' AND c.published_at >= NOW() - INTERVAL '1 week' ORDER BY ts_rank(c.annotation_lexemes, to_tsquery('english', 'crisis | complaints')) DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "",
+      "error": "Generated SQL is not a SELECT/WITH statement — rejected before execution."
+    }
+  ]
+}

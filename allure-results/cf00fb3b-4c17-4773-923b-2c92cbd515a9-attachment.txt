@@ -1,0 +1,1 @@
+SELECT pub.id AS publication_id FROM profile p JOIN publication pub ON p.id = pub.profile_id WHERE pub.published_at BETWEEN CURRENT_DATE AND (CURRENT_DATE + INTERVAL '1 month') ORDER BY recency DESC LIMIT 10

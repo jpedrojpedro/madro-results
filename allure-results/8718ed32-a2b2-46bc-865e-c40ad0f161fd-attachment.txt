@@ -1,0 +1,1 @@
+SELECT c.profile_id FROM comment c JOIN publication p ON c.publication_id = p.id WHERE c.annotation ILIKE '%racist%' OR c.annotation ILIKE '%sexist%' OR c.annotation ILIKE '%homophobic%';

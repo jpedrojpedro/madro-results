@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT DISTINCT pr.\"id\" AS profile_id, p.\"is_brand\" FROM \"publication\" publication INNER JOIN profile_relationship pr ON publication.profile_id = pr.destination_profile_id LEFT JOIN public.profile p ON pr.origin_profile_id = p.id WHERE extraction_result.extracted_data.target.instagram.username = 'haight_clothing' LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH targeted_profiles AS (\n SELECT profile_id FROM publication WHERE extraction_result.extracted_data.target.instagram.username = 'haight_clothing' \n LIMIT 10\n)\nSELECT p.id AS profile_id, 'true' FROM targeted_profiles tp JOIN public.profile p ON tp.profile_id::text = p.username LIMIT 1",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT DISTINCT p.id AS profile_id, 'true' FROM publication JOIN public.profile p ON extraction_result.extracted_data.target.instagram.username = p.username AND p.is_private = FALSE WHERE extraction_result.extracted_data.target.instagram.username = 'haight_clothing';",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM public.profile p WHERE p.username = 'haight_clothing' AND NOT EXISTS ( SELECT 1 FROM publication JOIN publication_collab pc ON publication.id = pc.publication_id JOIN public.profile c ON pc.profile_id = c.id WHERE publication.id IS NULL AND c.is_brand = TRUE)",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

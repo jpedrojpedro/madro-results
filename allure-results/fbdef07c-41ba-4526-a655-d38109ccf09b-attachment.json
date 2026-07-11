@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH popular_profiles AS (SELECT profile_id FROM profile ORDER BY num_followers DESC LIMIT 1) SELECT p2.id AS profile_id, COUNT(p1.profile_id) AS common_followers FROM profile p1 INNER JOIN publication_collab pc ON p1.id = pc.profile_id INNER JOIN publication p2 ON pc.publication_id = p2.id GROUP BY p2.id HAVING COUNT(p1.profile_id) > 1 AND p2.id IN (SELECT id FROM popular_profiles)",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH overlap AS (",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH overlap AS ( SELECT o.origin_profile_id AS profile_id, COUNT(DISTINCT p.profile_id) AS common FROM profile_relationship r JOIN profile p ON r.destination_profile_id = p.id AND r.origin_profile_id NOT IN (SELECT origin_profile_id FROM profile_relationship WHERE destination_profile_id = o.destination_profile_id ) INNER JOIN publication pp ON o.id = pp.id AND o.type = 'GraphImage' AND o.visited_at IS NOT NULL GROUP BY o.origin_profile_id, o.edge, o.destination_profile_id ORDER BY COMMON DESC LIMIT 1), OVERLAP1 AS ( SELECT * FROM overlap b ), profileoverlap AS ( SELECT p.id AS profile_id, COALESCE(p.num_followers , 0) FROM public.profile p WHERE id IN (SELECT profile_id FROM overlap1 ) GROUP BY profile_id ) SELECT p.id FROM (VALUES (",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH common_followers AS ( SELECT co.origin_profile_id AS profile_id FROM profile_relationship co JOIN publication p ON co.profile_id = p.id GROUP BY co.origin_profile_id ORDER BY COUNT(DISTINCT co.destination_profile_id) DESC LIMIT 1 ) SELECT p.id AS profile_id, p.num_followers FROM public.profile p WHERE id IN (SELECT profile_id FROM common_followers) LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

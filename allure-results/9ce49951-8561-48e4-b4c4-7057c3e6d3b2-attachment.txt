@@ -1,0 +1,13 @@
+SELECT 
+    p.id AS profile_id, 
+    pub.description
+FROM publication pub
+JOIN profile p ON pub.profile_id = p.id
+WHERE p.username = 'eusougabriela'
+  AND (
+      pub.description_lexemes @@ to_tsquery('portuguese', 'dica | lifestyle | dicas')
+  )
+ORDER BY 
+    ts_rank(pub.description_lexemes, to_tsquery('portuguese', 'dica | lifestyle | dicas')) DESC, 
+    pub.num_likes DESC
+LIMIT 10;

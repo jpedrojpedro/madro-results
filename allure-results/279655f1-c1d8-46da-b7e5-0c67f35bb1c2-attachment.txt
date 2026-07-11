@@ -1,0 +1,1 @@
+SELECT p.profile_id FROM profile p WHERE p.biography_lexemes @@ to_tsquery('english', 'clothing items suitable beach wedding') ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'clothing items suitable beach wedding')) DESC LIMIT 10

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH publication_daily_specials AS (SELECT p.id AS publication_id, p.published_at FROM publication p WHERE EXTRACT(YEAR FROM p.published_at) = 2025 AND p.description ILIKE '%daily special%' OR p.description ILIKE '%special%') SELECT publication_id FROM publication_daily_specials GROUP BY publication_id ORDER BY COUNT(publication_id) DESC LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT p.id AS publication_id FROM publication p WHERE EXTRACT(YEAR FROM p.published_at) = 2025 AND (p.description ILIKE '%daily special%' OR p.description ILIKE '%special%') ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'daily special')) DESC ;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT p.id AS publication_id FROM publication p WHERE EXTRACT(YEAR FROM p.published_at) = 2025 AND ts_rank(p.description_lexemes, to_tsquery('english', 'daily special')) IS NOT NULL ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'daily special')) DESC LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT p.id AS publication_id FROM publication p WHERE EXTRACT(YEAR FROM p.published_at) = 2025 AND ts_rank(p.description_lexemes, to_tsquery('english', 'daily special')) IS NOT NULL ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'daily special')) DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

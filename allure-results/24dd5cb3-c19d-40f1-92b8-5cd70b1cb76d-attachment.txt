@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM public.profile p WHERE p.username = 'haight_clothing' AND EXISTS ( SELECT 1 FROM publication pub JOIN publication_collab pc ON pub.id = pc.publication_id LEFT JOIN public.profile c ON pc.profile_id = c.id WHERE c.is_brand = TRUE)

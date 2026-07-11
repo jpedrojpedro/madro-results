@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH publication AS (",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, COUNT(*) FROM public.comment c JOIN public.publication p ON c.publication_id = p.id WHERE LOWER(c.annotation) ILIKE ANY (ARRAY['curitiba', 'steakhouse']) GROUP BY 1 ORDER BY COUNT(*) DESC LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "WITH cte AS (SELECT c.publication_id, string_to_array(LOWER(c.annotation), ' ') )",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "WITH publication_comment_ids AS (  SELECT p.publication_id, COUNT(c.id) AS comment_count  FROM publication p  JOIN comment c ON p.id = c.publication_id  WHERE lower(c.annotation) LIKE '%' || 'steakhouse' || '%' OR lower(p.description) LIKE '%' || 'steakhouse' || '%' GROUP BY p.publication_id  ), relevanceRankedCommentCounts AS (  SELECT pcid.publication_id, ts_rank(p.description_lexemes, to_tsquery('english', 'steakhouse')) + ts_rank(b.biography_lexemes, to_tsquery('english', 'steakhouse')) AS comment_relevance  FROM publication_comment_ids pcid  JOIN publication p ON pcid.publication_id = p.id  LEFT JOIN profile b ON p.profile_id = b.id ORDER BY comment_relevance DESC LIMIT 10)  SELECT ctc.comment_count AS comment_count, p.id AS profile_id, bc.num_comments + bc.num_likes / (bc.num_followers + 1) AS engagement_score FROM publication_comment_ids pcid  INNER JOIN relevanceRankedCommentCounts rrc ON pcid.publication_id = rrc.publication_id  LEFT JOIN publication p ON pcid.publication_id = p.id  LEFT JOIN profile b ON p.profile_id = b.id  LEFT JOIN (  SELECT publication_id, COUNT(id) AS num_comments, SUM(num_likes) / NULLIF(SUM(num_followers), 0) AS engagement_score FROM comment GROUP BY publication_id ) bc ON b.id = bc.publication_id;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: could not receive data from server: Connection refused\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

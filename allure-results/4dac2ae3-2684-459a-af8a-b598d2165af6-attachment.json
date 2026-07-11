@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH results AS (\n\tSELECT DISTINCT profile_id\n\tFROM publication\n),\n\tnearby_dishes AS (\n\tSELECT * \n\tFROM publication JOIN profile ON id=profile.id -- alias, remember!\n\tWHERE type = 'restaurant' AND is_private = FALSE)\nSELECT profile_id, ts_rank(publication.description_lexemes, to_tsquery('english', plainto_tsquery('nearby dishes served')) - ('&') * (to_tsquery('english', plainto_tsquery('nutritional breakdown'))) ) AS rank\nFROM results JOIN nearby_dishes ON profile.id = publication.profile_id\nORDER BY rank DESC\nLIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH nearby_dishes AS ( SELECT p.id AS profile_id, p.biography_lexemes AS lexemes FROM publication p JOIN profile ON p.profile_id = id WHERE type = 'restaurant' AND is_private = FALSE ), recommendations AS ( SELECT ts_rank(lexemes, to_tsquery('english', plainto_tsquery('nutritional breakdown of dishes served nearby') - ('&') * (to_tsquery('english', plainto_tsquery('nearby')) ) ) ) AS rank FROM nearby_dishes ORDER BY rank DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH nearby_dishes AS (SELECT p.id AS profile_id, p.biography_lexemes AS lexemes FROM publication p JOIN profile ON p.profile_id = id WHERE type = 'restaurant' AND is_private = FALSE), recommendations AS (\n SELECT d.id AS profile_id,\n ts_rank(lexemes, to_tsquery('english', plainto_tsquery('nutritional breakdown of dishes served nearby')) - ('&') * (to_tsquery('english', plainto_tsquery('nearby')) )  \n FROM publication p JOIN nearby_dishes ON bio IS NULL LEFT JOIN profile d ON bio IS NOT DISTINCT FROM d.biography  WHERE type = 'restaurant' AND is_private = FALSE  ORDER BY ts_rank(lexemes, to_tsquery('english', plainto_tsquery('nutritional breakdown of dishes served nearby')) - ('&') * (to_tsquery('english', plainto_tsquery('nearby')) ) )  DESC \n LIMIT 10)",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH nearby_profiles AS ( SELECT p.id AS profile_id, p.biography_lexemes FROM publication p JOIN profile ON p.profile_id = id WHERE type  \\",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

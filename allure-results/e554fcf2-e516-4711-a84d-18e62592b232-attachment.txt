@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', '(italian restaurant)')) * ((p.num_followers + p.num_likes + p.num_comments) / (SELECT AVG(num_followers) FROM profile)) OVER () AS score FROM public.profile p WHERE biographical_lexemes @@ to_tsquery('english', 'italian restaurant') ORDER BY score DESC LIMIT 10

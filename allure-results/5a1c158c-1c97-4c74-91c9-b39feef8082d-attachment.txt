@@ -1,0 +1,1 @@
+SELECT pr.origin_profile_id AS profile_id FROM publication p JOIN profile_relationship pr ON pr.origin_profile_id = p.id WHERE p.username = '@fluminensefc' AND pr.edge = 'follows';

@@ -1,0 +1,1 @@
+SELECT destination_profile_id AS profile_id FROM profile_relationship WHERE edge = 'follows' AND origin_profile_id IN ( SELECT id FROM profile WHERE username ILIKE '%baker%' OR biography_lexemes @@ to_tsquery('english', 'baker') ) ORDER BY visited_at DESC LIMIT 10

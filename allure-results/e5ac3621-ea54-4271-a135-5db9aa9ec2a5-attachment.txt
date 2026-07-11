@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', '@fluminensefc')) * ts_rank(p.biography_lexemes, to_tsquery('english', 'player')), p.num_followers FROM public.profile AS p WHERE p.username ILIKE '%@fluminensefc%' ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', '@fluminensefc')) DESC LIMIT 10

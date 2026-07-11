@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, m.id AS publication_id, c.id AS comment_id",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "WITH post_comments AS (SELECT publication_id, ts_rank(description_lexemes, to_tsquery('english', 'funniest')) AS rank FROM publication WHERE id IN (SELECT c.publication_id FROM comment AS c INNER JOIN profile AS p ON c.profile_id = p.id WHERE p.username = @broxadasinistra AND annotation ILIKE '%found it funniest%' ORDER BY ts_rank(c.annotation, to_tsquery('english', 'funniest')) DESC LIMIT 10) GROUP BY publication_id), ranked_comments AS (SELECT DISTINCT-on-REDUCE(publication_id) FROM post_comments ORDER BY rank DESC) SELECT p.id AS profile_id, m.id AS publication_id SELECT pc.publication_id FROM ranked_comments pc INNER JOIN publication m ON pc.publication_id = m.id UNION SELECT c.comment_id FROM comment c WHERE annotation ILIKE '%funniest%' AND c.publication_id IN (SELECT publication_id FROM post_comments)",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT c.publication_id AS publication_id, p.id AS profile_id FROM comment c INNER JOIN profile p ON c.profile_id = p.id WHERE annotation ILIKE '%funniest%' AND username='@broxadasinistra' ORDER BY ts_rank(c.annotation, to_tsquery('english', 'funniest')) DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT c.publication_id AS publication_id, p.id AS profile_id FROM comment c INNER JOIN publication pub ON c.publication_id = pub.id INNER JOIN profile_relationship pr ON c.profile_id = pr.destination_profile_id WHERE annotation ILIKE '%funniest%' AND username='@broxadasinistra' ORDER BY ts_rank(c.annotation, to_tsquery('english', 'funniest')) DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

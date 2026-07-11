@@ -1,0 +1,1 @@
+SELECT origin_profile_id AS profile_id, COUNT(*) AS follower_count FROM profile_relationship WHERE destination_profile_id IN ( SELECT destination_profile_id FROM profile_relationship ORDER BY visited_at DESC LIMIT 10 ) GROUP BY origin_profile_id ORDER BY follower_count DESC LIMIT 1

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n  destination_profile_id AS profile_id,\n  COUNT(origin_profile_id) AS num_followers\nFROM profile_relationship\nWHERE edge = 'follows'\nGROUP BY destination_profile_id\nORDER BY num_followers DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT\n  origin_profile_id AS profile_id,\n  COUNT(DISTINCT destination_profile_id) AS num_shared_followed_profiles\nFROM profile_relationship\nWHERE edge = 'follows'\nGROUP BY origin_profile_id\nORDER BY num_shared_followed_profiles DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT\n  destination_profile_id AS profile_id,\n  COUNT(DISTINCT origin_profile_id) AS shared_follower_count\nFROM profile_relationship\nWHERE edge = 'follows'\nGROUP BY destination_profile_id\nORDER BY shared_follower_count DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT\n  r1.destination_profile_id AS profile_id,\n  COUNT(DISTINCT r1.origin_profile_id) AS shared_follower_count\nFROM profile_relationship r1\nJOIN profile_relationship r2 ON r1.origin_profile_id = r2.origin_profile_id\n  AND r1.destination_profile_id != r2.destination_profile_id\nWHERE r1.edge = 'follows'\n  AND r2.edge = 'follows'\nGROUP BY r1.destination_profile_id\nORDER BY shared_follower_count DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+WITH search_query AS (
+    SELECT to_tsquery('portuguese', 'sócio & torcedor') AS q
+)
+SELECT 
+    p.id AS profile_id,
+    pub.id AS publication_id,
+    pub.description
+FROM profile p
+JOIN publication pub ON p.id = pub.profile_id
+CROSS JOIN search_query
+WHERE p.username = 'fluminensefc'
+  AND pub.description_lexemes @@ search_query.q
+ORDER BY ts_rank(pub.description_lexemes, search_query.q) DESC
+LIMIT 10;

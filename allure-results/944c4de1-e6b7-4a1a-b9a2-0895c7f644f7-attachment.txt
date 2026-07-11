@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE LOWER(p.full_name) LIKE '%restaurant%' AND num_followers > 10000 ORDER BY num_followers DESC LIMIT 10

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH publication AS (SELECT p.id AS publication_id, p.description_lexemes , FROM publication JOIN profile ON p.profile_id = pr.id WHERE pr.username ILIKE '%Balne%C3%A1rio%Cambori%25' AND p.type = 'GraphImage') SELECT DISTINCT COALESCE((pr.username)::text, '(unknown)') AS username publication_id FROM publication JOIN profile relationship ON publication_id JOIN profile pr ON origin_profile_id  =  destination_profile_id WHERE edge = ( SELECT id FROM unnest ARRAY['follows'] ) UNION ALL SELECT distinct publication_id FROM public ation WHERE ts_rank(publication.description_lexemes , to_tsquery('english', 'pasta')) > 1.0 LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT p.id AS publication_id\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE pr.username ILIKE '%Balne%C3%A1rio+Cambori%25'\nAND p.description_lexemes @@ to_tsquery('english', 'pasta')\nORDER BY ts_rank(p.description_lexemes, to_tsquery('english','pasta')) DESC\nLIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT DISTINCT p.id AS publication_id FROM publication p JOIN profile pr ON p.profile_id = pr.id WHERE pr.username ILIKE '%Balne%C3%A1rio+Cambori%25' AND p.description_lexemes @@ to_tsquery('english', 'pasta') ORDER BY ts_rank(p.description_lexemes, to_tsquery('english','pasta')) DESC LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT DISTINCT publication_id FROM ( SELECT p.id AS publication_id , pr.username , COUNT(p.id) OVER ( PARTITION BY pr.username )",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    }
+  ]
+}

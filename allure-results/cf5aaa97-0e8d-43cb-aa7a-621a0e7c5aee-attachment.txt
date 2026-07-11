@@ -1,0 +1,25 @@
+WITH comment AS (
+        SELECT p.id AS publication_id, c.annotation, c.profile_id
+        FROM profile p    LEFT JOIN comment c           ON (p.id = c.profile_id    OR 1=1)         WHERE p.username = 'eusougabriela'
+    ),
+tippy AS (
+          SELECT pt.id AS tip_publication_id,COALESCE(tltip.tip, c.annotation, tltip.tip) AS tip      RROM pubtiptips                   LEFT JOIN comment c ON (pubtiptips.publication_id = c.publication_id                      AND tltip.tip ILIKE upper('%fitness%')                       OR    1=1)
+        FROM publication pubs                  INNER JOIN pubtip                        ON pubtips.publication_id = pubs.id      ),
+tippers AS (SELECT p.profile_id AS profile_id, pt.id AS tip_publication_id,COALESCE(c.annotation, tltip.tip, c.annotation)         AS fitness_tipFROM  comment c                      INNER JOIN publication           p                   ON (c.publication_id = p.id                      OR  1=1)LEFT JOIN tippy                    pt            ON pt.tippy_id         = p.id),
+best_tip AS (
+      SELECT pt.tip_publication_id AS tip_id,
+     (SELECT id FROM publication AS tp WHERE tp.id  = t.tip_publication_id) AS original_publication_id, 
+       (SELECT publication_id FROM comment c WHERE c.profile_id    = t.profile_id ORDER BY published_at DESC LIMIT 1),
+      COALESCE(c.annotation, tltip.tip,(      SELECT annotation FROM comment cWHERE publication_id     = ttip.tippy_id AND id=(
+        SELECT c.id FROM comment c JOIN profile p         ON (p.id=c.profile_id)               WHERE (c.annotation ILIKE upper('%fitness%')
+            OR ttttltip.tip                 =upper(tltip.tip))                   LIMIT 1)      )) AS fitness_tip 
+FROM tippers t,
+       publication p          JOIN publication_relationship pr       ON (p.id = pr.originprofile_id                OR  1=1)     WHERE t.profile_id    = p.id                    AND (        SELECT tltip.tip                 FROM publications pubs                              LEFT JOIN pub_tip           tipp                       ON pubs.id = tippy_id            WHERE pubs.id          = pr.destinationprofileid         )
+), result AS (
+ SELECT ti.profile_id AS profile_id, pt.tip_publication_id AS tip_publication_id, COALESCE(c.annotation, tltip.tip) AS fitness_tip  FROM best_tip bt
+LEFT JOIN comment c ON (bt.tip_id = c.publication_id AND c.profile_id 
+                        = (( SELECT id FROM ( SELECT p.id , ROW_NUMBER() OVER (PARTITION BY profile_id ORDER BY published_at DESC LIMIT 1) rank    FROM pubtip pt                           JOIN profile p                       ON (pt.tippy_id  =p.id        OR   1=1)          ) AS rn WHERE rn.rank=1) ))
+LEFT JOIN publication pt                          ON bt.tip_id = pt.id
+INNER JOIN tippers ti           ON (bt.tip_publication_id       = ti.tip_publication_id
+ ORDER BY ts_rank(p.biography_lexemes, coalesce(STRING_TO_ARRAY(tltip.tip, ' ')['1'], ( SELECT annotation FROM comment  c WHERE publication_id = ttt.tippy_id)          ), desc) 
+OVER (PARTITION BY p.biography_lexemes         ORDER BY COALESCE(p.published_at , published_at)DESC) > 0LIMIT 10

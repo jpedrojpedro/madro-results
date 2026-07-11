@@ -1,0 +1,22 @@
+SELECT
+    c.profile_id AS profile_id,
+    c.annotation,
+    c.id AS comment_id
+FROM comment c
+JOIN publication p ON c.publication_id = p.id
+JOIN profile author ON p.profile_id = author.id
+WHERE author.username = 'broxadasinistra'
+  AND (
+      c.annotation ILIKE '%racista%' OR
+      c.annotation ILIKE '%racismo%' OR
+      c.annotation ILIKE '%sexista%' OR
+      c.annotation ILIKE '%sexismo%' OR
+      c.annotation ILIKE '%misoginia%' OR
+      c.annotation ILIKE '%religioso%' OR
+      c.annotation ILIKE '%intolerância%' OR
+      c.annotation ILIKE '%homofobia%' OR
+      c.annotation ILIKE '%transfobia%' OR
+      c.annotation ILIKE '%preconceito%'
+  )
+ORDER BY c.published_at DESC
+LIMIT 10

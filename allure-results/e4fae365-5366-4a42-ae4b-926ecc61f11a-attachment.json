@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT \n    p.id AS profile_id,\n    p.username,\n    p.biography\nFROM profile p\nWHERE p.username = 'haight_clothing'\n  AND (p.biography_lexemes @@ to_tsquery('english', 'sell | online | shop | store | website | link'))\nORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'sell | online | shop | store | website | link')) DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.biography\nFROM profile p\nWHERE\n  p.username = 'haight_clothing'\n  AND (\n    p.biography ILIKE '%sell%'\n    OR p.biography ILIKE '%online%'\n    OR p.biography ILIKE '%shop%'\n    OR p.biography ILIKE '%store%'\n    OR p.biography ILIKE '%website%'\n    OR p.biography ILIKE '%link%'\n  )\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: could not receive data from server: Connection refused\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.biography\nFROM profile p\nWHERE\n  p.username = 'haight_clothing'\n  AND (\n    biography_lexemes @@ to_tsquery('english', 'sell | online | shop | store | website | link')\n  )\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.biography\nFROM profile p\nWHERE\n  p.username = 'haight_clothing'\n  AND (\n    biography_lexemes @@ to_tsquery('english', 'sell | online | shop | store | website | link')\n  )\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

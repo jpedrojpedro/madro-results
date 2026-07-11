@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p JOIN following f ON p.id = f.following_id WHERE EXISTS ( SELECT 1 FROM profile where username = 'haight_clothing' and id = f.follower_id ) AND pr.edge = 'follows'

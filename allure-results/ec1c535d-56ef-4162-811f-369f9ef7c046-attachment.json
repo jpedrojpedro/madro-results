@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, pub.id, pub.published_at FROM publication pub JOIN profile_relationship pr ON pub.profile_id = pr.destination_profile_id JOIN profile p ON p.id = pr.origin_profile_id WHERE p.is_brand IS FALSE AND pub.type = 'GraphImage' AND description_lexemes @@ to_tsquery('italian restaurant menu')",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT pub.id AS publication_id, p.id AS profile_id FROM profile_relationship pr JOIN publication pub ON pub.profile_id = pr.destination_profile_id JOIN profile p ON p.id = pr.origin_profile_id WHERE p.is_brand IS FALSE AND (pub.description IS NULL OR pub.description @@ to_tsquery('italian restaurant menu'))  AND pub.type = 'GraphImage' AND pub.published_at >= CURRENT_DATE - INTERVAL '1 YEAR' ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', to_tsvector('pt_en', 'menu')), numHits=100) DESC LIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT pub.id AS publication_id, p.id AS profile_id FROM publication pub JOIN publication_collab pc ON pc.publication_id = pub.id JOIN profile p ON pc.profile_id =  p.id WHERE p.is_brand IS FALSE AND pub.published_at >= CURRENT_DATE - INTERVAL '1 YEAR'::DATE ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'menu')) DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT pub.id AS profile_id, p.id FROM publication pub JOIN publication_collab pc ON pc.publication_id = pub.id JOIN profile p ON pc.profile_id =  p.id WHERE p.`is_brand` IS FALSE AND pub.`published_at` >= CURRENT_DATE - INTERVAL '1 YEAR'::DATE ORDER BY ts_rank(pub.description_lexemes , to_tsquery('english', 'menu')) DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?"
+    }
+  ]
+}
