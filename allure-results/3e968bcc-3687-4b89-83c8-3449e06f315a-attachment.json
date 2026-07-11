@@ -1,0 +1,18 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 4,
+  "failed_attempts": [
+    {
+      "sql": "WITH target_profile AS (\n    SELECT id\n    FROM profile\n    WHERE username = 'eusougabriela'\n),\ntarget_publications AS (\n    SELECT p.id AS publication_id\n    FROM publication p\n    JOIN target_profile tp ON p.profile_id = tp.id\n)\nSELECT \n    c.profile_id AS profile_id,\n    c.annotation AS criticism,\n    c.num_likes\nFROM comment c\nJOIN target_publications tp ON c.publication_id = tp.publication_id\nWHERE c.annotation ILIKE '%crítica%' \n   OR c.annotation ILIKE '%pior%' \n   OR c.annotation ILIKE '%odiei%' \n   OR c.annotation ILIKE '%ruim%' \n   OR c.annotation ILIKE '%horrível%'\nORDER BY c.num_likes DESC\nLIMIT 10;",
+      "error": "canceling statement due to statement timeout"
+    },
+    {
+      "sql": "SELECT \n    c.profile_id AS profile_id,\n    c.annotation AS criticism,\n    c.num_likes\nFROM comment c\nJOIN publication p ON c.publication_id = p.id\nJOIN profile author ON p.profile_id = author.id\nWHERE author.username = 'eusougabriela'\n  AND (\n    c.annotation ILIKE '%crítica%' \n    OR c.annotation ILIKE '%pior%' \n    OR c.annotation ILIKE '%odiei%' \n    OR c.annotation ILIKE '%ruim%' \n    OR c.annotation ILIKE '%horrível%'\n  )\nORDER BY c.num_likes DESC\nLIMIT 10;",
+      "error": "canceling statement due to statement timeout"
+    },
+    {
+      "sql": "SELECT \n    c.profile_id AS profile_id,\n    c.annotation,\n    c.num_likes\nFROM comment c\nJOIN publication p ON c.publication_id = p.id\nJOIN profile author ON p.profile_id = author.id\nWHERE author.username = 'eusougabriela'\n  AND (\n    c.annotation ILIKE '%crítica%' \n    OR c.annotation ILIKE '%pior%' \n    OR c.annotation ILIKE '%odiei%' \n    OR c.annotation ILIKE '%ruim%' \n    OR c.annotation ILIKE '%horrível%'\n  )\nORDER BY c.published_at DESC\nLIMIT 10;",
+      "error": "canceling statement due to statement timeout"
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-SELECT pub.id AS profile_id, pub.published_at FROM publication pub WHERE pub.description_lexemes @@ to_tsquery('english', 'menu') AND ( pub.published_at >= CURRENT_DATE - INTERVAL '1 year'::DATE ) ORDER BY ts_rank(pub.description_lexemes , to_tsquery('english', 'menu')) DESC LIMIT 10

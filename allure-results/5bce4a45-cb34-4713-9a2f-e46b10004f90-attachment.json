@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id FROM publication AS pub JOIN profile_relationship AS pr ON pub.profile_id = pr.origin_profile_id WHERE pr.edge = ''follows'' AND pub.num_followers > 1000",
+      "error": "syntax error at or near \"follows\"\nLINE 1: ...ofile_id = pr.origin_profile_id WHERE pr.edge = ''follows'' ...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT pr.origin_profile_id AS profile_id FROM publication AS pub JOIN profile_relationship AS pr ON pub.profile_id = pr.destination_profile_id WHERE pr.edge = 'follows' AND pub.num_followers > 1000 LIMIT 10",
+      "error": "column pub.num_followers does not exist\nLINE 1: ...tination_profile_id WHERE pr.edge = 'follows' AND pub.num_fo...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM publication AS p JOIN profile_relationship AS pr ON p.profile_id = pr.origin_profile_id WHERE pr.edge = 'follows' AND p.id IN (SELECT profile_id FROM profile WHERE is_influencer IS TRUE) LIMIT 10",
+      "error": "column \"is_influencer\" does not exist\nLINE 1: ...AND p.id IN (SELECT profile_id FROM profile WHERE is_influen...\n                                                             ^"
+    },
+    {
+      "sql": "WITH influencer_profiles AS ( SELECT profile_id FROM profile WHERE is_private = FALSE AND num_followers >= 100000 AND num_medias > 10), influencers_followed AS ( SELECT pr.origin_profile_id AS profile_id, p.id AS publication_id FROM profile_relationship AS pr JOIN publication AS p ON pr.profile_id = p.id ) SELECT p.id AS profile_id FROM influencers_followed AS iff JOIN influencer_profiles AS ip ON iff.profile_id = ip.profile_id WHERE iff.publication_id IN ( SELECT id FROM publication WHERE published_at >= NOW() - INTERVAL '3 month' ) ORDER BY length(ip.biography_lexemes) + length(p.description_lexemes), ts_rank((ip.biography_lexemes || p.description_lexemes)::tsquery, to_tsquery('english', 'restaurant')) DESC LIMIT 10",
+      "error": "column \"profile_id\" does not exist\nLINE 1: WITH influencer_profiles AS ( SELECT profile_id FROM profile...\n                                             ^"
+    }
+  ]
+}

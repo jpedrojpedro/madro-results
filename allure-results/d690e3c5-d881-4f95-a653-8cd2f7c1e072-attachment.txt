@@ -1,0 +1,17 @@
+WITH comment_stats AS (
+    SELECT
+        c.profile_id,
+        COUNT(c.annotation) AS num_comments,
+        AVG(c.num_likes) AS avg_comment_likes,
+        STDDEV_POP(c.num_likes) AS stddev_comment_likes
+    FROM
+        profile p
+    JOIN
+        publication p1 ON p.id = p1.profile_id
+    JOIN
+        comment c ON p1.id = c.publication_id
+    WHERE
+        p.username = 'haight_clothing'
+    GROUP BY
+        c.profile_id
+) SELECT * FROM comment_stats LIMIT 10;

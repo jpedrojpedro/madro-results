@@ -1,0 +1,3 @@
+{
+  "error": "syntax error at or near \")\"\nLINE 7: ... ts_rank(tp.description_lexemes, to_tsquery('english', ?))),\n                                                                   ^"
+}

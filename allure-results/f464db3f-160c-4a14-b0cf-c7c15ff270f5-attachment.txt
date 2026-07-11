@@ -1,0 +1,14 @@
+SELECT
+  p.id AS profile_id,
+  count(c.id) AS hate_comment_count
+FROM profile p
+JOIN publication pub ON p.id = pub.profile_id
+JOIN comment c ON pub.id = c.publication_id
+WHERE c.annotation ILIKE '%hate%' 
+   OR c.annotation ILIKE '%awful%'
+   OR c.annotation ILIKE '%disgusting%'
+   OR c.annotation ILIKE '%worst%'
+   OR c.annotation ILIKE '%trash%'
+GROUP BY p.id
+ORDER BY hate_comment_count DESC
+LIMIT 10;

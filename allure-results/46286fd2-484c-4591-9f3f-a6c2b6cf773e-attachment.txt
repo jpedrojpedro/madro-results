@@ -1,0 +1,4 @@
+WITH publication_scores AS (
+	SELECT p2.id AS profile_id,
+			p2.id AS publication_id,
+			ts_rank(p2.description_lexemes, to_tsquery('english', '

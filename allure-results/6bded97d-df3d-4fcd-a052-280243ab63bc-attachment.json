@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, (p.biography::text)[:5] AS name, AVG(t.price) , r.name FROM restaurant r JOIN menu_item mi ON r.id = mi.restaurant_id JOIN dish d ON mi.id = d.menu_item_id LEFT JOIN text t ON d.text = t.text AND t.source='dishes' WHERE location ILIKE '%São Paulo%' GROUP BY p.id ORDER BY ts_rank(r.name, 'english') DESC LIMIT 1",
+      "error": "relation \"restaurant\" does not exist\nLINE 1: ...hy::text)[:5] AS name, AVG(t.price) , r.name FROM restaurant...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, avg(d.price::bigint) AS average_price FROM publication p JOIN publication_collab pc ON p.id = pc.publication_id JOIN profile r ON pc.profile_id = r.id WHERE r.location ILIKE '%São Paulo%' GROUP BY p.id LIMIT 10",
+      "error": "missing FROM-clause entry for table \"d\"\nLINE 1: SELECT p.id AS profile_id, avg(d.price::bigint) AS average_p...\n                                       ^"
+    },
+    {
+      "sql": "WITH prices AS (SELECT COALESCE(prc.price::numberval, p.price * 5 / num_likes) AS price FROM publication p LEFT JOIN profile_relationship r ON p.profile_id = r.destination_profile_id WHERE r.edge = 'collab' OR r.edge = 'mentioned' GROUP BY p.id), avg_prices AS (SELECT profile_id, AVG(price) AS average_price FROM prices GROUP BY profile_id LIMIT 10) SELECT * FROM avg_prices; -- added this",
+      "error": "Generated SQL contains multiple statements — rejected before execution."
+    },
+    {
+      "sql": "WITH publication_data AS (SELECT p.id AS profile_id, COALESCE(p.price::numeric, p.price * 5 / n.num_likes) AS price FROM publication p JOIN (SELECT id, num_likes FROM profile WHERE is_private = false AND is_brand = false AND is_verified = true) n ON p.profile_id = n.id LEFT JOIN profile_relationship r ON p.profile_id = r.destination_profile_id WHERE (r.edge = 'collab' OR r.edge = 'mentioned') GROUP BY p.id), avg_price AS (SELECT AVG(price) AS average_price FROM publication_data), pub_data_with_avg AS (SELECT pd.profile_id, pd.price, ap.average_price FROM publication p JOIN publication_data pd ON p.id = pd.profile_id LEFT JOIN avg_price ap ON 1 = 1) SELECT * FROM pub_data_with_avg;",
+      "error": "column \"num_likes\" does not exist\nLINE 1: ...kes) AS price FROM publication p JOIN (SELECT id, num_likes ...\n                                                             ^\nDETAIL:  There is a column named \"num_likes\" in table \"p\", but it cannot be referenced from this part of the query.\nHINT:  To reference that column, you must mark this subquery with LATERAL."
+    }
+  ]
+}

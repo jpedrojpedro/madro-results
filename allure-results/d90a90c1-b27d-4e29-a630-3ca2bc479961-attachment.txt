@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', 'restaurant')) * 0.6 + ts_rank(p.biography_lexemes, to_tsquery('english', 'personality')) * 0.4 AS relevance FROM public.profile p

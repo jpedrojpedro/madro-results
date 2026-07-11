@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH profile_relationship AS (SELECT p.id AS profile_id, pr.origin_profile_id FROM publication AS p JOIN profile_publication_collaborator AS pc ON p.id = pc.publication_id JOIN profile_relationship AS pr ON pc.profile_id = pr.origin_profile_id WHERE p.is_private = FALSE ) SELECT DISTINCT profile_id FROM profile relationship ORDER BY ts_rank(profile_biography_lexemes, to_tsquery('english', 'bakery')) DESC LIMIT 10;",
+      "error": "relation \"profile_publication_collaborator\" does not exist\nLINE 1: ..., pr.origin_profile_id FROM publication AS p JOIN profile_pu...\n                                                             ^"
+    },
+    {
+      "sql": "WITH influencers_publications AS (SELECT DISTINCT p.id AS publication_id, pp.profile_id FROM publication AS p LEFT JOIN publication_collab AS pc ON p.id = pc.publication_id LEFT JOIN profile_relationship AS pr ON pc.profile_id = pr.origin_profile_id WHERE p.is_private = FALSE AND pr.edge = 'follows' ), profiles_of_influencers AS (SELECT DISTINCT pp.profile_id FROM influencers_publications AS ip JOIN profile_publication_collaborator AS pp ON ip.publication_id = pp.publication_id ) SELECT profile_id, ts_rank(pr.biography_lexemes, to_tsquery('english', 'bakery')) FROM (SELECT id AS profile_id FROM profiles_of_influencers WHERE is_private = FALSE AND is_brand = FALSE) AS pr ORDER BY ts_rank(pr.biography_lexemes, to_tsquery('english', 'bakery')) DESC LIMIT 10;",
+      "error": "missing FROM-clause entry for table \"pp\"\nLINE 1: ...tions AS (SELECT DISTINCT p.id AS publication_id, pp.profile...\n                                                             ^"
+    },
+    {
+      "sql": "WITH influencers_publications AS ( SELECT DISTINCT p.id AS profile_id, pc.profile_id FROM publication AS p LEFT JOIN publication_collab AS pc ON p.id = pc.publication_id WHERE p.is_private = FALSE AND pc.profile_id IS NOT NULL ) SELECT profile_id , ts_rank(pr.biography_lexemes, to_tsquery('english', 'bakery')) FROM ( SELECT id AS profile_id FROM influencers_publications WHERE is_private = FALSE AND is_brand = FALSE ) AS pr ORDER BY ts_rank(pr.biography_lexemes, to_tsquery('english', 'bakery')) DESC LIMIT 10",
+      "error": "column p.is_private does not exist\nLINE 1: ...on_collab AS pc ON p.id = pc.publication_id WHERE p.is_priva...\n                                                             ^"
+    },
+    {
+      "sql": "WITH influencers_publications AS ( SELECT DISTINCT p.id AS profile_id, pc.profile_id FROM publication_collab AS pc INNER JOIN publication AS p ON pc.publication_id = p.id WHERE NOT is_private ) SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', 'bakery')) FROM influencers_publications , `profile` AS p WHERE p.id IN ( influencers_publications.profile_id ) ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'bakery')) DESC LIMIT 10",
+      "error": "syntax error at or near \"`\"\nLINE 1: ...lish', 'bakery')) FROM influencers_publications , `profile` ...\n                                                             ^"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+SELECT id AS profile_id, ts_rank(biography_lexemes, to_tsquery('english', 'sushi')) FROM public.profile WHERE setweight(to_tsvector('english', biography), 'A') @@ to_tsquery('english', 'sushi'::text) AND is_private = FALSE ORDER BY ts_rank(biography_lexemes, to_tsquery('english', 'sushi')) DESC LIMIT 10

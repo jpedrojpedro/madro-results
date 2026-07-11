@@ -1,1 +1,0 @@
-WITH pub_as_ranked AS (SELECT p.id AS publication_id, ts_rank(p.description_lexemes, to_tsquery('english', 'Japanese restaurant')) AS rank FROM publication p WHERE to_tsquery('english', '(Japanese AND restaurant)') @@ p.description_lexemes ORDER BY rank DESC LIMIT 10)

@@ -1,0 +1,10 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.biography,
+  p.num_followers
+FROM profile p
+WHERE (p.biography_lexemes @@ to_tsquery('english', 'sao | paulo') 
+       OR p.full_name ILIKE '%São Paulo%')
+ORDER BY p.num_followers DESC
+LIMIT 10;

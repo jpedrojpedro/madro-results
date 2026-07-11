@@ -1,1 +1,0 @@
-SELECT p.id AS profile_id FROM profile p WHERE EXISTS ( SELECT 1 FROM publication pub JOIN publication_collab pc ON pub.id = pc.publication_id JOIN comment c ON pub.id = c.publication_id WHERE p.id = pc.profile_id OR p.id = c.profile_id AND ( p.biography_lexemes @@ to_tsquery('english', 'italian restaurants') ) LIMIT 1 );

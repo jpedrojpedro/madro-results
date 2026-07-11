@@ -1,0 +1,3 @@
+{
+  "error": "invalid input value for enum edge_type: \"collab\"\nLINE 1: ...profile_id FROM profile_relationship WHERE edge = 'collab' O...\n                                                             ^"
+}

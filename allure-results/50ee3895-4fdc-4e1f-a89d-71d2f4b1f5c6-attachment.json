@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "profile_id": 278321594,
+      "username": "henrique_fogaca74",
+      "num_followers": 4580086,
+      "num_medias": 5387
+    },
+    {
+      "profile_id": 1443651494,
+      "username": "neoquimicaarena",
+      "num_followers": 2296051,
+      "num_medias": 9758
+    },
+    {
+      "profile_id": 291628460,
+      "username": "arnovanenck",
+      "num_followers": 1990648,
+      "num_medias": 2459
+    },
+    {
+      "profile_id": 1198702981,
+      "username": "vonixx",
+      "num_followers": 1784245,
+      "num_medias": 3424
+    },
+    {
+      "profile_id": 7463949958,
+      "username": "chefcristinahaaland",
+      "num_followers": 1439994,
+      "num_medias": 1354
+    },
+    {
+      "profile_id": 1715301122,
+      "username": "psolemar",
+      "num_followers": 1382659,
+      "num_medias": 2499
+    },
+    {
+      "profile_id": 36112252762,
+      "username": "descubriendochile.cl",
+      "num_followers": 1071419,
+      "num_medias": 6464
+    },
+    {
+      "profile_id": 48805065632,
+      "username": "guiapaulistinha",
+      "num_followers": 1019133,
+      "num_medias": 1011
+    },
+    {
+      "profile_id": 539967605,
+      "username": "trocar.com.br",
+      "num_followers": 994912,
+      "num_medias": 2966
+    },
+    {
+      "profile_id": 49768508079,
+      "username": "ficadica_sp",
+      "num_followers": 914999,
+      "num_medias": 1006
+    }
+  ]
+}

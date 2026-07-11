@@ -1,1 +1,0 @@
-SELECT profile_id FROM comment WHERE annotation LIKE '%steakhouses in Curitiba%' OR annotation ILIKE '%steakhouses in curitiba%' ORDER BY published_at DESC LIMIT 10

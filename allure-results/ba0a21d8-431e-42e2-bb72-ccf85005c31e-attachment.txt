@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, pr.username FROM publication_collab pc JOIN profile p ON pc.profile_id = p.id JOIN profile pr ON p.id = pr.id WHERE pr.username = 'haight_clothing' ORDER BY pr.num_followers DESC LIMIT 1

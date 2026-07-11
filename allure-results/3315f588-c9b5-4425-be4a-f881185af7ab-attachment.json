@@ -1,0 +1,10 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n    p.id AS publication_id,\n    p.description,\n    p.published_at\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE \n    p.published_at >= '2025-01-01' \n    AND p.published_at < '2026-01-01'\n    AND (\n        p.description_lexemes @@ to_tsquery('english', 'daily & special')\n        OR p.description ILIKE '%daily special%'\n    )\nORDER BY p.published_at DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

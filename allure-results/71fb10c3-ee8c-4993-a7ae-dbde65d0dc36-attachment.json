@@ -1,0 +1,14 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS publication_id\nFROM publication p\nWHERE p.description_lexemes @@ to_tsquery('english', 'restaurant & open & Wednesday')\nORDER BY p.num_likes DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT p.id AS publication_id\nFROM publication p\nWHERE p.description_lexemes @@ to_tsquery('english', 'restaurant | food | dining')\nAND (p.description ILIKE '%Wednesday%' OR p.description ILIKE '%open%')\nORDER BY p.num_likes DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

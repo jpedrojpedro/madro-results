@@ -1,0 +1,3 @@
+{
+  "error": "relation \"table_name\" does not exist\nLINE 1: ....id AS profile_id, AVG(m.price) AS avg_price FROM table_name...\n                                                             ^"
+}

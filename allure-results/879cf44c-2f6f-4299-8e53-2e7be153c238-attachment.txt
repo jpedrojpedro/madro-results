@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE p.num_followers > 5000 LIMIT 10;

@@ -1,1 +1,0 @@
-SELECT p.profile_id FROM profile p WHERE Lower(biography) LIKE '%pancetta%' OR Lower(biography) LIKE '%prosciutto%' ORDER BY ts_rank(biography_lexemes, to_tsquery('italian', 'pancetta | prosciutto')) DESC LIMIT 10

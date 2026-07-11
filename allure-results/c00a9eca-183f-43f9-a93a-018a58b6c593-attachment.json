@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH high_engagement pubs AS (SELECT p.profile_id, pub.id AS publication_id, SUM(pub.num_likes) + COALESCE(p.num_followers, 0) * (CASE WHEN edge.edge = 'follows' THEN -1 ELSE 1 END), ts_rank(description_lexemes, to_tsquery('english', \"haight_clothing\")) OVER () FROM publication pub JOIN profile_relationship AS er ON pub.id = pub.id AND CAST(CHAR_LENGTH(pub.full_name) & 1 AS INTEGER) + (pub.type * publiation.is_liked) * CASE WHEN publiation IS NOT NULL THEN publiation.num_likes ELSE 0 END > 1 INNER JOIN profile p ON pub.profile_id = p.id LEFT JOIN profile_relationship eg ON eg.origin_profile_id = p.id AND eg.edge = 'follows' JOIN profile egr ON eg.destination_profile_id = egr.id WHERE pub.profile_id = (SELECT id FROM profile WHERE username = \"haight_clothing\") GROUP BY (pub.id, pub.slug) ) SELECT row_number() over (ORDER BY engagement DESC) AS ranking, pubs.* FROM high_engagement pubs ORDER BY engagement DESC LIMIT 10;",
+      "error": "syntax error at or near \"pubs\"\nLINE 1: WITH high_engagement pubs AS (SELECT p.profile_id, pub.id AS...\n                             ^"
+    },
+    {
+      "sql": "WITH high_engagement AS (SELECT er.destination_profile_id AS profile_id, pub.id AS publication_id, SUM(pub.num_likes) + COALESCE(p.num_followers, 0) * (CASE WHEN edge.edge = 'follows' THEN -1 ELSE 1 END) AS engagement, ts_rank(description_lexemes, to_tsquery('english',",
+      "error": "syntax error at end of input\nLINE 1: ...gagement, ts_rank(description_lexemes, to_tsquery('english',\n                                                                       ^"
+    },
+    {
+      "sql": "WITH high_engagement AS (SELECT p.id AS profile_id, pub.id AS publication_id, SUM(pub.num_likes) + COALESCE(p.num_followers, 0) * (CASE WHEN er.edge = 'follows' THEN -1 ELSE 1 END) AS engagement FROM profile as p JOIN profile_relationship as er ON p.id = er.origin_profile_id JOIN publication as pub ON pub.profile_id = p.id WHERE p.username='@haight_clothing'GROUP BY p.id, pub.id ORDER BY engagement DESC LIMIT 10)",
+      "error": "syntax error at end of input\nLINE 1: ...ing'GROUP BY p.id, pub.id ORDER BY engagement DESC LIMIT 10)\n                                                                       ^"
+    },
+    {
+      "sql": "SELECT er.origin_profile_id AS profile_id, pub.id AS publication_id, (pub.num_likes + COALESCE(p.num_followers, 0) * CASE WHEN er.edge = 'follows' THEN -1 ELSE 1 END) AS engagement FROM profile AS p INNER JOIN profile_relationship AS er ON er.origin_profile_id = p.id INNER JOIN publication AS pub ON pub.profile_id = p.id WHERE p.username='@haight_clothing' GROUP BY er.origin_profile_id, pub.id ORDER BY engagement DESC LIMIT 10",
+      "error": "column \"p.num_followers\" must appear in the GROUP BY clause or be used in an aggregate function\nLINE 1: ...b.id AS publication_id, (pub.num_likes + COALESCE(p.num_foll...\n                                                             ^"
+    }
+  ]
+}

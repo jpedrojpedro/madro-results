@@ -1,0 +1,1 @@
+WITH filtered_publications AS (SELECT p.id AS publication_id, p.num_likes, p.published_at FROM publication p WHERE description LIKE '%fish%' ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'fish')) DESC) SELECT publication_id, num_likes, published_at FROM filtered_publications ORDER BY published_at DESC LIMIT 10

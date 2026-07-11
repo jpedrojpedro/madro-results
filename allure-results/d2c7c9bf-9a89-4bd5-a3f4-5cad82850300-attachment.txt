@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p JOIN profile_relationship pr ON p.id = pr.origin_profile_id WHERE pr.destination_profile_id IN ( SELECT pc.profile_id FROM publication_collab pc JOIN publication pub ON pc.publication_id =pub.id WHERE pub.description LIKE '%bake%' ) LIMIT 10

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT DISTINCT c.profile_id FROM publication AS p JOIN comment AS c ON p.id = c.publication_id WHERE p.username = 'broxadasinistra' AND c.annotation ~* '(racism|sexism|homophobia|transphobia|bigotry|hate speech)' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "column p.username does not exist\nLINE 1: ...OIN comment AS c ON p.id = c.publication_id WHERE p.username...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT DISTINCT c.profile_id FROM profile AS p JOIN publication AS pu ON p.id = pu.profile_id JOIN comment AS c ON pu.id = c.publication_id WHERE p.username = 'broxadasinistra' AND c.annotation ~* '(racism|sexism|homophobia|transphobia|bigotry|hate speech)' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "for SELECT DISTINCT, ORDER BY expressions must appear in select list\nLINE 1: ...phobia|transphobia|bigotry|hate speech)' ORDER BY c.publishe...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT DISTINCT c.profile_id, c.annotation FROM profile AS p JOIN publication AS pu ON p.id = pu.profile_id JOIN comment AS c ON pu.id = c.publication_id WHERE p.username = 'broxadasinistra' AND c.annotation ~* '(racism|sexism|homophobia|transphobia|bigotry|hate speech)' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "for SELECT DISTINCT, ORDER BY expressions must appear in select list\nLINE 1: ...phobia|transphobia|bigotry|hate speech)' ORDER BY c.publishe...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT DISTINCT p.profile_id FROM profile AS p JOIN publication AS pu ON p.id = pu.profile_id JOIN comment AS c ON pu.id = c.publication_id WHERE p.username = 'broxadasinistra' AND c.annotation ~* '(racism|sexism|homophobia|transphobia|bigotry|hate speech)' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "column p.profile_id does not exist\nLINE 1: SELECT DISTINCT p.profile_id FROM profile AS p JOIN publicat...\n                        ^\nHINT:  Perhaps you meant to reference the column \"pu.profile_id\" or the column \"c.profile_id\"."
+    }
+  ]
+}

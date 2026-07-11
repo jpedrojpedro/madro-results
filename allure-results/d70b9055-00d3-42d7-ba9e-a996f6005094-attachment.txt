@@ -1,0 +1,8 @@
+SELECT 
+    p.id AS profile_id,
+    p.username,
+    p.num_followers
+FROM profile p
+WHERE (p.biography_lexemes @@ to_tsquery('portuguese', 'restaurante & italiano & (são & paulo | sp)'))
+ORDER BY p.num_followers DESC
+LIMIT 10;

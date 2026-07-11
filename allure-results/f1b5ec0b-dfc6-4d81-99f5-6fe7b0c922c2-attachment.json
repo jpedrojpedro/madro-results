@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT c.profile_id AS profile_id,",
+      "error": "syntax error at end of input\nLINE 1: SELECT c.profile_id AS profile_id,\n                                          ^"
+    },
+    {
+      "sql": "WITH topics AS (  SELECT p.id AS profile_id,  ts_rankdesc(p.biography_lexemes, to_tsquery('english', 'inistra')) AS relevance FROM publication AS p JOIN profile_relationship AS pr ON p.profile_id = pr.destination_profile_id WHERE p.id IN (SELECT p.id FROM publication AS p JOIN profile_relationship AS pr ON p.profile_id = pr.origin_profile_id ORDER BY ts_rankdesc(pr.biography_lexemes, to_tsquery('english', 'broxadasinistra')) DESC LIMIT 16) UNION ALL SELECT p.id AS profile_id, ts_rankdesc(p.biography_lexemes, to_tsquery('english', 'inistra')) FROM publication AS p WHERE COALESCE(CASE WHEN (pr.edge = ANY ('{follows}'::text[])) THEN pr.origin_profile_id ELSE pr.destination_profile_id END, p.profile_id) IN (SELECT p.id FROM publication AS p JOIN profile_relationship AS pr ON p.profile_id = pr.origin_profile_id ORDER BY ts_rankdesc(pr.biography_lexemes, to_tsquery('english', 'broxadasinistra')) DESC LIMIT 16)) SELECT profile_id FROM topics WHERE relevance IS NOT NULL AND profile_id IN (SELECT profile_id FROM topics) ORDER BY relevance DESC LIMIT 10;",
+      "error": "column p.biography_lexemes does not exist\nLINE 1: ...ics AS (  SELECT p.id AS profile_id,  ts_rankdesc(p.biograph...\n                                                             ^"
+    },
+    {
+      "sql": "].",
+      "error": "Generated SQL is not a SELECT/WITH statement — rejected before execution."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', 'broxadasinistra')) as rank FROM publication p WHERE description IS NOT NULL AND lower(description) LIKE '%broxadasinistra%' ORDER BY rank DESC LIMIT 10",
+      "error": "column p.biography_lexemes does not exist\nLINE 1: SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_t...\n                                           ^"
+    }
+  ]
+}

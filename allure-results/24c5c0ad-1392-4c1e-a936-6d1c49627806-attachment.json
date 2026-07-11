@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH healthy_options AS (\n  SELECT p.`id` AS profile_id, AVG(m.num_proteins) AS num_proteins_avg\n  FROM \"publication\"\n    JOIN publication_collab AS pc ON publication.id = pc.publication_id\n    JOIN profile AS p ON pc.profile_id = p.id\n    JOIN media_aspect AS ma ON publication.id = ma.publication_id\n  WHERE m.`aspect-name` = 'proteins'\n  GROUP BY \"profile\"\n),\n healthy_restaurants AS (\n  SELECT *\n  FROM healthy_options\n  CROSS JOIN LATERAL (\n    SELECT p2.`id` AS profile_id,\n           MIN(ot.\"order-taken\") AS min_odour_taking_after_nibbling AS min_order_taken_at\n    FROM \"publication\"\n      LEFT JOIN publication_collab AS pc ON publication.id = pc.publication_id\n      LEFT JOIN profile AS p2 ON pc.profile_id = p2.id\n      LEFT JOIN order_tally AS ot ON publication.id = ot.publication_id\n    WHERE p2.id = healthy_options.profile_id AND m.\"aspect-name\" IN ('sugars', 'sodium')\n    GROUP BY p2.\"profile\"\n  ) AS odour_taken\n) SELECT DISTINCT * FROM healthy_restaurants ORDER BY num_proteins_avg DESC LIMIT 10",
+      "error": "syntax error at or near \"`\"\nLINE 2:   SELECT p.`id` AS profile_id, AVG(m.num_proteins) AS num_pr...\n                   ^"
+    },
+    {
+      "sql": "WITH healthy_options AS (SELECT p.id AS profile_id, publication.id AS publication_id, AVG(i.num_proteins) AS num_proteins_avg FROM \"publication\" JOIN publication_collab AS pc ON publication.id = pc.publication_id JOIN profile AS p ON pc.profile_id = p.id JOIN media_aspect AS ma ON publication.id = ma.publication_id WHERE m.aspect_type = 'protein' GROUP BY p.id), healthy_restaurants AS (SELECT DISTINCT h.p.id AS profile_id, i.num_proteins FROM healthy_options h CROSS JOIN \"publication\" i WHERE id IN (h.publication_id) OR id IN (SELECT c.publication_id FROM publication_collab AS pc JOIN comment AS co ON pc.profile_id = co.profile_id WHERE h.p.id = co.profile_id)), final_result AS (SELECT u.* FROM healthy_restaurants nr ORDER BY num_proteins_avg DESC LIMIT 10) SELECT * FROM final_result",
+      "error": "relation \"media_aspect\" does not exist\nLINE 1: ...id JOIN profile AS p ON pc.profile_id = p.id JOIN media_aspe...\n                                                             ^"
+    },
+    {
+      "sql": "WITH healthy_options AS (SELECT p.id AS profile_id, publication.id AS publication_id, AVG(i.num_medicinals) AS num_proteins_avg FROM \"publication\" JOIN publication_collab AS pc ON publication.id = pc.publication_id JOIN profile AS p ON pc.profile_id = p.id JOIN publication i ON p.id = i.profile_id WHERE (i.type = 'rest' OR i.type IS NULL) GROUP BY p.id), healthy_restaurants AS (SELECT DISTINCT h.p.id AS profile_id, i.num_medicinals FROM healthy_options h CROSS JOIN \"publication\" i WHERE id IN (h.publication_id) OR id IN (SELECT c.publication_id FROM publication_collab AS pc JOIN comment AS co ON pc.profile_id = co.profile_id WHERE h.p.id = co.profile_id)), final_result AS (SELECT u.* FROM healthy_restaurants nr ORDER BY num_proteins_avg DESC LIMIT 10) SELECT profile_id, publication_id, num_medicinals FROM final_result",
+      "error": "column i.num_medicinals does not exist\nLINE 1: ...profile_id, publication.id AS publication_id, AVG(i.num_medi...\n                                                             ^"
+    },
+    {
+      "sql": "WITH healthy_options AS (SELECT p.id AS profile_id, publication.id AS publication_id, p.num_medicinals AS num_proteins_avg FROM publication JOIN publication_collab pc ON publication.id = pc.publication_id JOIN profile p ON pc.profile_id = p.id WHERE (p.num_medicinals IS NOT NULL) GROUP BY p.id), healthy_restaurants AS (SELECT d.p.id AS profile_id, p.num_medicinals FROM healthy_options h JOIN publication p ON h.publication_id = p.id ), final_result AS (SELECT * FROM healthy_restaurants nr ORDER BY num_proteins_avg DESC LIMIT 10) SELECT profile_id, num_proteins_avg,",
+      "error": "syntax error at end of input\nLINE 1: ...eins_avg DESC LIMIT 10) SELECT profile_id, num_proteins_avg,\n                                                                       ^"
+    }
+  ]
+}

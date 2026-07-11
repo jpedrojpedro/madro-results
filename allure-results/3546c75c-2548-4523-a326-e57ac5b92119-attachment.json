@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "profile_id": 169191,
+      "num_comments": 1,
+      "avg_comment_likes": "1.00000000000000000000",
+      "stddev_comment_likes": "0"
+    },
+    {
+      "profile_id": 367528,
+      "num_comments": 1,
+      "avg_comment_likes": "4.0000000000000000",
+      "stddev_comment_likes": "0"
+    },
+    {
+      "profile_id": 650971,
+      "num_comments": 2,
+      "avg_comment_likes": "4.0000000000000000",
+      "stddev_comment_likes": "3.0000000000000000"
+    },
+    {
+      "profile_id": 736763,
+      "num_comments": 1,
+      "avg_comment_likes": "1.00000000000000000000",
+      "stddev_comment_likes": "0"
+    },
+    {
+      "profile_id": 1096199,
+      "num_comments": 1,
+      "avg_comment_likes": "1.00000000000000000000",
+      "stddev_comment_likes": "0"
+    },
+    {
+      "profile_id": 1412409,
+      "num_comments": 1,
+      "avg_comment_likes": "2.0000000000000000",
+      "stddev_comment_likes": "0"
+    },
+    {
+      "profile_id": 1729513,
+      "num_comments": 4,
+      "avg_comment_likes": "1.00000000000000000000",
+      "stddev_comment_likes": "0"
+    },
+    {
+      "profile_id": 1735436,
+      "num_comments": 2,
+      "avg_comment_likes": "1.00000000000000000000",
+      "stddev_comment_likes": "1.00000000000000000000"
+    },
+    {
+      "profile_id": 1777739,
+      "num_comments": 9,
+      "avg_comment_likes": "0.88888888888888888889",
+      "stddev_comment_likes": "0.56655772373253164778"
+    },
+    {
+      "profile_id": 1876570,
+      "num_comments": 1,
+      "avg_comment_likes": "1.00000000000000000000",
+      "stddev_comment_likes": "0"
+    }
+  ]
+}

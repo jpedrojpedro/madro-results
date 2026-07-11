@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH followed_profiles AS (SELECT pf.destination_profile_id FROM profile_relationship pr JOIN profile p ON pr.origin_profile_id = p.id WHERE p.username = 'haight_clothing' AND pr.edge = 'follows'),",
+      "error": "syntax error at end of input\nLINE 1: ...ERE p.username = 'haight_clothing' AND pr.edge = 'follows'),\n                                                                       ^"
+    },
+    {
+      "sql": "WITH followed_profiles AS (SELECT pf.destination_profile_id FROM profile_relationship pr JOIN profile p ON pr.origin_profile_id = p.id WHERE p.username = '@haight_clothing' AND pr.edge = 'follows'),",
+      "error": "syntax error at end of input\nLINE 1: ...RE p.username = '@haight_clothing' AND pr.edge = 'follows'),\n                                                                       ^"
+    },
+    {
+      "sql": "WITH followed_profiles AS (SELECT pf.destination_profile_id FROM profile_relationship pr JOIN profile p ON pr.origin_profile_id = p.id WHERE p.username = '@haight_clothing' AND pr.edge = 'follows') SELECT DISTINCT fp.profile_id AS profile_id, p.username FROM followed_profiles fp JOIN profile p ON fp.profile_id = p.id ORDER BY fp.profile_id, p.num_followers DESC LIMIT 10;",
+      "error": "missing FROM-clause entry for table \"pf\"\nLINE 1: WITH followed_profiles AS (SELECT pf.destination_profile_id ...\n                                          ^"
+    },
+    {
+      "sql": "WITH followed_profiles AS (SELECT pr.origin_profile_id FROM profile_relationship pr JOIN profile p ON pr.destination_profile_id = p.id WHERE p.username = '@haight_clothing' AND pr.edge = 'follows') SELECT DISTINCT fp.profile_id AS profile_id, p.username FROM followed_profiles fp JOIN profile p ON fp.profile_id = p.id ORDER BY p.num_followers DESC LIMIT 10;",
+      "error": "column fp.profile_id does not exist\nLINE 1: ...rname FROM followed_profiles fp JOIN profile p ON fp.profile...\n                                                             ^"
+    }
+  ]
+}

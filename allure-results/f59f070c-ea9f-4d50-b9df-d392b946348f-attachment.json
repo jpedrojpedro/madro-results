@@ -1,0 +1,3 @@
+{
+  "error": "column c.annotation_lexemes does not exist\nLINE 1: ... OR c.annotation ILIKE '%tips%') ORDER BY ts_rank(c.annotati...\n                                                             ^"
+}

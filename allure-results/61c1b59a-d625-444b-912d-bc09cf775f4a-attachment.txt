@@ -1,0 +1,17 @@
+SELECT
+  p.id AS publication_id
+FROM publication p
+JOIN profile pr ON p.profile_id = pr.id
+WHERE
+  (
+    p.description_lexemes @@ to_tsquery('portuguese', 'pasta | macarrao | espaguete | lasanha | nhoque | massa')
+    OR p.description ILIKE ANY (ARRAY['%pasta%', '%macarrão%', '%espaguete%', '%lasanha%', '%massa%'])
+  )
+  AND (
+    pr.biography ILIKE '%Balneário%'
+    OR pr.biography ILIKE '%BC%'
+    OR pr.full_name ILIKE '%Balneário%'
+    OR pr.full_name ILIKE '%BC%'
+  )
+ORDER BY p.published_at DESC
+LIMIT 10;

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT comment.profile_id, annotation AS criticism FROM profile JOIN publication ON profile.id = publication.profile_id JOIN comment ON publication.id = comment.publication_id WHERE publication.profile_id IN ( SELECT origin_profile_id FROM profile_relationship WHERE destination_profile_id = ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) ) ORDER BY ts_rank(comment.annotation_lexemes, plainto_tsquery('english', 'criticism')) DESC LIMIT 10",
+      "error": "column comment.annotation_lexemes does not exist\nLINE 1: ...sername = '@broxadasinistra' ) ) ORDER BY ts_rank(comment.an...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT c.profile_id, c.annotation AS criticism FROM comment AS c JOIN publication AS p ON c.publication_id = p.id WHERE p.profile_id IN ( SELECT origin_profile_id FROM profile_relationship WHERE destination_profile_id = ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) ) ORDER BY ts_rank(c.annotationlexemes, plainto_tsquery('english', 'criticism')) DESC LIMIT 10",
+      "error": "column c.annotationlexemes does not exist\nLINE 1: ...sername = '@broxadasinistra' ) ) ORDER BY ts_rank(c.annotati...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.profile_id, c.annotation AS criticism FROM comment AS c JOIN publication AS p ON c.publication_id = p.id WHERE p.profile_id IN ( SELECT origin_profile_id FROM profile_relationship WHERE destination_profile_id = ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) ) AND to_tsvector('english', c.annotation) @@ to_tsquery('english', 'criticism') ORDER BY ts_rank(to_tsvector('english', c.annotation), to_tsquery('english', 'criticism')) DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT p.profile_id, c.annotation AS criticism FROM comment AS c JOIN publication AS p ON c.publication_id = p.id WHERE p.profile_id IN ( SELECT origin_profile_id FROM profile_relationship WHERE destination_profile_id = ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) ) AND to_tsvector('english', c.annotation) @@ to_tsquery('english', 'criticism') ORDER BY ts_rank(to_tsvector('english', c.annotation), to_tsquery('english', 'criticism')) DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

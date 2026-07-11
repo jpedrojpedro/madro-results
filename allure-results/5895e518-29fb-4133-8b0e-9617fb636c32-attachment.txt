@@ -1,0 +1,12 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.full_name,
+  p.biography
+FROM profile p
+WHERE p.biography ILIKE '%Florianópolis%'
+   OR p.biography ILIKE '%Florianopolis%'
+   OR p.full_name ILIKE '%Florianópolis%'
+   OR p.full_name ILIKE '%Florianopolis%'
+ORDER BY p.num_followers DESC
+LIMIT 10;

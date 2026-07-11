@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT publication.id AS profile_id, p.* FROM publication p JOIN profile r ON p.profile_id = r.id WHERE p.type = 'GraphImage' AND description_lexemes @@ to_tsquery('italian restaurant menu 2025') ORDER BY ts_rank(description_lexemes, to_tsquery('italian restaurant menu 2025')) DESC LIMIT 10",
+      "error": "invalid reference to FROM-clause entry for table \"publication\"\nLINE 1: SELECT publication.id AS profile_id, p.* FROM publication p ...\n               ^\nHINT:  Perhaps you meant to reference the table alias \"p\"."
+    },
+    {
+      "sql": "WITH relevant_publications AS (SELECT id AS publication_id FROM publication WHERE description_lexemes @@ to_tsquery('italian restaurant menu 2025')) SELECT r.id AS profile_id, p.* FROM profile r JOIN relevant_publications ON r.id = publication_id AND publication.published_at >= '2025-01-01' ORDER BY ts_rank(p.description_lexemes, to_tsquery('italian restaurant menu 2025')) DESC LIMIT 10",
+      "error": "missing FROM-clause entry for table \"publication\"\nLINE 1: ...elevant_publications ON r.id = publication_id AND publicatio...\n                                                             ^"
+    },
+    {
+      "sql": "WITH relevant_publications AS (SELECT id, published_at AS publication_id FROM publication WHERE description_lexemes @@ to_tsquery('italian restaurant menu 2025')) SELECT r.id AS profile_id, p.* FROM profile r JOIN publication p ON r.id = p.profile_id AND p.published_at >= '2025-01-01' \nJOIN relevant_publications rp ON p.id = rp.publication_id GROUP BY p.id ORDER BY ts_rank(p.description_lexemes, to_tsquery('italian restaurant menu 2025')) DESC LIMIT 10",
+      "error": "operator does not exist: bigint = timestamp without time zone\nLINE 2: JOIN relevant_publications rp ON p.id = rp.publication_id GR...\n                                              ^\nHINT:  No operator matches the given name and argument types. You might need to add explicit type casts."
+    },
+    {
+      "sql": "WITH relevant_publications AS (SELECT id AS publication_id, published_at FROM publication WHERE description_lexemes @@ to_tsquery('italian restaurant menu 2025')) SELECT rp.publication_id, p.profile_id, p.published_at, p.num_likes / 100.0 + p.num_comments / 20.0 + p.visited_at ORDER BY ts_rank(publication_description_lexemes, to_tsquery('italian restaurant menu 2025')) DESC LIMIT 10",
+      "error": "missing FROM-clause entry for table \"rp\"\nLINE 1: ...o_tsquery('italian restaurant menu 2025')) SELECT rp.publica...\n                                                             ^"
+    }
+  ]
+}

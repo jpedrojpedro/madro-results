@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT comment.profile_id AS profile_id, c.annotation AS annotation FROM comment c JOIN publication p ON c.publication_id = p.id WHERE p.description ILIKE '%steakhouses in curitiba%' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "invalid reference to FROM-clause entry for table \"comment\"\nLINE 1: SELECT comment.profile_id AS profile_id, c.annotation AS ann...\n               ^\nHINT:  Perhaps you meant to reference the table alias \"c\"."
+    },
+    {
+      "sql": "SELECT c.profile_id AS profile_id, c.annotation AS annotation FROM comment c JOIN publication p ON c.publication_id = p.id WHERE p.description ILIKE '%steakhouses in curitiba%' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT c.profile_id AS profile_id, c.annotation AS annotation FROM comment c JOIN publication p ON c.publication_id = p.id WHERE c.annotation ILIKE '%steakhouses in curitiba%' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT c.profile_id AS profile_id, c.annotation AS annotation FROM comment c JOIN publication p ON c.publication_id = p.id WHERE c.annotation ILIKE '%steakhouses in curitiba%' OR c.annotation ILIKE '%curitiba steakhouses%' ORDER BY c.published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "error": "syntax error at or near \"ELSE\"\nLINE 6: ...', 'broxadasinitra')))/2 = -1 THEN NULL ELSE 7/20 ELSE 5/10 ...\n                                                             ^"
+}

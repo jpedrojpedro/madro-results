@@ -1,0 +1,3 @@
+{
+  "error": "column pp.profile_id does not exist\nLINE 5: ON pp.profile_id =  pub.profile_id OR pub.profile_id = pp.id...\n           ^\nHINT:  Perhaps you meant to reference the column \"pub.profile_id\"."
+}

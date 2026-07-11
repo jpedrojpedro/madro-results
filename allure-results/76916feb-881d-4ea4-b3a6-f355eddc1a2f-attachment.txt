@@ -1,1 +1,0 @@
-SELECT publication_id, p.id AS id FROM (publication AS publication_id) p JOIN (select * FROM publication WHERE to_date(published_at, 'YYYY-MM-DD') BETWEEN $1 AND $2) subquery ON p.id  =  subquery.id ORDER BY ts_rank(publication_description_lexemes, to_tsquery('english', 'new')) DESC LIMIT 10

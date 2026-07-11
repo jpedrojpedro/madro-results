@@ -1,0 +1,1 @@
+SELECT profile_id FROM ( SELECT p.id AS profile_id, count(pr.edge) FROM public.profile p JOIN public.profile_relationship pr ON p.id = pr.origin_profile_id GROUP BY p.id ) subquery ORDER BY count DESC LIMIT 1

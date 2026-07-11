@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, 'Balneario de Camboriu' <@> to_tsquery('english', p.biography_lexemes), ts_rank(p.biography_lexemes, to_tsquery('english', 'BalneArio*'), numnats):='restaurant') AND ((location Like '%Cambori%')",
+      "error": "syntax error at or near \":=\"\nLINE 1: ...mes, to_tsquery('english', 'BalneArio*'), numnats):='restaur...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, * FROM publication WHERE description @@ to_tsquery('english', \\'near restaurants in BalneArio*\\\\u0027) AND published_at >= NOW() - INTERVAL '2 month' ORDER BY ts_rank(p.description_lexemes OR bio_graphy_lexemes, to_tsquery('english', \\u0027BalneArio*\\\\u0027)) DESC LIMIT 10",
+      "error": "syntax error at or near \"\\\"\nLINE 1: ...cation WHERE description @@ to_tsquery('english', \\'near res...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.profile_id, publication_id FROM publication INNER JOIN profile ON publication_id = p.id WHERE publicaton.description_lexemes @@ to_tsquery('english', 'restaurants near Balneário*') AND published_at >= NOW() - INTERVAL '2 month' ORDER BY ts_rank(p.biography_lexemes OR publication_description_lexemes, to_tsquery('english', 'Balneário*')) DESC LIMIT 10",
+      "error": "column \"publication_id\" does not exist\nLINE 1: ...ication_id FROM publication INNER JOIN profile ON publicatio...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.profile_id, pub.publication_id FROM publication AS pub INNER JOIN profile AS p ON pub.profile_id = p.id WHERE pub.description_lexemes @@ to_tsquery('english', 'restaurants near Balneário*') AND pub.published_at >= NOW() - INTERVAL '2 month' ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'Balneário*')) DESC LIMIT 10",
+      "error": "column p.profile_id does not exist\nLINE 1: SELECT p.profile_id, pub.publication_id FROM publication AS ...\n               ^\nHINT:  Perhaps you meant to reference the column \"pub.profile_id\"."
+    }
+  ]
+}

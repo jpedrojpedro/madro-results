@@ -1,0 +1,18 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 4,
+  "failed_attempts": [
+    {
+      "sql": "WITH best_personality AS (SELECT 0.1 * ts_rank(profile.biography_lexemes, to_tsquery('english', 'best' || '|' || 'personality')) AS relevance FROM profile LIMIT 10)",
+      "error": "syntax error at end of input\nLINE 1: ...| '|' || 'personality')) AS relevance FROM profile LIMIT 10)\n                                                                       ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, MAX(relevance) OVER (PARTITION BY TRUE) AS max_relevance",
+      "error": "missing FROM-clause entry for table \"p\"\nLINE 1: SELECT p.id AS profile_id, MAX(relevance) OVER (PARTITION BY...\n               ^"
+    },
+    {
+      "sql": "WITH ranked_profiles AS (SELECT id as profile_id, ts_rank(biography_lexemes, to_tsquery('english', 'restaurant')) * 0.6 + ts_rank(biography_lexemes, to_tsquery('english', 'personality')) * 0.4 AS relevance, publication_id FROM p_publication),",
+      "error": "syntax error at end of input\nLINE 1: ...y')) * 0.4 AS relevance, publication_id FROM p_publication),\n                                                                       ^"
+    }
+  ]
+}

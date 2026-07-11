@@ -1,0 +1,1 @@
+SELECT c.profile_id, c.annotation FROM profile p JOIN comment c ON p.id = c.profile_id WHERE p.username = 'eusougabriela' AND (c.annotation ILIKE '%lifestyle%' OR c.annotation ILIKE '%tips%') ORDER BY ts_rank(c.annotation_lexemes, to_tsquery('english', 'lifestyle tips')) LIMIT 10

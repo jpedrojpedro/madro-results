@@ -1,0 +1,16 @@
+SELECT
+    p.id AS publication_id,
+    p.description,
+    p.published_at
+FROM publication p
+JOIN profile pr ON p.profile_id = pr.id
+WHERE 
+    p.published_at >= '2025-01-01' 
+    AND p.published_at < '2026-01-01'
+    AND (
+        p.description_lexemes @@ to_tsquery('english', 'daily | special | menu | lunch | dinner')
+        OR p.description ILIKE '%daily%'
+        OR p.description ILIKE '%special%'
+    )
+ORDER BY p.num_likes DESC, p.published_at DESC
+LIMIT 10;

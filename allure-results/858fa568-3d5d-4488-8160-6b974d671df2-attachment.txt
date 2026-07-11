@@ -1,0 +1,5 @@
+WITH followers AS (
+    SELECT origin_profile_id
+    FROM profile_relationship
+    WHERE destination_profile_id = (SELECT id FROM profile WHERE username = 'haight_clothing')
+) SELECT p.id AS profile_id FROM profile p JOIN followers ON p.id = followers.origin_profile_id LIMIT 10;

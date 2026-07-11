@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.full_name,\n  AVG(c.num_likes) AS avg_comment_likes\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant')\nGROUP BY p.id, p.full_name\nORDER BY avg_comment_likes DESC NULLS LAST\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name,\n  COUNT(c.id) AS num_comments,\n  AVG(c.num_likes) AS avg_comment_likes\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant | food | dining | bistro | cafe | kitchen')\n   OR p.full_name ILIKE '%restaurant%'\n   OR p.full_name ILIKE '%bistro%'\n   OR p.full_name ILIKE '%cafe%'\n   OR p.full_name ILIKE '%kitchen%'\nGROUP BY p.id\nHAVING COUNT(c.id) > 2\nORDER BY avg_comment_likes DESC NULLS LAST\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name,\n  COUNT(c.id) AS num_comments,\n  SUM(c.num_likes) AS total_comment_likes\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant | food | dining | bistro | cafe | kitchen | eatery | gourmet | cooking')\n   OR p.full_name ILIKE '%restaurant%'\n   OR p.full_name ILIKE '%bistro%'\n   OR p.full_name ILIKE '%cafe%'\n   OR p.full_name ILIKE '%kitchen%'\n   OR p.full_name ILIKE '%eatery%'\n   OR p.full_name ILIKE '%gourmet%'\nGROUP BY p.id\nORDER BY total_comment_likes DESC NULLS LAST\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name,\n  COUNT(c.id) AS num_comments,\n  SUM(c.num_likes) AS total_comment_likes\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE p.biography ILIKE '%restaurant%'\n   OR p.biography ILIKE '%food%'\n   OR p.biography ILIKE '%dining%'\n   OR p.biography ILIKE '%bistro%'\n   OR p.biography ILIKE '%cafe%'\n   OR p.biography ILIKE '%kitchen%'\n   OR p.biography ILIKE '%eatery%'\n   OR p.biography ILIKE '%gourmet%'\n   OR p.biography ILIKE '%cooking%'\n   OR p.full_name ILIKE '%restaurant%'\n   OR p.full_name ILIKE '%bistro%'\n   OR p.full_name ILIKE '%cafe%'\n   OR p.full_name ILIKE '%kitchen%'\n   OR p.full_name ILIKE '%eatery%'\n   OR p.full_name ILIKE '%gourmet%'\nGROUP BY p.id\nORDER BY total_comment_likes DESC NULLS LAST\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

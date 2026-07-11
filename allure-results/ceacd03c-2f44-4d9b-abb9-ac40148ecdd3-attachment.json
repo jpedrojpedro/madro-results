@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH discussion_profiles AS (SELECT publication_id, profile_id, ts_rank(description_lexemes, to_tsquery('english', 'steakhouses Curitiba')) AS relevance FROM publication WHERE is_private = FALSE AND published_at > NOW() - INTERVAL '1 year'::interval ORDER BY relevance DESC LIMIT 600) SELECT p.id AS profile_id FROM discussion_profiles dp INNER JOIN comment c ON (dp.publication_id, c.profile_id) JOIN publication p ON c.publication_id = p.id GROUP BY (p.id) ORDER BY SUM(c.num_comments) DESC LIMIT 10",
+      "error": "column \"publication_id\" does not exist\nLINE 1: WITH discussion_profiles AS (SELECT publication_id, profile_...\n                                            ^"
+    },
+    {
+      "sql": "WITH discussion_profiles AS (SELECT c.profile_id AS discussion_profile_id, p.id AS publication_id, ts_rank(p.description_lexemes, to_tsquery('english', 'steakhouses Curitiba')) AS relevance FROM comment c \nJOIN publication p ON c.publication_id = p.id WHERE description NOT NULL AND is_private='f'  ORDER BY relevance DESC LIMIT 600)\nSELECT dp.discussion_profile_id AS discussion_profile_id, p.id AS profile_id ,sum(c.num_comments) as discussion_score FROM public.comment c\n JOIN discussion_profiles dp ON (c.profile_id)=dp.discussion_profile_id \nJOIN publication p ON c.publication_id =p.id\nGROUP BY dp.discussion_profile_id ORDER BY sum(c.num_comments) DESC LIMIT 10",
+      "error": "syntax error at or near \"NOT\"\nLINE 2: ...on p ON c.publication_id = p.id WHERE description NOT NULL A...\n                                                             ^"
+    },
+    {
+      "sql": "WITH discussion_profiles AS (SELECT c.profile_id AS profile_id, p.id AS publication_id, ts_rank(p.description_lexemes, to_tsquery('english', '\"steakhouses Curitiba\"')) AS relevance FROM comment c JOIN publication p ON c.publication_id = p.id WHERE description IS NOT NULL AND is_private IS NOT TRUE ORDER BY relevance DESC LIMIT 600) SELECT dp.profile_id ,p.id AS profile_id ,sum(c.num_comments) as discussion_score FROM public.comment c JOIN discussion_profiles dp ON (c.profile_id)=dp.profile_id JOIN publication p ON c.publication_id =p.id GROUP BY dp.profile_id ORDER BY sum(c.num_comments) DESC LIMIT 10",
+      "error": "column \"is_private\" does not exist\nLINE 1: ...ation_id = p.id WHERE description IS NOT NULL AND is_private...\n                                                             ^"
+    },
+    {
+      "sql": "WITH discussion_profiles AS (SELECT c.profile_id AS profile_id, p.id AS publication_id, ts_rank(p.description_lexemes, to_tsquery('english', ''\"steakhouses Curitiba\"'')) AS relevance FROM comment c JOIN publication p ON c.publication_id = p.id WHERE p.description IS NOT NULL AND p.is_private IS NOT TRUE ORDER BY relevance DESC LIMIT 600) SELECT c.profile_id ,p.id AS profile_id ,sum(c.num_comments) as discussion_score FROM public.comment c JOIN discussion_profiles dp ON (c.profile_id)=dp.profile_id JOIN publication p ON c.publication_id =p.id GROUP BY c.profile_id ORDER BY sum(c.num_comments) DESC LIMIT 10",
+      "error": "syntax error at or near \"\"steakhouses Curitiba\"\"\nLINE 1: ...nk(p.description_lexemes, to_tsquery('english', ''\"steakhous...\n                                                             ^"
+    }
+  ]
+}

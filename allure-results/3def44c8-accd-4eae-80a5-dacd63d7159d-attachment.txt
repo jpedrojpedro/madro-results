@@ -1,0 +1,7 @@
+SELECT
+  p.id AS publication_id,
+  p.description
+FROM publication p
+WHERE p.description_lexemes @@ to_tsquery('english', 'japanese | sushi | ramen | tempura | sashimi | bento | udon | yakitori | rice | fish | noodles')
+ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'japanese | sushi | ramen | tempura | sashimi | bento | udon | yakitori | rice | fish | noodles')) DESC
+LIMIT 10;

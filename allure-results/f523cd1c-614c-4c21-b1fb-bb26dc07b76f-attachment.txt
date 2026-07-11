@@ -1,0 +1,1 @@
+SELECT id AS profile_id FROM public.profile WHERE is_private = FALSE AND num_medias > 100 AND (LOWER(profile_pic_url) ILIKE '%women%' OR LOWER(profile_pic_url) ILIKE '%fashion%')

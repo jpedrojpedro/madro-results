@@ -1,0 +1,7 @@
+SELECT
+  p.id AS publication_id
+FROM publication p
+JOIN profile pr ON p.profile_id = pr.id
+WHERE (p.description_lexemes @@ to_tsquery('english', 'seafood | fish | crab | shrimp | lobster | oyster | salmon | tuna | calamari'))
+ORDER BY p.num_comments DESC
+LIMIT 10;

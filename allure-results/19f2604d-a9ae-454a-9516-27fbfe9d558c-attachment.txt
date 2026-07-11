@@ -1,0 +1,1 @@
+WITH followed_profiles AS (SELECT pr.destination_profile_id AS profile_id FROM profile_relationship pr JOIN profile p ON pr.origin_profile_id = p.id WHERE p.username = '@haight_clothing' AND pr.edge = 'follows') SELECT DISTINCT fp.profile_id AS profile_id, p.username FROM followed_profiles fp JOIN profile p ON fp.profile_id = p.id ORDER BY p.num_followers DESC LIMIT 10;

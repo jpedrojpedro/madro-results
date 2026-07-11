@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE p.username LIKE '%restaurant%' AND p.biography_lexemes @@ to_tsquery('english', 'best') ORDER BY ts_rank(p.biography_lexemes, 'best') DESC LIMIT 10

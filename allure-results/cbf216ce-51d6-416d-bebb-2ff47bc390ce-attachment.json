@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.profile_id, c.annotation FROM profile p JOIN comment c ON p.id = c.profile_id WHERE p.username = 'eusougabriela' AND c.annotation ILIKE '%lifestyle%' OR c.annotation ILIKE '%tips%' ORDER BY ts_rank(c.annotation_lexemes, to_tsquery('english', 'lifestyle tips')) LIMIT 10",
+      "error": "column p.profile_id does not exist\nLINE 1: SELECT p.profile_id, c.annotation FROM profile p JOIN commen...\n               ^\nHINT:  Perhaps you meant to reference the column \"c.profile_id\"."
+    },
+    {
+      "sql": "SELECT c.profile_id, c.annotation FROM profile p JOIN comment c ON p.id = c.profile_id WHERE p.username = 'eusougabriela' AND (c.annotation ILIKE '%lifestyle%' OR c.annotation ILIKE '%tips%') ORDER BY ts_rank(c.annotation_lexemes, to_tsquery('english', 'lifestyle tips')) LIMIT 10",
+      "error": "column c.annotation_lexemes does not exist\nLINE 1: ... OR c.annotation ILIKE '%tips%') ORDER BY ts_rank(c.annotati...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT c.profile_id, c.annotation FROM profile p JOIN comment c ON p.id = c.profile_id WHERE p.username = 'eusougabriela' AND (c.annotation ILIKE '%lifestyle%' OR c.annotation ILIKE '%tips%') ORDER BY ts_rank(publication_description_lexemes || ' ' || annotation_lexemes, to_tsquery('english', 'lifestyle tips')) LIMIT 10",
+      "error": "column \"publication_description_lexemes\" does not exist\nLINE 1: ... OR c.annotation ILIKE '%tips%') ORDER BY ts_rank(publicatio...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.profile_id, c.annotation FROM profile p JOIN comment c ON p.id = c.profile_id WHERE p.username = 'eusougabriela' AND (c.annotation ILIKE '%lifestyle%' OR c.annotation ILIKE '%tips%') ORDER BY ts_rank(c.annotation_lexemes, to_tsquery('english', 'lifestyle tips')) LIMIT 10",
+      "error": "column p.profile_id does not exist\nLINE 1: SELECT p.profile_id, c.annotation FROM profile p JOIN commen...\n               ^\nHINT:  Perhaps you meant to reference the column \"c.profile_id\"."
+    }
+  ]
+}

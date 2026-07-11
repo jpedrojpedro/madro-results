@@ -1,0 +1,18 @@
+WITH target_profile AS (
+    SELECT id
+    FROM profile
+    WHERE username = 'broxadasinistra'
+)
+SELECT 
+    c.profile_id AS profile_id,
+    c.annotation,
+    c.num_likes
+FROM comment c
+JOIN publication p ON c.publication_id = p.id
+JOIN target_profile tp ON p.profile_id = tp.id
+WHERE c.annotation ILIKE '%crítica%' 
+   OR c.annotation ILIKE '%discordo%' 
+   OR c.annotation ILIKE '%falso%' 
+   OR c.annotation ILIKE '%mentira%'
+ORDER BY c.num_likes DESC
+LIMIT 10;

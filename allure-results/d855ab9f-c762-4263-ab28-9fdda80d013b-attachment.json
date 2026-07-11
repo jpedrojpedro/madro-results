@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "- SELECT p.profile_id, p.username FROM profile AS p WHERE num_followers > 5000 ORDER BY num_followers DESC LIMIT 10;",
+      "error": "Generated SQL is not a SELECT/WITH statement — rejected before execution."
+    },
+    {
+      "sql": "SELECT profile_id, username FROM profile WHERE num_followers > 5000 ORDER BY num_followers DESC LIMIT 10",
+      "error": "column \"profile_id\" does not exist\nLINE 1: SELECT profile_id, username FROM profile WHERE num_followers...\n               ^"
+    }
+  ]
+}

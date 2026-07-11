@@ -1,0 +1,11 @@
+SELECT
+    p.id AS profile_id,
+    p.username,
+    p.full_name,
+    p.num_followers
+FROM profile p
+WHERE (p.biography ILIKE '%São Paulo%' OR p.biography ILIKE '%Sao Paulo%')
+  AND p.biography ILIKE '%restaurant%'
+  AND p.num_followers > 10000
+ORDER BY p.num_followers DESC
+LIMIT 10;

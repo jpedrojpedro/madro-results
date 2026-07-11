@@ -1,1 +1,0 @@
-SELECT p.profile_id FROM profile AS p JOIN publication AS pu ON p.id = pu.profile_id WHERE p.username = 'brunoxadasinistra' ORDER BY ts_rank(pu.description_lexemes, plainto_tsquery('english', 'main topics')) DESC LIMIT 10

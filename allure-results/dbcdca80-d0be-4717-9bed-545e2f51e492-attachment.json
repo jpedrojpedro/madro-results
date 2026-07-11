@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, c.annotation FROM publication AS p JOIN comment AS c ON p.id = c.publication_id WHERE p.profile_id = (SELECT id FROM profile WHERE username = '@eusougabriela') AND c.reply_to IS NULL ORDER BY c.published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, c.annotation FROM publication AS p JOIN comment AS c ON p.id = c.publication_id WHERE p.profile_id = (SELECT id FROM profile WHERE username = '@eusougabriela') AND c.reply_to IS NULL ORDER BY c.published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT prof.id AS profile_id, com.annotation FROM publication AS pub JOIN comment AS com ON pub.id = com.publication_id JOIN profile AS prof ON prof.id = pub.profile_id WHERE prof.username = '@eusougabriela' AND com.reply_to IS NULL ORDER BY com.published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT prof.id AS profile_id, com.annotation FROM publication AS pub JOIN comment AS com ON pub.id = com.publication_id JOIN profile AS prof ON prof.id = pub.profile_id WHERE prof.username = '@eusougabriela' AND com.reply_to IS NULL ORDER BY com.published_at DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

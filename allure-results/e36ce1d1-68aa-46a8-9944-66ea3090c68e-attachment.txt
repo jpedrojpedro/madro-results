@@ -1,0 +1,14 @@
+WITH target_profile AS (
+    SELECT id
+    FROM profile
+    WHERE username = 'eusougabriela'
+),
+fitness_keywords AS (
+    SELECT to_tsquery('english', 'fitness | gym | workout | train | exercise | fit') AS query
+)
+SELECT p.id AS profile_id, p.username, ts_rank(p.biography_lexemes, k.query) AS rank
+FROM profile p, fitness_keywords k
+WHERE p.id != (SELECT id FROM target_profile)
+  AND p.biography_lexemes @@ k.query
+ORDER BY rank DESC
+LIMIT 10;

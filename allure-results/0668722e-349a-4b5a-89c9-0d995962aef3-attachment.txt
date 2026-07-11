@@ -1,1 +1,0 @@
-SELECT p2.id AS publication_id, pc.publication_id AS profile_id FROM publication_collab pc JOIN publication pub ON pc.publication_id = pub.id JOIN profile p ON pub.profile_id  = p.id WHERE p.username = '@fluminensefc' AND published_at IN (:lastmatch) ORDER BY published_at DESC LIMIT 10;

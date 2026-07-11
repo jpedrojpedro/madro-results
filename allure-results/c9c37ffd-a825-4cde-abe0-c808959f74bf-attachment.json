@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT c.profile_id AS profile_id, ts_rank(c.annotation_lexemes, to_tsquery('english', 'hate')) * -1.0 AS relevance FROM comment c WHERE annotation IS NOT NULL AND c.annotation_regex ~* '(.*?)(attack|assault|harass)(.*?)' LIMIT 10",
+      "error": "column c.annotation_lexemes does not exist\nLINE 1: SELECT c.profile_id AS profile_id, ts_rank(c.annotation_lexe...\n                                                   ^"
+    },
+    {
+      "sql": "SELECT c.profile_id AS profile_id, -ts_rank(c.description_lexemes, to_tsquery('english', 'hate')) FROM comment c INNER JOIN publication p ON c.publication_id = p.id WHERE p.type NOT IN ('GraphImage', 'GraphSidecar') AND c.annotation ~* '.*(attack|assault|harass).*' GROUP BY c.profile_id ORDER BY SUM(ts_rank(c.description_lexemes, to_tsquery('english', 'hate'))) DESC LIMIT 10",
+      "error": "column c.description_lexemes does not exist\nLINE 1: SELECT c.profile_id AS profile_id, -ts_rank(c.description_le...\n                                                    ^\nHINT:  Perhaps you meant to reference the column \"p.description_lexemes\"."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id,",
+      "error": "syntax error at end of input\nLINE 1: SELECT p.id AS profile_id,\n                                  ^"
+    },
+    {
+      "sql": "SELECT c.profile_id, sum(CASE WHEN num_likes < 0 THEN 1 END) AS hate_count FROM comment c JOIN publication p ON c.publication_id = p.id GROUP BY c.profile_id ORDER BY hate_count DESC LIMIT 10",
+      "error": "column reference \"num_likes\" is ambiguous\nLINE 1: SELECT c.profile_id, sum(CASE WHEN num_likes < 0 THEN 1 END)...\n                                           ^"
+    }
+  ]
+}

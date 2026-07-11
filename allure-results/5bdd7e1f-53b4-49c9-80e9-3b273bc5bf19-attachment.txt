@@ -1,0 +1,6 @@
+WITH follow_graph AS (SELECT origin_profile_id FROM profile_relationship WHERE edge = 'follows')
+SELECT DISTINCT pub.id AS publication_id
+FROM publication AS pub
+JOIN raw_file r ON pub.id = r.publication_id
+INNER JOIN FOLLOW_GRAPH f ON pub.id = f.origin_profile_id
+WHERE EXTRACT(DOW FROM published_at) != 3;

@@ -1,1 +1,0 @@
-SELECT pub.id AS publication_id, COUNT(*) AS comment_count FROM publication pub JOIN publication_collab pc ON pub.id = pc.publication_id LEFT JOIN comment c ON pub.id = c.publication_id WHERE pub.description_lexemes @@ to_tsquery('english', 'seafood') GROUP BY pub.id ORDER BY COUNT(c.id) DESC LIMIT 10

@@ -1,0 +1,1 @@
+WITH ranked_profiles AS (SELECT profile.id AS profile_id, ts_rank(profile.biography_lexemes, to_tsquery('english', 'pizza')) as relevance FROM profile WHERE biography_lexemes @@ to_tsquery('english', 'pizza')), result AS ( SELECT * FROM ranked_profiles ORDER BY relevance DESC LIMIT 10 ) SELECT result.* FROM result

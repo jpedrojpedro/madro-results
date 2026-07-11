@@ -1,0 +1,10 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name\nFROM profile p\nWHERE p.biography_lexemes @@ to_tsquery('english', 'Florianópolis')\nORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'Florianópolis')) DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

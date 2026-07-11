@@ -1,0 +1,3 @@
+{
+  "error": "for SELECT DISTINCT, ORDER BY expressions must appear in select list\nLINE 1: ...phobia|transphobia|bigotry|hate speech)' ORDER BY c.publishe...\n                                                             ^"
+}

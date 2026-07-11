@@ -1,0 +1,10 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE p.biography_lexemes @@ to_tsquery('english', 'italian restaurant') ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'italian restaurant')) DESC LIMIT 10",
+      "error": "syntax error in tsquery: \"italian restaurant\""
+    }
+  ]
+}

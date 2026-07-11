@@ -1,0 +1,1 @@
+WITH ranked_comments AS ( SELECT description_lexemes @@ to_tsquery('english', 'beach* wedding') AS rank FROM publication WHERE type IN ('GraphImage', 'GraphSidecar') ORDER BY rank DESC )

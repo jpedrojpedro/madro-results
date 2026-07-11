@@ -1,0 +1,3 @@
+{
+  "error": "syntax error at or near \"WITHIN\"\nLINE 1: ...ublication_id = p.id LEFT OUTER JOIN comment AS c WITHIN 200...\n                                                             ^"
+}

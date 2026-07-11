@@ -1,0 +1,3 @@
+{
+  "error": "syntax error at end of input\nLINE 1: ...aphy.restaurant_id ORDER BY username_relevance DESC LIMIT 10\n                                                                       ^"
+}

@@ -1,0 +1,10 @@
+SELECT 
+    p.id AS profile_id, 
+    p.username, 
+    p.full_name, 
+    p.num_followers
+FROM profile p
+WHERE (p.biography_lexemes @@ to_tsquery('english', 'restaurant | owner | chef | cafe | bistro'))
+  AND (p.biography_lexemes @@ to_tsquery('english', 'fun | funny | cheerful | friendly | kind | generous | charismatic'))
+ORDER BY (ts_rank(p.biography_lexemes, to_tsquery('english', 'fun | funny | cheerful | friendly | kind | generous | charismatic'))) DESC, p.num_followers DESC
+LIMIT 10;

@@ -1,0 +1,1 @@
+SELECT p.profile_id, sum(CASE WHEN c.num_likes < -100 THEN 1 ELSE 0 END) AS hate_count FROM publication p JOIN comment c ON p.id = c.publication_id GROUP BY p.profile_id ORDER BY hate_count DESC LIMIT 10

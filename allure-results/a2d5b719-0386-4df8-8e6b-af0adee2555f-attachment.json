@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT publication_id, publication.description AS description FROM publication JOIN profile ON publication.profile_id = profile.id WHERE profile.is_private = FALSE AND to_tsquery('english', 'pasta') @@ profile.biography_lexemes OR to_tsquery('english', 'pasta') @@ publication.description_lexemes ORDER BY ts_rank( profile.biography_lexemes, to_tsquery('english', 'pasta') ) * 10 + ts_rank( publication.description_lexemes, to_tsquery('english', 'pasta') ) DESC LIMIT 10;",
+      "error": "column \"publication_id\" does not exist\nLINE 1: SELECT publication_id, publication.description AS descriptio...\n               ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, publication_id FROM publication JOIN public.profile p ON publication.profile_id = p.id WHERE (p.is_private = 'false' AND to_tsquery('english', 'pasta') @@ p.biography_lexemes) OR (to_tsquery('english', 'pasta') @@ publication.description_lexemes) ORDER BY ts_rank( p.biography_lexemes, to_tsquery('english', 'pasta') ) * 10 + ts_rank( publication.description_lexemes, to_tsquery('english', 'pasta') ) DESC LIMIT 10;",
+      "error": "column \"publication_id\" does not exist\nLINE 1: SELECT p.id AS profile_id, publication_id FROM publication J...\n                                   ^"
+    },
+    {
+      "sql": "SELECT publication.id AS publication_id, FROM publication JOIN public.profile ON publication.profile_id = id WHERE (public.is_private = 'false' AND to_tsquery('english', 'pasta') @@ public.biology_lexemes) OR (to_tsquery('english', 'pasta') @@ publication.description_lexemes) ORDER BY ts_rank(public.biology_lexemes, to_tsquery('english', 'pasta')) * 10 + ts_rank_publication.description_lexemes, to_tsquery('english', 'pasta')) DESC LIMIT 10;",
+      "error": "syntax error at or near \"FROM\"\nLINE 1: SELECT publication.id AS publication_id, FROM publication JO...\n                                                 ^"
+    },
+    {
+      "sql": "WITH freq_publishers AS (  SELECT DISTINCT publication_id ,   CASE WHEN public.biography_lexemes @@ to_tsquery('english', 'pasta') THEN ts_rank(public.biography_lexemes, to_tsquery('english', 'pasta')) ELSE 0 END +  COALESCE(ts_rank(publication.description_lexemes, to_tsquery('english', 'pasta')), 0) AS relevance FROM publication JOIN public.profile ON publication.profile_id = id WHERE public.is_private = false ORDER BY profile.name LIKE '%Balerio Camboriu%' ) SELECT DISTINCT p.id AS publication_id ,  publication_id FROM freq_publishers JOIN publication ON publication_id = publication.id ORDER BY relevance DESC LIMIT 10;",
+      "error": "column reference \"id\" is ambiguous\nLINE 1: ...n JOIN public.profile ON publication.profile_id = id WHERE p...\n                                                             ^"
+    }
+  ]
+}

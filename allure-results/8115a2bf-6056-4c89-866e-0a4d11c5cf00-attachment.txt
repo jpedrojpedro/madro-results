@@ -1,0 +1,1 @@
+SELECT c.profile_id AS profile_id, c.annotation AS annotation FROM comment c JOIN publication p ON c.publication_id = p.id WHERE c.annotation ILIKE '%steakhouses%' AND c.annotation ILIKE '%curitiba%' ORDER BY ts_rank(c.annotation::tsvector, to_tsquery('english', 'steakhouses & curitiba')) DESC LIMIT 10

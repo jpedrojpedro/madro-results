@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name,\n  ts_rank(p.biography_lexemes, to_tsquery('english', 'restaurant & \"Balneário\" & \"Camboriú\"')) AS rank\nFROM profile p\nWHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant & \"Balneário\" & \"Camboriú\"')\nORDER BY rank DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name,\n  ts_rank(p.biography_lexemes, websearch_to_tsquery('english', 'restaurante \"Balneário Camboriú\"')) AS rank\nFROM profile p\nWHERE p.biography_lexemes @@ websearch_to_tsquery('english', 'restaurante \"Balneário Camboriú\"')\nORDER BY rank DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name,\n  ts_rank(p.biography_lexemes, websearch_to_tsquery('english', 'restaurante | \"Balneário Camboriú\"')) AS rank\nFROM profile p\nWHERE p.biography_lexemes @@ websearch_to_tsquery('english', 'restaurante | \"Balneário Camboriú\"')\nORDER BY rank DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n  p.id AS profile_id,\n  p.username,\n  p.full_name,\n  ts_rank(p.biography_lexemes, websearch_to_tsquery('english', 'restaurante \"Balneário Camboriú\"')) AS rank\nFROM profile p\nWHERE p.biography_lexemes @@ websearch_to_tsquery('english', 'restaurante & \"balneário\" & \"camboriú\"')\nORDER BY rank DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

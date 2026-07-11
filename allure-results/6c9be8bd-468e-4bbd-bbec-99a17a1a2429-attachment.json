@@ -1,0 +1,10 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "WITH filtered_publications AS (SELECT publication_id, num_likes, published_at FROM publication WHERE description LIKE '%fish%' ORDER BY ts_rank(description_lexemes, to_tsquery('english', 'fish')) DESC) SELECT publication_id, num_likes, published_at FROM filtered_publications ORDER BY published_at DESC LIMIT 10",
+      "error": "column \"publication_id\" does not exist\nLINE 1: WITH filtered_publications AS (SELECT publication_id, num_li...\n                                              ^"
+    }
+  ]
+}

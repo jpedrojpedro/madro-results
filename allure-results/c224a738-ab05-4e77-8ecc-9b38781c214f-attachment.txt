@@ -1,0 +1,13 @@
+WITH target_profile AS (
+    SELECT id
+    FROM profile
+    WHERE username ILIKE '%tutto%nhoque%'
+    OR full_name ILIKE '%Tutto Nhoque%'
+    LIMIT 1
+)
+SELECT p.id AS profile_id, p.username, p.full_name, p.num_followers
+FROM profile p
+WHERE p.biography_lexemes @@ to_tsquery('english', 'restaurant | food | pasta | nhoque')
+AND p.id != (SELECT id FROM target_profile)
+ORDER BY p.num_followers DESC
+LIMIT 10;

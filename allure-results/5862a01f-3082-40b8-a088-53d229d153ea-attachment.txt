@@ -1,1 +1,0 @@
-SELECT id AS profile_id FROM profile WHERE num_followers > 5000 LIMIT 10

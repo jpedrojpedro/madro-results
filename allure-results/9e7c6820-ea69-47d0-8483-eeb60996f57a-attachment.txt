@@ -1,0 +1,12 @@
+SELECT p.id AS profile_id,
+       ts_rank(p.biography_lexemes, to_tsquery('english', 'italian | restaurant')) AS rank
+FROM profile p
+JOIN publication pub ON p.id = pub.profile_id
+WHERE (p.biography_lexemes @@ to_tsquery('english', 'italian | restaurant') 
+       OR pub.description_lexemes @@ to_tsquery('english', 'italian | restaurant'))
+  AND pub.published_at >= '2025-01-01'
+  AND (pub.description_lexemes @@ to_tsquery('english', 'menu') 
+       OR pub.description ILIKE '%menu%')
+GROUP BY p.id, p.biography_lexemes
+ORDER BY rank DESC
+LIMIT 10;

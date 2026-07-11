@@ -1,0 +1,10 @@
+SELECT 
+    p.id AS profile_id,
+    pub.id AS publication_id,
+    pub.url,
+    (pub.num_likes + pub.num_comments) AS engagement
+FROM publication pub
+JOIN profile p ON pub.profile_id = p.id
+WHERE p.username = 'haight_clothing'
+ORDER BY engagement DESC
+LIMIT 10;

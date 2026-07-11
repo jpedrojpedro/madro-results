@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.profile_id, ts_rank(p.biography_lexemes, TO_TSQUERY('english', \"criticisms\")) AS score FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id WHERE p.id IN ( SELECT p2.id FROM profile p2 JOIN publication_collab pc2 ON p2.id = pc2.profile_id JOIN publication pub ON pc2.publication_id = pub.id WHERE pub.description ILIKE '%criticism%' ), ts_rank(p.biography_lexemes, TO_TSQUERY('english', \"biggest\")) > 0 ORDER BY ts_rank(p.biography_lexemes, TO_TSQUERY('english', \"criticisms\" desc), 10;",
+      "error": "syntax error at or near \",\"\nLINE 1: ...pub.id WHERE pub.description ILIKE '%criticism%' ), ts_rank(...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.profile_id, ts_rank(p.biography_lexemes, TO_TSQUERY('english', 'criticisms')) AS score FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id WHERE p.id IN ( SELECT p2.id FROM profile p2 JOIN publication_collab pc2 ON p2.id = pc2.profile_id JOIN publication pub ON pc2.publication_id = pub.id AND pub.description ILIKE '%criticism%' ) ORDER BY ts_rank(p.biography_lexemes, TO_TSQUERY('english', 'criticisms')) DESC LIMIT 10",
+      "error": "column p.profile_id does not exist\nLINE 1: SELECT p.profile_id, ts_rank(p.biography_lexemes, TO_TSQUERY...\n               ^\nHINT:  Perhaps you meant to reference the column \"pc.profile_id\"."
+    },
+    {
+      "sql": "WITH critics AS ( SELECT pc2.publication_id FROM publication_collab pc2 JOIN publication pub ON pc2.publication_id = pub.id AND pub.description ILIKE '%criticism%' ) SELECT pc2.publication_id, c.profile_id, ts_rank(c.biography_lexemes, TO_TSQUERY('english', 'criticisms')) AS score FROM critics c JOIN profile p ON c.publication_id IN ( SELECT publication_collab.publication_id FROM profile publication_collab WHERE biography LIKE '%criticism%' ) ORDER BY ts_rank(c.biography_lexemes, TO_TSQUERY('english', 'criticisms')) DESC LIMIT 10",
+      "error": "column publication_collab.publication_id does not exist\nLINE 1: ... c JOIN profile p ON c.publication_id IN ( SELECT publicatio...\n                                                             ^"
+    },
+    {
+      "sql": "WITH critics AS ( SELECT pc2.publication_id, p.profile_id FROM publication_collab pc2 JOIN publication pub ON pc2.publication_id = pub.id AND pub.description ILIKE '%criticism%' JOIN profile p ON pc2.publication_id IN ( SELECT c.publication_id FROM profile_collaborators c WHERE c.biography LIKE '%criticisms%') ) SELECT publication_id, profile_id, ts_rank(biography_lexemes, TO_TSQUERY('english', 'criticisms')) AS score FROM critics ORDER BY score DESC LIMIT 10",
+      "error": "relation \"profile_collaborators\" does not exist\nLINE 1: ....publication_id IN ( SELECT c.publication_id FROM profile_co...\n                                                             ^"
+    }
+  ]
+}

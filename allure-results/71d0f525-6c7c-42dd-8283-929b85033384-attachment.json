@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE p.num_followers > 10000 AND p.biography_lexemes @@ to_tsquery('english', 'restaurants in sao paulo') ORDER BY num_followers DESC LIMIT 10;",
+      "error": "syntax error in tsquery: \"restaurants in sao paulo\""
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE p.num_followers > 10000 AND (p.full_name ILIKE '% restaurants%' OR p.biography_lexemes @@ to_tsquery('english', 'restaurants in sao paulo')) ORDER BY num_followers DESC LIMIT 10",
+      "error": "syntax error in tsquery: \"restaurants in sao paulo\""
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE p.num_followers > 10000 AND (p.full_name ILIKE '% restaurants%' OR p.biography_lexemes @@ to_tsquery('english', 'restaurants in \"sao paulo\"')) ORDER BY num_followers DESC LIMIT 10",
+      "error": "syntax error in tsquery: \"restaurants in \"sao paulo\"\""
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p WHERE p.num_followers > 10000 AND (p.full_name ILIKE '% restaurants%' OR p.biography_lexemes @@ to_tsquery('english', 'restaurants & \"sao paulo\"')) ORDER BY num_followers DESC LIMIT 10",
+      "error": "syntax error in tsquery: \"restaurants & \"sao paulo\"\""
+    }
+  ]
+}

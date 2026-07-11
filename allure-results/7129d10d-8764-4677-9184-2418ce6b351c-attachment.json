@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN publication pub ON p.id = pub.profile_id WHERE pub.description ILIKE '%-menu%' AND EXTRACT(YEAR FROM pub.published_at) = 2025 ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'menu')) DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id FROM profile p JOIN publication pub ON p.id = pub.profile_id WHERE (pub.description ILIKE '%menu%' OR pub.annotation ILIKE '%menu%') AND EXTRACT(YEAR FROM pub.published_at) = 2025 ORDER BY ts_rank(pub.description_lexemes, to_tsquery('english', 'menu')) DESC LIMIT 10",
+      "error": "column pub.annotation does not exist\nLINE 1: ...ofile_id WHERE (pub.description ILIKE '%menu%' OR pub.annota...\n                                                             ^"
+    }
+  ]
+}

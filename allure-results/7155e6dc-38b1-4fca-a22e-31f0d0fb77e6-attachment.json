@@ -1,0 +1,3 @@
+{
+  "error": "column p.is_private does not exist\nLINE 1: ...ion_id = p.id WHERE p.description IS NOT NULL AND p.is_priva...\n                                                             ^"
+}

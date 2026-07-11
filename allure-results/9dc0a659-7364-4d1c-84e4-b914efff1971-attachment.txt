@@ -1,0 +1,14 @@
+WITH target_profile AS (
+    SELECT id
+    FROM profile
+    WHERE username = 'haight_clothing'
+)
+SELECT 
+    c.profile_id,
+    c.annotation,
+    c.num_likes
+FROM comment c
+JOIN publication p ON c.publication_id = p.id
+JOIN target_profile tp ON p.profile_id = tp.id
+ORDER BY c.num_likes DESC
+LIMIT 10;

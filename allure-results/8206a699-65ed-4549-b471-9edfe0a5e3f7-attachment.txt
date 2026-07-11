@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE p.username = 'broxadasinistra' AND p.biography_lexemes @@ to_tsquery('english', 'main topics covered & broxadasinistra & publications') ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'main topics covered & broxadasinistra & publications')) DESC LIMIT 10

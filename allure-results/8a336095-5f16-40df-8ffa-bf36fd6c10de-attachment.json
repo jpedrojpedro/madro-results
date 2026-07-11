@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT profile_id, username FROM profile",
+      "error": "column \"profile_id\" does not exist\nLINE 1: SELECT profile_id, username FROM profile\n               ^"
+    },
+    {
+      "sql": "WITH restaurants AS (\nSELECT p.id AS profile_id, p.biography_lexemes\nFROM profile p\nJOIN publication_collab pc ON p.id = pc.profile_id\nWHERE p.username ILIKE 'sao paulo' AND pc.publication_id IN (\n  SELECT id FROM publication\n  WHERE description ILIKE '%restaurant%'\n)\n)\nSELECT DISTINCT (p).id AS profile_id, p.num_followers FROM restaurants r JOIN public.profile p ON (r).profile_id = p.id GROUP BY (p).id HAVING SUM(CASE WHEN p$num_followers < 10000 THEN 1 ELSE CASE END) = 0\nLIMIT 10",
+      "error": "syntax error at or near \"END\"\nLINE 10: ...(CASE WHEN p$num_followers < 10000 THEN 1 ELSE CASE END) = 0\n                                                                ^"
+    },
+    {
+      "sql": "WITH profiles AS (SELECT p.id AS profile_id, pc.publication_id FROM public.profile_relationship pr JOIN publication_collab pc ON pr.origin_profile_id = pc.profile_id JOIN publication p ON pc.publication_id = p.id WHERE pr.destination_profile_id IN (SELECT id FROM public.profile WHERE username ILIKE 's%paule%' OR full_name ILIKE '%Sao Paulo' OR (biography LIKE '%restaurant%' OR description_lexemes @@ to_tsquery('english', 'restaurant'))) GROUP BY p.id HAVING SUM(CASE WHEN p.num_followers > 10000 THEN 1 ELSE 0 END) > 0) SELECT profile_id, publication_id FROM profiles ORDER BY ts_rank(description_lexemes, to_tsquery('english', 'restaurant')) DESC LIMIT 10",
+      "error": "column p.num_followers does not exist\nLINE 1: ...restaurant'))) GROUP BY p.id HAVING SUM(CASE WHEN p.num_foll...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT pc.publication_id, pr.origin_profile_id AS profile_id FROM public.profile_relationship pr JOIN publication_collab pc ON pr.destination_profile_id = pc.profile_id LEFT JOIN public.profile p ON pc.profile_id = p.id WHERE p.num_followers > 10000 AND (p.username ILIKE 's%paule%' OR p.full_name ILIKE '%Sao Paulo' OR (p.biography LIKE '%restaurant%' OR p.description_lexemes @@ to_tsquery('english', 'restaurant')) ) ORDER BY CASE WHEN pc.publication_id IS NULL THEN ts_rank(p.biography_lexemes, to_tsquery('english', 'restaurant')) ELSE ts_rank(pc.profile.collaborators_biography_lexemes, to_tsquery('english', 'restaurant')) END DESC LIMIT 10",
+      "error": "column p.description_lexemes does not exist\nLINE 1: ...Sao Paulo' OR (p.biography LIKE '%restaurant%' OR p.descript...\n                                                             ^"
+    }
+  ]
+}

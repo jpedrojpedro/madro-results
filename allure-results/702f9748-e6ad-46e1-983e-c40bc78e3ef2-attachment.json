@@ -1,0 +1,18 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 4,
+  "failed_attempts": [
+    {
+      "sql": "SELECT \n    c.id AS comment_id,\n    c.annotation,\n    c.profile_id\nFROM comment c\nJOIN publication p ON c.publication_id = p.id\nJOIN profile pr ON p.profile_id = pr.id\nWHERE pr.username = 'broxadasinistra'\n  AND (\n    c.annotation ILIKE '%racista%' OR\n    c.annotation ILIKE '%racismo%' OR\n    c.annotation ILIKE '%preconceito%' OR\n    c.annotation ILIKE '%homofob%' OR\n    c.annotation ILIKE '%transfob%' OR\n    c.annotation ILIKE '%misogin%' OR\n    c.annotation ILIKE '%machist%' OR\n    c.annotation ILIKE '%religi%'\n  )\nORDER BY c.published_at DESC\nLIMIT 10;",
+      "error": "canceling statement due to statement timeout"
+    },
+    {
+      "sql": "SELECT\n    c.profile_id AS profile_id,\n    c.annotation,\n    c.published_at\nFROM comment c\nWHERE c.publication_id IN (\n    SELECT p.id\n    FROM publication p\n    JOIN profile pr ON p.profile_id = pr.id\n    WHERE pr.username = 'broxadasinistra'\n)\nAND (\n    c.annotation ILIKE '%racista%' OR\n    c.annotation ILIKE '%racismo%' OR\n    c.annotation ILIKE '%preconceito%' OR\n    c.annotation ILIKE '%homofob%' OR\n    c.annotation ILIKE '%transfob%' OR\n    c.annotation ILIKE '%misogin%' OR\n    c.annotation ILIKE '%machist%' OR\n    c.annotation ILIKE '%religi%'\n)\nORDER BY c.published_at DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n    c.profile_id AS profile_id,\n    c.annotation,\n    c.published_at\nFROM comment c\nJOIN publication p ON c.publication_id = p.id\nJOIN profile pr ON p.profile_id = pr.id\nWHERE pr.username = 'broxadasinistra'\n  AND (\n      c.annotation ILIKE '%ódio%' OR\n      c.annotation ILIKE '%intolerância%' OR\n      c.annotation ILIKE '%discrimin%' OR\n      c.annotation ILIKE '%ofens%' OR\n      c.annotation ILIKE '%ataque%' OR\n      c.annotation ILIKE '%babaca%' OR\n      c.annotation ILIKE '%escroto%'\n  )\nORDER BY c.published_at DESC\nLIMIT 10;",
+      "error": "canceling statement due to statement timeout"
+    }
+  ]
+}

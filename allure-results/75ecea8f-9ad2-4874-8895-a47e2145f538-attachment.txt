@@ -1,1 +1,0 @@
-SELECT p.id AS profile_id FROM publication p LEFT JOIN publication_collab pc ON p.id = pc.publication_id LEFT JOIN profile r ON pc.profile_id = r.id WHERE lower(r.biography) LIKE '%pizza%' ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'pizza')) DESC LIMIT 1

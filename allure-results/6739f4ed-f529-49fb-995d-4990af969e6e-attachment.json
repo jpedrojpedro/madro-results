@@ -1,0 +1,3 @@
+{
+  "error": "syntax error at or near \"to\"\nLINE 1: ...sh', 'best restaurant') OR r.biography_lexemes @@ to tsquery...\n                                                             ^"
+}

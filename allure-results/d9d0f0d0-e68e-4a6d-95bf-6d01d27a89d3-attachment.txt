@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p JOIN publication_collab pc ON p.id = pc.profile_id WHERE p.biography_lexemes @@ to_tsquery('pt', 'tutto & nhoque') LIMIT 10

@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, bio",
+      "error": "missing FROM-clause entry for table \"p\"\nLINE 1: SELECT p.id AS profile_id, bio\n               ^"
+    },
+    {
+      "sql": "WITH ranked_comments AS (SELECT",
+      "error": "syntax error at end of input\nLINE 1: WITH ranked_comments AS (SELECT\n                                       ^"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, COALESCE(p.biography, c.annotation) AS tip, ts_rank((COALESCE(p.biography_lexemes, to_tsvector('english', c.annotation)), (to_tsquery('english', 'tip')), ROW(3, 2))) AS rank FROM profile AS p LEFT JOIN comment AS c ON p.id = c.profile_id WHERE p.username = '\\eusougabriela' ORDER BY rank DESC LIMIT 10",
+      "error": "function ts_rank(record) does not exist\nLINE 1: ...e_id, COALESCE(p.biography, c.annotation) AS tip, ts_rank((C...\n                                                             ^\nHINT:  No function matches the given name and argument types. You might need to add explicit type casts."
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, COALESCE(p.biography, c.annotation) AS tip, ts_rank(COALESCE(p.biography_lexemes, to_tsvector('english', c.annotation)), to_tsquery('english', 'tip')) AS rank FROM profile AS p LEFT JOIN comment AS c ON p.id = c.profile_id p.biography IS NOT NULL AND (c.reply_to IS NULL OR c.id > 3 OR c.num_likes < 2) WHERE p.username = '@eusougabriela' ORDER BY ts_rank(COALESCE(p.biography_lexemes, to_tsvector('english', c.annotation)), to_tsquery('english', 'tip')) DESC LIMIT 10",
+      "error": "syntax error at or near \"p\"\nLINE 1: ...S p LEFT JOIN comment AS c ON p.id = c.profile_id p.biograph...\n                                                             ^"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.biography
+FROM profile p
+WHERE p.username = 'fluminensefc'
+   OR p.biography_lexemes @@ to_tsquery('portuguese', 'sócio | torcedor')
+ORDER BY 
+  (p.username = 'fluminensefc') DESC,
+  ts_rank(p.biography_lexemes, to_tsquery('portuguese', 'sócio | torcedor')) DESC
+LIMIT 10;

@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, EXISTS(SELECT 1 FROM raw_file rf WHERE rf.publication_id IN (SELECT pp.id FROM publication_collab ppc JOIN publication pp ON ppc.publication_id = pp.id AND ppc.profile_id = p.id) OR rf.publication_id = p.id) AS sells_online FROM profile p WHERE p.username = 'haight_clothing' ORDER BY sells_online DESC LIMIT 10;

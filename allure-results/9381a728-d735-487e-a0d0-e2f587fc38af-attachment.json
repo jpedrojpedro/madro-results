@@ -1,0 +1,22 @@
+{
+  "identity_hint": "publication_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS publication_id FROM publication AS p JOIN comment AS c ON p.id = c.publication_id WHERE p.description LIKE '%seafood%' ORDER BY c.num_comments DESC LIMIT 10",
+      "error": "column c.num_comments does not exist\nLINE 1: ..._id WHERE p.description LIKE '%seafood%' ORDER BY c.num_comm...\n                                                             ^\nHINT:  Perhaps you meant to reference the column \"p.num_comments\"."
+    },
+    {
+      "sql": "SELECT p.id AS publication_id FROM publication AS p WHERE p.description LIKE '%seafood%' ORDER BY ( SELECT COUNT(*) FROM comment AS c ON p.id = c.publication_id ) DESC LIMIT 10",
+      "error": "syntax error at or near \"ON\"\nLINE 1: ...od%' ORDER BY ( SELECT COUNT(*) FROM comment AS c ON p.id = ...\n                                                             ^"
+    },
+    {
+      "sql": "SELECT p.id AS publication_id FROM publication AS p JOIN comment AS c ON p.id = c.publication_id WHERE p.description LIKE '%seafood%' GROUP BY p.id ORDER BY COUNT(*) DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT p.id AS publication_id FROM publication AS p JOIN comment AS c ON p.id = c.publication_id WHERE p.description_lexemes @@ to_tsquery('english', 'seafood') GROUP BY p.id ORDER BY COUNT(*) DESC LIMIT 10",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

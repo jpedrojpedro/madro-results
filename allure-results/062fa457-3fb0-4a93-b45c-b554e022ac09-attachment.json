@@ -1,0 +1,10 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p1.id AS profile_id FROM profile p1 JOIN ( SELECT origin_profile_id, COUNT(destination_profile_id) AS num_common_followers FROM profile_relationship WHERE 'follows' GROUP BY origin_profile_id ) p2 ON p1.id = p2.origin_profile_id ORDER BY p2.num_common_followers DESC LIMIT 1",
+      "error": "invalid input syntax for type boolean: \"follows\"\nLINE 1: ..._common_followers FROM profile_relationship WHERE 'follows' ...\n                                                             ^"
+    }
+  ]
+}

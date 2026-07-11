@@ -1,0 +1,1 @@
+SELECT publication_id AS profile_id, m.description_lexemes FROM public.publication_collab pcc JOIN public.publication m ON pcc.publication_id = m.id WHERE m.description_lexemes @@ to_tsquery('english', 'pancetta | prosciutto') ORDER BY ts_rank(m.description_lexemes, to_tsquery('english', '(pancetta | prosciutto)')) DESC LIMIT 10

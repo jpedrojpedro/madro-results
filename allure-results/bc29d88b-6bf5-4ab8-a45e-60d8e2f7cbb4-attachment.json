@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "SELECT \n  p.id AS profile_id, \n  p.username, \n  p.full_name, \n  ts_rank(p.biography_lexemes, q) AS relevance\nFROM profile p, \n     to_tsquery('english', 'Italian & (restaurant | comida | cucina) & (Rio | \"Rio de Janeiro\")') AS q\nWHERE p.biography_lexemes @@ q\nORDER BY relevance DESC\nLIMIT 10;",
+      "error": "syntax error in tsquery: \"Italian & (restaurant | comida | cucina) & (Rio | \"Rio de Janeiro\")\""
+    },
+    {
+      "sql": "SELECT \n  p.id AS profile_id, \n  p.username, \n  p.full_name, \n  ts_rank(p.biography_lexemes, q) AS relevance\nFROM profile p, \n     to_tsquery('english', 'italian & (restaurant | comida | cucina) & (rio | \"rio de janeiro\")') AS q\nWHERE p.biography_lexemes @@ q\nORDER BY relevance DESC\nLIMIT 10;",
+      "error": "syntax error in tsquery: \"italian & (restaurant | comida | cucina) & (rio | \"rio de janeiro\")\""
+    }
+  ]
+}

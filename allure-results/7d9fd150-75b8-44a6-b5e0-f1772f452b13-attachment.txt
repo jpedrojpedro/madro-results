@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p JOIN profile_relationship pr ON p.id = pr.origin_profile_id WHERE lower(p.username) = 'fluminensefc' AND edge = lower('follows')::edge_type ORDER BY visited_at DESC LIMIT 10

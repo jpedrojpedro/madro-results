@@ -1,0 +1,1 @@
+SELECT DISTINCT c.profile_id FROM profile AS p JOIN publication AS pu ON p.id = pu.profile_id JOIN comment AS c ON pu.id = c.publication_id WHERE p.username = 'broxadasinistra' AND c.annotation ~* '(racism|sexism|homophobia|transphobia|bigotry|hate speech)' ORDER BY c.published_at DESC LIMIT 10

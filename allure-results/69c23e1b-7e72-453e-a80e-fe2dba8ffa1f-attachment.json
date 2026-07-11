@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT\n    p.id AS profile_id,\n    p.username,\n    COUNT(c.id) AS comment_count\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE (p.biography ILIKE '%steakhouse%' OR p.biography ILIKE '%churrascaria%')\n  AND (p.biography ILIKE '%Curitiba%')\nGROUP BY p.id, p.username\nORDER BY comment_count DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT\n    p.id AS profile_id,\n    p.username,\n    COUNT(c.id) AS comment_count\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE (p.biography_lexemes @@ to_tsquery('portuguese', 'steakhouse | churrascaria | curitiba'))\nGROUP BY p.id, p.username\nORDER BY comment_count DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT \n    p.id AS profile_id, \n    p.username, \n    COUNT(c.id) AS comment_count\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE (p.biography_lexemes @@ to_tsquery('portuguese', 'steakhouse | churrascaria')) \n   OR (p.biography_lexemes @@ to_tsquery('portuguese', 'curitiba'))\nGROUP BY p.id, p.username\nORDER BY comment_count DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    },
+    {
+      "sql": "SELECT \n    p.id AS profile_id, \n    p.username, \n    COUNT(c.id) AS comment_count\nFROM profile p\nJOIN publication pub ON p.id = pub.profile_id\nJOIN comment c ON pub.id = c.publication_id\nWHERE (\n    p.biography_lexemes @@ to_tsquery('portuguese', 'steakhouse | churrascaria | curitiba')\n)\nGROUP BY p.id, p.username\nORDER BY comment_count DESC\nLIMIT 10;",
+      "error": "Query executed successfully but returned 0 rows — the filter may be too restrictive. Consider: OR instead of AND between separate concepts, dropping an overly specific constraint, or a broader tsquery."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "SELECT c.profile_id FROM comment c WHERE c.annotation ILIKE '%hate%' OR c.annotation ILIKE '%sucks%' OR c.annotation ILIKE '%stupid%' ORDER BY COUNT(*) DESC LIMIT 10",
+      "error": "column \"c.profile_id\" must appear in the GROUP BY clause or be used in an aggregate function\nLINE 1: SELECT c.profile_id FROM comment c WHERE c.annotation ILIKE ...\n               ^"
+    }
+  ]
+}

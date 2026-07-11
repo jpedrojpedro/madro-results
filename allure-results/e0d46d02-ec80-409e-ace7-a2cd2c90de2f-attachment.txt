@@ -1,0 +1,10 @@
+SELECT 
+  p.id AS profile_id, 
+  p.username, 
+  p.full_name, 
+  ts_rank(p.biography_lexemes, q) AS relevance
+FROM profile p, 
+     to_tsquery('english', 'italian & (restaurant | comida | cucina) & (rio | rio_de_janeiro)') AS q
+WHERE p.biography_lexemes @@ q
+ORDER BY relevance DESC
+LIMIT 10;

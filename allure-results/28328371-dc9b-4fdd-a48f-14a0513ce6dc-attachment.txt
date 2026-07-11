@@ -1,0 +1,1 @@
+WITH publication_criticisms AS (

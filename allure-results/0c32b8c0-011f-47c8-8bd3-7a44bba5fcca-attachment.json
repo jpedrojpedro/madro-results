@@ -1,0 +1,14 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 3,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id,",
+      "error": "syntax error at end of input\nLINE 1: SELECT p.id AS profile_id,\n                                  ^"
+    },
+    {
+      "sql": "SELECT p.profile_id, p.biography FROM public.profile p WHERE p.bio_graphy_lexemes @@ to_tsquery('english', 'vegan')",
+      "error": "column p.profile_id does not exist\nLINE 1: SELECT p.profile_id, p.biography FROM public.profile p WHERE...\n               ^"
+    }
+  ]
+}

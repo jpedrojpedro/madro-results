@@ -1,0 +1,1 @@
+SELECT publication.id AS publication_id FROM publication WHERE published_at::date = CURRENT_DATE + INTERVAL '1 day' AND description_lexemes @@ to_tsquery('english', 'restaurant & open') ORDER BY ts_rank(description_lexemes, to_tsquery('english', 'restaurant & open')) DESC LIMIT 10

@@ -1,0 +1,10 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p.id AS profile_id, COUNT(pr.edge) FROM profile p JOIN profile_relationship pr ON p.id = pr.origin_profile_id WHERE prDestination_Profile_ID != (SELECT id FROM Profile ORDER BY NUM_FOLLOWERS DESC LIMIT 1) GROUP BY p.id ORDER BY count DESC",
+      "error": "column \"prdestination_profile_id\" does not exist\nLINE 1: ...ationship pr ON p.id = pr.origin_profile_id WHERE prDestinat...\n                                                             ^\nHINT:  Perhaps you meant to reference the column \"pr.destination_profile_id\"."
+    }
+  ]
+}
