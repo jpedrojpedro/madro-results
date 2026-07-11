@@ -1,0 +1,1 @@
+SELECT p.id AS publication_id FROM publication AS p WHERE p.description LIKE '%Jap%' OR p.description LIKE '%Japanese%' ORDER BY ts_rank(description_lexemes, to_tsquery('english', ' Japanese')) DESC LIMIT 10

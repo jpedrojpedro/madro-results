@@ -1,0 +1,1 @@
+SELECT c.profile_id FROM comment AS c JOIN publication AS p ON c.publication_id = p.id WHERE p.profile_id = ( SELECT id FROM profile WHERE username = '@broxadasinistra' ) AND lower(c.annotation) LIKE '%intolerance%' LIMIT 10

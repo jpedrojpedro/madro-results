@@ -1,0 +1,1 @@
+SELECT c.profile_id FROM comment c WHERE LOWER(c.annotation) LIKE '%hate%' OR LOWER(c.annotation) LIKE '%bull%' OR LOWER(c.annotation) LIKE '%shitty%' GROUP BY c.profile_id ORDER BY COUNT(c.id) DESC LIMIT 10

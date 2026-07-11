@@ -1,0 +1,1 @@
+SELECT p.profile_id FROM publication AS p JOIN profile AS pf ON p.profile_id = pf.id WHERE pf.username = 'haight_clothing' ORDER BY (p.num_likes + p.num_comments) DESC LIMIT 10

@@ -1,0 +1,1 @@
+SELECT DISTINCT p2.profile_id AS profile_id FROM profile AS p1 JOIN profile_relationship AS pr ON p1.id = pr.origin_profile_id JOIN profile AS p2 ON p2.id = pr.destination_profile_id WHERE pr.edge = 'follows' AND p2.is_private = FALSE ORDER BY p1.visited_at DESC LIMIT 10

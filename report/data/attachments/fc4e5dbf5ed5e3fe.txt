@@ -1,0 +1,11 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.full_name,
+  p.num_followers,
+  p.num_medias
+FROM profile p
+WHERE p.is_brand = TRUE
+  AND p.biography_lexemes @@ to_tsquery('english', 'restaurant')
+ORDER BY p.num_followers DESC
+LIMIT 10;

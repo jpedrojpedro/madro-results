@@ -1,0 +1,17 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.biography
+FROM profile p
+WHERE
+  p.username = 'haight_clothing'
+  AND (
+    p.biography ILIKE '%sell%'
+    OR p.biography ILIKE '%online%'
+    OR p.biography ILIKE '%shop%'
+    OR p.biography ILIKE '%store%'
+    OR p.biography ILIKE '%website%'
+    OR p.biography ILIKE '%http%'
+    OR p.biography ILIKE '%www.%'
+  )
+LIMIT 10;

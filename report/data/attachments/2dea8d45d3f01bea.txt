@@ -1,0 +1,13 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.num_followers
+FROM profile p
+JOIN profile_relationship pr ON p.id = pr.destination_profile_id
+JOIN profile follower ON pr.origin_profile_id = follower.id
+WHERE 
+  follower.num_followers > 10000 
+  AND p.biography_lexemes @@ to_tsquery('english', 'restaurant | food | dining')
+GROUP BY p.id, p.username, p.num_followers
+ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'restaurant | food | dining')) DESC
+LIMIT 10;

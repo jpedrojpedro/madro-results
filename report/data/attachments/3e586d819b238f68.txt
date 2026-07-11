@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM publication_collab pc JOIN public_profile p ON pc.profile_id = p.id WHERE ts_rank((p.biography_lexemes), to_tsquery('english', :search_term)) > 0.1 AND ts_rank(pub.description_lexemes, to_tsquery('english', 'fitness')) ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', :search_term)) DESC LIMIT 10

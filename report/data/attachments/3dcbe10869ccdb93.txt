@@ -1,0 +1,9 @@
+SELECT
+    p.profile_id AS profile_id,
+    p.id AS publication_id,
+    (p.num_likes + p.num_comments) AS engagement_score
+FROM publication p
+JOIN profile pr ON p.profile_id = pr.id
+WHERE pr.username = 'haight_clothing'
+ORDER BY engagement_score DESC
+LIMIT 1

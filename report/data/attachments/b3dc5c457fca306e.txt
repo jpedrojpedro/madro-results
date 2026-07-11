@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE p.username = 'eusougabriela' AND biography IS NOT NULL ORDER BY bio_rank DESC LIMIT 10

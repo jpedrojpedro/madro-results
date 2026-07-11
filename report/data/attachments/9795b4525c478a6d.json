@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "WITH target_profile AS (\n    SELECT id AS profile_id\n    FROM profile\n    WHERE username = 'eusougabriela'\n)\nSELECT \n    p.profile_id, \n    pub.description\nFROM publication pub\nJOIN target_profile p ON pub.profile_id = p.profile_id\nWHERE pub.description ILIKE '%dica%' \n   OR pub.description ILIKE '%lifestyle%'\n   OR pub.description ILIKE '%dicas%'\nORDER BY pub.num_likes DESC, pub.published_at DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT \n    p.id AS profile_id, \n    pub.description\nFROM publication pub\nJOIN profile p ON pub.profile_id = p.id\nWHERE p.username = 'eusougabriela'\n  AND (\n      pub.description ILIKE '%dica%' \n      OR pub.description ILIKE '%lifestyle%'\n      OR pub.description ILIKE '%dicas%'\n  )\nORDER BY pub.num_likes DESC, pub.published_at DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT \n    p.id AS profile_id, \n    pub.description\nFROM publication pub\nJOIN profile p ON pub.profile_id = p.id\nWHERE p.username = 'eusougabriela'\n  AND (\n      pub.description_lexemes @@ to_tsquery('portuguese', 'dica | lifestyle | dicas')\n  )\nORDER BY ts_rank(pub.description_lexemes, to_tsquery('portuguese', 'dica | lifestyle | dicas')) DESC, pub.num_likes DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT \n    p.id AS profile_id, \n    pub.description\nFROM publication pub\nJOIN profile p ON pub.profile_id = p.id\nWHERE p.username = 'eusougabriela'\n  AND (\n      pub.description_lexemes @@ to_tsquery('portuguese', 'dica | lifestyle | dicas')\n  )\nORDER BY \n    ts_rank(pub.description_lexemes, to_tsquery('portuguese', 'dica | lifestyle | dicas')) DESC, \n    pub.num_likes DESC\nLIMIT 10;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

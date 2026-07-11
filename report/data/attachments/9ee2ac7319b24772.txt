@@ -1,0 +1,1 @@
+SELECT publication_id AS profile_id, p.id as profile_id FROM publication AS p JOIN publication_collab AS pc ON p.id = pc.publication_id JOIN profile AS rp ON pc.profile_id = rp.id WHERE rp.username = 'haight_clothing' GROUP BY profile_id ORDER BY SUM(p.num_likes + p.num_comments) DESC LIMIT 1;

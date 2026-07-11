@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p JOIN publication pub ON p.profile_id = pub.profile_id WHERE pub.num_followers > 10000 AND p.is_private = FALSE LIMIT 10

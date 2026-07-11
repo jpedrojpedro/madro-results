@@ -1,0 +1,1 @@
+SELECT p.id AS publication_id FROM publication p JOIN comment c ON p.id = c.publication_id WHERE 'seafood'::text ILIKE ANY(string_to_array(lower(p.description), ' ')) AND p.type = 'GraphImage' GROUP BY p.id ORDER BY COUNT(c.id) DESC LIMIT 10

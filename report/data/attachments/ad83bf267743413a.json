@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT p2.profile_id AS profile_id FROM profile AS p1 JOIN profile_relationship AS pr ON p1.id = pr.origin_profile_id WHERE pr.destination_profile_id IN ( SELECT p.id FROM profile AS p JOIN publication AS pub ON p.id = pub.owner_profile_id ) AND p2.is_private = FALSE LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT p2.profile_id AS profile_id FROM profile AS p1 JOIN profile_relationship AS pr ON p1.id = pr.origin_profile_id WHERE pr.destination_profile_id IN ( SELECT p.id FROM profile AS p JOIN publication AS pub ON p.id = pub.owner_profile_id ) AND p2.is_private = FALSE LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT p2.profile_id AS profile_id FROM profile AS p1 JOIN profile_relationship AS pr ON p1.id = pr.origin_profile_id WHERE pr.destination_profile_id IN ( SELECT p.id FROM profile AS p JOIN publication AS pub ON p.id = pub.owner_profile_id ) AND p2.is_private = FALSE LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT DISTINCT p2.profile_id AS profile_id FROM profile AS p1 JOIN profile_relationship AS pr ON p1.id = pr.origin_profile_id JOIN profile AS p2 ON p2.id = pr.destination_profile_id WHERE pr.edge = 'follows' AND p2.is_private = FALSE ORDER BY p1.visited_at DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

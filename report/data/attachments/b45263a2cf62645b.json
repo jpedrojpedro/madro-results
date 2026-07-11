@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "}WITH publication_topics AS (SELECT p.id AS profile_id, ts_rank(biography_lexemes || description_lexemes, to_tsquery('english', 'topics')) AS rank FROM publication AS p JOIN publication_description_lexemes_idx ON p.id = pub0.id), main_topics AS (SELECT pt.profile_id, pt.rank, STRING_AGG(to_tsvector('portuguese', topic::text)) AS topics FROM publication_topics pt CROSS JOIN LATERAL unnest(regexp_split_to_table(description, E'\\s+')) AS t(topic)  WHERE description ~* 'topics' GROUP BY pt.profile_id), profile_topics AS (SELECT p.id AS profile_id, STRING_AGG(STRING_AGG(to_tsvector('portuguese', b) ORDER BY ts_rank(biography_lexemes , to_tsquery('english', o)), DESC)) AS topics FROM profile r JOIN main_topics mt ON r.id = mt.profile_id  LEFT JOIN LATERAL unnest(regexp_split_to_table(r.biography, E'\\s+')) AS t(b) GROUP BY p.id), topic_count AS (SELECT pt.profile_id, COUNT(*) AS count FROM publication_topics pt CROSS JOIN LATERAL unnest(regexp_split_to_table(description, E'\\s+')) AS t(topic)  WHERE description ~* 'topics' GROUP BY pt.profile_id), final_result AS (SELECT pt.profile_id, STRING_AGG(p.t) ORDER BY tc.count DESC) FROM topic_count tc CROSS JOIN profile_topics pt ON tc.profile_id = pt.profile_id LEFT JOIN LATERAL unnest(pt.topics) AS t(t) WHERE t <@ to_tsquery('english', 'topics') GROUP BY pt.profile_id LIMIT 10",
+      "error": "Generated SQL is not a SELECT/WITH statement — rejected before execution."
+    },
+    {
+      "sql": "WITH publication_topics AS (SELECT p.id AS profile_id, ts_rank(biography_lexemes || description_lexemes ORDER BY published_at DESC, NULLS FIRST) OVER PARTITION BY p.id AS rank FROM publication AS p JOIN publication_description_lexemes_idx ON p.description = pub0.description), final_result AS (SELECT pt.profile_id, STRING_AGG(p.t ORDER BY tc.count DESC, NULLS FIRST) FROM publication_topics pt CROSS JOIN LATERAL unnest(regexp_split_to_table(pt.description, E'\r\n')) AS t(t) WHERE t <@ to_tsquery('english', 'topics')  GROUP BY pt.profile_id LIMIT 10)",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT p.id AS profile_id, string_agg(DISTINCT t) FROM publication p JOIN unnest(regexp_split_to_table(p.description_lexemes, E'\\W+')) t GROUP BY p.id LIMIT 10;}",
+      "error": "Generated SQL contains multiple statements — rejected before execution."
+    },
+    {
+      "sql": "WITH description_words AS (SELECT unnest(regexp_split_to_table(p.description_lexemes, E'\\W+')) word FROM publication p), profile_topics AS (SELECT p.id AS profile_id, string_agg(DISTINCT word ORDER BY ts_rank(description_words.word, to_tsquery('english', :query))) FROM description_words JOIN publication p ON string_agg(DISTINCT word, ' ') = p.description_lemaexes GROUP BY p.id) SELECT profile_id FROM profile_topics ORDER BY string_agg(DISTINCT word, ' ') DESC LIMIT 10",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

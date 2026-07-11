@@ -1,0 +1,10 @@
+SELECT
+  p.id AS publication_id,
+  p.num_comments
+FROM publication p
+JOIN profile pr ON p.profile_id = pr.id
+WHERE
+  p.description_lexemes @@ to_tsquery('english', 'seafood')
+  AND pr.biography_lexemes @@ to_tsquery('english', 'restaurant')
+ORDER BY p.num_comments DESC
+LIMIT 10;

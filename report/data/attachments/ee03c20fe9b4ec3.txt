@@ -1,0 +1,13 @@
+SELECT
+    p.id AS profile_id,
+    p.username,
+    p.full_name,
+    p.num_followers
+FROM
+    profile p
+WHERE
+    p.biography_lexemes @@ to_tsquery('english', 'women & (fashion | boutique | luxury | premium | "high-end" | designer)')
+ORDER BY
+    ts_rank(p.biography_lexemes, to_tsquery('english', 'women & (fashion | boutique | luxury | premium | "high-end" | designer)')) DESC,
+    p.num_followers DESC
+LIMIT 10;

@@ -1,0 +1,13 @@
+WITH target AS (
+    SELECT biography_lexemes
+    FROM profile
+    WHERE username = 'tuttonhoque' 
+       OR full_name ILIKE '%Tutto Nhoque%'
+    LIMIT 1
+)
+SELECT p.id AS profile_id, p.username, p.full_name, p.num_followers
+FROM profile p, target
+WHERE p.biography_lexemes @@ target.biography_lexemes
+  AND p.username <> 'tuttonhoque'
+ORDER BY ts_rank(p.biography_lexemes, target.biography_lexemes) DESC, p.num_followers DESC
+LIMIT 10;

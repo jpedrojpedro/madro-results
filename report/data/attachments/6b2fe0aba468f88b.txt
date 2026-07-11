@@ -1,0 +1,1 @@
+SELECT DISTINCT p.profile_id AS profile_id, p.username FROM profile p JOIN publication_collection pc ON p.id = pc.profile_id WHERE p.username LIKE '%fluminensefc%' LIMIT 10

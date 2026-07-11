@@ -1,0 +1,8 @@
+SELECT
+  p.id AS profile_id,
+  p.username,
+  p.biography
+FROM profile p
+WHERE p.biography_lexemes @@ to_tsquery('english', 'beach & wedding & (clothing | attire | outfit | dress | suit)')
+ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'beach & wedding & (clothing | attire | outfit | dress | suit)')) DESC
+LIMIT 10;

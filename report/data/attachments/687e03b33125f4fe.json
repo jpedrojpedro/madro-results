@@ -1,0 +1,22 @@
+{
+  "identity_hint": "profile_id",
+  "attempts": 5,
+  "failed_attempts": [
+    {
+      "sql": "SELECT \n    p.id AS publication_id, \n    pr.id AS profile_id, \n    p.num_likes + p.num_comments AS total_engagement\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE pr.username = 'haight_clothing'\nORDER BY total_engagement DESC\nLIMIT 1;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT\n    p.profile_id AS profile_id,\n    p.id AS publication_id,\n    (p.num_likes + p.num_comments) AS total_engagement\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE pr.username = 'haight_clothing'\nORDER BY total_engagement DESC\nLIMIT 1;",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: could not receive data from server: Connection refused\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT\n    p.profile_id AS profile_id,\n    p.id AS publication_id,\n    (p.num_likes + p.num_comments) AS total_engagement\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE pr.username = 'haight_clothing'\nORDER BY total_engagement DESC\nLIMIT 1",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    },
+    {
+      "sql": "SELECT\n    p.profile_id AS profile_id,\n    p.id AS publication_id,\n    (p.num_likes + p.num_comments) AS engagement_score\nFROM publication p\nJOIN profile pr ON p.profile_id = pr.id\nWHERE pr.username = 'haight_clothing'\nORDER BY engagement_score DESC\nLIMIT 1",
+      "error": "connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused\nMultiple connection attempts failed. All failures were:\n- host: 'localhost', port: '5433', hostaddr: '127.0.0.1': connection failed: connection to server at \"127.0.0.1\", port 5433 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n- host: 'localhost', port: '5433', hostaddr: '::1': connection failed: connection to server at \"::1\", port 5433 failed: could not receive data from server: Connection refused"
+    }
+  ]
+}

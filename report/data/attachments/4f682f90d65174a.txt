@@ -1,0 +1,12 @@
+SELECT
+  r1.destination_profile_id AS profile_id,
+  COUNT(DISTINCT r1.origin_profile_id) AS shared_follower_count
+FROM profile_relationship r1
+JOIN profile_relationship r2
+  ON r1.origin_profile_id = r2.origin_profile_id
+  AND r1.destination_profile_id != r2.destination_profile_id
+WHERE r1.edge = 'follows'
+  AND r2.edge = 'follows'
+GROUP BY r1.destination_profile_id
+ORDER BY shared_follower_count DESC
+LIMIT 10;

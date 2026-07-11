@@ -1,0 +1,1 @@
+WITH beach_clues AS (SELECT profile_id, publication_id FROM publication p JOIN publication_collab pc ON p.id = pc.publication_id join profile r ON r.id = pc.profile_id WHERE p.description_lexemes @@ to_tsquery('english', 'beach' AND 'clothing') ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'beach clothing')) DESC LIMIT 10) SELECT profile_id FROM beach_clues

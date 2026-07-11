@@ -1,0 +1,25 @@
+WITH target_profile AS (
+    SELECT id
+    FROM profile
+    WHERE username = 'eusougabriela'
+),
+fitness_query AS (
+    SELECT to_tsquery('english', 'fitness | workout | gym | exercise | training | health') AS q
+)
+SELECT 
+    p.id AS profile_id,
+    ts_rank(p.biography_lexemes, fq.q) AS relevance
+FROM profile p, fitness_query fq
+WHERE p.biography_lexemes @@ fq.q
+  AND p.id IN (
+    SELECT pr.origin_profile_id 
+    FROM profile_relationship pr
+    WHERE pr.destination_profile_id = (SELECT id FROM target_profile)
+    UNION
+    SELECT pr.destination_profile_id 
+    FROM profile_relationship pr
+    WHERE pr.origin_profile_id = (SELECT id FROM target_profile)
+  )
+  AND p.id <> (SELECT id FROM target_profile)
+ORDER BY relevance DESC
+LIMIT 10;

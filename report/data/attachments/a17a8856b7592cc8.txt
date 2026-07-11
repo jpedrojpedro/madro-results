@@ -1,0 +1,1 @@
+SELECT p.id AS publication_id, p.published_at FROM publication p WHERE EXTRACT(YEAR FROM p.published_at) = 2025 AND ts_rank(p.description_lexemes, to_tsquery('english', 'daily special')) IS NOT NULL ORDER BY ts_rank(p.description_lexemes, to_tsquery('english', 'daily special')) DESC LIMIT 10;

@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM profile p WHERE p.username = 'haight_clothing' LIMIT 10

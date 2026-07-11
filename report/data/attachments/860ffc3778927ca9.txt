@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id, ts_rank(p.biography_lexemes, to_tsquery('english', 'florianopolis')) FROM public.profile p  WHERE is_private = FALSE AND num_medias > 0 AND biography ILIKE '%florianopolis%' ORDER BY ts_rank(p.biography_lexemes, to_tsquery('english', 'florianopolis')) DESC LIMIT 10

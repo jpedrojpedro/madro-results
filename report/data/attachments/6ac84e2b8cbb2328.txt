@@ -1,0 +1,1 @@
+SELECT p.id AS profile_id FROM public.profile p WHERE num_followers = ( SELECT MAX(num_followers) FROM public.profile ) LIMIT 10
